@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>NFL Model</title>
+<style>
+:root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);--bg:#050505;--card:#15181d;--tx:#e8ebf1;--mu:#8d98ac;--ac:#5b9bff;--bd:#2a3342;--g:#3fcf7a;--r:#ff6b5b}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#10141b;--card:#181e28;--tx:#e8ebf1;--mu:#8d98ac;--ac:#5b9bff;--bd:#2a3342;--g:#3fcf7a;--r:#ff6b5b}}
+:root[data-theme="dark"]{--bg:#10141b;--card:#181e28;--tx:#e8ebf1;--mu:#8d98ac;--ac:#5b9bff;--bd:#2a3342;--g:#3fcf7a;--r:#ff6b5b}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--tx);font:14px/1.45 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+header{display:flex;gap:6px;flex-wrap:wrap;align-items:center;padding:10px 14px;background:var(--card);border-bottom:1px solid var(--bd);position:sticky;top:env(safe-area-inset-top,0px);z-index:5}
+header b{margin-right:10px}
+.tab{border:0;background:none;color:var(--mu);padding:6px 12px;border-radius:6px;cursor:pointer;font:inherit}
+.tab.on{background:var(--ac);color:#fff}
+main{max-width:1100px;margin:0 auto;padding:14px}
+.card{background:var(--card);border:1px solid var(--bd);border-radius:10px;padding:12px;margin-bottom:12px}
+.row{display:flex;gap:12px;flex-wrap:wrap}.row>*{flex:1 1 280px}
+h3{margin:0 0 8px;font-size:15px}.mu{color:var(--mu);font-size:12px}
+select,textarea,button.b,input{font:inherit;background:var(--bg);color:var(--tx);border:1px solid var(--bd);border-radius:6px;padding:6px 8px}
+button.b{cursor:pointer;background:var(--ac);color:#fff;border:0}button.b.s{background:var(--bg);color:var(--tx);border:1px solid var(--bd)}
+textarea{width:100%;height:90px;font-family:ui-monospace,monospace;font-size:12px}
+.sc{display:flex;justify-content:space-around;text-align:center;gap:8px}.sc .n{font-size:30px;font-weight:700}
+.w{overflow-x:auto}table{border-collapse:collapse;width:100%}th,td{padding:5px 8px;border-bottom:1px solid var(--bd);text-align:right;white-space:nowrap}
+th:first-child,td:first-child{text-align:left}th{color:var(--mu);font-weight:600;font-size:12px}
+.g{color:var(--g)}.r{color:var(--r)}.gm{cursor:pointer;padding:7px 8px;border-radius:6px;display:flex;justify-content:space-between}.gm:hover,.gm.on{background:var(--bg)}
+.msg{padding:8px;border-radius:6px;margin-top:6px;font-size:13px}.ok{background:rgba(23,128,61,.15)}.er{background:rgba(192,57,43,.15)}
+
+.wkb{display:flex;flex-direction:column;gap:4px;width:58px;flex:none;position:sticky;top:60px;max-height:80vh;overflow:auto;background:#7a1a63;padding:6px;border-radius:6px}
+.wkb button{border:0;background:#2b2b2b;color:#fff;font-weight:700;padding:6px 0;border-radius:5px;cursor:pointer;font-size:12px}.wkb button.on{background:#b8c000;color:#000}
+.ttl{display:inline-block;background:#4b1740;color:#fff;font-weight:700;padding:6px 14px;border:1px solid #8e1d6f;border-radius:4px;margin-right:8px}
+.grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:10px}
+.gc{display:flex;align-items:stretch;background:#fff;color:#000;border:3px solid transparent;cursor:pointer;font-size:12px}.gc.on{border-color:#e8d800}
+.ys{display:flex}.ys span,.pt span{flex:1;display:flex;flex-direction:column;text-align:center;background:#d0d0d0;font-size:11px;padding-top:1px}
+.ys b,.pt b{background:#fff;font-size:13px;font-weight:600;padding:2px 4px;border:1px solid #bbb}.pt{display:flex;width:104px;flex:none;align-self:flex-end}
+@media(max-width:560px){.grid2{grid-template-columns:1fr}}
+
+.gc{display:grid;grid-template-columns:repeat(8,1fr);gap:0}.gc .nm{font-weight:700;text-align:center;padding:3px 4px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.gc .fin{grid-column:span 8;background:#222;color:#ddd;font-size:11px;text-align:center;padding:1px}
+.gc span{display:flex;flex-direction:column;text-align:center;background:#d0d0d0;font-size:11px;padding-top:1px}.gc span b{background:#fff;font-size:13px;font-weight:600;padding:2px 2px;border:1px solid #bbb}
+.algb{width:260px;flex:none;position:sticky;top:60px;max-height:85vh;overflow:auto;background:var(--card);border:1px solid var(--bd);border-radius:6px;padding:4px}
+.algb table{font-size:12px}.algb td,.algb th{padding:3px 5px}.algb tr{cursor:pointer}.algb tr.on td:first-child{background:var(--ac);color:#fff}
+@media(max-width:1000px){.wrapx{flex-wrap:wrap}.algb{width:100%;position:static;max-height:none}}
+
+.grid2{grid-template-columns:repeat(auto-fit,minmax(350px,1fr))}
+.gc{display:flex;flex-wrap:wrap;gap:6px;background:transparent;color:#000;padding:3px;border:3px solid transparent;cursor:pointer}
+.gc .tb{flex:1 1 0;min-width:0;display:flex;flex-direction:column}.gc .mid{flex:0 0 120px;display:flex;flex-direction:column}
+.gc .nm{display:block;font-weight:700;text-align:center;padding:5px 4px;font-size:13px}
+.gc .sp{display:flex;background:#fff;color:#000;font-weight:600}.gc .sp span{display:block;flex:1;background:#fff;padding:5px 3px;font-size:12px;text-align:center;white-space:nowrap}
+.gc .ys{display:flex;flex:1}.gc .ys span{flex:1 1 auto;display:flex;flex-direction:column;text-align:center;background:#d0d0d0;color:#000;font-size:10px;padding:3px 3px 0;white-space:nowrap}
+.gc .ys b{background:#fff;font-size:15px;font-weight:600;padding:4px 2px;border:0;margin:3px -3px 0}
+.gc .fin{flex-basis:100%;grid-column:auto;background:#222;color:#ddd;font-size:11px;text-align:center;padding:2px}
+@media(max-width:560px){.grid2{grid-template-columns:1fr}}
+
+.gc{gap:4px}.gc .mid{flex:0 0 92px}.gc .tb{flex:1 1 0}
+.gc .nm{font-size:14px;padding:6px 4px}
+.gc .sp span{padding:6px 2px;font-size:11px}.gc .sp span:first-child{flex:1.6}
+.gc .ys span{font-size:11px;padding:4px 2px 0}.gc .ys b{font-size:16px;padding:5px 2px;margin:3px -2px 0}
+.gc .mid .ys span{font-size:10px}
+
+.gc{container-type:inline-size;padding:2px;border-width:2px;gap:3px}.gc .mid{flex:0 0 80px}
+.gc .nm{font-size:clamp(11px,3.1cqw,15px);padding:7px 3px}
+.gc .sp span{font-size:10px;padding:7px 1px}
+.gc .ys span{font-size:11px}.gc .ys b{font-size:clamp(15px,4.4cqw,19px);padding:6px 2px}
+.gc .mid .ys span{font-size:9px}
+
+.grid2{grid-auto-flow:row dense}.xp{grid-column:1/-1;background:var(--card);border:1px solid var(--bd);border-radius:8px;padding:10px}
+.xg{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:12px;align-items:start}.xt{font-size:12px}.xt th,.xt td{padding:3px 6px}
+#tip{position:fixed;display:none;z-index:99;max-width:310px;background:var(--card);color:var(--tx);border:1px solid var(--ac);border-radius:8px;padding:8px 10px;font-size:12px;line-height:1.45;pointer-events:none;box-shadow:0 4px 18px rgba(0,0,0,.45);text-align:left;white-space:normal}
+
+/* ---- cleaner week selector ---- */
+.wkb{background:var(--card);border:1px solid var(--bd);border-radius:12px;padding:6px 4px;width:50px;gap:2px;top:64px;scrollbar-width:none}
+.wkb::-webkit-scrollbar{display:none}
+.wkb::before{content:'WEEK';font-size:8px;letter-spacing:.14em;color:var(--mu);text-align:center;padding:3px 0 5px}
+.wkb button{background:transparent;color:var(--mu);font-weight:600;font-size:13px;border-radius:8px;padding:7px 0;transition:background .15s,color .15s}
+.wkb button:hover{background:rgba(91,155,255,.14);color:var(--tx)}
+.wkb button.on{background:var(--ac);color:#fff;box-shadow:0 2px 8px rgba(91,155,255,.35)}
+.wkb button:nth-child(n+19){font-size:10px}.wkb button:nth-child(19){margin-top:6px}
+.ttl{background:transparent;border:0;border-left:3px solid var(--ac);border-radius:0;padding:2px 12px;color:var(--tx);font-size:17px}
+/* ---- phone / small screens ---- */
+.m-only{display:none!important}.xclose{display:none}.gc i{font-style:normal}
+@media(max-width:700px){
+ .d-only{display:none!important}.m-only{display:inline!important}
+ main{padding:6px}
+ header{padding:6px 8px;gap:2px}.tab{padding:6px 9px;font-size:13px}#sync{display:none}
+ .wrapx{flex-wrap:nowrap;gap:6px}
+ .wkb{width:36px;padding:4px 2px;top:70px}.wkb button{font-size:11px;padding:6px 0}.wkb button:nth-child(n+19){font-size:8px}.wkb::before{font-size:7px}
+ .algb{width:94px;position:sticky;top:70px;max-height:80vh;padding:2px}
+ .algb table{font-size:10px}.algb td,.algb th{padding:3px 2px}.algb .cap.norm{display:none}.algb .cap{font-size:9px}
+ .ttl{font-size:14px;padding:2px 8px}
+ .gc{gap:2px;padding:1px;border-width:2px}.gc .mid{flex:0 0 68px}
+ .gc .nm{font-size:12px;padding:5px 2px}
+ .gc .sp span{font-size:8px;padding:5px 1px;letter-spacing:-.2px}
+ .gc .ys span{font-size:8px;padding:3px 1px 0}.gc .ys b{font-size:12px;padding:4px 0;margin:2px -1px 0}
+ .gc .fin{font-size:9px}
+ .xp{position:fixed;inset:0;z-index:60;overflow:auto;border-radius:0;border:0;padding:calc(env(safe-area-inset-top,0px) + 10px) 10px calc(env(safe-area-inset-bottom,0px) + 18px);background:var(--bg)}
+ .xclose{display:block;position:sticky;top:0;z-index:2;margin-bottom:8px}
+ .xt{font-size:11px}.xt th,.xt td{padding:3px 4px}
+ .sc .n{font-size:22px}
+}
+
+/* team names / final strip: plain text over the colour, no grey boxes */
+.gc .nm span,.gc .fin span{display:inline;flex-direction:row;background:transparent;padding:0;margin:0;font-size:inherit;color:inherit;text-align:inherit;white-space:inherit}
+</style></head><body>
+<header><b>🏈<span class="d-only"> NFL Model</span></b><span class="mu d-only" style="margin-right:10px">v5</span><span id="tabs"></span><span id="sync" class="mu" style="margin-left:auto;font-size:11px"></span></header>
+<main id="app"></main>
+<script>
+const T="ARI ATL BAL BUF CAR CHI CIN CLE DAL DEN DET GNB HOU IND JAX KAN LVR LAC LAR MIA MIN NWE NOR NYG NYJ PHI PIT SFO SEA TAM TEN WAS".split(" ");
+const AL={GB:'GNB',KC:'KAN',LV:'LVR',SF:'SFO',TB:'TAM',NE:'NWE',NO:'NOR',JAC:'JAX',LA:'LAR',WSH:'WAS'};
+const WK=[...Array(18)].map((_,i)=>String(i+1)).concat(['wildcard','division','confchamp','superbowl']);
+const ALG=['1-Basic','2-Marginal %','3-Adj Marginal %','4-Ave of 1,2,3','5-Std Dev 1','6-Std Dev 2','7-Std Dev 3','8-Ave Std Error 5,6,7','9-Spread (wtd)','10-ML (wtd)','11-Total (wtd)','12-STE Dev','13-Final MGN %','14-Std Error of 13','15-Mng TD %'];
+const K=[['pts','pf','pa'],['pass','pass','pass_a'],['rush','rush','rush_a']];
+const TPL={teams:'team,pf,pa,pass,rush,pass_a,rush_a,ypa,ypc,dvp_qb,dvp_rb,dvp_wr,dvp_te\nKAN,27.1,19.5,255,118,225,105,7.2,4.4,18.5,19.2,31.0,12.1',
+games:'week,away,home,away_score,home_score,spread,total\n5,BUF,KAN,,,-2.5,48.5',
+dvp:'team,qb_att,qb_cmp,qb_yds,qb_td,qb_ratt,qb_ryds,qb_rtd,rb_att,rb_yds,rb_td,rb_tgt,rb_rec,rb_ryds,rb_rtd,wr_tgt,wr_rec,wr_yds,wr_td,te_tgt,te_rec,te_yds,te_td',
+tds:'scorer,pos,type,yards,passer,team,defense,week,game,qtr,clock,first\nExample Player,WR,Passing,25,Example QB,KAN,BAL,1,BAL @ KAN,2,,1',
+weekly:'team,week,opp,pf,pa,pass,rush,pass_a,rush_a,ptd,rtd,ptd_a,rtd_a\nKAN,1,BAL,27,20,255,118,225,105,2,1,1,1',
+players:'player,team,pos,tgt_share,catch_rate,ypt,carry_share,ypc,td_rate\nExample QB,KAN,QB,,0.66,,,,0.05\nExample WR,KAN,WR,0.24,0.68,8.5,,,0.07'};
+const TC={ARI:['#97233F','#FFB612'],ATL:['#000','#E0314B'],BAL:['#241773','#C9A227'],BUF:['#00338D','#fff'],CAR:['#0085CA','#101820'],CHI:['#0B162A','#E64100'],CIN:['#FB4F14','#000'],CLE:['#311D00','#FF5A1F'],DAL:['#003594','#B8C2C7'],DEN:['#FB4F14','#002244'],DET:['#0076B6','#E3E8EB'],GNB:['#203731','#FFB612'],HOU:['#03202F','#E0314B'],IND:['#002C5F','#D5DADC'],JAX:['#006778','#D7A22A'],KAN:['#E31837','#FFB81C'],LVR:['#000','#C5CACD'],LAC:['#0080C6','#FFC20E'],LAR:['#003594','#FFA300'],MIA:['#008E97','#FC4C02'],MIN:['#4F2683','#FFC62F'],NWE:['#002244','#E0314B'],NOR:['#D3BC8D','#101820'],NYG:['#0B2265','#E0314B'],NYJ:['#125740','#fff'],PHI:['#004C54','#C5CACD'],PIT:['#FFB612','#101820'],SFO:['#AA0000','#D9BF77'],SEA:['#002244','#69BE28'],TAM:['#D50A0A','#FF9A3C'],TEN:['#4B92DB','#0C2340'],WAS:['#5A1414','#FFB612']};
+const NMS="Arizona Cardinals,Atlanta Falcons,Baltimore Ravens,Buffalo Bills,Carolina Panthers,Chicago Bears,Cincinnati Bengals,Cleveland Browns,Dallas Cowboys,Denver Broncos,Detroit Lions,Green Bay Packers,Houston Texans,Indianapolis Colts,Jacksonville Jaguars,Kansas City Chiefs,Las Vegas Raiders,Los Angeles Chargers,Los Angeles Rams,Miami Dolphins,Minnesota Vikings,New England Patriots,New Orleans Saints,New York Giants,New York Jets,Philadelphia Eagles,Pittsburgh Steelers,San Francisco 49ers,Seattle Seahawks,Tampa Bay Buccaneers,Tennessee Titans,Washington Commanders".split(',');const FN=t=>NMS[T.indexOf(t)];const WL={wildcard:'WC',division:'DIV',confchamp:'CONF',superbowl:'SB'};
+const chip=(t,x='')=>`<span style="background:${TC[t][0]};color:${TC[t][1]};padding:2px 8px;border-radius:3px;font-weight:700;${x}">${t}</span>`;
+let S={teams:null,weekly:null,games:{},players:[],locks:{}},tab='games',wk='1',gid=null,aid=5,logm='',W=[1,1,1,1];
+try{const s=localStorage.getItem('nflm');if(s)S=JSON.parse(s)}catch(e){}
+const save=()=>{try{localStorage.setItem('nflm',JSON.stringify(S))}catch(e){}};
+const nm=x=>{x=String(x).trim().toUpperCase();x=AL[x]||x;if(!T.includes(x))throw Error('Unknown team "'+x+'" — import rejected');return x};
+const f=(x,d=1)=>x==null||isNaN(x)?'–':Number(x).toFixed(d);
+function csv(t){const L=t.trim().split(/\r?\n/).filter(x=>x.trim());if(L.length<2)throw Error('No data rows found');
+ const h=L[0].split(',').map(x=>x.trim().toLowerCase());
+ return L.slice(1).map((l,i)=>{const c=l.split(',');if(c.length!==h.length)throw Error('Row '+(i+2)+' has '+c.length+' columns, expected '+h.length);
+  const o={};h.forEach((k,j)=>{const v=c[j].trim();o[k]=v!==''&&!isNaN(v)?+v:v});return o})}
+function need(r,cols){cols.forEach(c=>{if(!(c in r[0]))throw Error('Missing column: '+c)})}
+const IMP={
+ teams(t){const r=csv(t);need(r,['team','pf','pa','pass','rush','pass_a','rush_a']);const o={};
+  r.forEach(x=>{const k=nm(x.team);if(o[k])throw Error('Duplicate team '+k);K.forEach(([_,a,b])=>{if(typeof x[a]!=='number'||typeof x[b]!=='number')throw Error(k+': non-numeric '+a+'/'+b)});o[k]=x});
+  if(Object.keys(o).length!==32)throw Error('Expected 32 teams, got '+Object.keys(o).length);S.teams=o;return '32 teams imported'},
+ games(t){const r=csv(t);need(r,['week','away','home']);const seen={},add={};
+  r.forEach(x=>{x.week=String(x.week).toLowerCase();if(!WK.includes(x.week))throw Error('Bad week "'+x.week+'"');x.away=nm(x.away);x.home=nm(x.home);
+   x.id=x.week+'|'+x.away+'@'+x.home;if(seen[x.id])throw Error('Duplicate game '+x.id);seen[x.id]=1;
+   ['away_score','home_score','spread','total'].forEach(k=>{if(x[k]==='undefined'||x[k]==null)x[k]=''});
+   x.final=typeof x.away_score==='number'&&typeof x.home_score==='number';add[x.id]=x});
+  Object.assign(S.games,add);return r.length+' games imported/updated'},
+ weekly(t){const r=csv(t);need(r,['team','week','opp','pf','pa','pass','rush','pass_a','rush_a']);const seen={};
+  r.forEach(x=>{x.team=nm(x.team);x.opp=nm(x.opp);x.week=+x.week;if(!(x.week>=1))throw Error('Bad week '+x.week);const k=x.team+'|'+x.week;if(seen[k])throw Error('Duplicate '+x.team+' week '+x.week);seen[k]=1;ST.forEach(c=>{if(c in x&&typeof x[c]!=='number')throw Error(x.team+' wk'+x.week+': non-numeric '+c)})});
+  S.weekly=r;return r.length+' team-weeks imported'},
+ dvp(t){const r=csv(t);need(r,['team','qb_att','rb_att','wr_tgt','te_tgt']);const o={};r.forEach(x=>{const k=nm(x.team);if(o[k])throw Error('Duplicate team '+k);Object.keys(x).forEach(c=>{if(c!=='team'&&typeof x[c]!=='number')throw Error(k+': non-numeric '+c)});o[k]=x});if(Object.keys(o).length!==32)throw Error('Expected 32 teams, got '+Object.keys(o).length);S.dvp=o;return '32 teams of defense-vs-position detail imported'},
+ tds(t){const r=csv(t);need(r,['scorer','pos','team','defense']);r.forEach(x=>{x.team=nm(x.team);x.defense=nm(x.defense);x.pos=String(x.pos).toUpperCase();x.scorer=String(x.scorer)});S.tds=r;return r.length+' TD events imported'},
+ players(t){const r=csv(t);need(r,['player','team','pos']);r.forEach(x=>{x.team=nm(x.team);x.pos=String(x.pos).toUpperCase();if(!['QB','RB','WR','TE'].includes(x.pos))throw Error('Bad pos '+x.pos)});
+  S.players=r;return r.length+' players imported'}};
+function doImport(k){try{logm='✔ '+IMP[k](document.getElementById('t_'+k).value);save();DV++;touch([k]);logm=['ok',logm]}catch(e){logm=['er','✖ '+e.message+' (existing data kept)']}render()}
+
+/* ---------- model ---------- */
+const games=()=>Object.values(S.games);
+
+let PC={},CXc={},VL={},VLr=0;
+const ABOUT=[["Blends the team's offense with what the opponent allows, converts total/pass/rush yardage to points using both teams' yards-per-point rates, then averages the three estimates.", "Blend = avg(team yds/g, opp yds allowed/g); points = avg(Blend ÷ team yds-per-pt, Blend ÷ opp allowed-yds-per-pt); final = avg(total, pass, rush).", "Computed by target team vs. opponent, not by Home/Away display position."], ["Projection 1 with raw team and opponent marginal-performance multipliers applied before converting yards to points.", "Per metric: avg((1+team off margin)×opp allowed avg, (1+opp def margin)×team off avg), then convert to points like #1.", "Raw margin here = team average ÷ league average − 1 (your Excel imported its margins; that derivation is unverified)."], ["Uses schedule-adjusted marginal performance instead of raw margins.", "Same as #2 with adjusted margins.", "Adjusted margin = team average ÷ average of opponents faced − 1, an approximation of ADJ_Tm_Margins (exact upstream method unverified)."], ["Equal-weight average of Projections 1, 2 and 3.", "Score = avg(#1,#2,#3). Yards = avg(score × team yds-per-pt, score × opp allowed-yds-per-pt).", "Does not include the later weighted models."], ["Bias-corrects #1 using the team's average historical over/under-prediction, separately for home and away.", "Final = #1 − avg(projection − actual) over the team's completed games in the same home/away role.", "Labelled 'Std Dev' but it is average signed error. No history yet = no adjustment."], ["Same bias correction applied to the Raw Marginal model (#2).", "Final = #2 − avg signed error (team, home/away).", "Average signed error, not standard deviation."], ["Bias-corrects the Adjusted Marginal model (#3) with its own team-specific misses.", "Final = #3 − avg signed error (team, home/away).", "Average signed error, not standard deviation."], ["Bias-corrects the equal-weight average (#4).", "Final = #4 − avg signed error (team, home/away).", "Excel labels it 'Ave Std Error of 5,6,7' but it adjusts #4 with #4's own history."], ["Gives more influence to component models that picked this team's spreads more accurately.", "Weight = team's spread accuracy per component ÷ sum of accuracies; final = Σ score × weight. Components 1,2,3,4,5,6,8,14.", "Excel's current vs. historical component sets differ (legacy discrepancy); site uses the current set. Equal weights until graded history exists."], ["Same as #9 but weights come from each component's team-specific moneyline accuracy.", "Weight = team's ML accuracy ÷ sum; final = Σ score × weight. Components 1,2,3,4,5,6,8,14.", "Same component-set caveat as #9."], ["Weights components by how accurately they predicted totals (O/U) in that team's games.", "Weight = team's O/U accuracy ÷ sum; final = Σ score × weight. Components 1,2,3,4,5,6,8,14.", "Optimized on totals, but the result is also graded for spread and ML."], ["Inverse-mean-absolute-error ensemble: models with smaller historical point errors get larger weights.", "Final = Σ(component ÷ MAE) ÷ Σ(1 ÷ MAE) over components 1,2,3,4,5,6,8,13,14, using the team's completed games.", "Not a standard deviation. MAE is floored at 0.1 to avoid divide-by-zero; equal weights until history exists."], ["Compounds the team's adjusted offensive strength with the opponent's adjusted defensive weakness, applied to their average baseline.", "Per metric: baseline = avg(team off, opp allowed); projected = baseline × (1+adj off margin)(1+adj opp def margin). Score = projected points.", "Excel names conflict (Final MGN % / SOS Mgn %)."], ["Bias-corrects the Final/SOS Marginal model (#13) with team- and venue-specific historical error.", "Final = #13 − avg signed error (team, home/away).", "Your Excel's best record was in-sample (graded on the same games it learned from). Treat with caution."], ["Projects passing and rushing TDs separately from offense-vs-defense TD margins and converts at 7 points per TD.", "Score = 7 × [(1+pass TD matchup margin)×1.51 + (1+rush TD matchup margin)×0.96]; matchup margin = (1+team off TD margin)(1+opp def TD margin) − 1.", "Needs ptd/rtd/ptd_a/rtd_a columns in teams.csv (re-run the updated script). No FG, defensive-TD or return-TD component."]];
+const ST=['pf','pa','pass','rush','pass_a','rush_a','ptd','rtd','ptd_a','rtd_a'];
+const wn=g=>/^\d+$/.test(g.week)?+g.week:19;
+function teamX(N){
+ if(!S.weekly){const opp={};T.forEach(t=>opp[t]=[]);games().filter(g=>g.final&&/^\d+$/.test(g.week)).forEach(g=>{opp[g.home].push(g.away);opp[g.away].push(g.home)});return{x:S.teams,opp,ok:1}}
+ const A={},opp={};T.forEach(t=>{A[t]={n:0};ST.forEach(k=>A[t][k]=0);opp[t]=[]});
+ S.weekly.forEach(r=>{if(r.week>=N)return;const a=A[r.team];a.n++;ST.forEach(k=>a[k]+=r[k]||0);opp[r.team].push(r.opp)});
+ const ok=T.every(t=>A[t].n>0);if(ok)T.forEach(t=>ST.forEach(k=>A[t][k]/=A[t].n));return{x:A,opp,ok}}
+function getCX(N){const key=S.weekly?N:0;if(CXc[key])return CXc[key];const{x,opp,ok}=teamX(N);if(!ok)return CXc[key]={bad:1};const M=['pts','pass','rush','tot'],D={};
+ T.forEach(t=>{const q=x[t];D[t]={off:{pts:q.pf,pass:q.pass,rush:q.rush,tot:q.pass+q.rush},al:{pts:q.pa,pass:q.pass_a,rush:q.rush_a,tot:q.pass_a+q.rush_a},td:[q.ptd,q.rtd,q.ptd_a,q.rtd_a]}});
+ const av=q=>T.reduce((s,t)=>s+q(D[t]),0)/32,Lo={},La={};M.forEach(m=>{Lo[m]=av(d=>d.off[m]);La[m]=av(d=>d.al[m])});
+ const mean=(a,q)=>a.reduce((s,t)=>s+q(D[t]),0)/a.length;
+ T.forEach(t=>{const d=D[t],o=opp[t];d.om={};d.dm={};d.aom={};d.adm={};d.ypp={};d.yapp={};
+  M.forEach(m=>{d.om[m]=d.off[m]/Lo[m]-1;d.dm[m]=d.al[m]/La[m]-1;d.aom[m]=o.length?d.off[m]/mean(o,e=>e.al[m])-1:d.om[m];d.adm[m]=o.length?d.al[m]/mean(o,e=>e.off[m])-1:d.dm[m];d.ypp[m]=d.off[m]/d.off.pts;d.yapp[m]=d.al[m]/d.al.pts})});
+ const tdm=T.every(t=>D[t].td.every(v=>typeof v==='number'));
+ if(tdm){const a=[0,1,2,3].map(i=>av(d=>d.td[i]));T.forEach(t=>{D[t].tdm=D[t].td.map((v,i)=>v/a[i]-1)})}
+ return CXc[key]={D,tdm}}
+let MVc={},DV=0,DVs=-1;
+/* Moving set for week N: every completed game before N, re-projected with stats entering N (all data through N-1).
+   Bias/weight algorithms learn from the OTHER completed games (leave-self-out), in 3 passes so nothing is circular. */
+function mvFor(N){if(MVc[N])return MVc[N];const C=getCX(N);if(C.bad)return MVc[N]={};
+ const E={};games().filter(g=>g.final&&/^\d+$/.test(g.week)&&+g.week<N).forEach(g=>E[g.id]={g,spread:g.spread,total:g.total,p:{}});
+ const L=Object.values(E),pass=idx=>L.forEach(e=>{const H=L.filter(x=>x!==e).map(x=>({g:x.g,l:x})),a=sideAll(e.g,false,H,N),h=sideAll(e.g,true,H,N);idx.forEach(i=>{e.p[i+1]={a:a[i].pts,h:h[i].pts};(e.s=e.s||{a:[],h:[]}).a[i]=a[i];e.s.h[i]=h[i]})});
+ pass([0,1,2,3,12,14]);pass([4,5,6,7,13]);pass([8,9,10,11]);return MVc[N]=E}
+const NC=()=>S.weekly&&S.weekly.length?Math.max(...S.weekly.map(r=>r.week))+1:0;
+const MV=()=>S.weekly&&S.teams?mvFor(NC()):{};
+let VLinfo={fin:0,lines:0},VLerr='';
+function ensureVL(){if(VLr)return;VLr=1;VL={};VLerr='';VLinfo={fin:0,lines:0};if(!S.weekly||!S.teams)return;
+ try{const fl=games().filter(g=>g.final&&/^\d+$/.test(g.week)&&+g.week>=2).sort((a,b)=>a.week-b.week);VLinfo.fin=fl.length;
+  fl.forEach(g=>{const r=calcAll(g);if(!isFinite(r.h[0].pts+r.a[0].pts))return;const p={};for(let a=1;a<=15;a++)p[a]={a:r.a[a-1].pts,h:r.h[a-1].pts};VL[g.id]={spread:g.spread,total:g.total,p};if(typeof g.spread==='number')VLinfo.lines++})}
+ catch(e){VLerr=e.message}}
+const rc=r=>!r?'<td class="mu">–</td>':`<td style="background:${r==='W'?'rgba(63,207,122,.35)':r==='L'?'rgba(255,80,60,.4)':'transparent'}">${r}</td>`;
+const avg_=a=>a.length?a.reduce((x,y)=>x+y,0)/a.length:NaN;
+function sideAll(g,home,H,N){const C=getCX(N);if(C.bad)return Array.from({length:15},()=>({pts:NaN,pass:NaN,rush:NaN,tot:NaN}));const t=home?g.home:g.away,o=home?g.away:g.home,Tm=C.D[t],Op=C.D[o],R=[];
+ const mk=sc=>{const y=m=>(sc*Tm.ypp[m]+sc*Op.yapp[m])/2;return{pts:sc,pass:y('pass'),rush:y('rush'),tot:y('tot')}};
+ const conv=(m,b)=>(b/Tm.ypp[m]+b/Op.yapp[m])/2;
+ const base=mg=>{const ys={},pe=[];['tot','pass','rush'].forEach(m=>{const b=mg?((1+Tm[mg[0]][m])*Op.al[m]+(1+Op[mg[1]][m])*Tm.off[m])/2:(Tm.off[m]+Op.al[m])/2;ys[m]=b;pe.push(conv(m,b))});return{pts:avg_(pe),pass:ys.pass,rush:ys.rush,tot:ys.tot}};
+ R[0]=base();R[1]=base(['om','dm']);R[2]=base(['aom','adm']);R[3]=mk((R[0].pts+R[1].pts+R[2].pts)/3);
+ const pr={};['pts','tot','pass','rush'].forEach(m=>{pr[m]=(Tm.off[m]+Op.al[m])/2*((1+Tm.aom[m])*(1+Op.adm[m]))});R[12]=pr;
+ const mine=h=>(home?h.g.home:h.g.away)===t;
+ const bias=i=>{const e=H.filter(mine).map(h=>{const p=h.l.p[i+1];return p?(home?p.h-h.g.home_score:p.a-h.g.away_score):NaN}).filter(isFinite);return e.length?avg_(e):0};
+ R[4]=mk(R[0].pts-bias(0));R[5]=mk(R[1].pts-bias(1));R[6]=mk(R[2].pts-bias(2));R[7]=mk(R[3].pts-bias(3));R[13]=mk(R[12].pts-bias(12));
+ const inv=h=>h.g.home===t||h.g.away===t;
+ const ac_=(i,k)=>{let w=0,l=0;H.filter(inv).forEach(h=>{const r=grade(h.l,h.g,i+1);if(r[k]==='W')w++;else if(r[k]==='L')l++});return Math.max(w+l?w/(w+l):.5,.01)};
+ const ens=(ids,wf)=>{const w=ids.map(wf),sw=w.reduce((a,b)=>a+b,0);return ids.reduce((s,i,j)=>s+R[i].pts*w[j],0)/sw};
+ [[8,'ats'],[9,'ml'],[10,'ou']].forEach(([i,k])=>R[i]=mk(ens([0,1,2,3,4,5,7,13],j=>ac_(j,k))));
+ const mae=i=>{const e=H.filter(inv).map(h=>{const p=h.l.p[i+1];return p?Math.abs((h.g.home===t?p.h:p.a)-(h.g.home===t?h.g.home_score:h.g.away_score)):NaN}).filter(isFinite);return e.length?Math.max(avg_(e),.1):1};
+ R[11]=mk(ens([0,1,2,3,4,5,7,12,13],j=>1/mae(j)));
+ if(C.tdm){const mm=(a,b)=>(1+Tm.tdm[a])*(1+Op.tdm[b])-1;R[14]=mk(7*((1+mm(0,2))*1.51+(1+mm(1,3))*.96))}else R[14]={pts:NaN,pass:NaN,rush:NaN,tot:NaN};
+ return R}
+function calcAll(g){const N=wn(g),k=g.id+'|'+N;if(PC[k])return PC[k];const H=Object.values(mvFor(N)).filter(e=>e.g.id!==g.id).map(e=>({g:e.g,l:e}));return PC[k]={a:sideAll(g,false,H,N),h:sideAll(g,true,H,N)}}
+function dp(g,a){if(g.final){const m=MV()[g.id];if(m&&m.s&&m.s.a[a-1])return{a:m.s.a[a-1],h:m.s.h[a-1]}}return proj(g,a)}
+function proj(g,a){const r=calcAll(g);return{a:r.a[a-1],h:r.h[a-1]}}
+function bet(g,p){const m=p.h.pts-p.a.pts,t=p.h.pts+p.a.pts;const o={margin:m,total:t,win:m>0?g.home:g.away};
+ if(typeof g.spread==='number'){o.edge=m+g.spread;o.ats=o.edge>0?g.home:o.edge<0?g.away:null}
+ if(typeof g.total==='number'){o.ou=t>g.total?'O':t<g.total?'U':null}return o}
+const GM=new WeakMap();
+function grade(l,g,a){const p=l.p[a];if(!p||typeof p.a!=='number'||typeof p.h!=='number'||!isFinite(p.a+p.h))return{err:0};let M_=GM.get(l);if(!M_)GM.set(l,M_={});if(M_[a])return M_[a];const m=p.h-p.a,am=g.home_score-g.away_score,r={};
+ if(typeof l.spread==='number'&&m+l.spread!==0){const ac=am+l.spread;r.ats=ac===0?'P':((m+l.spread>0)===(ac>0))?'W':'L'}
+ r.ml=am===0?'P':((m>0)===(am>0))?'W':'L';
+ if(typeof l.total==='number'&&p.h+p.a!==l.total){const at=g.home_score+g.away_score;r.ou=at===l.total?'P':((p.h+p.a>l.total)===(at>l.total))?'W':'L'}
+ r.err=(Math.abs(p.a-g.away_score)+Math.abs(p.h-g.home_score))/2;return M_[a]=r}
+function lockGame(g,force){if(S.locks[g.id]||(g.final&&!force))return;const r=calcAll(g),p={};for(let a=1;a<=15;a++)p[a]={a:r.a[a-1].pts,h:r.h[a-1].pts};
+ S.locks[g.id]={at:new Date().toISOString(),spread:g.spread,total:g.total,p,bf:force?1:0};PC={};(S._at=S._at||{}).locks=new Date().toISOString();sync(['locks'])}
+const lockWeek=()=>{games().filter(g=>g.week===wk).forEach(lockGame);save();render()};
+const lockOne=()=>{lockGame(S.games[gid]);save();render()};
+const rankLow=(k,t)=>T.filter(x=>S.teams[x][k]<=S.teams[t][k]).length; // COUNTIFS "<=": 1 = toughest
+
+/* ---------- views ---------- */
+function card(g){const p=dp(g,aid),sp=typeof g.spread==='number'?g.home+' '+(g.spread===0?'PK':(g.spread>0?'+':'')+f(g.spread)):g.home+' –',tl=typeof g.total==='number'?f(g.total):'–';
+ const box=(t,x)=>`<div class="tb"><div class="nm" style="background:${TC[t][0]};color:${TC[t][1]}"><span class="d-only">${FN(t)}</span><span class="m-only">${t}</span></div><div class="ys"><span>Pass<b>${f(x.pass,0)}</b></span><span>Rush<b>${f(x.rush,0)}</b></span><span><i class="d-only">Total Yds</i><i class="m-only">Tot</i><b>${f(x.tot,0)}</b></span></div></div>`;
+ return `<div class="gc ${g.id===gid?'on':''}" onclick="pick('${g.id}')">${box(g.home,p.h)}<div class="mid"><div class="sp" title="Sportsbook home spread and total"><span>${sp}</span><span>${tl}</span></div><div class="ys"><span>Home<b>${f(p.h.pts,0)}</b></span><span>Away<b>${f(p.a.pts,0)}</b></span></div></div>${box(g.away,p.a)}${g.final?`<div class="fin">Final: ${g.away} ${g.away_score} – ${g.home} ${g.home_score}<span class="d-only"> · projection shown = moving, from current stats</span></div>`:''}</div>`}
+function accShow(){ensureVL();const mv=MV(),n=Object.keys(mv).length;let cap;
+ if(VLerr)cap='⚠ Error: '+VLerr;else if(!S.weekly)cap='weekly.csv not loaded — upload it in Data tab box 4.';else if(!n)cap='No completed games yet.';
+ else cap='Moving record: accuracy across all '+n+' completed games this season, each re-projected with the current stats (not the stats of that week). The week-by-week betting record is on the Performance tab.';
+ return{v:accOf(mv),cap}}
+function algb(){const A=accShow();return `<div class="algb"><table><tr><th><span class="d-only">Projection</span><span class="m-only">#</span></th><th><span class="d-only">Spread</span><span class="m-only">Spr</span></th><th>ML</th><th><span class="d-only">Total</span><span class="m-only">Tot</span></th></tr>`+ALG.map((n,i)=>`<tr class="${aid===i+1?'on':''}" onclick="aid=${i+1};render()"><td><span class="d-only">${n}</span><span class="m-only">${i+1}</span></td>${pcell(A.v[i].ats)}${pcell(A.v[i].ml)}${pcell(A.v[i].ou)}</tr>`).join('')+`</table><div class="mu cap ${A.cap.startsWith('Moving')?'norm':''}" style="padding:4px">${A.cap}</div></div>`}
+function about(a){const x=ABOUT[a-1];return `<div class="card"><h3>${ALG[a-1]} <span class="mu">— how it works</span></h3><p style="margin:4px 0">${x[0]}</p><p class="mu" style="margin:4px 0"><b>Steps:</b> ${x[1]}</p><p class="mu" style="margin:4px 0"><b>Note:</b> ${x[2]}</p></div>`}
+function accOf(src,wf){const ids=Object.keys(src).filter(i=>S.games[i]&&S.games[i].final&&(!wf||wf==='all'||S.games[i].week===wf));return ALG.map((n,i)=>{const c={ats:[0,0],ml:[0,0],ou:[0,0]};ids.forEach(id=>{const r=grade(src[id],S.games[id],i+1);['ats','ml','ou'].forEach(m=>{if(r[m]==='W')c[m][0]++;else if(r[m]==='L')c[m][1]++})});const o={};for(const m in c){const[w,l]=c[m];o[m]=w+l?100*w/(w+l):null}return o})}
+const pcell=v=>v==null?'<td class="mu">–</td>':`<td style="background:${v>=55?'rgba(63,207,122,.35)':v<=45?'rgba(255,80,60,.4)':'transparent'}">${f(v,0)}%</td>`;
+function lists(){const L=(t,k)=>{const a=[...T].sort((x,y)=>S.teams[y][k]-S.teams[x][k]).slice(0,8);return `<div class="card"><h3>${t}</h3>`+a.map((x,i)=>`<div style="display:flex;gap:8px;margin:3px 0"><span class="mu" style="width:16px">${i+1}</span>${chip(x,'width:52px;text-align:center')}<span>${f(S.teams[x][k])}</span></div>`).join('')+'</div>'};
+ return '<div class="row">'+L('Best scoring offenses','pf')+L('Best rushing offenses','rush')+L('Worst scoring defenses','pa')+L('Worst rush defenses','rush_a')+'</div>'}
+function vGames(){
+ if(!S.teams)return '<div class="card">Import team stats on the <b>Data</b> tab first (or load the demo).</div>';ensureVL();
+ const gs=games().filter(g=>g.week===wk);if(!gs.find(g=>g.id===gid))gid=gs[0]?.id;
+ let h='<div class="wrapx" style="display:flex;gap:12px;align-items:flex-start"><div class="wkb">'+WK.map(w=>`<button class="${w===wk?'on':''}" onclick="wk='${w}';xo=null;render()">${WL[w]||w}</button>`).join('')+'</div><div style="flex:1;min-width:0"><span class="ttl">Week '+(WL[wk]||wk)+' Games</span><button class="b s" onclick="lockWeek()">🔒 Lock week pregame</button><div class="grid2" style="margin-top:10px">'+(gs.map(g=>card(g)+(xo===g.id?xpand(g):'')).join('')||'<span class="mu">No games for this week — import a schedule.</span>')+'</div>';
+ if(gid){const g=S.games[gid],p=dp(g,aid),b=bet(g,p),vl=VL[g.id],mv=MV()[g.id];
+  h+=`<div class="card" style="margin-top:12px"><div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap;font-size:16px">${chip(g.away)} @ ${chip(g.home)}<span class="mu">${g.final?'Final '+g.away_score+'-'+g.home_score+' · ':''}${S.locks[gid]?'🔒 locked '+S.locks[gid].at.slice(0,16).replace('T',' '):(g.final?'':'<button class="b s" onclick="lockOne()">🔒 Lock this game</button>')}</span></div><div class="sc" style="margin-top:10px"><div><div class="mu">${FN(g.away)}</div><div class="n">${f(p.a.pts)}</div></div><div><div class="mu">Winner</div><div class="n" style="font-size:20px">${b.win}</div><div class="mu">Total ${f(b.total)}</div></div><div><div class="mu">${FN(g.home)}</div><div class="n">${f(p.h.pts)}</div></div></div></div>`;
+  h+=about(aid)+`<div class="card"><h3>Projection <span class="mu">(click a row to select${g.final?'; completed games show moving projections from current stats; Wk columns = what it said going into that week':''})</span></h3><div class="w"><table><tr><th>Algorithm</th><th>${g.away}</th><th>${g.home}</th><th>Total</th><th>Winner</th><th>Away yds</th><th>Home yds</th>${mv?'<th>Spread</th><th>ML</th><th>O/U</th>':''}${vl?'<th>Wk '+g.away+'</th><th>Wk '+g.home+'</th>':''}</tr>`+ALG.map((n,i)=>{const q=dp(g,i+1),rs=mv?grade(mv,g,i+1):{};return `<tr style="cursor:pointer;${aid===i+1?'outline:2px solid var(--ac)':''}" onclick="aid=${i+1};render()"><td>${n.split(' (')[0]}</td><td>${f(q.a.pts)}</td><td>${f(q.h.pts)}</td><td>${f(q.a.pts+q.h.pts)}</td><td>${q.h.pts>q.a.pts?g.home:g.away}</td><td>${f(q.a.tot,0)}</td><td>${f(q.h.tot,0)}</td>${mv?['ats','ml','ou'].map(k=>rc(rs[k])).join(''):''}${vl&&vl.p[i+1]?'<td>'+f(vl.p[i+1].a)+'</td><td>'+f(vl.p[i+1].h)+'</td>':''}</tr>`}).join('')+`</table></div></div>`;
+  h+='<div class="card"><h3>Betting vs. model</h3>'+(typeof g.spread==='number'||typeof g.total==='number'?`<div class="w"><table><tr><th></th><th>Book</th><th>Model</th><th>Edge / lean</th></tr><tr><td>Spread (${g.home})</td><td>${f(g.spread)}</td><td>${f(-b.margin)}</td><td>${b.ats?'<b>'+b.ats+'</b> ('+f(Math.abs(b.edge))+' pts)':'–'}</td></tr><tr><td>Total</td><td>${f(g.total)}</td><td>${f(b.total)}</td><td>${b.ou?'<b>'+(b.ou==='O'?'Over':'Under')+'</b> ('+f(Math.abs(b.total-g.total))+')':'–'}</td></tr></table></div>`:'<span class="mu">No lines imported for this game.</span>')+'<div class="mu" style="margin-top:6px">A model edge is not a guarantee of a profitable bet; no staking logic is included.</div></div>';
+  }
+ return h+lists()+'</div>'+algb()+'</div>'}
+function dvp(g){const ps=['qb','rb','wr','te'];if(!('dvp_qb' in S.teams[g.home]))return '<span class="mu">Add dvp_qb/rb/wr/te columns to team import.</span>';
+ const c=(t,p)=>{const r=rankLow('dvp_'+p,t);return `<td style="background:${r<=8?'rgba(255,80,60,.4)':r>=25?'rgba(63,207,122,.35)':'rgba(255,170,0,.25)'}">${f(S.teams[t]['dvp_'+p])} <span class="mu">#${r}</span></td>`};
+ return '<div class="w"><table><tr><th>Defense</th>'+ps.map(p=>'<th>'+p.toUpperCase()+'</th>').join('')+'</tr>'+[g.home,g.away].map(t=>'<tr><td>'+chip(t)+' D</td>'+ps.map(p=>c(t,p)).join('')+'</tr>').join('')+'</table></div><div class="mu">Rank 1 (red) = fewest points allowed = toughest defense; 32 (green) = easiest.</div>'}
+let xo=null;const pick=id=>{if(gid===id&&xo===id)xo=null;else{gid=id;xo=id}render()};
+const DVT=[['QB',[['Att','qb_att'],['Cmp','qb_cmp'],['Yds','qb_yds'],['TD','qb_td'],['Rsh Att','qb_ratt'],['RshYds','qb_ryds'],['RshTDs','qb_rtd']]],['RB',[['Att','rb_att'],['Yds','rb_yds'],['TD','rb_td'],['Rec Tgts','rb_tgt'],['Rec','rb_rec'],['RecYds','rb_ryds'],['RecTd','rb_rtd']]],['WR',[['Tgts','wr_tgt'],['Rec','wr_rec'],['Yds','wr_yds'],['TD','wr_td']]],['TE',[['Tgts','te_tgt'],['Rec','te_rec'],['Yds','te_yds'],['TD','te_td']]]];
+const mk=(title,bg,fg,heads,body)=>`<div class="w" style="margin-bottom:10px"><table class="xt"><tr><th colspan="${heads.length}" style="background:${bg};color:${fg};text-align:center">${title}</th></tr><tr>${heads.map(h=>`<th>${h}</th>`).join('')}</tr>${body}</table></div>`;
+function dvpDetail(g){if(!S.dvp)return '<div class="mu">Upload dvp.csv (Data tab, box 5) for stat-level defense-vs-position matchups.</div>';
+ return DVT.map(([pos,cols])=>mk(pos+': allowed per game by each defense','#333','#fff',['Defense',...cols.map(c=>c[0])],[g.home,g.away].map(t=>`<tr><td>${chip(t)} D</td>`+cols.map(([_,k])=>{const r=T.filter(x=>S.dvp[x][k]<=S.dvp[t][k]).length;return `<td style="background:${r<=8?'rgba(255,80,60,.4)':r>=25?'rgba(63,207,122,.35)':'transparent'}">${f(S.dvp[t][k])} <span class="mu">#${r}</span></td>`}).join('')+'</tr>').join(''))).join('')+'<div class="mu">Rank 1 (red) = fewest allowed = toughest defense; 32 (green) = easiest.</div>'}
+function xpand(g){const p=dp(g,aid),n=v=>typeof v==='number'?v:0;
+ const sd=[[g.home,p.h,'Home'],[g.away,p.a,'Away']].map(([t,s_,role])=>{const T_=S.teams[t],ypa=T_.ypa||7,ypc=T_.ypc||4.3,att=s_.pass/ypa,car=s_.rush/ypc,pl=S.players.filter(x=>x.team===t);
+  const qb=pl.filter(x=>x.pos==='QB').slice(0,1).map(x=>({nm:x.player,att,cmp:att*n(x.catch_rate),yds:s_.pass,td:n(x.td_rate)*att}));
+  const rec=pl.filter(x=>x.pos!=='QB'&&n(x.tgt_share)>0).map(x=>{const tg=n(x.tgt_share)*att,r=tg*n(x.catch_rate);return{nm:x.player+'-'+x.pos,tg,r,y:tg*n(x.ypt),td:n(x.td_rate)*r}}).sort((a,b)=>b.tg-a.tg);
+  const rus=pl.filter(x=>x.pos!=='QB'&&n(x.carry_share)>0).map(x=>{const c=n(x.carry_share)*car;return{nm:x.player+'-'+x.pos,c,y:c*(n(x.ypc)||ypc),td:n(x.td_rate)*c}}).sort((a,b)=>b.c-a.c);
+  return{t,role,s:s_,car,qb,rec,rus}});
+ const tr=(a,d)=>'<tr><td>'+a.map(v=>v).join('</td><td>')+'</td></tr>';
+ const col=t=>[TC[t][0],TC[t][1]];
+ const pass=mk('Passing','#4fc3f7','#000',['QB','Att','Cmp','Yds','TDs'],sd.map(x=>x.qb.map(q=>`<tr><td>${chip(x.t)} ${q.nm}</td><td>${f(q.att,0)}</td><td>${f(q.cmp,0)}</td><td>${f(q.yds,0)}</td><td>${f(q.td,1)}</td></tr>`).join('')||`<tr><td>${chip(x.t)} <span class="mu">no QB imported</span></td><td colspan=4></td></tr>`).join(''));
+ const rush=mk('Rushing Yds','#e29bdc','#000',['Team','Att','Yds','TDs'],sd.map(x=>`<tr><td>${chip(x.t)}</td><td>${f(x.car,0)}</td><td>${f(x.s.rush,0)}</td><td>${f(x.rus.reduce((a,b)=>a+b.td,0),1)}</td></tr>`).join(''));
+ const recT=sd.map(x=>{const[bg,fg]=col(x.t);return mk(FN(x.t)+' receivers ('+x.role+')',bg,fg,['Receivers','Tgts','Rec','Yds','TDs'],x.rec.map(r=>`<tr><td>${r.nm}</td><td>${f(r.tg,0)}</td><td>${f(r.r,0)}</td><td>${f(r.y,0)}</td><td>${f(r.td,1)}</td></tr>`).join('')||'<tr><td colspan=5 class="mu">No players imported</td></tr>')}).join('');
+ const rusT=sd.map(x=>{const[bg,fg]=col(x.t);return mk(FN(x.t)+' running backs ('+x.role+')',bg,fg,['Running Backs','Att','Yds','TD'],x.rus.map(r=>`<tr><td>${r.nm}</td><td>${f(r.c,0)}</td><td>${f(r.y,0)}</td><td>${f(r.td,1)}</td></tr>`).join('')||'<tr><td colspan=4 class="mu">No players imported</td></tr>')}).join('');
+ const fp=S.teams[g.home].dvp_qb!=null?'<h3>Opp D vs position (fantasy pts allowed/game)</h3>'+dvp(g):'';
+ return `<div class="xp"><button class="b xclose" onclick="pick('${g.id}')">✕ Close</button><div class="xg"><div>${pass}${recT}</div><div>${rush}${rusT}</div><div>${fp}<div style="height:10px"></div>${dvpDetail(g)}</div></div><div class="mu" style="margin-top:6px">Player lines = team projection × each player's season share/rate (algorithm ${aid}). Click the game again to collapse.</div>${tdResearch(g)}</div>`}
+function tdResearch(g){
+ if(!S.tds)return '<div class="mu" style="margin-top:12px">Upload tds.csv (Data tab, box 6) to see who has scored TDs against these defenses.</div>';
+ const BP=['RB','WR','TE','QB'],n=v=>typeof v==='number'?v:0,E=S.tds.map(r=>({...r,pos:String(r.pos).toUpperCase()==='FB'?'RB':String(r.pos).toUpperCase()}));
+ const mapped=E.filter(e=>BP.includes(e.pos)),lg={};BP.forEach(q=>lg[q]=mapped.filter(e=>e.pos===q).length/(mapped.length||1));
+ const cnt=t=>mapped.filter(e=>e.defense===t).length;
+ const prof=t=>{const a=E.filter(e=>e.defense===t),c={};BP.forEach(q=>c[q]=a.filter(e=>e.pos===q).length);const tot=BP.reduce((s,q)=>s+c[q],0),fa=a.filter(e=>e.first==1);return{t,a,c,tot,ex:a.length-tot,rk:1+T.filter(x=>cnt(x)>tot).length,fa:fa.length,fp:fa.filter(e=>e.type==='Passing').length,fr:fa.filter(e=>e.type==='Rushing').length,fs:E.filter(e=>e.team===t&&e.first==1).length}};
+ const P=[prof(g.home),prof(g.away)],p=dp(g,aid);
+ const dl=name=>{const x=S.players.find(q=>q.player===name);if(!x)return '';const same=S.players.filter(q=>q.team===x.team&&q.pos===x.pos).sort((a,b)=>x.pos==='RB'?n(b.carry_share)-n(a.carry_share):n(b.tgt_share)-n(a.tgt_share));return x.pos+(same.indexOf(x)+1)};
+ const share=(c,tot)=>tot?c+' <span class="mu">('+Math.round(100*c/tot)+'%)</span>':'0';
+ const prow=x=>`<tr><td>${chip(x.t)} D</td>${BP.map(q=>'<td>'+share(x.c[q],x.tot)+'</td>').join('')}<td>${x.tot}</td><td>${x.ex}</td><td>#${x.rk}</td><td>${x.fa?x.fa+' ('+x.fp+' pass / '+x.fr+' rush)':'–'}</td><td>${x.fs||'–'}</td></tr>`;
+ const who=x=>{const m=new Map();x.a.forEach(e=>{if(!m.has(e.scorer))m.set(e.scorer,{k:e.scorer,pos:e.pos,n:0,rec:0,wk:[],ty:new Set()});const o=m.get(e.scorer);o.n++;if(e.type==='Passing')o.rec++;o.wk.push(e.week);o.ty.add(e.type)});
+  return mk('Players who scored vs '+FN(x.t),TC[x.t][0],TC[x.t][1],['Player','Pos','TDs','Types','Weeks'],[...m.values()].map(o=>`<tr><td>${o.k}${o.n>1?' ×'+o.n:''}</td><td>${dl(o.k)||o.pos}${o.pos==='RB'&&o.rec?' <span class="mu">(Rec '+o.rec+')</span>':''}</td><td>${o.n}</td><td>${[...o.ty].join(', ')}</td><td>${o.wk.join(', ')}</td></tr>`).join('')||'<tr><td colspan=5 class="mu">No TDs recorded</td></tr>')};
+ const cross=(A,s_,D_)=>{const d_=P.find(x=>x.t===D_),a_=s_.pass/(S.teams[A].ypa||7),c_=s_.rush/(S.teams[A].ypc||4.3);
+  const rows=S.players.filter(x=>x.team===A&&x.pos!=='QB').map(x=>{const td=n(x.td_rate)*(n(x.tgt_share)*a_*n(x.catch_rate)+n(x.carry_share)*c_),fac=d_.tot&&lg[x.pos]?(d_.c[x.pos]/d_.tot)/lg[x.pos]:1;return{x,td,fac,ix:td*fac,prev:E.filter(e=>e.scorer===x.player&&e.defense===D_).length}}).sort((a,b)=>b.ix-a.ix).slice(0,10);
+  return mk(FN(A)+' players vs the '+FN(D_)+' defense',TC[A][0],TC[A][1],['Player','Pos','Proj TD','D allows to pos','Factor','TD matchup index','Scored vs D before'],rows.map(r=>`<tr><td>${r.x.player}</td><td>${dl(r.x.player)}</td><td>${f(r.td,2)}</td><td>${d_.c[r.x.pos]} of ${d_.tot}</td><td>${f(r.fac,2)}×</td><td><b>${f(r.ix,2)}</b></td><td>${r.prev||'–'}</td></tr>`).join('')||'<tr><td colspan=7 class="mu">No players imported</td></tr>')};
+ return `<div style="margin-top:14px"><h3>TD matchup research</h3>${mk('TDs allowed by position (season to date)','#333','#fff',['Defense','RB','WR','TE','QB','Mapped TDs','Excluded','Rank','1st TDs allowed','1st TDs scored'],P.map(prow).join(''))}<div class="xg"><div>${who(P[0])}</div><div>${who(P[1])}</div></div><div class="xg"><div>${cross(g.away,p.a,g.home)}</div><div>${cross(g.home,p.h,g.away)}</div></div><div class="mu">Rank 1 = most TDs allowed. Counts are raw season totals (no per-game or recency adjustment); excluded = defensive/return TDs and other non-QB/RB/WR/TE scorers. Depth labels (RB1, WR2…) come from season usage in your players file. Factor = the defense's share of TDs allowed to that position ÷ the league-wide share. TD matchup index = projected TDs × factor, a relative ranking only, not a probability or betting recommendation. No injury or active-status data is used.</div></div>`}
+function vPlayers(){if(!S.teams)return vGames();const g=S.games[gid];if(!g)return '<div class="card">Select a game on the Games tab.</div>';
+ if(!S.players.length)return '<div class="card">Import players on the Data tab.</div>';
+ const p=dp(g,aid);let h='<div class="card mu">Game: '+g.away+' @ '+g.home+' · algorithm '+aid+'. Volume = team projection × player shares.</div>';
+ [[g.away,p.a,g.home],[g.home,p.h,g.away]].forEach(([t,s,opp])=>{const T_=S.teams[t],ypa=T_.ypa||7,ypc=T_.ypc||4.3,att=s.pass/ypa,car=s.rush/ypc;
+  const rows=S.players.filter(x=>x.team===t).map(x=>{const n=v=>typeof v==='number'?v:0;let o;
+   if(x.pos==='QB')o={a:att,c:att*n(x.catch_rate),py:s.pass,ry:0,ty:0,r:0,td:n(x.td_rate)*att};
+   else{const tg=n(x.tgt_share)*att,rc=tg*n(x.catch_rate),cr=n(x.carry_share)*car;o={a:0,c:cr,py:0,ry:cr*(n(x.ypc)||ypc),ty:tg*n(x.ypt),r:rc,td:n(x.td_rate)*(cr+rc),tg}}
+   const d=S.teams[opp]['dvp_'+x.pos.toLowerCase()];return '<tr><td>'+x.player+'</td><td>'+x.pos+'</td><td>'+(x.pos==='QB'?f(o.a,0)+' att / '+f(o.c,0)+' cmp':f(o.tg||0,1)+' tgt / '+f(o.r,1)+' rec / '+f(x.pos==='QB'?0:o.c,1)+' car')+'</td><td>'+f(o.py+o.ry+o.ty,0)+'</td><td>'+f(o.td,2)+'</td><td>'+(d==null?'–':f(d)+' #'+rankLow('dvp_'+x.pos.toLowerCase(),opp))+'</td></tr>'}).join('');
+  h+='<div class="card"><h3>'+t+' <span class="mu">(pass '+f(s.pass,0)+', rush '+f(s.rush,0)+')</span></h3><div class="w"><table><tr><th>Player</th><th>Pos</th><th>Volume</th><th>Yards</th><th>TD</th><th>Opp DvP</th></tr>'+(rows||'<tr><td colspan=6 class="mu">No players imported for this team</td></tr>')+'</table></div></div>'});
+ return h}
+let pwk='all';
+function perfTab(src,title){const ids=Object.keys(src).filter(i=>S.games[i]&&S.games[i].final&&(pwk==='all'||S.games[i].week===pwk));
+ if(!ids.length)return '<div class="card"><h3>'+title+'</h3><span class="mu">No graded games'+(pwk==='all'?'':' for this week')+' yet.</span></div>';
+ const rows=ALG.map((n,i)=>{const c={ats:[0,0,0],ml:[0,0,0],ou:[0,0,0]};let e=0;
+  ids.forEach(id=>{const r=grade(src[id],S.games[id],i+1);e+=r.err||0;['ats','ml','ou'].forEach(m=>{if(r[m])c[m][r[m]==='W'?0:r[m]==='L'?1:2]++})});
+  const pc=m=>{const[w,l,p]=c[m];return w+l?f(100*w/(w+l),0)+'% <span class="mu">('+w+'-'+l+(p?'-'+p:'')+')</span>':'–'};
+  return '<tr><td>'+n+'</td><td>'+pc('ats')+'</td><td>'+pc('ml')+'</td><td>'+pc('ou')+'</td><td>'+f(e/ids.length)+'</td></tr>'}).join('');
+ return '<div class="card"><h3>'+title+' ('+ids.length+' games)</h3><div class="w"><table><tr><th>Algorithm</th><th>Spread</th><th>Moneyline</th><th>O/U</th><th>MAE pts</th></tr>'+rows+'</table></div></div>'}
+let wm='ats',wsrc='wk';
+function weekTab(){const SRC=wsrc==='mv'?MV():VL,ids=Object.keys(SRC).filter(i=>S.games[i]&&S.games[i].final),ws=[...new Set(ids.map(i=>S.games[i].week))].sort((a,b)=>a-b);
+ if(!ws.length)return '<div class="card"><h3>Week-by-week record</h3><span class="mu">No graded games yet.</span></div>';
+ const cell=(w,l)=>w+l?`<td style="background:${w/(w+l)>=.55?'rgba(63,207,122,.35)':w/(w+l)<=.45?'rgba(255,80,60,.4)':'transparent'}">${w}-${l}</td>`:'<td class="mu">–</td>';
+ const rows=ALG.map((n,i)=>{let tw=0,tl=0;const cs=ws.map(x=>{let w=0,l=0;ids.filter(id=>S.games[id].week===x).forEach(id=>{const r=grade(SRC[id],S.games[id],i+1)[wm];if(r==='W')w++;else if(r==='L')l++});tw+=w;tl+=l;return cell(w,l)}).join('');return `<tr><td>${n}</td>${cs}${cell(tw,tl)}</tr>`}).join('');
+ return `<div class="card"><h3>Week-by-week record <select onchange="wm=this.value;render()">${[['ats','Spread'],['ml','Moneyline'],['ou','Over/Under']].map(([k,l])=>`<option value="${k}" ${wm===k?'selected':''}>${l}</option>`).join('')}</select> <select onchange="wsrc=this.value;render()">${[['wk','Weekly record'],['mv','Moving record']].map(([k,l])=>`<option value="${k}" ${wsrc===k?'selected':''}>${l}</option>`).join('')}</select></h3><div class="w"><table><tr><th>Algorithm</th>${ws.map(x=>'<th>Wk '+x+'</th>').join('')}<th>Season</th></tr>${rows}</table></div><div class="mu">Each week's projections use only stats entering that week. Pushes excluded.</div></div>`}
+function vPerf(){ensureVL();return '<div class="card">Week filter: <select onchange="pwk=this.value;render()">'+['all',...WK].map(w=>'<option '+(w===pwk?'selected':'')+'>'+w+'</option>').join('')+'</select> <div class="mu">Accuracy = W/(W+L); pushes excluded. '+accShow().cap+'</div></div>'
+ +weekTab()+perfTab(VL,'Weekly record: each projection as it stood that week, using only the stats available then (your betting record; weeks 2+)')+perfTab(MV(),'Moving record: every completed game re-projected with current stats (true algorithm accuracy)')+perfTab(S.locks,'Locked pregame record (snapshots you saved before kickoff)')}
+const st={t:'team',s:null,d:-1,q:''};
+const tipA=h=>h?' data-tip="'+h.replace(/&/g,'&amp;').replace(/"/g,'&quot;')+'"':'';
+const pct=v=>typeof v==='number'&&isFinite(v)?(v*100).toFixed(1)+'%':'–';
+const STB=[['team','Team offense/defense','Season-to-date per-game averages: what each team gains (offense) and allows (defense). The starting point for the projections.'],['raw','Raw margins','<b>Raw margins</b><br>Each team vs the league: team average per game ÷ league average − 1.'],['adj','Adjusted margins (SOS)','<b>Adjusted margins (strength of schedule)</b><br>What it is: how much a team’s offense and defense beat or trail the opponents it has actually played, so an easy or hard schedule is accounted for.<br>How it is calculated: team average per game ÷ average of the opponents faced − 1. For offense the benchmark is what each opponent’s defense allows; for defense it is what each opponent’s offense gains. Click a team to see the games behind it.'],['td','TD rates','Touchdowns per game scored and allowed, plus margins vs league. Feeds Projection 15.'],['fant','Fantasy DvP','Fantasy points each defense allows per game to QBs, RBs, WRs and TEs.'],['dvpd','DvP detail','Stats each defense allows per game by position.'],['weekly','Weekly results','One row per team per game. The weekly and moving records are rebuilt from these.'],['games','Schedule & lines','Schedule, scores and sportsbook lines.'],['players','Players','Season shares and rates used for player projections.'],['tds','TD events','Every touchdown (who scored, against which defense). Feeds the TD matchup research.']];
+function stSpec(){const N=S.weekly?NC():0,C=getCX(N),ok=!C.bad,D=ok?C.D:{},thru=S.weekly?' Through week '+(NC()-1)+'.':'',n0=v=>f(v,0),n1=v=>f(v,1),n2=v=>f(v,2),L={pts:'Pts',tot:'Tot yds',pass:'Pass yds',rush:'Rush yds'};
+ const tr=ok?T.map(t=>({t,d:D[t]})):[],M=['pts','tot','pass','rush'];
+ const tp=(adj,side,m)=>{const lab=L[m].toLowerCase(),k=adj?'Adjusted':'Raw';return side==='O'?`<b>${k} offensive margin: ${L[m]}</b><br>What it is: how much more or less ${lab} per game this team produces than ${adj?'its opponents typically allow':'the league average'}.<br>How it is calculated: team ${lab} per game ÷ ${adj?'the average '+lab+' allowed per game by the opponents it has faced':'the league average '+lab+' per game'} − 1.<br>Above 0% = better than the benchmark.`:`<b>${k} defensive margin: ${L[m]}</b><br>What it is: how much more or less ${lab} this defense allows per game than ${adj?'its opponents typically produce':'the league average'}.<br>How it is calculated: ${lab} allowed per game ÷ ${adj?'the average '+lab+' per game gained by the opponents it has faced':'the league average '+lab+' allowed'} − 1.<br>Above 0% = allowed MORE than the benchmark (weaker defense); below 0% = tougher defense.`};
+ const mg=(a,b)=>[['Team',r=>r.t,chip]].concat(...M.map(m=>[['Off '+L[m],r=>r.d[a][m],pct,tp(a==='aom','O',m)],['Def '+L[m],r=>r.d[b][m],pct,tp(a==='aom','D',m)]]));
+ return{
+ team:{note:'Per-game averages the projections start from (Projections 1–4 and 13, and all margin math).'+thru,rows:tr,cols:[['Team',r=>r.t,chip],['PF',r=>r.d.off.pts,n1],['PA',r=>r.d.al.pts,n1],['Pass yds',r=>r.d.off.pass,n0],['Rush yds',r=>r.d.off.rush,n0],['Total yds',r=>r.d.off.tot,n0],['Pass yds A',r=>r.d.al.pass,n0],['Rush yds A',r=>r.d.al.rush,n0],['Total yds A',r=>r.d.al.tot,n0],['Yds/pt',r=>r.d.ypp.tot,n2],['Yds/pt allowed',r=>r.d.yapp.tot,n2]]},
+ raw:{note:'Raw margin = team average ÷ league average − 1 (offense, and defense allowed). Feeds Projection 2.'+thru,rows:tr,cols:mg('om','dm')},
+ adj:{note:'Adjusted (strength-of-schedule) margin = team average ÷ average of the opponents faced − 1. Feeds Projections 3 and 13.'+thru,rows:tr,cols:mg('aom','adm')},
+ td:{note:'Touchdowns per game and margin vs league. Feeds Projection 15.'+thru,rows:ok&&C.tdm?tr:[],cols:[['Team',r=>r.t,chip],['Pass TD/g',r=>r.d.td[0],n2],['Rush TD/g',r=>r.d.td[1],n2],['Pass TD allowed',r=>r.d.td[2],n2],['Rush TD allowed',r=>r.d.td[3],n2],['Pass TD off margin',r=>r.d.tdm[0],pct],['Rush TD off margin',r=>r.d.tdm[1],pct],['Pass TD def margin',r=>r.d.tdm[2],pct],['Rush TD def margin',r=>r.d.tdm[3],pct]]},
+ fant:{note:'Fantasy points allowed per game by each defense. Feeds the Opp D vs Pos panels.',rows:S.teams&&S.teams[T[0]].dvp_qb!=null?T.map(t=>({t,x:S.teams[t]})):[],cols:[['Team',r=>r.t,chip],['vs QB',r=>r.x.dvp_qb,n1],['vs RB',r=>r.x.dvp_rb,n1],['vs WR',r=>r.x.dvp_wr,n1],['vs TE',r=>r.x.dvp_te,n1]]},
+ dvpd:{note:'Stats each defense allows per game by position. Feeds the stat-level matchup panels.',rows:S.dvp?T.map(t=>({t,x:S.dvp[t]})):[],cols:[['Team',r=>r.t,chip]].concat(...DVT.map(([p,cs])=>cs.map(([l,k])=>[p+' '+l,r=>r.x[k],n1])))},
+ tds:{note:'Every touchdown: who scored, against which defense, and whether it was the first TD of the game (blank when the source could not tell).',rows:S.tds||[],cols:[['Scorer',r=>r.scorer],['Pos',r=>r.pos],['Type',r=>r.type],['Yds',r=>r.yards],['Team',r=>r.team,chip],['Defense',r=>r.defense,chip],['Week',r=>r.week],['Game',r=>r.game],['Qtr',r=>r.qtr],['1st TD',r=>r.first==1?'Yes':'']]},
+ weekly:{note:'One row per team per game. The weekly and moving records rebuild the stats entering each week from these rows.',rows:S.weekly||[],cols:[['Team',r=>r.team,chip],['Week',r=>r.week],['Opp',r=>r.opp,chip],['PF',r=>r.pf],['PA',r=>r.pa],['Pass',r=>r.pass,n0],['Rush',r=>r.rush,n0],['Pass A',r=>r.pass_a,n0],['Rush A',r=>r.rush_a,n0],['Pass TD',r=>r.ptd],['Rush TD',r=>r.rtd],['Pass TD A',r=>r.ptd_a],['Rush TD A',r=>r.rtd_a]]},
+ games:{note:'Schedule, final scores and sportsbook lines (spread is the home line: negative = home favored).',rows:games(),cols:[['Week',r=>r.week],['Away',r=>r.away,chip],['Home',r=>r.home,chip],['Away score',r=>r.away_score],['Home score',r=>r.home_score],['Home spread',r=>r.spread,n1],['Total',r=>r.total,n1],['Status',r=>r.final?'Final':'Scheduled']]},
+ players:{note:'Season shares and rates used for the player projections.',rows:S.players,cols:[['Player',r=>r.player],['Team',r=>r.team,chip],['Pos',r=>r.pos],['Target share',r=>r.tgt_share,pct],['Catch rate',r=>r.catch_rate,pct],['Yds/target',r=>r.ypt,n1],['Carry share',r=>r.carry_share,pct],['Yds/carry',r=>r.ypc,n1],['TD rate',r=>r.td_rate,pct]]}}}
+let sx=null;const stX=t=>{sx=sx===t?null:t;render()};
+function stPanel(t){const N=S.weekly?NC():0,C=getCX(N);if(C.bad||!S.weekly)return '<span class="mu">Upload weekly.csv (Data tab) to see schedule and results.</span>';
+ const D=C.D,d=D[t],M=[['pts','Points'],['tot','Total yds'],['pass','Pass yds'],['rush','Rush yds']],n0=v=>f(v,0),wr=S.weekly.filter(r=>r.team===t&&r.week<N).sort((a,b)=>a.week-b.week);
+ const gm=games().filter(g=>(g.home===t||g.away===t)&&/^\d+$/.test(g.week)).sort((a,b)=>a.week-b.week);let w_=0,l_=0;
+ const body=gm.map(g=>{const o=g.home===t?g.away:g.home,w=wr.find(r=>r.week===+g.week),od=D[o];
+  let res='<td class="mu">'+(typeof g.spread==='number'?'Line '+f(g.home===t?g.spread:-g.spread,1):'Scheduled')+'</td>',sc='<td class="mu">–</td>'.repeat(6);
+  if(w){if(w.pf>w.pa)w_++;else if(w.pf<w.pa)l_++;res=`<td style="color:${w.pf>w.pa?'var(--g)':w.pf<w.pa?'var(--r)':'inherit'}"><b>${w.pf>w.pa?'W':w.pf<w.pa?'L':'T'}</b> ${w.pf}-${w.pa}</td>`;sc=[w.pass,w.rush,w.pass+w.rush,w.pass_a,w.rush_a,w.pass_a+w.rush_a].map(v=>'<td>'+n0(v)+'</td>').join('')}
+  return `<tr><td>${g.week}</td><td>${g.home===t?'vs':'@'} ${chip(o)}</td>${res}${sc}${M.map(([m])=>'<td>'+f(od.al[m],m==='pts'?1:0)+'</td>').join('')}${M.map(([m])=>'<td>'+f(od.off[m],m==='pts'?1:0)+'</td>').join('')}</tr>`}).join('');
+ const hd=['Wk','Opp','Result','Pass','Rush','Total yds','Pass A','Rush A','Total A','Opp D Pts','Opp D Tot','Opp D Pass','Opp D Rush','Opp O Pts','Opp O Tot','Opp O Pass','Opp O Rush'];
+ let calc='';
+ if((st.t==='adj'||st.t==='raw')&&wr.length){const adj=st.t==='adj',opps=wr.map(r=>r.opp),mean=q=>opps.reduce((s,o)=>s+q(D[o]),0)/opps.length,lg=q=>T.reduce((s,x)=>s+q(D[x]),0)/32;
+  const cr=(side,m,lab)=>{const tv=side==='O'?d.off[m]:d.al[m],bv=adj?(side==='O'?mean(o=>o.al[m]):mean(o=>o.off[m])):(side==='O'?lg(x=>x.off[m]):lg(x=>x.al[m])),mg=tv/bv-1;return `<tr><td>${side==='O'?'Offense':'Defense (allowed)'}</td><td>${lab}</td><td>${f(tv,1)}</td><td>${f(bv,1)}</td><td>${f(tv,1)} ÷ ${f(bv,1)} − 1</td><td><b>${pct(mg)}</b></td></tr>`};
+  calc=`<h3 style="margin-top:12px">How the ${adj?'adjusted':'raw'} margin is calculated</h3><div class="w"><table class="xt"><tr><th>Side</th><th>Metric</th><th>Team avg / game</th><th>${adj?'Avg of opponents faced':'League average'}</th><th>Calculation</th><th>Margin</th></tr>${M.map(([m,l])=>cr('O',m,l)+cr('D',m,l)).join('')}</table></div><div class="mu">${adj?'Benchmark = the average of the opponents this team has faced, one entry per game played (for offense: what each opponent\'s defense allows per game; for defense: what each opponent\'s offense gains per game). Opponent averages are their season-to-date numbers.':'Benchmark = league average per game.'} Offense margin above 0 = beat the benchmark; defense margin above 0 = allowed more than the benchmark (a weaker defense).</div>`}
+ return `<div style="padding:6px;text-align:left;white-space:normal"><div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap">${chip(t)} <b>${FN(t)}</b> <span class="mu">${w_}-${l_} · ${wr.length} games played</span></div><h3 style="margin-top:10px">Schedule &amp; results</h3><div class="w"><table class="xt"><tr>${hd.map(h=>'<th>'+h+'</th>').join('')}</tr>${body}</table></div><div class="mu">A = allowed. Opp D = what the opponent's defense allows per game on average; Opp O = what the opponent's offense gains per game on average.</div>${calc}</div>`}
+function stTable(){const sp=stSpec()[st.t];if(!sp.rows.length)return '<div class="mu" style="padding:8px">No data loaded for this table yet (see the Data tab).</div>';
+ let rows=sp.rows.slice();const q=st.q.trim().toLowerCase();if(q)rows=rows.filter(r=>sp.cols.some(c=>String(c[1](r)).toLowerCase().includes(q)));
+ if(st.s!==null&&sp.cols[st.s]){const c=sp.cols[st.s];rows.sort((a,b)=>{const x=c[1](a),y=c[1](b);return(typeof x==='number'&&typeof y==='number'?x-y:String(x).localeCompare(String(y)))*st.d})}
+ return `<div class="w" style="max-height:70vh;overflow:auto"><table class="xt"><tr>${sp.cols.map((c,i)=>`<th style="cursor:pointer;position:sticky;top:0;background:var(--card)" onclick="stSort(${i})"${tipA(c[3])}>${c[0]}${st.s===i?(st.d>0?' ▲':' ▼'):''}</th>`).join('')}</tr>${rows.map(r=>'<tr'+(r.t?` onclick="stX('${r.t}')" style="cursor:pointer${sx===r.t?';background:rgba(91,155,255,.15)':''}"`:'')+'>'+sp.cols.map(c=>{const v=c[1](r);return '<td>'+(c[2]?c[2](v):(v===''||v==null?'–':v))+'</td>'}).join('')+'</tr>'+(r.t&&sx===r.t?'<tr><td colspan="'+sp.cols.length+'" style="text-align:left">'+stPanel(r.t)+'</td></tr>':'')).join('')}</table></div><div class="mu">${rows.length} rows</div>`}
+const stSort=i=>{if(st.s===i)st.d=-st.d;else{st.s=i;st.d=i===0?1:-1}render()};
+function vStats(){if(!S.teams)return '<div class="card">Import data on the <b>Data</b> tab first (or load the demo).</div>';const sp=stSpec();
+ return `<div class="card"><div style="display:flex;gap:6px;flex-wrap:wrap">${STB.map(([k,l,tp])=>`<button class="b ${st.t===k?'':'s'}" onclick="st.t='${k}';st.s=null;sx=null;render()"${tipA(tp)}>${l}</button>`).join('')}</div><p class="mu" style="margin:8px 0">${sp[st.t].note} Click a column header to sort, or a team to see its schedule and results.</p><input placeholder="Filter…" value="${st.q}" oninput="st.q=this.value;document.getElementById('stbl').innerHTML=stTable()"><div id="stbl" style="margin-top:8px">${stTable()}</div></div>`}
+function vData(){
+ const box=(k,t)=>'<div class="card"><h3>'+t+'</h3><textarea id="t_'+k+'" placeholder="'+TPL[k].replace(/\n/g,'&#10;')+'"></textarea><button class="b" onclick="doImport(\''+k+'\')">Import</button> <button class="b s" onclick="document.getElementById(\'t_'+k+'\').value=TPL.'+k+'">Insert template</button> <label class="mu">or upload CSV: <input type="file" accept=".csv" onchange="loadFile(\''+k+'\',this)"></label></div>';
+ return (logm?'<div class="msg '+logm[0]+'">'+logm[1]+'</div>':'')
+ +'<div class="card"><b>Weekly update:</b> paste fresh CSVs below (from any stats site or spreadsheet export). Imports are validated (32 unique known teams, numeric stats, no duplicate games) and rejected whole if invalid, so good data is never overwritten. Per-game values: pf/pa points, pass/rush yards, <i>_a</i> = allowed. spread = home line (−3 = home favored). Leave scores blank for future games.<br><br><button class="b s" onclick="demo()">Load synthetic DEMO data</button> <button class="b s" onclick="exp()">Export backup</button> <button class="b s" onclick="touch(DS)">☁ Upload this device data</button> <button class="b s" onclick="S._at={};sInit()">☁ Download from cloud</button> <button class="b s" onclick="if(confirm(\'Erase all data and locks?\')){S={teams:null,weekly:null,games:{},players:[],locks:{}};save();DV++;touch(DS);render()}">Reset</button></div>'
+ +box('teams','1 · Team stats (32 rows)')+box('games','2 · Schedule, scores & lines')+box('weekly','4 · Weekly team results (drives the moving record — no locking needed)')+box('players','3 · Player shares/rates')+box('dvp','5 · Defense vs position detail (optional, for stat-level matchups)')+box('tds','6 · TD events (who scored against each defense; optional)')
+ +'<div class="card mu">Status: '+(S.teams?'teams ✔':'teams ✖')+' · '+(S.weekly?S.weekly.length+' team-weeks ✔':'weekly ✖')+' · '+(S.tds?S.tds.length+' TDs ✔':'tds ✖')+' · '+games().length+' games · '+S.players.length+' players · '+Object.keys(S.locks).length+' locked forecasts · '+syncMsg+'</div>'}
+function loadFile(k,i){const f0=i.files[0];if(!f0)return;const r=new FileReader();r.onload=()=>{document.getElementById('t_'+k).value=r.result;doImport(k)};r.readAsText(f0)}
+function exp(){const a=document.createElement('a');a.href='data:application/json,'+encodeURIComponent(JSON.stringify(S));a.download='nfl-model-backup.json';a.click()}
+function demo(){let s=7;const R=()=>(s=(s*16807)%2147483647)/2147483647,n=(m,sd)=>m+(R()+R()+R()-1.5)*sd*1.6;
+ let c='team,pf,pa,pass,rush,pass_a,rush_a,ypa,ypc,dvp_qb,dvp_rb,dvp_wr,dvp_te\n';
+ T.forEach(t=>c+=[t,n(22,4),n(22,4),n(225,30),n(115,20),n(225,30),n(115,20),n(7,.5),n(4.3,.3),n(18,3),n(18,3),n(28,4),n(11,2)].map(x=>typeof x==='number'?x.toFixed(1):x).join(',')+'\n');
+ let g='week,away,home,away_score,home_score,spread,total\n';
+ for(let w=1;w<=4;w++){const r=T.map((_,i)=>T[(i+w*5)%32]);for(let i=0;i<16;i++){const a=r[i],h=r[31-i],fin=w<4;g+=[w,a,h,fin?Math.round(n(22,7)):'',fin?Math.round(n(23,7)):'',(-Math.round(n(0,4)*2)/2),Math.round(n(44,4)*2)/2].join(',')+'\n'}}
+ let p='player,team,pos,tgt_share,catch_rate,ypt,carry_share,ypc,td_rate\n';
+ T.forEach(t=>{p+=[`${t} QB`,t,'QB','',.66,'','','',.045].join(',')+'\n'+[`${t} RB1`,t,'RB',.14,.75,6,.55,4.3,.07].join(',')+'\n'+[`${t} WR1`,t,'WR',.26,.66,9,'','',.07].join(',')+'\n'+[`${t} WR2`,t,'WR',.2,.64,8,'','',.05].join(',')+'\n'+[`${t} TE1`,t,'TE',.18,.68,7.5,'','',.05].join(',')+'\n'});
+ S={teams:null,weekly:null,games:{},players:[],locks:{}};try{IMP.teams(c);IMP.games(g);IMP.players(p);const wr=['team,week,opp,pf,pa,pass,rush,pass_a,rush_a,ptd,rtd,ptd_a,rtd_a'],q=(m,d)=>Math.max(0,Math.round(n(m,d)));Object.values(S.games).filter(g=>g.final).forEach(g=>{[[g.home,g.away,g.home_score,g.away_score],[g.away,g.home,g.away_score,g.home_score]].forEach(([t,o,pf,pa])=>wr.push([t,g.week,o,pf,pa,q(225,40),q(115,30),q(225,40),q(115,30),q(1.5,1.5),q(1,1),q(1.5,1.5),q(1,1)].join(',')))});IMP.weekly(wr.join('\n'));{const tr=['scorer,pos,type,yards,passer,team,defense,week,game,qtr,clock,first'],fi={};Object.values(S.games).filter(g=>g.final).forEach(g=>{[[g.home,g.away],[g.away,g.home]].forEach(([t,d])=>{S.players.filter(x=>x.team===t&&x.pos!=='QB').sort(()=>R()-.5).slice(0,2+Math.floor(R()*2)).forEach(x=>{const first=!fi[g.id]&&R()<.5?1:0;if(first)fi[g.id]=1;tr.push([x.player,x.pos,x.pos==='RB'&&R()<.6?'Rushing':'Passing',Math.round(5+R()*40),'',t,d,g.week,g.away+' @ '+g.home,1+Math.floor(R()*4),'',first].join(','))})})});IMP.tds(tr.join('\n'))}IMP.dvp('team,'+DVT.flatMap(x=>x[1].map(c=>c[1])).join(',')+'\n'+T.map(t=>t+','+DVT.flatMap(x=>x[1]).map(()=>n(10,3).toFixed(1)).join(',')).join('\n'));save();DV++;touch(DS);logm=['ok','✔ Synthetic DEMO loaded (random numbers, not real NFL data). Weeks 1–3 final, week 4 upcoming.']}catch(e){logm=['er',e.message]}wk='4';tab='games';render()}
+function render(){if(DVs!==DV){CXc={};PC={};MVc={};VLr=0;VL={};DVs=DV}document.getElementById('tabs').innerHTML=[['games','Games'],['players','Players'],['stats','Stats'],['perf','Performance'],['data','Data']].map(([k,l])=>'<button class="tab '+(tab===k?'on':'')+'" onclick="tab=\''+k+'\';render()">'+l+'</button>').join('');
+ document.getElementById('app').innerHTML={games:vGames,players:vPlayers,stats:vStats,perf:vPerf,data:vData}[tab]()}
+
+/* ---- cloud sync: private to your account, shared across your devices ---- */
+const DS=['teams','games','weekly','players','dvp','tds','locks'],KVs={teams:1,games:1,dvp:1,locks:1};
+let DB_=null,CAN=false,syncMsg='☁ connecting…',pushQ=Promise.resolve(),pend=new Set(),tmr=null;
+const sbadge=()=>{const e=document.getElementById('sync');if(e)e.textContent=syncMsg};
+const sget=k=>KVs[k]?Object.entries(S[k]||{}).map(([a,v])=>({k:a,v})):(S[k]||[]);
+const sset=(k,rows)=>{S[k]=rows.length?(KVs[k]?Object.fromEntries(rows.map(r=>[r.k,r.v])):rows):(k==='games'||k==='locks'?{}:k==='players'?[]:null)};
+const sync=keys=>{keys.forEach(k=>pend.add(k));clearTimeout(tmr);tmr=setTimeout(()=>{const ks=[...pend];pend.clear();pushQ=pushQ.then(()=>sPush(ks))},1200)};
+const touch=keys=>{S._at=S._at||{};const t=new Date().toISOString();keys.forEach(k=>S._at[k]=t);save();sync(keys)};
+async function sPush(keys){if(!DB_)return;if(!CAN){syncMsg='👁 viewing shared data (read-only)';sbadge();return}const base='pub/';
+ try{syncMsg='☁ saving…';sbadge();
+  for(const k of keys){const rows=JSON.parse(JSON.stringify(sget(k))),L=JSON.stringify(rows).length,parts=Math.max(1,Math.ceil(L/180000)),per=Math.ceil(rows.length/parts)||1;
+   let old=0;try{const m=await DB_.doc(base+'m_'+k).get();old=m.exists?(m.data().parts||0):0}catch(e){}
+   for(let i=0;i<parts;i++)await DB_.doc(base+'d_'+k+'_'+i).set({rows:rows.slice(i*per,(i+1)*per)});
+   for(let i=parts;i<old;i++)await DB_.doc(base+'d_'+k+'_'+i).delete();
+   await DB_.doc(base+'m_'+k).set({parts,n:rows.length,at:(S._at&&S._at[k])||new Date().toISOString()})}
+  syncMsg='☁ synced '+new Date().toLocaleTimeString([],{hour:'2-digit',minute:'2-digit'})}
+ catch(e){syncMsg='☁ sync failed ('+(e.code||e.message)+'); data is still saved on this device'}sbadge()}
+async function sInit(){
+ try{if(typeof claude==='undefined'||!claude.use){syncMsg='☁ cloud sync only works in the published page';sbadge();return}
+  const db=await claude.use('db'),user=await claude.use('user');
+  if(!db){syncMsg='☁ sign in to Claude to load shared data; data stays on this device';sbadge();return}
+  CAN=user?await user.isOwner():false;const id=user?await user.id():null;DB_=db;S._at=S._at||{};
+  const base='pub/',old=id?'data/users/'+id+'/':null;let changed=false;const up=[];
+  for(const k of DS){let m=null,b=base;
+   try{const d=await db.doc(base+'m_'+k).get();if(d.exists)m=d.data()}catch(e){}
+   if(!m&&CAN&&old){try{const d=await db.doc(old+'m_'+k).get();if(d.exists){m=d.data();b=old}}catch(e){}}
+   const la=S._at[k]||'';
+   if(m&&m.at>la){let rows=[];for(let i=0;i<m.parts;i++){const d=await db.doc(b+'d_'+k+'_'+i).get();if(d.exists)rows=rows.concat(d.data().rows||[])}sset(k,rows);S._at[k]=m.at;changed=true;if(b===old)up.push(k)}
+   else if(CAN&&(!m||la>m.at)&&sget(k).length)up.push(k)}
+  if(changed){save();DV++;render()}
+  if(up.length)sync(up);else{syncMsg=CAN?'☁ synced':'👁 viewing the owner’s shared data (read-only)';sbadge()}}
+ catch(e){syncMsg='☁ sync unavailable ('+(e.code||e.message)+')';sbadge()}}
+if(document.body&&document.addEventListener){const tipEl=document.createElement('div');tipEl.id='tip';document.body.appendChild(tipEl);
+ document.addEventListener('mouseover',e=>{const t=e.target.closest&&e.target.closest('[data-tip]');if(!t){tipEl.style.display='none';return}tipEl.innerHTML=t.getAttribute('data-tip');tipEl.style.display='block'});
+ document.addEventListener('mousemove',e=>{if(tipEl.style.display!=='block')return;const w=tipEl.offsetWidth,h=tipEl.offsetHeight;let x=e.clientX+14,y=e.clientY+14;if(x+w>innerWidth-8)x=Math.max(8,e.clientX-w-14);if(y+h>innerHeight-8)y=Math.max(8,e.clientY-h-14);tipEl.style.left=x+'px';tipEl.style.top=y+'px'})}
+if(!S.teams)tab='data';render();sbadge();sInit();
+</script></body></html>
