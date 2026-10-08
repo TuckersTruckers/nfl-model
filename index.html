@@ -87,106 +87,11 @@ th:first-child,td:first-child{text-align:left}th{color:var(--mu);font-weight:600
  .algb{width:94px;position:sticky;top:70px;max-height:80vh;padding:2px}
  .algb table{font-size:10px}.algb td,.algb th{padding:3px 2px}.algb .cap.norm{display:none}.algb .cap{font-size:9px}
  .ttl{font-size:14px;padding:2px 8px}
-@media(max-width:700px){
- .d-only{display:none!important}
- .m-only{display:inline!important}
- main{padding:6px}
- header{padding:6px 8px;gap:2px}
- .tab{padding:6px 9px;font-size:13px}
- #sync{display:none}
-
- .wrapx{flex-wrap:nowrap;gap:6px}
-
- .wkb{width:36px;padding:4px 2px;top:70px}
- .wkb button{font-size:11px;padding:6px 0}
- .wkb button:nth-child(n+19){font-size:8px}
- .wkb::before{font-size:7px}
-
- .algb{
-   width:94px;
-   position:sticky;
-   top:70px;
-   max-height:80vh;
-   padding:2px
- }
-
- .algb table{font-size:10px}
- .algb td,.algb th{padding:3px 2px}
- .algb .cap.norm{display:none}
- .algb .cap{font-size:9px}
-
- .ttl{font-size:14px;padding:2px 8px}
-
- /* Cleaner mobile projection cards */
- .gc{
-   gap:3px;
-   padding:2px;
-   border-width:1px;
-   border-radius:6px;
- }
-
- .gc .mid{
-   flex:0 0 64px;
- }
-
- .gc .nm{
-   font-size:10px;
-   line-height:1.15;
-   padding:4px 2px;
-   white-space:nowrap;
-   overflow:hidden;
-   text-overflow:ellipsis;
- }
-
- .gc .sp span{
-   font-size:7px;
-   line-height:1.1;
-   padding:4px 1px;
-   letter-spacing:-.1px;
- }
-
- .gc .ys span{
-   font-size:7px;
-   line-height:1.1;
-   padding:2px 1px 0;
- }
-
- .gc .ys b{
-   font-size:10px;
-   line-height:1.1;
-   padding:3px 0;
-   margin:2px -1px 0;
- }
-
- .gc .fin{
-   font-size:8px;
-   line-height:1.1;
- }
-
- .xp{
-   position:fixed;
-   inset:0;
-   z-index:60;
-   overflow:auto;
-   border-radius:0;
-   border:0;
-   padding:calc(env(safe-area-inset-top,0px) + 10px) 10px calc(env(safe-area-inset-bottom,0px) + 18px);
-   background:var(--bg)
- }
-
- .xclose{
-   display:block;
-   position:sticky;
-   top:0;
-   z-index:2;
-   margin-bottom:8px
- }
-
- .xt{font-size:11px}
- .xt th,.xt td{padding:3px 4px}
-
- .sc .n{font-size:22px}
-}
+ .gc{gap:2px;padding:1px;border-width:2px}.gc .mid{flex:0 0 68px}
+ .gc .nm{font-size:12px;padding:5px 2px}
+ .gc .sp span{font-size:8px;padding:5px 1px;letter-spacing:-.2px}
+ .gc .ys span{font-size:8px;padding:3px 1px 0}.gc .ys b{font-size:12px;padding:4px 0;margin:2px -1px 0}
+ .gc .fin{font-size:9px}
  .xp{position:fixed;inset:0;z-index:60;overflow:auto;border-radius:0;border:0;padding:calc(env(safe-area-inset-top,0px) + 10px) 10px calc(env(safe-area-inset-bottom,0px) + 18px);background:var(--bg)}
  .xclose{display:block;position:sticky;top:0;z-index:2;margin-bottom:8px}
  .xt{font-size:11px}.xt th,.xt td{padding:3px 4px}
@@ -196,6 +101,29 @@ th:first-child,td:first-child{text-align:left}th{color:var(--mu);font-weight:600
 /* team names / final strip: plain text over the colour, no grey boxes */
 .gc .nm span,.gc .fin span{display:inline;flex-direction:row;background:transparent;padding:0;margin:0;font-size:inherit;color:inherit;text-align:inherit;white-space:inherit}
 @media(max-width:700px){#sync{display:block;flex-basis:100%;font-size:10px;margin:0}}
+
+
+/* ---- Projections tab / Projection Lab ---- */
+.pj{border:1px solid var(--bd);border-radius:8px;margin-bottom:6px;background:var(--bg)}
+.pjh{display:flex;gap:8px;align-items:center;padding:8px 10px;cursor:pointer;flex-wrap:wrap}
+.pjs{margin-left:auto;display:flex;gap:6px;align-items:center}.pjs i{font-style:normal;font-size:11px;padding:1px 7px;border-radius:10px;background:var(--card)}
+.pjs i.g{color:var(--g)}.pjs i.r{color:var(--r)}
+.pjb{padding:0 10px 10px}.fx{font-family:ui-monospace,monospace;font-size:12px;background:var(--card);border:1px solid var(--bd);border-radius:6px;padding:8px;margin:6px 0}
+.fx div{margin:2px 0}.lbp{display:flex;gap:6px;flex-wrap:wrap}
+.lbf{display:flex;gap:10px;flex-wrap:wrap;align-items:flex-end;margin:10px 0;padding:10px;border:1px dashed var(--bd);border-radius:8px}
+.lbf label{font-size:12px;color:var(--mu);display:flex;flex-direction:column;gap:3px}
+@media(max-width:700px){.pjs{margin-left:0;width:100%}}
+
+/* ---- cleaner mobile projection cards (from the live site) ---- */
+@media(max-width:700px){
+ .gc{gap:3px;padding:2px;border-width:1px;border-radius:6px}
+ .gc .mid{flex:0 0 64px}
+ .gc .nm{font-size:10px;line-height:1.15;padding:4px 2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+ .gc .sp span{font-size:7px;line-height:1.1;padding:4px 1px;letter-spacing:-.1px}
+ .gc .ys span{font-size:7px;line-height:1.1;padding:2px 1px 0}
+ .gc .ys b{font-size:10px;line-height:1.1;padding:3px 0;margin:2px -1px 0}
+ .gc .fin{font-size:8px;line-height:1.1}
+}
 </style></head><body>
 <header><b>🏈<span class="d-only"> NFL Model</span></b><span class="mu d-only" style="margin-right:10px">v5</span><span id="tabs"></span><span id="sync" class="mu" style="margin-left:auto;font-size:11px"></span></header>
 <main id="app"></main>
@@ -203,7 +131,7 @@ th:first-child,td:first-child{text-align:left}th{color:var(--mu);font-weight:600
 const T="ARI ATL BAL BUF CAR CHI CIN CLE DAL DEN DET GNB HOU IND JAX KAN LVR LAC LAR MIA MIN NWE NOR NYG NYJ PHI PIT SFO SEA TAM TEN WAS".split(" ");
 const AL={GB:'GNB',KC:'KAN',LV:'LVR',SF:'SFO',TB:'TAM',NE:'NWE',NO:'NOR',JAC:'JAX',LA:'LAR',WSH:'WAS'};
 const WK=[...Array(18)].map((_,i)=>String(i+1)).concat(['wildcard','division','confchamp','superbowl']);
-const ALG=['1-Basic','2-Marginal %','3-Adj Marginal %','4-Ave of 1,2,3','5-Std Dev 1','6-Std Dev 2','7-Std Dev 3','8-Ave Std Error 5,6,7','9-Spread (wtd)','10-ML (wtd)','11-Total (wtd)','12-STE Dev','13-Final MGN %','14-Std Error of 13','15-Mng TD %'];
+const ALG=['1-Basic','2-Marginal %','3-SOS Marginal %','4-Ave of 1,2,3','5-Std Dev 1','6-Std Dev 2','7-Std Dev 3','8-Ave Std Error 5,6,7','9-Spread (wtd)','10-ML (wtd)','11-Total (wtd)','12-STE Dev','13-Final MGN %','14-Std Error of 13','15-Mng TD %'];
 const K=[['pts','pf','pa'],['pass','pass','pass_a'],['rush','rush','rush_a']];
 const TPL={teams:'team,pf,pa,pass,rush,pass_a,rush_a,ypa,ypc,dvp_qb,dvp_rb,dvp_wr,dvp_te\nKAN,27.1,19.5,255,118,225,105,7.2,4.4,18.5,19.2,31.0,12.1',
 games:'week,away,home,away_score,home_score,spread,total\n5,BUF,KAN,,,-2.5,48.5',
@@ -248,7 +176,7 @@ function doImport(k){try{logm='✔ '+IMP[k](document.getElementById('t_'+k).valu
 const games=()=>Object.values(S.games);
 
 let PC={},CXc={},VL={},VLr=0;
-const ABOUT=[["Blends the team's offense with what the opponent allows, converts total/pass/rush yardage to points using both teams' yards-per-point rates, then averages the three estimates.", "Blend = avg(team yds/g, opp yds allowed/g); points = avg(Blend ÷ team yds-per-pt, Blend ÷ opp allowed-yds-per-pt); final = avg(total, pass, rush).", "Computed by target team vs. opponent, not by Home/Away display position."], ["Projection 1 with raw team and opponent marginal-performance multipliers applied before converting yards to points.", "Per metric: avg((1+team off margin)×opp allowed avg, (1+opp def margin)×team off avg), then convert to points like #1.", "Raw margin here = team average ÷ league average − 1 (your Excel imported its margins; that derivation is unverified)."], ["Uses schedule-adjusted marginal performance instead of raw margins.", "Same as #2 with adjusted margins.", "Adjusted margin = team average ÷ average of opponents faced − 1, an approximation of ADJ_Tm_Margins (exact upstream method unverified)."], ["Equal-weight average of Projections 1, 2 and 3.", "Score = avg(#1,#2,#3). Yards = avg(score × team yds-per-pt, score × opp allowed-yds-per-pt).", "Does not include the later weighted models."], ["Bias-corrects #1 using the team's average historical over/under-prediction, separately for home and away.", "Final = #1 − avg(projection − actual) over the team's completed games in the same home/away role.", "Labelled 'Std Dev' but it is average signed error. No history yet = no adjustment."], ["Same bias correction applied to the Raw Marginal model (#2).", "Final = #2 − avg signed error (team, home/away).", "Average signed error, not standard deviation."], ["Bias-corrects the Adjusted Marginal model (#3) with its own team-specific misses.", "Final = #3 − avg signed error (team, home/away).", "Average signed error, not standard deviation."], ["Bias-corrects the equal-weight average (#4).", "Final = #4 − avg signed error (team, home/away).", "Excel labels it 'Ave Std Error of 5,6,7' but it adjusts #4 with #4's own history."], ["Gives more influence to component models that picked this team's spreads more accurately.", "Weight = team's spread accuracy per component ÷ sum of accuracies; final = Σ score × weight. Components 1,2,3,4,5,6,8,14.", "Excel's current vs. historical component sets differ (legacy discrepancy); site uses the current set. Equal weights until graded history exists."], ["Same as #9 but weights come from each component's team-specific moneyline accuracy.", "Weight = team's ML accuracy ÷ sum; final = Σ score × weight. Components 1,2,3,4,5,6,8,14.", "Same component-set caveat as #9."], ["Weights components by how accurately they predicted totals (O/U) in that team's games.", "Weight = team's O/U accuracy ÷ sum; final = Σ score × weight. Components 1,2,3,4,5,6,8,14.", "Optimized on totals, but the result is also graded for spread and ML."], ["Inverse-mean-absolute-error ensemble: models with smaller historical point errors get larger weights.", "Final = Σ(component ÷ MAE) ÷ Σ(1 ÷ MAE) over components 1,2,3,4,5,6,8,13,14, using the team's completed games.", "Not a standard deviation. MAE is floored at 0.1 to avoid divide-by-zero; equal weights until history exists."], ["Compounds the team's adjusted offensive strength with the opponent's adjusted defensive weakness, applied to their average baseline.", "Per metric: baseline = avg(team off, opp allowed); projected = baseline × (1+adj off margin)(1+adj opp def margin). Score = projected points.", "Excel names conflict (Final MGN % / SOS Mgn %)."], ["Bias-corrects the Final/SOS Marginal model (#13) with team- and venue-specific historical error.", "Final = #13 − avg signed error (team, home/away).", "Your Excel's best record was in-sample (graded on the same games it learned from). Treat with caution."], ["Projects passing and rushing TDs separately from offense-vs-defense TD margins and converts at 7 points per TD.", "Score = 7 × [(1+pass TD matchup margin)×1.51 + (1+rush TD matchup margin)×0.96]; matchup margin = (1+team off TD margin)(1+opp def TD margin) − 1.", "Needs ptd/rtd/ptd_a/rtd_a columns in teams.csv (re-run the updated script). No FG, defensive-TD or return-TD component."]];
+const ABOUT=[["Blends the team's offense with what the opponent allows, converts total/pass/rush yardage to points using both teams' yards-per-point rates, then averages the three estimates.", "Blend = avg(team yds/g, opp yds allowed/g); points = avg(Blend ÷ team yds-per-pt, Blend ÷ opp allowed-yds-per-pt); final = avg(total, pass, rush).", "Computed by target team vs. opponent, not by Home/Away display position."], ["Projection 1 with raw team and opponent marginal-performance multipliers applied before converting yards to points.", "Per metric: avg((1+team off margin)×opp allowed avg, (1+opp def margin)×team off avg), then convert to points like #1.", "Raw margin here = team average ÷ league average − 1 (your Excel imported its margins; that derivation is unverified)."], ["Uses strength-of-schedule (SOS) margins instead of raw margins.", "Same as #2 with SOS margins.", "SOS margin = team average ÷ average of the opponents faced − 1 (your Excel called this its raw margin). The Adj margin, which adjusts the SOS margin again for the opponents’ own SOS margins, is on the Stats tab and in the Lab."], ["Equal-weight average of Projections 1, 2 and 3.", "Score = avg(#1,#2,#3). Yards = avg(score × team yds-per-pt, score × opp allowed-yds-per-pt).", "Does not include the later weighted models."], ["Bias-corrects #1 using the team's average historical over/under-prediction, separately for home and away.", "Final = #1 − avg(projection − actual) over the team's completed games in the same home/away role.", "Labelled 'Std Dev' but it is average signed error. No history yet = no adjustment."], ["Same bias correction applied to the Raw Marginal model (#2).", "Final = #2 − avg signed error (team, home/away).", "Average signed error, not standard deviation."], ["Bias-corrects the SOS Marginal model (#3) with its own team-specific misses.", "Final = #3 − avg signed error (team, home/away).", "Average signed error, not standard deviation."], ["Bias-corrects the equal-weight average (#4).", "Final = #4 − avg signed error (team, home/away).", "Excel labels it 'Ave Std Error of 5,6,7' but it adjusts #4 with #4's own history."], ["Gives more influence to component models that picked this team's spreads more accurately.", "Weight = team's spread accuracy per component ÷ sum of accuracies; final = Σ score × weight. Components 1,2,3,4,5,6,8,14.", "Excel's current vs. historical component sets differ (legacy discrepancy); site uses the current set. Equal weights until graded history exists."], ["Same as #9 but weights come from each component's team-specific moneyline accuracy.", "Weight = team's ML accuracy ÷ sum; final = Σ score × weight. Components 1,2,3,4,5,6,8,14.", "Same component-set caveat as #9."], ["Weights components by how accurately they predicted totals (O/U) in that team's games.", "Weight = team's O/U accuracy ÷ sum; final = Σ score × weight. Components 1,2,3,4,5,6,8,14.", "Optimized on totals, but the result is also graded for spread and ML."], ["Inverse-mean-absolute-error ensemble: models with smaller historical point errors get larger weights.", "Final = Σ(component ÷ MAE) ÷ Σ(1 ÷ MAE) over components 1,2,3,4,5,6,8,13,14, using the team's completed games.", "Not a standard deviation. MAE is floored at 0.1 to avoid divide-by-zero; equal weights until history exists."], ["Compounds the team's SOS offensive strength with the opponent's SOS defensive weakness, applied to their average baseline.", "Per metric: baseline = avg(team off, opp allowed); projected = baseline × (1+SOS off margin)(1+SOS opp def margin). Score = projected points.", "Excel names conflict (Final MGN % / SOS Mgn %)."], ["Bias-corrects the Final/SOS Marginal model (#13) with team- and venue-specific historical error.", "Final = #13 − avg signed error (team, home/away).", "Your Excel's best record was in-sample (graded on the same games it learned from). Treat with caution."], ["Projects passing and rushing TDs separately from offense-vs-defense TD margins and converts at 7 points per TD.", "Score = 7 × [(1+pass TD matchup margin)×1.51 + (1+rush TD matchup margin)×0.96]; matchup margin = (1+team off TD margin)(1+opp def TD margin) − 1.", "Needs ptd/rtd/ptd_a/rtd_a columns in teams.csv (re-run the updated script). No FG, defensive-TD or return-TD component."]];
 const ST=['pf','pa','pass','rush','pass_a','rush_a','ptd','rtd','ptd_a','rtd_a'];
 const wn=g=>/^\d+$/.test(g.week)?+g.week:19;
 function teamX(N){
@@ -264,7 +192,7 @@ function getCX(N){const key=S.weekly?N:0;if(CXc[key])return CXc[key];const{x,opp
   M.forEach(m=>{d.om[m]=d.off[m]/Lo[m]-1;d.dm[m]=d.al[m]/La[m]-1;d.aom[m]=o.length?d.off[m]/mean(o,e=>e.al[m])-1:d.om[m];d.adm[m]=o.length?d.al[m]/mean(o,e=>e.off[m])-1:d.dm[m];d.ypp[m]=d.off[m]/d.off.pts;d.yapp[m]=d.al[m]/d.al.pts})});
  const tdm=T.every(t=>D[t].td.every(v=>typeof v==='number'));
  if(tdm){const a=[0,1,2,3].map(i=>av(d=>d.td[i]));T.forEach(t=>{D[t].tdm=D[t].td.map((v,i)=>v/a[i]-1)})}
- return CXc[key]={D,tdm}}
+ return CXc[key]={D,tdm,opp,Lo,La}}
 let MVc={},DV=0,DVs=-1;
 /* Moving set for week N: every completed game before N, re-projected with stats entering N (all data through N-1).
    Bias/weight algorithms learn from the OTHER completed games (leave-self-out), in 3 passes so nothing is circular. */
@@ -407,15 +335,19 @@ function vPerf(){ensureVL();return '<div class="card">Week filter: <select oncha
 const st={t:'team',s:null,d:-1,q:''};
 const tipA=h=>h?' data-tip="'+h.replace(/&/g,'&amp;').replace(/"/g,'&quot;')+'"':'';
 const pct=v=>typeof v==='number'&&isFinite(v)?(v*100).toFixed(1)+'%':'–';
-const STB=[['team','Team offense/defense','Season-to-date per-game averages: what each team gains (offense) and allows (defense). The starting point for the projections.'],['raw','Raw margins','<b>Raw margins</b><br>Each team vs the league: team average per game ÷ league average − 1.'],['adj','Adjusted margins (SOS)','<b>Adjusted margins (strength of schedule)</b><br>What it is: how much a team’s offense and defense beat or trail the opponents it has actually played, so an easy or hard schedule is accounted for.<br>How it is calculated: team average per game ÷ average of the opponents faced − 1. For offense the benchmark is what each opponent’s defense allows; for defense it is what each opponent’s offense gains. Click a team to see the games behind it.'],['td','TD rates','Touchdowns per game scored and allowed, plus margins vs league. Feeds Projection 15.'],['fant','Fantasy DvP','Fantasy points each defense allows per game to QBs, RBs, WRs and TEs.'],['dvpd','DvP detail','Stats each defense allows per game by position.'],['weekly','Weekly results','One row per team per game. The weekly and moving records are rebuilt from these.'],['games','Schedule & lines','Schedule, scores and sportsbook lines.'],['players','Players','Season shares and rates used for player projections.'],['tds','TD events','Every touchdown (who scored, against which defense). Feeds the TD matchup research.']];
+const STB=[['team','Team offense/defense','Season-to-date per-game averages: what each team gains (offense) and allows (defense). The starting point for the projections.'],['raw','Raw margins','<b>Raw margin</b><br>Team vs the league: team average per game ÷ league average − 1.'],['sos','SOS margins','<b>SOS margin (strength of schedule)</b><br>What it is: how much a team’s offense and defense beat or trail the opponents it has actually played, so an easy or hard schedule is accounted for.<br>How it is calculated: team average per game ÷ average of the opponents faced − 1. For offense the benchmark is what each opponent’s defense allows; for defense it is what each opponent’s offense gains. Feeds Projections 3 and 13. Click a team to see the games behind it.'],['adjm','Adj margins','<b>Adj margin</b><br>What it is: the SOS margin adjusted again for how the opponents themselves performed against their own schedules.<br>How it is calculated: (1 + team SOS margin) ÷ (1 + average of the opponents’ SOS margins on the opposite stat) − 1. Offense is matched with the opponents’ defensive SOS margins; defense with their offensive ones. Click a team to see every number.'],['td','TD rates','Touchdowns per game scored and allowed, plus margins vs league. Feeds Projection 15.'],['fant','Fantasy DvP','Fantasy points each defense allows per game to QBs, RBs, WRs and TEs.'],['dvpd','DvP detail','Stats each defense allows per game by position.'],['weekly','Weekly results','One row per team per game. The weekly and moving records are rebuilt from these.'],['games','Schedule & lines','Schedule, scores and sportsbook lines.'],['players','Players','Season shares and rates used for player projections.'],['tds','TD events','Every touchdown (who scored, against which defense). Feeds the TD matchup research.']];
 function stSpec(){const N=S.weekly?NC():0,C=getCX(N),ok=!C.bad,D=ok?C.D:{},thru=S.weekly?' Through week '+(NC()-1)+'.':'',n0=v=>f(v,0),n1=v=>f(v,1),n2=v=>f(v,2),L={pts:'Pts',tot:'Tot yds',pass:'Pass yds',rush:'Rush yds'};
  const tr=ok?T.map(t=>({t,d:D[t]})):[],M=['pts','tot','pass','rush'];
- const tp=(adj,side,m)=>{const lab=L[m].toLowerCase(),k=adj?'Adjusted':'Raw';return side==='O'?`<b>${k} offensive margin: ${L[m]}</b><br>What it is: how much more or less ${lab} per game this team produces than ${adj?'its opponents typically allow':'the league average'}.<br>How it is calculated: team ${lab} per game ÷ ${adj?'the average '+lab+' allowed per game by the opponents it has faced':'the league average '+lab+' per game'} − 1.<br>Above 0% = better than the benchmark.`:`<b>${k} defensive margin: ${L[m]}</b><br>What it is: how much more or less ${lab} this defense allows per game than ${adj?'its opponents typically produce':'the league average'}.<br>How it is calculated: ${lab} allowed per game ÷ ${adj?'the average '+lab+' per game gained by the opponents it has faced':'the league average '+lab+' allowed'} − 1.<br>Above 0% = allowed MORE than the benchmark (weaker defense); below 0% = tougher defense.`};
+ const mean_=a=>a.reduce((x,y)=>x+y,0)/a.length,adjOf=t=>{const o=ok?C.opp[t]:[],r={off:{},al:{}};M.forEach(m=>{r.off[m]=o.length?(1+D[t].aom[m])/(1+mean_(o.map(x=>D[x].adm[m])))-1:NaN;r.al[m]=o.length?(1+D[t].adm[m])/(1+mean_(o.map(x=>D[x].aom[m])))-1:NaN});return r};
+ const trA=ok?T.map(t=>({t,d:D[t],ad:adjOf(t)})):[];
+ const tpA=(side,m)=>{const lab=L[m].toLowerCase();return side==='O'?`<b>Adj offensive margin: ${L[m]}</b><br>What it is: the team’s SOS ${lab} offensive margin, adjusted again for how its opponents’ defenses did against their own schedules.<br>How it is calculated: (1 + team SOS offense margin) ÷ (1 + average of its opponents’ SOS defensive margins) − 1.<br>Above 0% = better than its schedule-adjusted expectation.`:`<b>Adj defensive margin: ${L[m]}</b><br>What it is: the team’s SOS ${lab} defensive margin, adjusted again for how its opponents’ offenses did against their own schedules.<br>How it is calculated: (1 + team SOS defense margin) ÷ (1 + average of its opponents’ SOS offensive margins) − 1.<br>Above 0% = allowed MORE than expected (weaker defense).`};
+ const tp=(adj,side,m)=>{const lab=L[m].toLowerCase(),k=adj?'SOS':'Raw';return side==='O'?`<b>${k} offensive margin: ${L[m]}</b><br>What it is: how much more or less ${lab} per game this team produces than ${adj?'its opponents typically allow':'the league average'}.<br>How it is calculated: team ${lab} per game ÷ ${adj?'the average '+lab+' allowed per game by the opponents it has faced':'the league average '+lab+' per game'} − 1.<br>Above 0% = better than the benchmark.`:`<b>${k} defensive margin: ${L[m]}</b><br>What it is: how much more or less ${lab} this defense allows per game than ${adj?'its opponents typically produce':'the league average'}.<br>How it is calculated: ${lab} allowed per game ÷ ${adj?'the average '+lab+' per game gained by the opponents it has faced':'the league average '+lab+' allowed'} − 1.<br>Above 0% = allowed MORE than the benchmark (weaker defense); below 0% = tougher defense.`};
  const mg=(a,b)=>[['Team',r=>r.t,chip]].concat(...M.map(m=>[['Off '+L[m],r=>r.d[a][m],pct,tp(a==='aom','O',m)],['Def '+L[m],r=>r.d[b][m],pct,tp(a==='aom','D',m)]]));
  return{
  team:{note:'Per-game averages the projections start from (Projections 1–4 and 13, and all margin math).'+thru,rows:tr,cols:[['Team',r=>r.t,chip],['PF',r=>r.d.off.pts,n1],['PA',r=>r.d.al.pts,n1],['Pass yds',r=>r.d.off.pass,n0],['Rush yds',r=>r.d.off.rush,n0],['Total yds',r=>r.d.off.tot,n0],['Pass yds A',r=>r.d.al.pass,n0],['Rush yds A',r=>r.d.al.rush,n0],['Total yds A',r=>r.d.al.tot,n0],['Yds/pt',r=>r.d.ypp.tot,n2],['Yds/pt allowed',r=>r.d.yapp.tot,n2]]},
  raw:{note:'Raw margin = team average ÷ league average − 1 (offense, and defense allowed). Feeds Projection 2.'+thru,rows:tr,cols:mg('om','dm')},
- adj:{note:'Adjusted (strength-of-schedule) margin = team average ÷ average of the opponents faced − 1. Feeds Projections 3 and 13.'+thru,rows:tr,cols:mg('aom','adm')},
+ sos:{note:'SOS (strength-of-schedule) margin = team average ÷ average of the opponents faced − 1. Feeds Projections 3 and 13.'+thru,rows:tr,cols:mg('aom','adm')},
+ adjm:{note:'Adj margin = (1 + SOS margin) ÷ (1 + the opponents’ average SOS margin on the opposite stat) − 1.'+thru,rows:trA,cols:[['Team',r=>r.t,chip]].concat(...M.map(m=>[['Off '+L[m],r=>r.ad.off[m],pct,tpA('O',m)],['Def '+L[m],r=>r.ad.al[m],pct,tpA('D',m)]]))},
  td:{note:'Touchdowns per game and margin vs league. Feeds Projection 15.'+thru,rows:ok&&C.tdm?tr:[],cols:[['Team',r=>r.t,chip],['Pass TD/g',r=>r.d.td[0],n2],['Rush TD/g',r=>r.d.td[1],n2],['Pass TD allowed',r=>r.d.td[2],n2],['Rush TD allowed',r=>r.d.td[3],n2],['Pass TD off margin',r=>r.d.tdm[0],pct],['Rush TD off margin',r=>r.d.tdm[1],pct],['Pass TD def margin',r=>r.d.tdm[2],pct],['Rush TD def margin',r=>r.d.tdm[3],pct]]},
  fant:{note:'Fantasy points allowed per game by each defense. Feeds the Opp D vs Pos panels.',rows:S.teams&&S.teams[T[0]].dvp_qb!=null?T.map(t=>({t,x:S.teams[t]})):[],cols:[['Team',r=>r.t,chip],['vs QB',r=>r.x.dvp_qb,n1],['vs RB',r=>r.x.dvp_rb,n1],['vs WR',r=>r.x.dvp_wr,n1],['vs TE',r=>r.x.dvp_te,n1]]},
  dvpd:{note:'Stats each defense allows per game by position. Feeds the stat-level matchup panels.',rows:S.dvp?T.map(t=>({t,x:S.dvp[t]})):[],cols:[['Team',r=>r.t,chip]].concat(...DVT.map(([p,cs])=>cs.map(([l,k])=>[p+' '+l,r=>r.x[k],n1])))},
@@ -433,9 +365,13 @@ function stPanel(t){const N=S.weekly?NC():0,C=getCX(N);if(C.bad||!S.weekly)retur
   return `<tr><td>${g.week}</td><td>${g.home===t?'vs':'@'} ${chip(o)}</td>${res}${sc}${M.map(([m])=>'<td>'+f(od.al[m],m==='pts'?1:0)+'</td>').join('')}${M.map(([m])=>'<td>'+f(od.off[m],m==='pts'?1:0)+'</td>').join('')}</tr>`}).join('');
  const hd=['Wk','Opp','Result','Pass','Rush','Total yds','Pass A','Rush A','Total A','Opp D Pts','Opp D Tot','Opp D Pass','Opp D Rush','Opp O Pts','Opp O Tot','Opp O Pass','Opp O Rush'];
  let calc='';
- if((st.t==='adj'||st.t==='raw')&&wr.length){const adj=st.t==='adj',opps=wr.map(r=>r.opp),mean=q=>opps.reduce((s,o)=>s+q(D[o]),0)/opps.length,lg=q=>T.reduce((s,x)=>s+q(D[x]),0)/32;
+ if((st.t==='sos'||st.t==='raw')&&wr.length){const adj=st.t==='sos',opps=wr.map(r=>r.opp),mean=q=>opps.reduce((s,o)=>s+q(D[o]),0)/opps.length,lg=q=>T.reduce((s,x)=>s+q(D[x]),0)/32;
   const cr=(side,m,lab)=>{const tv=side==='O'?d.off[m]:d.al[m],bv=adj?(side==='O'?mean(o=>o.al[m]):mean(o=>o.off[m])):(side==='O'?lg(x=>x.off[m]):lg(x=>x.al[m])),mg=tv/bv-1;return `<tr><td>${side==='O'?'Offense':'Defense (allowed)'}</td><td>${lab}</td><td>${f(tv,1)}</td><td>${f(bv,1)}</td><td>${f(tv,1)} ÷ ${f(bv,1)} − 1</td><td><b>${pct(mg)}</b></td></tr>`};
-  calc=`<h3 style="margin-top:12px">How the ${adj?'adjusted':'raw'} margin is calculated</h3><div class="w"><table class="xt"><tr><th>Side</th><th>Metric</th><th>Team avg / game</th><th>${adj?'Avg of opponents faced':'League average'}</th><th>Calculation</th><th>Margin</th></tr>${M.map(([m,l])=>cr('O',m,l)+cr('D',m,l)).join('')}</table></div><div class="mu">${adj?'Benchmark = the average of the opponents this team has faced, one entry per game played (for offense: what each opponent\'s defense allows per game; for defense: what each opponent\'s offense gains per game). Opponent averages are their season-to-date numbers.':'Benchmark = league average per game.'} Offense margin above 0 = beat the benchmark; defense margin above 0 = allowed more than the benchmark (a weaker defense).</div>`}
+  calc=`<h3 style="margin-top:12px">How the ${adj?'SOS':'raw'} margin is calculated</h3><div class="w"><table class="xt"><tr><th>Side</th><th>Metric</th><th>Team avg / game</th><th>${adj?'Avg of opponents faced':'League average'}</th><th>Calculation</th><th>Margin</th></tr>${M.map(([m,l])=>cr('O',m,l)+cr('D',m,l)).join('')}</table></div><div class="mu">${adj?'Benchmark = the average of the opponents this team has faced, one entry per game played (for offense: what each opponent\'s defense allows per game; for defense: what each opponent\'s offense gains per game). Opponent averages are their season-to-date numbers.':'Benchmark = league average per game.'} Offense margin above 0 = beat the benchmark; defense margin above 0 = allowed more than the benchmark (a weaker defense).</div>`}
+ if(st.t==='adjm'&&wr.length){const opps=wr.map(r=>r.opp),mean=q=>opps.reduce((s,o)=>s+q(D[o]),0)/opps.length;
+  const cr2=(side,m,lab)=>{const own=side==='O'?d.aom[m]:d.adm[m],oth=mean(o=>side==='O'?o.adm[m]:o.aom[m]),v=(1+own)/(1+oth)-1;return `<tr><td>${side==='O'?'Offense':'Defense (allowed)'}</td><td>${lab}</td><td>${pct(own)}</td><td>${pct(oth)}</td><td>(1 + ${pct(own)}) ÷ (1 + ${pct(oth)}) − 1</td><td><b>${pct(v)}</b></td></tr>`};
+  const orow=wr.map(r=>{const od=D[r.opp];return `<tr><td>${chip(r.opp)}</td>${M.map(([m])=>'<td>'+pct(od.adm[m])+'</td>').join('')}${M.map(([m])=>'<td>'+pct(od.aom[m])+'</td>').join('')}</tr>`}).join('');
+  calc=`<h3 style="margin-top:12px">How the Adj margin is calculated</h3><div class="w"><table class="xt"><tr><th>Side</th><th>Metric</th><th>Team SOS margin</th><th>Avg of opponents’ SOS margins (opposite side)</th><th>Calculation</th><th>Adj margin</th></tr>${M.map(([m,l])=>cr2('O',m,l)+cr2('D',m,l)).join('')}</table></div><div class="mu">Adj margin = (1 + SOS margin) ÷ (1 + average of the opponents’ SOS margins on the opposite stat) − 1. For offense the opponents’ numbers are their defensive SOS margins (what they allow); for defense they are their offensive ones.</div><h3 style="margin-top:12px">The opponents’ SOS margins that were averaged</h3><div class="w"><table class="xt"><tr><th>Opp</th><th>D Pts</th><th>D Tot</th><th>D Pass</th><th>D Rush</th><th>O Pts</th><th>O Tot</th><th>O Pass</th><th>O Rush</th></tr>${orow}</table></div>`}
  return `<div style="padding:6px;text-align:left;white-space:normal"><div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap">${chip(t)} <b>${FN(t)}</b> <span class="mu">${w_}-${l_} · ${wr.length} games played</span></div><h3 style="margin-top:10px">Schedule &amp; results</h3><div class="w"><table class="xt"><tr>${hd.map(h=>'<th>'+h+'</th>').join('')}</tr>${body}</table></div><div class="mu">A = allowed. Opp D = what the opponent's defense allows per game on average; Opp O = what the opponent's offense gains per game on average.</div>${calc}</div>`}
 function stTable(){const sp=stSpec()[st.t];if(!sp.rows.length)return '<div class="mu" style="padding:8px">No data loaded for this table yet (see the Data tab).</div>';
  let rows=sp.rows.slice();const q=st.q.trim().toLowerCase();if(q)rows=rows.filter(r=>sp.cols.some(c=>String(c[1](r)).toLowerCase().includes(q)));
@@ -447,7 +383,7 @@ function vStats(){if(!S.teams)return '<div class="card">Loading the latest data�
 function vData(){
  const box=(k,t)=>'<div class="card"><h3>'+t+'</h3><textarea id="t_'+k+'" placeholder="'+TPL[k].replace(/\n/g,'&#10;')+'"></textarea><button class="b" onclick="doImport(\''+k+'\')">Import</button> <button class="b s" onclick="document.getElementById(\'t_'+k+'\').value=TPL.'+k+'">Insert template</button> <label class="mu">or upload CSV: <input type="file" accept=".csv" onchange="loadFile(\''+k+'\',this)"></label></div>';
  return (logm?'<div class="msg '+logm[0]+'">'+logm[1]+'</div>':'')
- +'<div class="card"><b>Weekly update:</b> paste fresh CSVs below (from any stats site or spreadsheet export). Imports are validated (32 unique known teams, numeric stats, no duplicate games) and rejected whole if invalid, so good data is never overwritten. Per-game values: pf/pa points, pass/rush yards, <i>_a</i> = allowed. spread = home line (−3 = home favored). Leave scores blank for future games.<br><br><button class="b s" onclick="demo()">Load synthetic DEMO data</button> <button class="b s" onclick="exp()">Export backup</button> <button class="b s" onclick="touch(DS)">☁ Upload this device data</button> <button class="b s" onclick="S._at={};sInit()">☁ Download from cloud</button> <button class="b s" onclick="if(confirm(\'Erase all data and locks?\')){S={teams:null,weekly:null,games:{},players:[],locks:{}};save();DV++;touch(DS);render()}">Reset</button></div>'
+ +'<div class="card"><b>Weekly update:</b> paste fresh CSVs below (from any stats site or spreadsheet export). Imports are validated (32 unique known teams, numeric stats, no duplicate games) and rejected whole if invalid, so good data is never overwritten. Per-game values: pf/pa points, pass/rush yards, <i>_a</i> = allowed. spread = home line (−3 = home favored). Leave scores blank for future games.<br><br><button class="b s" onclick="demo()">Load synthetic DEMO data</button> <button class="b s" onclick="exp()">Export backup</button> <button class="b s" onclick="touch(DS)">☁ Upload this device data</button> <button class="b s" onclick="S._at={};sInit()">☁ Download from cloud</button> <button class="b s" onclick="if(confirm(\'Erase all data and locks?\')){S={teams:null,weekly:null,games:{},players:[],locks:{},lab:S.lab,labWork:S.labWork};save();DV++;touch(DS);render()}">Reset</button></div>'
  +box('teams','1 · Team stats (32 rows)')+box('games','2 · Schedule, scores & lines')+box('weekly','4 · Weekly team results (drives the moving record — no locking needed)')+box('players','3 · Player shares/rates')+box('dvp','5 · Defense vs position detail (optional, for stat-level matchups)')+box('tds','6 · TD events (who scored against each defense; optional)')
  +'<div class="card mu">Status: '+(S.teams?'teams ✔':'teams ✖')+' · '+(S.weekly?S.weekly.length+' team-weeks ✔':'weekly ✖')+' · '+(S.tds?S.tds.length+' TDs ✔':'tds ✖')+' · '+games().length+' games · '+S.players.length+' players · '+Object.keys(S.locks).length+' locked forecasts · '+syncMsg+'</div>'}
 function loadFile(k,i){const f0=i.files[0];if(!f0)return;const r=new FileReader();r.onload=()=>{document.getElementById('t_'+k).value=r.result;doImport(k)};r.readAsText(f0)}
@@ -459,12 +395,12 @@ function demo(){let s=7;const R=()=>(s=(s*16807)%2147483647)/2147483647,n=(m,sd)
  for(let w=1;w<=4;w++){const r=T.map((_,i)=>T[(i+w*5)%32]);for(let i=0;i<16;i++){const a=r[i],h=r[31-i],fin=w<4;g+=[w,a,h,fin?Math.round(n(22,7)):'',fin?Math.round(n(23,7)):'',(-Math.round(n(0,4)*2)/2),Math.round(n(44,4)*2)/2].join(',')+'\n'}}
  let p='player,team,pos,tgt_share,catch_rate,ypt,carry_share,ypc,td_rate\n';
  T.forEach(t=>{p+=[`${t} QB`,t,'QB','',.66,'','','',.045].join(',')+'\n'+[`${t} RB1`,t,'RB',.14,.75,6,.55,4.3,.07].join(',')+'\n'+[`${t} WR1`,t,'WR',.26,.66,9,'','',.07].join(',')+'\n'+[`${t} WR2`,t,'WR',.2,.64,8,'','',.05].join(',')+'\n'+[`${t} TE1`,t,'TE',.18,.68,7.5,'','',.05].join(',')+'\n'});
- S={teams:null,weekly:null,games:{},players:[],locks:{}};try{IMP.teams(c);IMP.games(g);IMP.players(p);const wr=['team,week,opp,pf,pa,pass,rush,pass_a,rush_a,ptd,rtd,ptd_a,rtd_a'],q=(m,d)=>Math.max(0,Math.round(n(m,d)));Object.values(S.games).filter(g=>g.final).forEach(g=>{[[g.home,g.away,g.home_score,g.away_score],[g.away,g.home,g.away_score,g.home_score]].forEach(([t,o,pf,pa])=>wr.push([t,g.week,o,pf,pa,q(225,40),q(115,30),q(225,40),q(115,30),q(1.5,1.5),q(1,1),q(1.5,1.5),q(1,1)].join(',')))});IMP.weekly(wr.join('\n'));{const tr=['scorer,pos,type,yards,passer,team,defense,week,game,qtr,clock,first'],fi={};Object.values(S.games).filter(g=>g.final).forEach(g=>{[[g.home,g.away],[g.away,g.home]].forEach(([t,d])=>{S.players.filter(x=>x.team===t&&x.pos!=='QB').sort(()=>R()-.5).slice(0,2+Math.floor(R()*2)).forEach(x=>{const first=!fi[g.id]&&R()<.5?1:0;if(first)fi[g.id]=1;tr.push([x.player,x.pos,x.pos==='RB'&&R()<.6?'Rushing':'Passing',Math.round(5+R()*40),'',t,d,g.week,g.away+' @ '+g.home,1+Math.floor(R()*4),'',first].join(','))})})});IMP.tds(tr.join('\n'))}IMP.dvp('team,'+DVT.flatMap(x=>x[1].map(c=>c[1])).join(',')+'\n'+T.map(t=>t+','+DVT.flatMap(x=>x[1]).map(()=>n(10,3).toFixed(1)).join(',')).join('\n'));save();DV++;touch(DS);logm=['ok','✔ Synthetic DEMO loaded (random numbers, not real NFL data). Weeks 1–3 final, week 4 upcoming.']}catch(e){logm=['er',e.message]}wk='4';tab='games';render()}
-function render(){if(DVs!==DV){CXc={};PC={};MVc={};VLr=0;VL={};DVs=DV}document.getElementById('tabs').innerHTML=[['games','Games'],['players','Players'],['stats','Stats'],['perf','Performance']].map(([k,l])=>'<button class="tab '+(tab===k?'on':'')+'" onclick="tab=\''+k+'\';render()">'+l+'</button>').join('');
- document.getElementById('app').innerHTML={games:vGames,players:vPlayers,stats:vStats,perf:vPerf,data:vData}[tab]()}
+ S={teams:null,weekly:null,games:{},players:[],locks:{},lab:S.lab,labWork:S.labWork};try{IMP.teams(c);IMP.games(g);IMP.players(p);const wr=['team,week,opp,pf,pa,pass,rush,pass_a,rush_a,ptd,rtd,ptd_a,rtd_a'],q=(m,d)=>Math.max(0,Math.round(n(m,d)));Object.values(S.games).filter(g=>g.final).forEach(g=>{[[g.home,g.away,g.home_score,g.away_score],[g.away,g.home,g.away_score,g.home_score]].forEach(([t,o,pf,pa])=>wr.push([t,g.week,o,pf,pa,q(225,40),q(115,30),q(225,40),q(115,30),q(1.5,1.5),q(1,1),q(1.5,1.5),q(1,1)].join(',')))});IMP.weekly(wr.join('\n'));{const tr=['scorer,pos,type,yards,passer,team,defense,week,game,qtr,clock,first'],fi={};Object.values(S.games).filter(g=>g.final).forEach(g=>{[[g.home,g.away],[g.away,g.home]].forEach(([t,d])=>{S.players.filter(x=>x.team===t&&x.pos!=='QB').sort(()=>R()-.5).slice(0,2+Math.floor(R()*2)).forEach(x=>{const first=!fi[g.id]&&R()<.5?1:0;if(first)fi[g.id]=1;tr.push([x.player,x.pos,x.pos==='RB'&&R()<.6?'Rushing':'Passing',Math.round(5+R()*40),'',t,d,g.week,g.away+' @ '+g.home,1+Math.floor(R()*4),'',first].join(','))})})});IMP.tds(tr.join('\n'))}IMP.dvp('team,'+DVT.flatMap(x=>x[1].map(c=>c[1])).join(',')+'\n'+T.map(t=>t+','+DVT.flatMap(x=>x[1]).map(()=>n(10,3).toFixed(1)).join(',')).join('\n'));save();DV++;touch(DS);logm=['ok','✔ Synthetic DEMO loaded (random numbers, not real NFL data). Weeks 1–3 final, week 4 upcoming.']}catch(e){logm=['er',e.message]}wk='4';tab='games';render()}
+function render(){if(DVs!==DV){CXc={};PC={};MVc={};VLr=0;VL={};DVs=DV}document.getElementById('tabs').innerHTML=[['games','Games'],['players','Players'],['stats','Stats'],['lab','Projections'],['perf','Performance']].map(([k,l])=>'<button class="tab '+(tab===k?'on':'')+'" onclick="tab=\''+k+'\';render()">'+l+'</button>').join('');
+ document.getElementById('app').innerHTML={games:vGames,players:vPlayers,stats:vStats,lab:vLabSafe,perf:vPerf,data:vData}[tab]()}
 
 /* ---- cloud sync: private to your account, shared across your devices ---- */
-const DS=['teams','games','weekly','players','dvp','tds','locks'],KVs={teams:1,games:1,dvp:1,locks:1};
+const DS=['teams','games','weekly','players','dvp','tds','locks','lab'],KVs={teams:1,games:1,dvp:1,locks:1};
 let DB_=null,CAN=false,syncMsg='☁ connecting…',pushQ=Promise.resolve(),pend=new Set(),tmr=null;
 const sbadge=()=>{const e=document.getElementById('sync');if(e)e.textContent=syncMsg};
 const sget=k=>KVs[k]?Object.entries(S[k]||{}).map(([a,v])=>({k:a,v})):(S[k]||[]);
@@ -504,6 +440,178 @@ async function webInit(){syncMsg='⏳ loading latest data…';sbadge();let ok=0,
  if(ok){save();syncMsg='📅 Data updated '+(lm?new Date(lm).toLocaleString([],{dateStyle:'medium',timeStyle:'short'}):'(date unavailable)')+(err.length?' · missing: '+err.join('; '):'')}
  else syncMsg='⚠ No data files found yet ('+err[0]+')';
  sbadge();render()}
+/* ================= Projections tab: active formulas + Projection Lab (experimental, isolated) ================= */
+const LM={pts:'Points',tot:'Total yds',pass:'Pass yds',rush:'Rush yds'},LMs=m=>m==='$m'?'[each stat]':LM[m];
+const WHOL={team:'Team',opp:'Opp',league:'League avg',faced:'Avg of Team’s opponents',ofaced:'Avg of Opp’s opponents',x:'Each opponent',xfaced:'Opponent’s own opponents'},SIDEL={off:'gained',al:'allowed',ypp:'yds/pt scored',yapp:'yds/pt allowed'};
+const R_=(who,side,m)=>({k:'r',who,side,m}),B_=(op,a,b)=>({k:'b',op,a,b}),C_=v=>({k:'c',v}),cp=n=>JSON.parse(JSON.stringify(n));
+const lv=(d,s,m)=>s==='off'?d.off[m]:s==='al'?d.al[m]:s==='ypp'?d.ypp[m]:d.yapp[m];
+function lgv(C,s,m){C._l=C._l||{};const k=s+m;return C._l[k]!==undefined?C._l[k]:(C._l[k]=T.reduce((a,t)=>a+lv(C.D[t],s,m),0)/32)}
+/* evaluate a formula tree for one team (x.t) against its opponent (x.o) using the stats in C */
+function ev(n,x){const mm=v=>v==='$m'?x.m:v;
+ switch(n.k){
+ case 'c':return n.v;
+ case 'r':{const m=mm(n.m);if(!m)return NaN;const C=x.C,D=C.D;
+  if(n.who==='team')return lv(D[x.t],n.side,m);if(n.who==='opp')return lv(D[x.o],n.side,m);
+  if(n.who==='x')return x.xo?lv(D[x.xo],n.side,m):NaN;if(n.who==='league')return lgv(C,n.side,m);
+  const L=(n.who==='faced'?C.opp[x.t]:n.who==='ofaced'?C.opp[x.o]:x.xo?C.opp[x.xo]:[])||[];
+  return L.length?L.reduce((a,t)=>a+lv(D[t],n.side,m),0)/L.length:NaN}
+ case 'p':{const r=x.R&&x.R[n.n-1];return r?r.pts:NaN}
+ case 'b':{const a=ev(n.a,x),b=ev(n.b,x);return n.op==='+'?a+b:n.op==='-'?a-b:n.op==='*'?a*b:a/b}
+ case 'avg':return avg_(n.items.map(i=>ev(i,x)));
+ case 'wavg':{let s=0,w=0;n.items.forEach(i=>{s+=ev(i.n,x)*i.w;w+=i.w});return s/w}
+ case 'pts':{const m=mm(n.m);if(!m||m==='pts')return NaN;const D=x.C.D,y=ev(n.y,x);return(y/D[x.t].ypp[m]+y/D[x.o].yapp[m])/2}
+ case 'favg':{const L=(n.who==='opp'?x.C.opp[x.o]:x.C.opp[x.t])||[];return L.length?avg_(L.map(xo=>ev(n.body,{...x,xo}))):NaN}
+ case 'allm':return avg_(n.ms.map(m=>ev(n.body,{...x,m})))}
+ return NaN}
+function tx(n){switch(n.k){
+ case 'c':return String(n.v);
+ case 'r':return WHOL[n.who]+' '+LMs(n.m)+' '+SIDEL[n.side];
+ case 'p':return 'P'+n.n;
+ case 'b':return '('+tx(n.a)+' '+({'+':'+','-':'−','*':'×','/':'÷'})[n.op]+' '+tx(n.b)+')';
+ case 'avg':return 'Avg('+n.items.map(tx).join(', ')+')';
+ case 'wavg':return 'WAvg('+n.items.map(i=>tx(i.n)+' ×'+i.w).join(', ')+')';
+ case 'pts':return 'Pts['+LMs(n.m)+']('+tx(n.y)+')';
+ case 'favg':return 'Avg over '+(n.who==='opp'?'Opp’s':'Team’s')+' opponents of '+tx(n.body);
+ case 'allm':return 'Avg over '+n.ms.map(m=>LM[m]).join('/')+' of '+tx(n.body)}
+ return '?'}
+
+/* ---- the 15 active projections, written out (read-only) ---- */
+const FX=[
+{d:[],f:['Blend[m] = ( Team gained[m] + Opp allowed[m] ) / 2','Points[m] = ( Blend[m] ÷ Team yds-per-pt[m] + Blend[m] ÷ Opp yds-allowed-per-pt[m] ) / 2','P1 = average of Points[Total], Points[Pass], Points[Rush]']},
+{d:[],f:['Team off margin[m] = Team gained[m] ÷ League avg gained[m] − 1','Opp def margin[m] = Opp allowed[m] ÷ League avg allowed[m] − 1','Blend[m] = ( (1 + Team off margin[m]) × Opp allowed[m] + (1 + Opp def margin[m]) × Team gained[m] ) / 2','Points[m] and P2 = same conversion as P1']},
+{d:[],f:['Team SOS off margin[m] = Team gained[m] ÷ Avg( Opp allowed[m] of the teams it has faced ) − 1','Opp SOS def margin[m] = Opp allowed[m] ÷ Avg( gained[m] of the teams that opponent has faced ) − 1','Blend[m] = ( (1 + Team SOS off margin[m]) × Opp allowed[m] + (1 + Opp SOS def margin[m]) × Team gained[m] ) / 2','Points[m] and P3 = same conversion as P1']},
+{d:[1,2,3],f:['P4 = ( P1 + P2 + P3 ) / 3','Yards = ( P4 × Team yds-per-pt + P4 × Opp allowed yds-per-pt ) / 2']},
+{d:[1],f:['P5 = P1 − average( P1 projected − actual ) over this team’s completed games in the same home/away role','No history yet → no adjustment']},
+{d:[2],f:['P6 = P2 − average( P2 projected − actual ) over this team’s completed games in the same home/away role']},
+{d:[3],f:['P7 = P3 − average( P3 projected − actual ) over this team’s completed games in the same home/away role']},
+{d:[4],f:['P8 = P4 − average( P4 projected − actual ) over this team’s completed games in the same home/away role']},
+{d:[1,2,3,4,5,6,8,14],f:['Weight[c] = this team’s SPREAD accuracy of component c ÷ sum of all components’ accuracies','P9 = Σ ( P[c] × Weight[c] ) for c in P1, P2, P3, P4, P5, P6, P8, P14','Equal weights until graded history exists']},
+{d:[1,2,3,4,5,6,8,14],f:['Weight[c] = this team’s MONEYLINE accuracy of component c ÷ sum of all components’ accuracies','P10 = Σ ( P[c] × Weight[c] ) for c in P1, P2, P3, P4, P5, P6, P8, P14']},
+{d:[1,2,3,4,5,6,8,14],f:['Weight[c] = this team’s OVER/UNDER accuracy of component c ÷ sum of all components’ accuracies','P11 = Σ ( P[c] × Weight[c] ) for c in P1, P2, P3, P4, P5, P6, P8, P14']},
+{d:[1,2,3,4,5,6,8,13,14],f:['MAE[c] = this team’s average absolute error of component c (floored at 0.1)','P12 = Σ ( P[c] ÷ MAE[c] ) ÷ Σ ( 1 ÷ MAE[c] ) for c in P1, P2, P3, P4, P5, P6, P8, P13, P14']},
+{d:[],f:['Baseline = ( Team points gained + Opp points allowed ) / 2','P13 = Baseline × (1 + Team SOS off margin[Points]) × (1 + Opp SOS def margin[Points])']},
+{d:[13],f:['P14 = P13 − average( P13 projected − actual ) over this team’s completed games in the same home/away role']},
+{d:[],f:['Matchup margin = (1 + Team TD off margin) × (1 + Opp TD def margin) − 1   (pass and rush separately)','P15 = 7 × [ (1 + pass matchup margin) × 1.51 + (1 + rush matchup margin) × 0.96 ]']}];
+const pexp=new Set(),pxt=n=>{pexp.has(n)?pexp.delete(n):pexp.add(n);render()};
+function activeHTML(){const A=accShow().v;
+ return '<div class="card"><h3>Active projections <span class="mu">(the 15 the site uses today; click one to see exactly how it is calculated)</span></h3>'+FX.map((x,i)=>{const n=i+1,open=pexp.has(n),a=A[i],by=FX.map((y,j)=>y.d.includes(n)?'P'+(j+1):'').filter(Boolean);
+  return `<div class="pj"><div class="pjh" onclick="pxt(${n})"><b>P${n}</b> ${ALG[i].replace(/^\d+-/,'')}<span class="pjs">${[['Spr',a.ats],['ML',a.ml],['Tot',a.ou]].map(([l,v])=>`<i class="${v==null?'':v>=55?'g':v<=45?'r':''}">${l} ${v==null?'–':f(v,0)+'%'}</i>`).join('')}<span class="mu">${open?'▲':'▼'}</span></span></div>`
+   +(open?`<div class="pjb"><div class="fx">${x.f.map(l=>'<div>'+l+'</div>').join('')}</div><p style="margin:4px 0">${ABOUT[i][0]}</p><p class="mu" style="margin:4px 0"><b>Steps:</b> ${ABOUT[i][1]}</p><p class="mu" style="margin:4px 0"><b>Note:</b> ${ABOUT[i][2]}</p><p class="mu" style="margin:4px 0">Uses: ${x.d.length?x.d.map(d=>'P'+d).join(', '):'raw team stats only'} · Used by: ${by.join(', ')||'nothing else'}</p>${[1,2,3,13].includes(n)?`<button class="b s" onclick="lbTpl(${n})">Open this rebuild in the Lab</button>`:''}${n===3?` <button class="b s" onclick="lbTpl('adj')">Open the Adj-margin version in the Lab</button>`:''}</div>`:'')+'</div>'}).join('')+'<div class="mu">Percentages = moving-record accuracy (all completed games re-projected with current stats). [m] = Total, Pass and Rush yards, each calculated separately.</div></div>'}
+
+/* ---- Lab: reusable blocks, step-by-step builder, historical tester ---- */
+const D0={who:'team',side:'off',m:'pass',bench:'league',whose:'team',xside:'al',xbench:'league',op:'/',a:'',an:1,a1:false,b:'',bn:1,b1:false,items:[],ws:'',src:'',ms:{tot:true,pass:true,rush:true,pts:false}};
+const LB={k:'raw',f:cp(D0),w:S.labWork||{name:'My projection',steps:[]},res:null,par:null,mode:'wk',err:''};
+const PAL=[['data','Raw stat','A starting number from your data, e.g. Team pass yards gained per game, or what an opponent allows.'],
+['raw','Raw Margin','<b>Raw Margin</b><br>Team average vs the <b>league average</b>.<br>(Team average ÷ League average) − 1. Example: Team pass yards per game ÷ league pass yards per game − 1.'],
+['sos','SOS Margin','<b>SOS Margin</b> (strength of schedule)<br>Team average vs the <b>average of the opponents it has faced</b>.<br>(Team average ÷ Opponents’ average) − 1. For an offense the benchmark is what those opponents’ defenses allow; for a defense it is what their offenses gain.'],
+['adj','Adj Margin','<b>Adj Margin</b><br>Your Excel method: the SOS margin adjusted again for the opponents’ own SOS margins.<br>(1 + SOS margin) ÷ (1 + average of the opponents’ SOS margins on the <i>opposite</i> stat) − 1. Example: Team A’s pass-offense SOS margin against the average pass-allowed SOS margin of B, C and D.'],
+['oppavg','Opponents’ Avg Margin','<b>Opponents’ Avg Margin</b><br>Looks at every opponent a team has faced, takes that opponent’s Raw or SOS margin on the stat you pick, and averages them. This is the “Adjustment Multiplier” that the Adj Margin divides by.'],
+['combine','Combine (+ − × ÷)','<b>Combine</b><br>Adds, subtracts, multiplies or divides two values: earlier steps, your saved blocks, active projections, or a number. Tick “1 +” to use 1 + the value (e.g. 1 + margin).'],
+['pts','Yards → points','<b>Yards → points</b><br>Converts a yardage estimate into points using both teams’ yards-per-point rates, the same conversion Projections 1–3 use.'],
+['avg','Average / weighted','<b>Average</b><br>Averages several values or active projections. Add weights like 40,35,25 for a weighted average.'],
+['allm','Average across stats','<b>Average across stats</b><br>Runs a step once for Total, Pass and Rush (and/or Points) and averages the results. Lets one calculation cover every stat.']];
+const opOpts=()=>{const o=[['','— choose —']];LB.w.steps.forEach((s,i)=>o.push(['s:'+i,'Step '+(i+1)+': '+s.name]));(S.lab||[]).filter(x=>x.kind==='block').forEach(b=>o.push(['b:'+b.id,'My block: '+b.name]));ALG.forEach((n,i)=>o.push(['p:'+(i+1),'Active P'+(i+1)+' '+n.replace(/^\d+-/,'')]));o.push(['num','A number…']);return o};
+const opLab=(v,num)=>v==='num'?String(num):((opOpts().find(o=>o[0]===v)||['',''])[1].replace(/^(Step \d+: |My block: |Active )/,''));
+function opv(v,num){if(!v)throw Error('Pick a value first.');
+ if(v==='num'){if(num===''||isNaN(+num))throw Error('Enter a number.');return C_(+num)}
+ if(v[0]==='s')return cp(LB.w.steps[+v.slice(2)].node);if(v[0]==='b')return cp(S.lab.find(b=>b.id===v.slice(2)).node);return{k:'p',n:+v.slice(2)}}
+function opnd(p){const fm=LB.f,n=opv(fm[p],fm[p+'n']);return fm[p+'1']?B_('+',C_(1),n):n}
+const SY={'+':'+','-':'−','*':'×','/':'÷'};
+function adjNode(who,side,m){const os=side==='off'?'al':'off',sos=B_('-',B_('/',R_(who,side,m),R_(who==='team'?'faced':'ofaced',os,m)),C_(1)),
+ avgOpp={k:'favg',who,body:B_('-',B_('/',R_('x',os,m),R_('xfaced',os==='al'?'off':'al',m)),C_(1))};
+ return B_('-',B_('/',B_('+',C_(1),sos),B_('+',C_(1),avgOpp)),C_(1))}
+function lbAdd(){const fm=LB.f,w=LB.w,add=(name,node,tip)=>w.steps.push({id:'s'+Date.now()+w.steps.length,name,node,tip:tip||(name+' = '+tx(node))});LB.err='';
+ try{switch(LB.k){
+  case 'data':add(`${WHOL[fm.who]} ${LMs(fm.m)} ${SIDEL[fm.side]}`,R_(fm.who,fm.side,fm.m));break;
+  case 'raw':case 'sos':case 'margin':{if(LB.k!=='margin')fm.bench=LB.k==='sos'?'faced':'league';const a=R_(fm.who,fm.side,fm.m),bw=fm.bench==='league'?'league':fm.who==='team'?'faced':'ofaced',bs=fm.bench==='league'?fm.side:(fm.side==='off'?'al':'off');
+   add(`${fm.who==='team'?'Team':'Opp'} ${LMs(fm.m)} ${fm.side==='off'?'offense':'defense'} ${fm.bench==='league'?'Raw':'SOS'} margin`,B_('-',B_('/',a,R_(bw,bs,fm.m)),C_(1)));break}
+  case 'adj':add(`${fm.who==='team'?'Team':'Opp'} ${LMs(fm.m)} ${fm.side==='off'?'offense':'defense'} Adj margin`,adjNode(fm.who,fm.side,fm.m),'Adj margin = (1 + SOS margin) ÷ (1 + average of the opponents’ SOS margins on the opposite stat) − 1');break;
+  case 'oppavg':{const xb=fm.xbench==='league'?R_('league',fm.xside,fm.m):R_('xfaced',fm.xside==='al'?'off':'al',fm.m);
+   add(`Avg ${fm.whose==='team'?'Team':'Opp'} opponents’ ${fm.xbench==='league'?'Raw':'SOS'} ${fm.xside==='al'?'defense':'offense'} margin (${LMs(fm.m)})`,{k:'favg',who:fm.whose,body:B_('-',B_('/',R_('x',fm.xside,fm.m),xb),C_(1))});break}
+  case 'combine':{const A=opnd('a'),B=opnd('b');add(`${(fm.a1?'1+':'')+opLab(fm.a,fm.an)} ${SY[fm.op]} ${(fm.b1?'1+':'')+opLab(fm.b,fm.bn)}`,B_(fm.op,A,B));break}
+  case 'pts':{const A=opnd('a');if(fm.m==='pts')throw Error('Pick a yardage stat (Total, Pass, Rush or each stat).');add(`Points from ${opLab(fm.a,fm.an)}`,{k:'pts',m:fm.m,y:A});break}
+  case 'avg':{if(fm.items.length<2)throw Error('Tick at least two items to average.');const nodes=fm.items.map(v=>opv(v)),ws=fm.ws.split(',').map(s=>parseFloat(s)).filter(x=>isFinite(x));
+   const wt=fm.ws.trim()&&ws.length===nodes.length;if(fm.ws.trim()&&!wt)throw Error('Give one weight per ticked item (e.g. 40,35,25).');
+   add((wt?'Weighted avg of ':'Average of ')+fm.items.map(v=>opLab(v)).join(', '),wt?{k:'wavg',items:nodes.map((n,i)=>({n,w:ws[i]}))}:{k:'avg',items:nodes});break}
+  case 'allm':{if(!fm.src)throw Error('Pick the step to run for each stat.');const ms=['tot','pass','rush','pts'].filter(m=>fm.ms[m]);if(!ms.length)throw Error('Tick at least one stat.');
+   add(`Average across ${ms.map(m=>LM[m]).join('/')} of ${opLab(fm.src)}`,{k:'allm',ms,body:cp(w.steps[+fm.src.slice(2)].node)});break}}
+  fm.a='';fm.b='';fm.items=[];LB.res=null;lbPersist()}catch(e){LB.err=e.message}render()}
+function lbPersist(){S.labWork=LB.w;save()}
+const lbSet=(k,v)=>{if(k.startsWith('ms.'))LB.f.ms[k.slice(3)]=v;else LB.f[k]=v;render()};
+const lbItem=(v,c)=>{const a=LB.f.items,i=a.indexOf(v);if(c&&i<0)a.push(v);if(!c&&i>=0)a.splice(i,1)};
+const lbDel=i=>{LB.w.steps.splice(i,1);LB.res=null;lbPersist();render()};
+const lbClear=()=>{LB.w={name:'My projection',steps:[]};LB.res=null;lbPersist();render()};
+const lbBlock=i=>{const s=LB.w.steps[i];(S.lab=S.lab||[]).push({kind:'block',id:'b'+Date.now(),name:s.name,node:cp(s.node),tip:s.tip});touch(['lab']);render()};
+function lbSave(){if(!LB.w.steps.length){LB.err='Add at least one step first.';render();return}const id=LB.w.id||'p'+Date.now();LB.w.id=id;S.lab=S.lab||[];const it={kind:'proj',id,name:LB.w.name,steps:cp(LB.w.steps)},i=S.lab.findIndex(x=>x.id===id);if(i>=0)S.lab[i]=it;else S.lab.push(it);lbPersist();touch(['lab']);render()}
+const lbLoad=id=>{const it=(S.lab||[]).find(x=>x.id===id);if(it){LB.w={id:it.id,name:it.name,steps:cp(it.steps)};LB.res=null;lbPersist();render()}};
+const lbRm=id=>{S.lab=(S.lab||[]).filter(x=>x.id!==id);touch(['lab']);render()};
+/* parity templates: rebuild P1, P2, P3, P13 from blocks */
+function tplSteps(n){const out=[],add=(name,node)=>{out.push({id:'t'+out.length,name,node,tip:name+' = '+tx(node)});return node},ms='$m';
+ if(n===1){const a=add('Team gained [each stat]',R_('team','off',ms)),b=add('Opp allowed [each stat]',R_('opp','al',ms)),c=add('Blend = average of the two',{k:'avg',items:[cp(a),cp(b)]}),d=add('Points from blend',{k:'pts',m:ms,y:cp(c)});add('Average across Total/Pass/Rush',{k:'allm',ms:['tot','pass','rush'],body:cp(d)})}
+ if(n===2||n===3){const adj=n===3,a=add('Opp allowed [each stat]',R_('opp','al',ms)),b=add('Team gained [each stat]',R_('team','off',ms)),
+   tm=add(`Team ${adj?'SOS':'raw'} offense margin`,B_('-',B_('/',R_('team','off',ms),adj?R_('faced','al',ms):R_('league','off',ms)),C_(1))),
+   om=add(`Opp ${adj?'SOS':'raw'} defense margin`,B_('-',B_('/',R_('opp','al',ms),adj?R_('ofaced','off',ms):R_('league','al',ms)),C_(1))),
+   e=add('(1 + team margin) × Opp allowed',B_('*',B_('+',C_(1),cp(tm)),cp(a))),f2=add('(1 + opp margin) × Team gained',B_('*',B_('+',C_(1),cp(om)),cp(b))),
+   g2=add('Blend = average of the two',{k:'avg',items:[cp(e),cp(f2)]}),d=add('Points from blend',{k:'pts',m:ms,y:cp(g2)});add('Average across Total/Pass/Rush',{k:'allm',ms:['tot','pass','rush'],body:cp(d)})}
+ if(n===13){const tm=add('Team SOS offense margin [Points]',B_('-',B_('/',R_('team','off','pts'),R_('faced','al','pts')),C_(1))),om=add('Opp SOS defense margin [Points]',B_('-',B_('/',R_('opp','al','pts'),R_('ofaced','off','pts')),C_(1))),
+   base=add('Baseline = average(Team points, Opp points allowed)',{k:'avg',items:[R_('team','off','pts'),R_('opp','al','pts')]}),mult=add('(1 + team margin) × (1 + opp margin)',B_('*',B_('+',C_(1),cp(tm)),B_('+',C_(1),cp(om))));add('Projection = baseline × multiplier',B_('*',cp(base),cp(mult)))}
+ if(n==='adj'){const a=add('Team Adj offense margin [each stat]',adjNode('team','off',ms)),b=add('Opp Adj defense margin [each stat]',adjNode('opp','al',ms)),c=add('Opp allowed [each stat]',R_('opp','al',ms)),d=add('Team gained [each stat]',R_('team','off',ms)),
+   e=add('(1 + team Adj margin) × Opp allowed',B_('*',B_('+',C_(1),cp(a)),cp(c))),f2=add('(1 + opp Adj margin) × Team gained',B_('*',B_('+',C_(1),cp(b)),cp(d))),g2=add('Blend = average of the two',{k:'avg',items:[cp(e),cp(f2)]}),h2=add('Points from blend',{k:'pts',m:ms,y:cp(g2)});add('Average across Total/Pass/Rush',{k:'allm',ms:['tot','pass','rush'],body:cp(h2)})}
+ return out}
+const lbTpl=n=>{LB.w={name:n==='adj'?'Adj-margin projection (your Excel method)':'Rebuild of P'+n,steps:tplSteps(n)};LB.res=null;lbPersist();render();try{document.getElementById('labsec').scrollIntoView()}catch(e){}};
+function labParity(){const out=[];[1,2,3,13].forEach(n=>{const st_=tplSteps(n),root=st_[st_.length-1].node;let mx=0,cnt=0;
+  games().filter(g=>g.final&&/^\d+$/.test(g.week)&&+g.week>=2).forEach(g=>{const N=wn(g),C=getCX(N);if(C.bad)return;const r=calcAll(g);
+   [[g.away,g.home,r.a[n-1]],[g.home,g.away,r.h[n-1]]].forEach(([t,o,e])=>{const d=Math.abs(ev(root,{C,t,o})-e.pts);if(isFinite(d)){mx=Math.max(mx,d);cnt++}})});
+  out.push({n,mx,cnt})});return out}
+/* historical test: same grading as the Performance tab */
+function mt(list){const o={n:0,ae:0,se:0,bias:0,ats:[0,0],ml:[0,0],ou:[0,0],tm:{},wk:{}},tl=(r,c)=>{if(r==='W')c[0]++;else if(r==='L')c[1]++};
+ list.forEach(({g,a,h})=>{if(!isFinite(a+h))return;o.n++;const ea=a-g.away_score,eh=h-g.home_score,ab=(Math.abs(ea)+Math.abs(eh))/2;o.ae+=ab;o.se+=(ea*ea+eh*eh)/2;o.bias+=(ea+eh)/2;
+  const r=grade({spread:g.spread,total:g.total,p:{1:{a,h}}},g,1);tl(r.ats,o.ats);tl(r.ml,o.ml);tl(r.ou,o.ou);
+  [[g.away,ea],[g.home,eh]].forEach(([t,e])=>{const q=o.tm[t]=o.tm[t]||{n:0,ae:0,ats:[0,0],ml:[0,0],ou:[0,0]};q.n++;q.ae+=Math.abs(e);tl(r.ats,q.ats);tl(r.ml,q.ml);tl(r.ou,q.ou)});
+  const q=o.wk[g.week]=o.wk[g.week]||{n:0,ae:0,ats:[0,0]};q.n++;q.ae+=ab;tl(r.ats,q.ats)});
+ o.mae=o.ae/o.n;o.rmse=Math.sqrt(o.se/o.n);o.bias/=o.n;return o}
+function labList(p,mode){const out=[],root=p.steps[p.steps.length-1].node,NCv=NC();
+ games().filter(g=>g.final&&/^\d+$/.test(g.week)&&(mode==='mv'||+g.week>=2)).forEach(g=>{const N=mode==='mv'?NCv:wn(g),C=getCX(N);if(C.bad)return;let Ra,Rh;
+  if(mode==='mv'){const m=MV()[g.id];if(!m||!m.s)return;Ra=m.s.a;Rh=m.s.h}else{const r=calcAll(g);Ra=r.a;Rh=r.h}
+  out.push({g,a:ev(root,{C,t:g.away,o:g.home,R:Ra}),h:ev(root,{C,t:g.home,o:g.away,R:Rh})})});return out}
+const actList=(n,mode)=>Object.entries(mode==='mv'?MV():VL).filter(([id,e])=>S.games[id]&&e.p[n]).map(([id,e])=>({g:S.games[id],a:e.p[n].a,h:e.p[n].h}));
+function lbTest(){ensureVL();if(!LB.w.steps.length){LB.err='Add at least one step first.';render();return}
+ try{const mode=LB.mode,lab=mt(labList(LB.w,mode)),act=[];for(let n=1;n<=15;n++)act.push(mt(actList(n,mode)));LB.res={mode,name:LB.w.name,lab,act};LB.err=''}catch(e){LB.err='Test failed: '+e.message}render()}
+const lbSample=()=>S.games[gid]||games().find(x=>!x.final)||games()[0];
+function smp(node){const g=lbSample();if(!g)return '–';const C=getCX(wn(g));if(C.bad)return '–';const r=calcAll(g),fv=v=>isFinite(v)?Number(v).toFixed(3):'–';return fv(ev(node,{C,t:g.away,o:g.home,R:r.a}))+' / '+fv(ev(node,{C,t:g.home,o:g.away,R:r.h}))}
+function lbForm(){const fm=LB.f,k=LB.k,sel=(n,opts,cur)=>`<select onchange="lbSet('${n}',this.value)">${opts.map(([v,l])=>`<option value="${v}" ${String(v)===String(cur)?'selected':''}>${l}</option>`).join('')}</select>`,fld=(l,h)=>`<label>${l}${h}</label>`;
+ const MO=[['$m','Each stat (Total / Pass / Rush)'],['pts','Points'],['tot','Total yds'],['pass','Pass yds'],['rush','Rush yds']];
+ const opn=(p,l)=>fld(l,sel(p,opOpts(),fm[p])+`<span style="display:flex;gap:8px;align-items:center"><input type="number" step="any" style="width:84px" value="${fm[p+'n']}" oninput="LB.f.${p}n=this.value"${tipA('Used when “A number…” is chosen')}><span style="display:flex;gap:3px;align-items:center"><input type="checkbox" ${fm[p+'1']?'checked':''} onchange="lbSet('${p+'1'}',this.checked)">1 +</span></span>`);
+ let h='';
+ if(k==='data')h=fld('Whose stat',sel('who',[['team','Team'],['opp','Opponent'],['league','League average'],['faced','Avg of Team’s opponents'],['ofaced','Avg of Opponent’s opponents']],fm.who))+fld('Side',sel('side',[['off','Gained (offense)'],['al','Allowed (defense)'],['ypp','Yards per point scored'],['yapp','Yards per point allowed']],fm.side))+fld('Stat',sel('m',MO,fm.m));
+ if(k==='raw'||k==='sos'||k==='margin')h=fld('Whose',sel('who',[['team','Team'],['opp','Opponent']],fm.who))+fld('Side',sel('side',[['off','Offense (gained)'],['al','Defense (allowed)']],fm.side))+fld('Stat',sel('m',MO,fm.m));
+ if(k==='adj')h=fld('Whose',sel('who',[['team','Team'],['opp','Opponent']],fm.who))+fld('Side',sel('side',[['off','Offense (gained)'],['al','Defense (allowed)']],fm.side))+fld('Stat',sel('m',MO,fm.m));
+ if(k==='oppavg')h=fld('Average over',sel('whose',[['team','Team’s opponents'],['opp','Opponent’s opponents']],fm.whose))+fld('Their margin on',sel('xside',[['al','Defense (allowed)'],['off','Offense (gained)']],fm.xside))+fld('Stat',sel('m',MO,fm.m))+fld('Margin type',sel('xbench',[['league','Raw (vs league average)'],['faced','SOS (vs their own opponents faced)']],fm.xbench));
+ if(k==='combine')h=opn('a','First value')+fld('Operation',sel('op',[['/','÷ divide'],['*','× multiply'],['+','+ add'],['-','− subtract']],fm.op))+opn('b','Second value');
+ if(k==='pts')h=fld('Stat',sel('m',MO.filter(o=>o[0]!=='pts'),fm.m))+opn('a','Yardage value to convert');
+ if(k==='avg')h='<div style="display:flex;gap:10px;flex-wrap:wrap">'+opOpts().filter(o=>o[0]&&o[0]!=='num').map(([v,l])=>`<label style="flex-direction:row;gap:4px;align-items:center"><input type="checkbox" ${fm.items.includes(v)?'checked':''} onchange="lbItem('${v}',this.checked)">${l}</label>`).join('')+'</div>'+fld('Weights (optional, one per ticked item in the order ticked)',`<input placeholder="e.g. 40,35,25" value="${fm.ws}" oninput="LB.f.ws=this.value">`);
+ if(k==='allm')h=fld('Run this step for each stat',sel('src',[['','— choose —'],...LB.w.steps.map((s,i)=>['s:'+i,'Step '+(i+1)+': '+s.name])],fm.src))+['tot','pass','rush','pts'].map(m=>`<label style="flex-direction:row;gap:4px;align-items:center"><input type="checkbox" ${fm.ms[m]?'checked':''} onchange="lbSet('ms.${m}',this.checked)">${LM[m]}</label>`).join('');
+ return `<div class="lbf">${h}<button class="b" onclick="lbAdd()">+ Add step</button></div>`+(LB.err?`<div class="msg er">${LB.err}</div>`:'')}
+function stepsHTML(){const w=LB.w;
+ return `<div style="margin-top:10px"><b>Workspace</b> <input value="${w.name}" oninput="LB.w.name=this.value;lbPersist()" style="width:220px"> <button class="b s" onclick="lbSave()">Save projection</button> <button class="b s" onclick="lbClear()">Clear</button></div>`+
+ (w.steps.length?`<div class="w"><table><tr><th>#</th><th>Step</th><th>Formula</th><th title="Value for the sample game: away / home">Sample (away / home)</th><th></th></tr>${w.steps.map((s,i)=>`<tr><td>${i+1}</td><td${tipA('<b>'+s.name+'</b><br>'+s.tip)}>${s.name}${i===w.steps.length-1?' <span class="mu">→ output</span>':''}</td><td class="mu" style="white-space:normal;text-align:left;max-width:420px">${tx(s.node)}</td><td>${smp(s.node)}</td><td><button class="b s" onclick="lbBlock(${i})" ${tipA('Save this step as a reusable block')}>Save as block</button> <button class="b s" onclick="lbDel(${i})">✕</button></td></tr>`).join('')}</table></div><div class="mu">The last step is the projection (points for one team vs its opponent). Sample game: ${(()=>{const g=lbSample();return g?g.away+' @ '+g.home:'none'})()} (select a game on the Games tab to change it).</div>`:'<div class="mu" style="margin:6px 0">No steps yet. Click a suggested calculation above, or open a rebuild from the Active projections (P1, P2, P3, P13).</div>')}
+function savedHTML(){const it=S.lab||[],bl=it.filter(x=>x.kind==='block'),pr=it.filter(x=>x.kind==='proj');
+ return `<div class="row" style="margin-top:12px"><div><b>My saved blocks</b>${bl.length?bl.map(b=>`<div style="display:flex;gap:6px;align-items:center;margin:3px 0"><span${tipA('<b>'+b.name+'</b><br>'+b.tip)}>${b.name}</span><button class="b s" onclick="lbRm('${b.id}')">✕</button></div>`).join(''):'<div class="mu">None yet. Use “Save as block” on a step to reuse it later.</div>'}</div><div><b>My saved projections</b>${pr.length?pr.map(p=>`<div style="display:flex;gap:6px;align-items:center;margin:3px 0"><span>${p.name} <span class="mu">(${p.steps.length} steps)</span></span><button class="b s" onclick="lbLoad('${p.id}')">Load</button><button class="b s" onclick="lbRm('${p.id}')">✕</button></div>`).join(''):'<div class="mu">None yet.</div>'}</div></div>`}
+function testHTML(){const r=LB.res,rec=(c,n)=>c[0]+c[1]?`${c[0]}-${c[1]} <span class="mu">(${Math.round(100*c[0]/(c[0]+c[1]))}%)</span>`:'–';
+ let h=`<div style="margin-top:14px"><b>Historical test</b> <select onchange="LB.mode=this.value;LB.res=null;render()"><option value="wk" ${LB.mode==='wk'?'selected':''}>Rolling: stats entering each week (honest test, weeks 2+)</option><option value="mv" ${LB.mode==='mv'?'selected':''}>Current stats: like the Moving record (in-sample)</option></select> <button class="b" onclick="lbTest()">Run test on the workspace</button></div>`;
+ if(!r)return h+'<div class="mu">The test projects every completed game with your workspace formula and grades it exactly like the Performance tab, next to the 15 active projections.</div>';
+ const L=r.lab,se=L.n?Math.round(100*Math.sqrt(.25/L.n)):0,row=(nm_,m,hl)=>`<tr style="${hl?'background:rgba(91,155,255,.18);font-weight:600':''}"><td>${nm_}</td><td>${m.n}</td><td>${f(m.mae,2)}</td><td>${f(m.rmse,2)}</td><td>${rec(m.ats)}</td><td>${rec(m.ml)}</td><td>${rec(m.ou)}</td></tr>`;
+ h+=`<div class="mu" style="margin:6px 0">${L.n} games tested${L.n<100?` · small sample: a win % here is only accurate to about ±${se} points (1 standard error), so lean on MAE and keep testing as the season grows`:''}.${r.mode==='mv'?' This mode uses stats that include the games being graded, so it flatters every projection.':''}</div>`;
+ h+=`<div class="w"><table><tr><th>Projection</th><th>Games</th><th>MAE</th><th>RMSE</th><th>Spread</th><th>ML</th><th>O/U</th></tr>${row('🧪 '+r.name,L,true)}${r.act.map((m,i)=>row('P'+(i+1)+' '+ALG[i].replace(/^\d+-/,''),m,false)).join('')}</table></div>`;
+ const ts=Object.entries(L.tm).sort((a,b)=>a[1].ae/a[1].n-b[1].ae/b[1].n);
+ h+=`<div class="row" style="margin-top:10px"><div><b>Team by team</b><div class="w"><table><tr><th>Team</th><th>Games</th><th>MAE</th><th>Spread</th><th>ML</th><th>O/U</th></tr>${ts.map(([t,q])=>`<tr><td>${chip(t)}</td><td>${q.n}</td><td>${f(q.ae/q.n,2)}</td><td>${rec(q.ats)}</td><td>${rec(q.ml)}</td><td>${rec(q.ou)}</td></tr>`).join('')}</table></div></div><div><b>Week by week</b><div class="w"><table><tr><th>Week</th><th>Games</th><th>MAE</th><th>Spread</th></tr>${Object.entries(L.wk).sort((a,b)=>a[0]-b[0]).map(([w,q])=>`<tr><td>${w}</td><td>${q.n}</td><td>${f(q.ae/q.n,2)}</td><td>${rec(q.ats)}</td></tr>`).join('')}</table></div><div class="mu" style="margin-top:6px">Bias (avg projected − actual): ${f(L.bias,2)} pts</div></div></div>`;
+ return h}
+function parityHTML(){const p=LB.par;return `<div style="margin-top:14px"><b>Parity check</b> <button class="b s" onclick="LB.par=labParity();render()"${tipA('Rebuilds P1, P2, P3 and P13 from Lab blocks and compares them with the active projections on every completed game. A match proves the Lab reproduces your real formulas.')}>Run parity check</button></div>`+(p?`<div class="w"><table><tr><th>Rebuild</th><th>Team-games compared</th><th>Largest difference (pts)</th><th>Result</th></tr>${p.map(x=>`<tr><td>P${x.n}</td><td>${x.cnt}</td><td>${x.mx.toExponential(2)}</td><td>${x.cnt&&x.mx<1e-9?'<span class="g">✔ matches</span>':'<span class="r">✖ differs</span>'}</td></tr>`).join('')}</table></div>`:'<div class="mu">Confirms the Lab blocks reproduce P1, P2, P3 and P13 exactly before you trust any experiment.</div>')}
+function labHTML(){return `<div class="card" id="labsec"><h3>Projection Lab <span class="mu">(experimental sandbox: nothing here changes the active projections)</span></h3><div class="mu" style="margin:4px 0 8px">Build a projection step by step. Each step becomes a named block you can reuse. Hover any button for what it does.</div><div class="lbp">${PAL.map(([k,l,tip])=>`<button class="b ${LB.k===k?'':'s'}" onclick="LB.k='${k}';LB.err='';render()"${tipA(tip)}>${l}</button>`).join('')}<button class="b s" onclick="lbTpl('adj')"${tipA('Loads the full projection built from Adj margins (9 steps): your Excel method.')}>Load: Adj-margin projection</button></div>${lbForm()}${stepsHTML()}${savedHTML()}${testHTML()}${parityHTML()}</div>`}
+function vLab(){if(!S.teams||!S.weekly)return '<div class="card">Load the data first (the Games tab shows the loading status).</div>';ensureVL();
+ return '<div class="card"><h3>Projections</h3><div class="mu">The top section shows how each of the 15 active projections is calculated. The Lab below is a separate sandbox for testing new formulas against your real results; it cannot change the live projections.<br>Margins: <b>Raw</b> = team vs the league average · <b>SOS</b> = team vs the average of the opponents it has faced · <b>Adj</b> = (1 + SOS) ÷ (1 + the opponents’ average SOS margin on the opposite stat) − 1.</div></div>'+activeHTML()+labHTML()}
+const vLabSafe=()=>{try{return vLab()}catch(e){return '<div class="card"><b>Projection Lab error:</b> '+e.message+'<div class="mu">The other tabs are unaffected.</div></div>'}};
+
 if(document.body&&document.addEventListener){const tipEl=document.createElement('div');tipEl.id='tip';document.body.appendChild(tipEl);
  document.addEventListener('mouseover',e=>{const t=e.target.closest&&e.target.closest('[data-tip]');if(!t){tipEl.style.display='none';return}tipEl.innerHTML=t.getAttribute('data-tip');tipEl.style.display='block'});
  document.addEventListener('mousemove',e=>{if(tipEl.style.display!=='block')return;const w=tipEl.offsetWidth,h=tipEl.offsetHeight;let x=e.clientX+14,y=e.clientY+14;if(x+w>innerWidth-8)x=Math.max(8,e.clientX-w-14);if(y+h>innerHeight-8)y=Math.max(8,e.clientY-h-14);tipEl.style.left=x+'px';tipEl.style.top=y+'px'})}
