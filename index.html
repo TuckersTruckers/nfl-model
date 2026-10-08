@@ -100,6 +100,7 @@ th:first-child,td:first-child{text-align:left}th{color:var(--mu);font-weight:600
 
 /* team names / final strip: plain text over the colour, no grey boxes */
 .gc .nm span,.gc .fin span{display:inline;flex-direction:row;background:transparent;padding:0;margin:0;font-size:inherit;color:inherit;text-align:inherit;white-space:inherit}
+@media(max-width:700px){#sync{display:block;flex-basis:100%;font-size:10px;margin:0}}
 </style></head><body>
 <header><b>🏈<span class="d-only"> NFL Model</span></b><span class="mu d-only" style="margin-right:10px">v5</span><span id="tabs"></span><span id="sync" class="mu" style="margin-left:auto;font-size:11px"></span></header>
 <main id="app"></main>
@@ -118,6 +119,7 @@ players:'player,team,pos,tgt_share,catch_rate,ypt,carry_share,ypc,td_rate\nExamp
 const TC={ARI:['#97233F','#FFB612'],ATL:['#000','#E0314B'],BAL:['#241773','#C9A227'],BUF:['#00338D','#fff'],CAR:['#0085CA','#101820'],CHI:['#0B162A','#E64100'],CIN:['#FB4F14','#000'],CLE:['#311D00','#FF5A1F'],DAL:['#003594','#B8C2C7'],DEN:['#FB4F14','#002244'],DET:['#0076B6','#E3E8EB'],GNB:['#203731','#FFB612'],HOU:['#03202F','#E0314B'],IND:['#002C5F','#D5DADC'],JAX:['#006778','#D7A22A'],KAN:['#E31837','#FFB81C'],LVR:['#000','#C5CACD'],LAC:['#0080C6','#FFC20E'],LAR:['#003594','#FFA300'],MIA:['#008E97','#FC4C02'],MIN:['#4F2683','#FFC62F'],NWE:['#002244','#E0314B'],NOR:['#D3BC8D','#101820'],NYG:['#0B2265','#E0314B'],NYJ:['#125740','#fff'],PHI:['#004C54','#C5CACD'],PIT:['#FFB612','#101820'],SFO:['#AA0000','#D9BF77'],SEA:['#002244','#69BE28'],TAM:['#D50A0A','#FF9A3C'],TEN:['#4B92DB','#0C2340'],WAS:['#5A1414','#FFB612']};
 const NMS="Arizona Cardinals,Atlanta Falcons,Baltimore Ravens,Buffalo Bills,Carolina Panthers,Chicago Bears,Cincinnati Bengals,Cleveland Browns,Dallas Cowboys,Denver Broncos,Detroit Lions,Green Bay Packers,Houston Texans,Indianapolis Colts,Jacksonville Jaguars,Kansas City Chiefs,Las Vegas Raiders,Los Angeles Chargers,Los Angeles Rams,Miami Dolphins,Minnesota Vikings,New England Patriots,New Orleans Saints,New York Giants,New York Jets,Philadelphia Eagles,Pittsburgh Steelers,San Francisco 49ers,Seattle Seahawks,Tampa Bay Buccaneers,Tennessee Titans,Washington Commanders".split(',');const FN=t=>NMS[T.indexOf(t)];const WL={wildcard:'WC',division:'DIV',confchamp:'CONF',superbowl:'SB'};
 const chip=(t,x='')=>`<span style="background:${TC[t][0]};color:${TC[t][1]};padding:2px 8px;border-radius:3px;font-weight:700;${x}">${t}</span>`;
+const WEB_DATA='nfl_output/';
 let S={teams:null,weekly:null,games:{},players:[],locks:{}},tab='games',wk='1',gid=null,aid=5,logm='',W=[1,1,1,1];
 try{const s=localStorage.getItem('nflm');if(s)S=JSON.parse(s)}catch(e){}
 const save=()=>{try{localStorage.setItem('nflm',JSON.stringify(S))}catch(e){}};
@@ -234,7 +236,7 @@ const pcell=v=>v==null?'<td class="mu">–</td>':`<td style="background:${v>=55?
 function lists(){const L=(t,k)=>{const a=[...T].sort((x,y)=>S.teams[y][k]-S.teams[x][k]).slice(0,8);return `<div class="card"><h3>${t}</h3>`+a.map((x,i)=>`<div style="display:flex;gap:8px;margin:3px 0"><span class="mu" style="width:16px">${i+1}</span>${chip(x,'width:52px;text-align:center')}<span>${f(S.teams[x][k])}</span></div>`).join('')+'</div>'};
  return '<div class="row">'+L('Best scoring offenses','pf')+L('Best rushing offenses','rush')+L('Worst scoring defenses','pa')+L('Worst rush defenses','rush_a')+'</div>'}
 function vGames(){
- if(!S.teams)return '<div class="card">Import team stats on the <b>Data</b> tab first (or load the demo).</div>';ensureVL();
+ if(!S.teams)return '<div class="card">Loading the latest data… If this stays empty, the data files have not been generated yet.</div>';ensureVL();
  const gs=games().filter(g=>g.week===wk);if(!gs.find(g=>g.id===gid))gid=gs[0]?.id;
  let h='<div class="wrapx" style="display:flex;gap:12px;align-items:flex-start"><div class="wkb">'+WK.map(w=>`<button class="${w===wk?'on':''}" onclick="wk='${w}';xo=null;render()">${WL[w]||w}</button>`).join('')+'</div><div style="flex:1;min-width:0"><span class="ttl">Week '+(WL[wk]||wk)+' Games</span><button class="b s" onclick="lockWeek()">🔒 Lock week pregame</button><div class="grid2" style="margin-top:10px">'+(gs.map(g=>card(g)+(xo===g.id?xpand(g):'')).join('')||'<span class="mu">No games for this week — import a schedule.</span>')+'</div>';
  if(gid){const g=S.games[gid],p=dp(g,aid),b=bet(g,p),vl=VL[g.id],mv=MV()[g.id];
@@ -345,7 +347,7 @@ function stTable(){const sp=stSpec()[st.t];if(!sp.rows.length)return '<div class
  if(st.s!==null&&sp.cols[st.s]){const c=sp.cols[st.s];rows.sort((a,b)=>{const x=c[1](a),y=c[1](b);return(typeof x==='number'&&typeof y==='number'?x-y:String(x).localeCompare(String(y)))*st.d})}
  return `<div class="w" style="max-height:70vh;overflow:auto"><table class="xt"><tr>${sp.cols.map((c,i)=>`<th style="cursor:pointer;position:sticky;top:0;background:var(--card)" onclick="stSort(${i})"${tipA(c[3])}>${c[0]}${st.s===i?(st.d>0?' ▲':' ▼'):''}</th>`).join('')}</tr>${rows.map(r=>'<tr'+(r.t?` onclick="stX('${r.t}')" style="cursor:pointer${sx===r.t?';background:rgba(91,155,255,.15)':''}"`:'')+'>'+sp.cols.map(c=>{const v=c[1](r);return '<td>'+(c[2]?c[2](v):(v===''||v==null?'–':v))+'</td>'}).join('')+'</tr>'+(r.t&&sx===r.t?'<tr><td colspan="'+sp.cols.length+'" style="text-align:left">'+stPanel(r.t)+'</td></tr>':'')).join('')}</table></div><div class="mu">${rows.length} rows</div>`}
 const stSort=i=>{if(st.s===i)st.d=-st.d;else{st.s=i;st.d=i===0?1:-1}render()};
-function vStats(){if(!S.teams)return '<div class="card">Import data on the <b>Data</b> tab first (or load the demo).</div>';const sp=stSpec();
+function vStats(){if(!S.teams)return '<div class="card">Loading the latest data… If this stays empty, the data files have not been generated yet.</div>';const sp=stSpec();
  return `<div class="card"><div style="display:flex;gap:6px;flex-wrap:wrap">${STB.map(([k,l,tp])=>`<button class="b ${st.t===k?'':'s'}" onclick="st.t='${k}';st.s=null;sx=null;render()"${tipA(tp)}>${l}</button>`).join('')}</div><p class="mu" style="margin:8px 0">${sp[st.t].note} Click a column header to sort, or a team to see its schedule and results.</p><input placeholder="Filter…" value="${st.q}" oninput="st.q=this.value;document.getElementById('stbl').innerHTML=stTable()"><div id="stbl" style="margin-top:8px">${stTable()}</div></div>`}
 function vData(){
  const box=(k,t)=>'<div class="card"><h3>'+t+'</h3><textarea id="t_'+k+'" placeholder="'+TPL[k].replace(/\n/g,'&#10;')+'"></textarea><button class="b" onclick="doImport(\''+k+'\')">Import</button> <button class="b s" onclick="document.getElementById(\'t_'+k+'\').value=TPL.'+k+'">Insert template</button> <label class="mu">or upload CSV: <input type="file" accept=".csv" onchange="loadFile(\''+k+'\',this)"></label></div>';
@@ -363,7 +365,7 @@ function demo(){let s=7;const R=()=>(s=(s*16807)%2147483647)/2147483647,n=(m,sd)
  let p='player,team,pos,tgt_share,catch_rate,ypt,carry_share,ypc,td_rate\n';
  T.forEach(t=>{p+=[`${t} QB`,t,'QB','',.66,'','','',.045].join(',')+'\n'+[`${t} RB1`,t,'RB',.14,.75,6,.55,4.3,.07].join(',')+'\n'+[`${t} WR1`,t,'WR',.26,.66,9,'','',.07].join(',')+'\n'+[`${t} WR2`,t,'WR',.2,.64,8,'','',.05].join(',')+'\n'+[`${t} TE1`,t,'TE',.18,.68,7.5,'','',.05].join(',')+'\n'});
  S={teams:null,weekly:null,games:{},players:[],locks:{}};try{IMP.teams(c);IMP.games(g);IMP.players(p);const wr=['team,week,opp,pf,pa,pass,rush,pass_a,rush_a,ptd,rtd,ptd_a,rtd_a'],q=(m,d)=>Math.max(0,Math.round(n(m,d)));Object.values(S.games).filter(g=>g.final).forEach(g=>{[[g.home,g.away,g.home_score,g.away_score],[g.away,g.home,g.away_score,g.home_score]].forEach(([t,o,pf,pa])=>wr.push([t,g.week,o,pf,pa,q(225,40),q(115,30),q(225,40),q(115,30),q(1.5,1.5),q(1,1),q(1.5,1.5),q(1,1)].join(',')))});IMP.weekly(wr.join('\n'));{const tr=['scorer,pos,type,yards,passer,team,defense,week,game,qtr,clock,first'],fi={};Object.values(S.games).filter(g=>g.final).forEach(g=>{[[g.home,g.away],[g.away,g.home]].forEach(([t,d])=>{S.players.filter(x=>x.team===t&&x.pos!=='QB').sort(()=>R()-.5).slice(0,2+Math.floor(R()*2)).forEach(x=>{const first=!fi[g.id]&&R()<.5?1:0;if(first)fi[g.id]=1;tr.push([x.player,x.pos,x.pos==='RB'&&R()<.6?'Rushing':'Passing',Math.round(5+R()*40),'',t,d,g.week,g.away+' @ '+g.home,1+Math.floor(R()*4),'',first].join(','))})})});IMP.tds(tr.join('\n'))}IMP.dvp('team,'+DVT.flatMap(x=>x[1].map(c=>c[1])).join(',')+'\n'+T.map(t=>t+','+DVT.flatMap(x=>x[1]).map(()=>n(10,3).toFixed(1)).join(',')).join('\n'));save();DV++;touch(DS);logm=['ok','✔ Synthetic DEMO loaded (random numbers, not real NFL data). Weeks 1–3 final, week 4 upcoming.']}catch(e){logm=['er',e.message]}wk='4';tab='games';render()}
-function render(){if(DVs!==DV){CXc={};PC={};MVc={};VLr=0;VL={};DVs=DV}document.getElementById('tabs').innerHTML=[['games','Games'],['players','Players'],['stats','Stats'],['perf','Performance'],['data','Data']].map(([k,l])=>'<button class="tab '+(tab===k?'on':'')+'" onclick="tab=\''+k+'\';render()">'+l+'</button>').join('');
+function render(){if(DVs!==DV){CXc={};PC={};MVc={};VLr=0;VL={};DVs=DV}document.getElementById('tabs').innerHTML=[['games','Games'],['players','Players'],['stats','Stats'],['perf','Performance']].map(([k,l])=>'<button class="tab '+(tab===k?'on':'')+'" onclick="tab=\''+k+'\';render()">'+l+'</button>').join('');
  document.getElementById('app').innerHTML={games:vGames,players:vPlayers,stats:vStats,perf:vPerf,data:vData}[tab]()}
 
 /* ---- cloud sync: private to your account, shared across your devices ---- */
@@ -398,8 +400,17 @@ async function sInit(){
   if(changed){save();DV++;render()}
   if(up.length)sync(up);else{syncMsg=CAN?'☁ synced':'👁 viewing the owner’s shared data (read-only)';sbadge()}}
  catch(e){syncMsg='☁ sync unavailable ('+(e.code||e.message)+')';sbadge()}}
+
+async function webInit(){syncMsg='⏳ loading latest data…';sbadge();let ok=0,err=[],lm='';
+ for(const k of ['teams','games','weekly','players','dvp','tds']){
+  try{const r=await fetch(WEB_DATA+k+'.csv?t='+Date.now(),{cache:'no-store'});if(!r.ok)throw Error('HTTP '+r.status);if(!lm)lm=r.headers.get('last-modified')||'';IMP[k](await r.text());ok++}
+  catch(e){err.push(k+': '+e.message)}}
+ DV++;
+ if(ok){save();syncMsg='📅 Data updated '+(lm?new Date(lm).toLocaleString([],{dateStyle:'medium',timeStyle:'short'}):'(date unavailable)')+(err.length?' · missing: '+err.join('; '):'')}
+ else syncMsg='⚠ No data files found yet ('+err[0]+')';
+ sbadge();render()}
 if(document.body&&document.addEventListener){const tipEl=document.createElement('div');tipEl.id='tip';document.body.appendChild(tipEl);
  document.addEventListener('mouseover',e=>{const t=e.target.closest&&e.target.closest('[data-tip]');if(!t){tipEl.style.display='none';return}tipEl.innerHTML=t.getAttribute('data-tip');tipEl.style.display='block'});
  document.addEventListener('mousemove',e=>{if(tipEl.style.display!=='block')return;const w=tipEl.offsetWidth,h=tipEl.offsetHeight;let x=e.clientX+14,y=e.clientY+14;if(x+w>innerWidth-8)x=Math.max(8,e.clientX-w-14);if(y+h>innerHeight-8)y=Math.max(8,e.clientY-h-14);tipEl.style.left=x+'px';tipEl.style.top=y+'px'})}
-if(!S.teams)tab='data';render();sbadge();sInit();
+render();sbadge();webInit();
 </script></body></html>
