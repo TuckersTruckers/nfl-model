@@ -19,10 +19,10 @@ jobs:
           python-version: '3.12'
       - run: pip install pandas numpy
       # The first run also builds the previous 3 seasons (once); later runs reuse them.
-      - name: Update NFL data
+      # ODDS_API_KEY comes from Settings > Secrets and variables > Actions > Secrets.
+      - run: python nfl_update.py --out nfl_output --history 3
         env:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
-        run: python nfl_update.py --out nfl_output --history 3
       - name: Save the new data files
         run: |
           git config user.name "github-actions"
