@@ -14,7 +14,7 @@ Safety: files are only written if EVERY download and validation step succeeds.
 If anything fails, your previous CSVs are left untouched.
 Requires: Python 3.9+ and `pip install pandas`
 """
-import argparse, datetime, os, sys, tempfile
+import argparse, datetime, json, os, sys, tempfile, urllib.error, urllib.parse, urllib.request
 import numpy as np
 import pandas as pd
 
@@ -32,6 +32,10 @@ PBP_URL = "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_
 PBP_COLS = {"game_id", "play_id", "week", "season_type", "home_team", "away_team", "posteam", "td_team", "td_player_id",
             "td_player_name", "touchdown", "pass_touchdown", "rush_touchdown", "return_touchdown", "yards_gained",
             "passer_player_name", "qtr", "time", "play_deleted"}
+ODDS_BASE = "https://api.the-odds-api.com/v4/sports/americanfootball_nfl"
+PROP_MARKETS = {"player_pass_yds": "pass_yds", "player_pass_tds": "pass_td", "player_rush_yds": "rush_yds",
+                "player_reception_yds": "rec_yds", "player_receptions": "rec", "player_anytime_td": "any_td"}
+SAFE_MARKETS = ["player_pass_yds", "player_pass_tds", "player_rush_yds"]   # used if the full list is rejected
 INJ_URL = "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_{s}.csv"
 ROUND = {"WC": "wildcard", "DIV": "division", "CON": "confchamp", "SB": "superbowl"}
 
@@ -344,6 +348,112 @@ def history_bundle(g_raw, season, qs):
     return weekly, games, plog
 
 
+def odds_get(path, params, key):
+    """GET from The Odds API. Errors never include the URL, so the key can never appear in logs."""
+    q = urllib.parse.urlencode({**params, "apiKey": key})
+    req = urllib.request.Request(f"{ODDS_BASE}{path}?{q}", headers={"User-Agent": "nfl-model"})
+    try:
+        with urllib.request.urlopen(req, timeout=30) as r:
+            return json.load(r), {k.lower(): v for k, v in r.headers.items()}
+    except urllib.error.HTTPError as e:
+        raise RuntimeError(f"HTTP {e.code}") from None
+    except Exception as e:
+        raise RuntimeError(type(e).__name__) from None
+
+
+def _dec(o):
+    return 1 + o / 100 if o > 0 else 1 + 100 / -o
+
+
+def aggregate_props(event, data):
+    """One row per player and stat: the line most books agree on, with the best over/under price (and which book) at that line."""
+    from collections import defaultdict
+    grid = defaultdict(lambda: defaultdict(lambda: {"over": [], "under": [], "books": set()}))
+    for bk in data.get("bookmakers", []):
+        for mk in bk.get("markets", []):
+            stat = PROP_MARKETS.get(mk.get("key"))
+            if not stat:
+                continue
+            for oc in mk.get("outcomes", []):
+                player = str(oc.get("description") or "").replace(",", "").strip()
+                price = oc.get("price")
+                if not player or not isinstance(price, (int, float)):
+                    continue
+                side = {"over": "over", "yes": "over", "under": "under", "no": "under"}.get(str(oc.get("name", "")).lower())
+                if side is None:
+                    continue
+                line = oc.get("point") if oc.get("point") is not None else 0.5   # anytime TD has no point
+                cell = grid[(stat, player)][float(line)]
+                cell[side].append((price, bk.get("title", bk.get("key", ""))))
+                cell["books"].add(bk.get("key"))
+    rows = []
+    for (stat, player), lines in grid.items():
+        allv = sorted(l for l, c in lines.items() for _ in c["books"])
+        med = allv[len(allv) // 2]
+        line = sorted(lines, key=lambda l: (-len(lines[l]["books"]), abs(l - med), l))[0]   # most books, then closest to the middle
+        c = lines[line]
+        bo = max(c["over"], key=lambda x: _dec(x[0])) if c["over"] else None
+        bu = max(c["under"], key=lambda x: _dec(x[0])) if c["under"] else None
+        rows.append({"event": event["id"], "commence": event["commence_time"], "home": event["home_team"], "away": event["away_team"],
+                     "player": player, "stat": stat, "line": line, "over_odds": bo[0] if bo else "", "under_odds": bu[0] if bu else "",
+                     "book_over": bo[1] if bo else "", "book_under": bu[1] if bu else "", "books": len(c["books"])})
+    return rows
+
+
+def update_props(out, key, hours=30, reserve=25):
+    """Fetch prop lines for games kicking off within `hours`, once per game (the free plan has 500 credits a month)."""
+    state_path = os.path.join(out, "props_state.json")
+    try:
+        state = json.load(open(state_path))
+    except Exception:
+        state = {}
+    now = datetime.datetime.now(datetime.timezone.utc)
+    iso = lambda s: datetime.datetime.fromisoformat(s.replace("Z", "+00:00"))
+    events, hdr = odds_get("/events", {}, key)
+    todo = [e for e in events if now <= iso(e["commence_time"]) <= now + datetime.timedelta(hours=hours) and e["id"] not in state]
+    print(f"  props: {len(todo)} game(s) in the next {hours}h not fetched yet")
+    new, remaining = [], hdr.get("x-requests-remaining")
+    for e in todo:
+        if remaining is not None and str(remaining).isdigit() and int(remaining) < reserve:
+            print(f"  props: stopping, only {remaining} credits left (reserve {reserve})")
+            break
+        data = None
+        for mkts in (list(PROP_MARKETS), SAFE_MARKETS):
+            try:
+                data, h = odds_get(f"/events/{e['id']}/odds", {"regions": "us", "markets": ",".join(mkts), "oddsFormat": "american"}, key)
+                remaining = h.get("x-requests-remaining", remaining)
+                break
+            except RuntimeError as err:
+                if str(err) == "HTTP 422" and mkts is not SAFE_MARKETS:
+                    continue
+                print(f"  props: {e['away_team']} at {e['home_team']} skipped ({err})")
+                if str(err) in ("HTTP 401", "HTTP 429"):
+                    data = False
+                break
+        if data is False:
+            break
+        if data:
+            rows = aggregate_props(e, data)
+            new += rows
+            state[e["id"]] = now.isoformat()
+            print(f"  props: {e['away_team']} at {e['home_team']}: {len(rows)} player lines")
+    old = read_existing(os.path.join(out, "props.csv"))
+    keep = []
+    if old is not None and len(old):
+        old = old[old.event.isin(set(state) - {r['event'] for r in new})]
+        old = old[old.commence.map(lambda s: iso(str(s)) > now - datetime.timedelta(hours=4))]
+        keep = old.to_dict("records")
+    allrows = keep + new
+    cols = ["event", "commence", "home", "away", "player", "stat", "line", "over_odds", "under_odds", "book_over", "book_under", "books"]
+    cut = now - datetime.timedelta(days=14)
+    state = {k: v for k, v in state.items() if iso(v) > cut}
+    if allrows:
+        write_csv(pd.DataFrame(allrows, columns=cols), out, "props.csv")
+    with open(state_path, "w") as fh:
+        json.dump(state, fh)
+    print(f"  props: {len(allrows)} lines saved; credits remaining: {remaining if remaining is not None else 'unknown'}")
+
+
 def read_existing(path):
     try:
         return pd.read_csv(path, low_memory=False)
@@ -409,6 +519,9 @@ def main():
     ap.add_argument("--season", type=int, default=default_season())
     ap.add_argument("--out", default="nfl_output")
     ap.add_argument("--history", type=int, default=3, help="previous seasons to build once (0 = skip)")
+    ap.add_argument("--no-props", action="store_true", help="skip the prop-line download")
+    ap.add_argument("--props-hours", type=int, default=30, help="fetch props for games starting within this many hours")
+    ap.add_argument("--props-reserve", type=int, default=25, help="stop fetching when this many API credits remain")
     a = ap.parse_args()
     print(f"Season {a.season}")
     g_raw = download([GAMES_URL], "schedule/scores/lines", a.season)
@@ -444,6 +557,14 @@ def main():
             update_history(g_raw, qs, a.season, a.history, a.out)
         except (Exception, SystemExit) as e:
             print("  history skipped:", str(e).strip().splitlines()[0][:110] if str(e).strip() else type(e).__name__)
+    key = os.environ.get("ODDS_API_KEY", "").strip()
+    if a.no_props or not key:
+        print("  props skipped:", "disabled" if a.no_props else "no ODDS_API_KEY set")
+    else:
+        try:
+            update_props(a.out, key, a.props_hours, a.props_reserve)
+        except (Exception, SystemExit) as e:
+            print("  props skipped:", str(e).strip().splitlines()[0][:110] if str(e).strip() else type(e).__name__)
     print("Done. Upload the core files (and any extras written above) on the app's Data tab.")
 
 
