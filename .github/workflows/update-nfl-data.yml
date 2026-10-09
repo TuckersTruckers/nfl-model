@@ -11,16 +11,17 @@ permissions:
 jobs:
   update:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
       - run: pip install pandas numpy
-      - run: python nfl_update.py --out nfl_output
+      # The first run also builds the previous 3 seasons (once); later runs reuse them.
+      - run: python nfl_update.py --out nfl_output --history 3
       - name: Save the new data files
         run: |
           git config user.name "github-actions"
-          git config user.email "actions@users.noreply.github.com"
           git add nfl_output
           git diff --cached --quiet || (git commit -m "Update NFL data" && git push)
