@@ -113,6 +113,9 @@ def build_games(g, season, qs=None):
     for src, dst in [("home_qb_name", "home_qb"), ("away_qb_name", "away_qb")]:
         if src in g.columns:
             out[dst] = g[src].fillna("").astype(str).str.replace(",", "", regex=False)
+    for c in ("gameday", "weekday", "gametime"):   # kickoff day and time (ET) for the game-time filter
+        if c in g.columns:
+            out[c] = g[c].fillna("").astype(str)
     if qs is not None and "game_id" in g.columns:
         q = qs.reindex(g.game_id)
         out["home_qb_starts"] = q.home_qb_starts.values
