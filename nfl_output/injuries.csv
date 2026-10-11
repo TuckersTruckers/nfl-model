@@ -14,6 +14,11 @@ week,team,player,pos,status,injury
 5,BAL,Cam Jurgens,C,Out,Concussion
 5,BAL,Andrew Vorhees,G,Questionable,Foot
 5,BAL,Zay Flowers,WR,Questionable,Foot
+5,BUF,DJ Moore,WR,Questionable,Shoulder
+5,BUF,Ed Oliver,DE,Out,Knee
+5,BUF,Josh Palmer,WR,Out,Shoulder
+5,BUF,Dee Alford,CB,Questionable,Ankle
+5,BUF,Landon Jackson,DE,Questionable,Knee
 5,CHI,Kyler Gordon,CB,Questionable,Calf
 5,CHI,Noah Sewell,LB,Questionable,Achilles
 5,CHI,Caleb Williams,QB,Questionable,Hamstring
@@ -68,6 +73,7 @@ week,team,player,pos,status,injury
 5,IND,Jaylon Carlies,LB,Out,Ribs
 5,JAX,Eric Murray,S,Doubtful,Concussion
 5,JAX,Jaylon Jones,CB,Out,Hamstring
+5,LAR,Quentin Lake,S,Questionable,Hip
 5,LAC,Donte Jackson,CB,Out,Hamstring
 5,LAC,Derwin James,S,Out,Hamstring
 5,LAC,Kayode Awosika,G,Out,Fibula
