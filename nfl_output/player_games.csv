@@ -1278,6 +1278,15 @@ season,week,player,team,opp,pos,att,cmp,pyds,ptd,int,car,ryds,rtd,tgt,rec,recyds
 2026,5,Rashod Bateman,BAL,ATL,WR,0,0,0,0,0,0,0,0,6,5,62,0,11.2
 2026,5,Tyler Huntley,BAL,ATL,QB,32,24,201,2,0,6,20,1,0,0,0,0,24.04
 2026,5,Zay Flowers,BAL,ATL,WR,0,0,0,0,0,1,13,0,9,8,53,0,14.6
+2026,5,Dalton Kincaid,BUF,LAR,TE,0,0,0,0,0,0,0,0,2,1,7,0,3.7
+2026,5,Dawson Knox,BUF,LAR,TE,0,0,0,0,0,0,0,0,3,1,6,0,1.6
+2026,5,James Cook,BUF,LAR,RB,0,0,0,0,0,25,111,2,1,1,7,0,22.8
+2026,5,Josh Allen,BUF,LAR,QB,19,12,210,1,1,10,121,1,0,0,0,0,30.5
+2026,5,Keon Coleman,BUF,LAR,WR,0,0,0,0,0,0,0,0,2,1,7,1,7.7
+2026,5,Khalil Shakir,BUF,LAR,WR,0,0,0,0,0,0,0,0,3,3,80,0,11.0
+2026,5,Ray Davis,BUF,LAR,RB,0,0,0,0,0,2,2,0,1,1,31,0,4.3
+2026,5,Skyler Bell,BUF,LAR,WR,0,0,0,0,0,0,0,0,2,0,0,0,0.0
+2026,5,Ty Johnson,BUF,LAR,RB,0,0,0,0,0,0,0,0,4,4,72,0,11.2
 2026,5,Case Keenum,CHI,GNB,QB,19,11,108,0,1,1,4,0,0,0,0,0,0.72
 2026,5,Cole Kmet,CHI,GNB,TE,0,0,0,0,0,0,0,0,2,1,8,0,1.8
 2026,5,Colston Loveland,CHI,GNB,TE,0,0,0,0,0,0,0,0,5,2,19,0,3.9
@@ -1388,6 +1397,15 @@ season,week,player,team,opp,pos,att,cmp,pyds,ptd,int,car,ryds,rtd,tgt,rec,recyds
 2026,5,Oronde Gadsden II,LAC,DEN,TE,0,0,0,0,0,0,0,0,1,0,0,0,0.0
 2026,5,Theo Wease Jr.,LAC,DEN,WR,0,0,0,0,0,0,0,0,1,1,16,0,2.6
 2026,5,Tre Harris,LAC,DEN,WR,0,0,0,0,0,0,0,0,4,2,16,0,3.6
+2026,5,Blake Corum,LAR,BUF,RB,0,0,0,0,0,5,19,1,4,3,53,0,16.2
+2026,5,Colby Parkinson,LAR,BUF,TE,0,0,0,0,0,0,0,0,2,1,3,0,1.3
+2026,5,Davante Adams,LAR,BUF,WR,0,0,0,0,0,0,0,0,7,5,51,2,22.1
+2026,5,Davis Allen,LAR,BUF,TE,0,0,0,0,0,0,0,0,2,2,24,0,4.4
+2026,5,Kyren Williams,LAR,BUF,RB,0,0,0,0,0,16,49,1,8,6,27,0,19.6
+2026,5,Matthew Stafford,LAR,BUF,QB,54,40,383,3,0,0,0,0,0,0,0,0,27.32
+2026,5,Puka Nacua,LAR,BUF,WR,0,0,0,0,0,2,9,0,24,17,138,1,37.7
+2026,5,Tutu Atwell,LAR,BUF,WR,0,0,0,0,0,0,0,0,1,1,4,0,1.4
+2026,5,Tyler Higbee,LAR,BUF,TE,0,0,0,0,0,0,0,0,6,5,83,0,13.3
 2026,5,Ashton Jeanty,LVR,NWE,RB,0,0,0,0,0,10,27,0,6,3,50,0,10.7
 2026,5,Brock Bowers,LVR,NWE,TE,0,0,0,0,0,0,0,0,10,8,110,1,23.0
 2026,5,Cody White,LVR,NWE,WR,0,0,0,0,0,0,0,0,4,2,44,0,6.4
