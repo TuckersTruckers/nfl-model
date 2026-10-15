@@ -1,75 +1,74 @@
 event,commence,home,away,player,stat,line,over_odds,under_odds,book_over,book_under,books
-e6d00eedd87d367e510314bd8cab8f6f,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,Kyren Williams,any_td,0.5,-160,,DraftKings,,6
-e6d00eedd87d367e510314bd8cab8f6f,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,Puka Nacua,any_td,0.5,-115,,BetMGM,,6
-e6d00eedd87d367e510314bd8cab8f6f,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,James Cook,any_td,0.5,-105,,BetMGM,,6
-e6d00eedd87d367e510314bd8cab8f6f,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,Josh Allen,any_td,0.5,-115,,BetMGM,,6
-e6d00eedd87d367e510314bd8cab8f6f,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,Davante Adams,any_td,0.5,100,,DraftKings,,6
-e6d00eedd87d367e510314bd8cab8f6f,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,Dalton Kincaid,any_td,0.5,195,,Bovada,,6
-e6d00eedd87d367e510314bd8cab8f6f,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,Khalil Shakir,any_td,0.5,240,,BetMGM,,6
-e6d00eedd87d367e510314bd8cab8f6f,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,Keon Coleman,any_td,0.5,270,,BetMGM,,6
-e6d00eedd87d367e510314bd8cab8f6f,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,Tyler Higbee,any_td,0.5,280,,BetMGM,,6
-e6d00eedd87d367e510314bd8cab8f6f,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,Colby Parkinson,any_td,0.5,280,,BetMGM,,6
-e6d00eedd87d367e510314bd8cab8f6f,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,Blake Corum,any_td,0.5,320,,BetRivers,,6
-e6d00eedd87d367e510314bd8cab8f6f,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,Los Angeles Rams D/ST,any_td,0.5,525,,BetMGM,,3
-e6d00eedd87d367e510314bd8cab8f6f,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,Buffalo Bills D/ST,any_td,0.5,650,,BetMGM,,3
-e6d00eedd87d367e510314bd8cab8f6f,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,Dawson Knox,any_td,0.5,550,,DraftKings,,6
-e6d00eedd87d367e510314bd8cab8f6f,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,Ty Johnson,any_td,0.5,775,,BetMGM,,6
-e6d00eedd87d367e510314bd8cab8f6f,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,Jackson Hawes,any_td,0.5,1200,,BetMGM,,6
-e6d00eedd87d367e510314bd8cab8f6f,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,Greg Dortch,any_td,0.5,850,,FanDuel,,5
-e6d00eedd87d367e510314bd8cab8f6f,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,Davis Allen,any_td,0.5,850,,BetMGM,,6
-e6d00eedd87d367e510314bd8cab8f6f,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,Skyler Bell,any_td,0.5,1200,,FanDuel,,6
-e6d00eedd87d367e510314bd8cab8f6f,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,Konata Mumpfield,any_td,0.5,950,,BetRivers,,6
-e6d00eedd87d367e510314bd8cab8f6f,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,Jordan Whittington,any_td,0.5,1200,,DraftKings,,6
-e6d00eedd87d367e510314bd8cab8f6f,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,Tutu Atwell,any_td,0.5,1600,,FanDuel,,6
-e6d00eedd87d367e510314bd8cab8f6f,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,Ray Davis,any_td,0.5,1900,,FanDuel,,6
-e6d00eedd87d367e510314bd8cab8f6f,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,Matthew Stafford,any_td,0.5,2200,,BetRivers,,6
-e6d00eedd87d367e510314bd8cab8f6f,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,CJ Daniels,any_td,0.5,2000,,BetRivers,,5
-e6d00eedd87d367e510314bd8cab8f6f,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,Keleki Latu,any_td,0.5,2000,,FanDuel,,5
-e6d00eedd87d367e510314bd8cab8f6f,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,Max Klare,any_td,0.5,2200,,DraftKings,,5
-e6d00eedd87d367e510314bd8cab8f6f,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,Dean Connors,any_td,0.5,2800,,BetRivers,,5
-e6d00eedd87d367e510314bd8cab8f6f,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,Alex Bachman,any_td,0.5,2500,,DraftKings,,6
-e6d00eedd87d367e510314bd8cab8f6f,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,Matthew Stafford,pass_td,2.5,128,-156,DraftKings,FanDuel,6
-e6d00eedd87d367e510314bd8cab8f6f,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,Josh Allen,pass_td,1.5,-108,-105,FanDuel,BetOnline.ag,6
-e6d00eedd87d367e510314bd8cab8f6f,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,Matthew Stafford,pass_yds,283.5,-112,-110,DraftKings,Bovada,2
-e6d00eedd87d367e510314bd8cab8f6f,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,Josh Allen,pass_yds,244.5,-113,-113,FanDuel,FanDuel,2
-e6d00eedd87d367e510314bd8cab8f6f,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,Puka Nacua,rec_yds,96.5,-112,-112,DraftKings,DraftKings,3
-e6d00eedd87d367e510314bd8cab8f6f,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,Davante Adams,rec_yds,62.5,-113,-113,FanDuel,FanDuel,2
-e6d00eedd87d367e510314bd8cab8f6f,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,Dalton Kincaid,rec_yds,56.5,-114,-111,BetOnline.ag,BetMGM,3
-e6d00eedd87d367e510314bd8cab8f6f,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,Khalil Shakir,rec_yds,45.5,-112,-110,DraftKings,Bovada,4
-e6d00eedd87d367e510314bd8cab8f6f,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,Keon Coleman,rec_yds,38.5,-113,-109,FanDuel,BetOnline.ag,2
-e6d00eedd87d367e510314bd8cab8f6f,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,Tyler Higbee,rec_yds,26.5,-112,-113,BetRivers,FanDuel,2
-e6d00eedd87d367e510314bd8cab8f6f,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,Kyren Williams,rec_yds,22.5,-108,-105,DraftKings,BetMGM,4
-e6d00eedd87d367e510314bd8cab8f6f,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,Colby Parkinson,rec_yds,17.5,-110,-113,DraftKings,FanDuel,4
-e6d00eedd87d367e510314bd8cab8f6f,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,Ty Johnson,rec_yds,14.5,-113,-113,FanDuel,FanDuel,2
-e6d00eedd87d367e510314bd8cab8f6f,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,James Cook,rec_yds,11.5,-113,-111,DraftKings,DraftKings,3
-e6d00eedd87d367e510314bd8cab8f6f,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,Dawson Knox,rec_yds,11.5,-111,-113,BetOnline.ag,FanDuel,3
-e6d00eedd87d367e510314bd8cab8f6f,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,Davis Allen,rec_yds,7.5,-108,-116,DraftKings,DraftKings,2
-e6d00eedd87d367e510314bd8cab8f6f,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,Konata Mumpfield,rec_yds,6.5,-111,-113,DraftKings,DraftKings,4
-e6d00eedd87d367e510314bd8cab8f6f,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,Jordan Whittington,rec_yds,5.5,-113,-107,FanDuel,DraftKings,6
-e6d00eedd87d367e510314bd8cab8f6f,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,Blake Corum,rec_yds,3.5,-105,-112,BetOnline.ag,DraftKings,4
-e6d00eedd87d367e510314bd8cab8f6f,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,Puka Nacua,rec,7.5,116,-122,FanDuel,DraftKings,6
-e6d00eedd87d367e510314bd8cab8f6f,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,Khalil Shakir,rec,4.5,-103,-108,BetRivers,BetOnline.ag,5
-e6d00eedd87d367e510314bd8cab8f6f,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,Dalton Kincaid,rec,4.5,102,-115,DraftKings,BetMGM,6
-e6d00eedd87d367e510314bd8cab8f6f,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,Davante Adams,rec,4.5,118,-135,DraftKings,BetMGM,6
-e6d00eedd87d367e510314bd8cab8f6f,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,Kyren Williams,rec,3.5,140,-182,FanDuel,BetOnline.ag,3
-e6d00eedd87d367e510314bd8cab8f6f,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,Keon Coleman,rec,2.5,-161,134,DraftKings,FanDuel,3
-e6d00eedd87d367e510314bd8cab8f6f,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,Tyler Higbee,rec,2.5,-114,102,FanDuel,DraftKings,5
-e6d00eedd87d367e510314bd8cab8f6f,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,Ty Johnson,rec,1.5,-169,148,BetOnline.ag,DraftKings,4
-e6d00eedd87d367e510314bd8cab8f6f,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,Colby Parkinson,rec,1.5,-176,150,DraftKings,BetMGM,6
-e6d00eedd87d367e510314bd8cab8f6f,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,James Cook,rec,1.5,-122,106,FanDuel,DraftKings,6
-e6d00eedd87d367e510314bd8cab8f6f,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,Dawson Knox,rec,1.5,116,-145,DraftKings,BetOnline.ag,6
-e6d00eedd87d367e510314bd8cab8f6f,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,Davis Allen,rec,0.5,-180,145,FanDuel,DraftKings,4
-e6d00eedd87d367e510314bd8cab8f6f,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,Jordan Whittington,rec,0.5,-164,140,BetOnline.ag,BetMGM,6
-e6d00eedd87d367e510314bd8cab8f6f,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,Blake Corum,rec,0.5,-150,134,Bovada,DraftKings,4
-e6d00eedd87d367e510314bd8cab8f6f,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,Konata Mumpfield,rec,0.5,-154,135,DraftKings,BetMGM,6
-e6d00eedd87d367e510314bd8cab8f6f,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,James Cook,rush_yds,76.5,-111,-113,DraftKings,DraftKings,2
-e6d00eedd87d367e510314bd8cab8f6f,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,Kyren Williams,rush_yds,69.5,-110,-109,Bovada,BetOnline.ag,3
-e6d00eedd87d367e510314bd8cab8f6f,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,Josh Allen,rush_yds,36.5,-113,-110,FanDuel,DraftKings,5
-e6d00eedd87d367e510314bd8cab8f6f,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,Blake Corum,rush_yds,33.5,-113,-110,FanDuel,DraftKings,5
-e6d00eedd87d367e510314bd8cab8f6f,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,Ty Johnson,rush_yds,6.5,-101,-124,DraftKings,DraftKings,2
-e6d00eedd87d367e510314bd8cab8f6f,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,Puka Nacua,rush_yds,2.5,102,-130,FanDuel,FanDuel,1
-e6d00eedd87d367e510314bd8cab8f6f,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,Matthew Stafford,rush_yds,1.5,102,-122,FanDuel,DraftKings,3
-e6d00eedd87d367e510314bd8cab8f6f,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,Los Angeles Rams Defense,any_td,0.5,550,,FanDuel,,1
-e6d00eedd87d367e510314bd8cab8f6f,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,Buffalo Bills Defense,any_td,0.5,900,,FanDuel,,1
-e6d00eedd87d367e510314bd8cab8f6f,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,Ray Davis,rush_yds,2.5,-113,-113,FanDuel,FanDuel,1
-e6d00eedd87d367e510314bd8cab8f6f,2026-10-13T00:15:00Z,Los Angeles Rams,Buffalo Bills,DJ Moore,any_td,0.5,190,,BetMGM,,2
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Jaxon Smith-Njigba,any_td,0.5,115,,BetMGM,,5
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Emanuel Wilson,any_td,0.5,115,,FanDuel,,5
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,J.K. Dobbins,any_td,0.5,170,,FanDuel,,5
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Jaylen Waddle,any_td,0.5,270,,BetMGM,,5
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Courtland Sutton,any_td,0.5,280,,BetMGM,,5
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,RJ Harvey,any_td,0.5,290,,BetMGM,,5
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,AJ Barner,any_td,0.5,380,,FanDuel,,5
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,George Holani,any_td,0.5,400,,DraftKings,,5
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Rashid Shaheed,any_td,0.5,400,,DraftKings,,5
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Cooper Kupp,any_td,0.5,425,,DraftKings,,5
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Bo Nix,any_td,0.5,460,,FanDuel,,5
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Denver Broncos D/ST,any_td,0.5,500,,DraftKings,,2
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Seattle Seahawks D/ST,any_td,0.5,500,,DraftKings,,2
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Evan Engram,any_td,0.5,600,,DraftKings,,5
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Troy Franklin,any_td,0.5,700,,FanDuel,,5
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Tory Horton,any_td,0.5,800,,DraftKings,,5
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Elijah Arroyo,any_td,0.5,1150,,BetMGM,,5
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Sam Darnold,any_td,0.5,1150,,BetRivers,,5
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Marvin Mims Jr.,any_td,0.5,1100,,DraftKings,,5
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Tyler Badie,any_td,0.5,1150,,BetMGM,,5
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Adam Trautman,any_td,0.5,1300,,DraftKings,,5
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Lil'Jordan Humphrey,any_td,0.5,1850,,BetMGM,,5
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Nate Adkins,any_td,0.5,1900,,BetRivers,,5
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Eric Saubert,any_td,0.5,2000,,DraftKings,,5
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Dallen Bentley,any_td,0.5,2200,,DraftKings,,3
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Nick Kallerup,any_td,0.5,2500,,DraftKings,,3
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Adam Prentice,any_td,0.5,3500,,BetRivers,,5
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Brady Russell,any_td,0.5,4000,,FanDuel,,5
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Montorie Foster Jr.,any_td,0.5,4500,,DraftKings,,4
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Sam Darnold,pass_td,1.5,132,-159,BetRivers,BetOnline.ag,5
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Bo Nix,pass_td,1.5,188,-218,BetRivers,DraftKings,4
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Sam Darnold,pass_yds,220.5,-111,-113,DraftKings,DraftKings,4
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Bo Nix,pass_yds,199.5,-112,-112,DraftKings,DraftKings,2
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Jaxon Smith-Njigba,rec_yds,92.5,-111,-113,DraftKings,DraftKings,3
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Jaylen Waddle,rec_yds,47.5,-110,-113,DraftKings,FanDuel,3
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Courtland Sutton,rec_yds,31.5,-113,-111,FanDuel,BetMGM,3
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,AJ Barner,rec_yds,23.5,-113,-105,DraftKings,BetMGM,4
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Evan Engram,rec_yds,21.5,-112,-109,BetRivers,DraftKings,4
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Rashid Shaheed,rec_yds,22.5,-113,-113,FanDuel,FanDuel,3
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Cooper Kupp,rec_yds,21.5,-111,-113,DraftKings,DraftKings,4
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,RJ Harvey,rec_yds,20.5,-113,-107,FanDuel,DraftKings,5
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Troy Franklin,rec_yds,16.5,-113,-113,FanDuel,FanDuel,3
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Marvin Mims Jr.,rec_yds,10.5,-110,-111,DraftKings,BetOnline.ag,3
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Emanuel Wilson,rec_yds,9.5,-110,-107,BetMGM,DraftKings,5
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,George Holani,rec_yds,9.5,-112,-109,BetRivers,DraftKings,5
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,J.K. Dobbins,rec_yds,4.5,-113,-106,FanDuel,DraftKings,2
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Tory Horton,rec_yds,5.5,-111,-113,BetOnline.ag,FanDuel,2
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Jaxon Smith-Njigba,rec,6.5,-127,106,BetRivers,DraftKings,5
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Jaylen Waddle,rec,4.5,119,-140,DraftKings,BetMGM,5
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,RJ Harvey,rec,3.5,-105,-112,BetMGM,DraftKings,5
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Courtland Sutton,rec,3.5,124,-145,FanDuel,BetOnline.ag,4
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Evan Engram,rec,2.5,-150,120,BetMGM,DraftKings,5
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,AJ Barner,rec,2.5,-125,120,BetRivers,BetOnline.ag,5
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Cooper Kupp,rec,2.5,125,-143,BetMGM,DraftKings,5
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Rashid Shaheed,rec,2.5,148,-167,FanDuel,DraftKings,3
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Troy Franklin,rec,1.5,-125,108,FanDuel,BetOnline.ag,5
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Emanuel Wilson,rec,1.5,-114,-101,FanDuel,DraftKings,5
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,George Holani,rec,1.5,-120,112,DraftKings,FanDuel,5
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Marvin Mims Jr.,rec,1.5,142,-175,DraftKings,BetOnline.ag,4
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,J.K. Dobbins,rec,1.5,153,-194,DraftKings,FanDuel,2
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Tory Horton,rec,0.5,-142,118,DraftKings,FanDuel,3
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Emanuel Wilson,rush_yds,66.5,-113,-109,FanDuel,DraftKings,5
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,J.K. Dobbins,rush_yds,47.5,-109,-113,DraftKings,FanDuel,4
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Bo Nix,rush_yds,14.5,-110,-110,BetMGM,BetRivers,3
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,George Holani,rush_yds,14.5,-112,-107,BetRivers,DraftKings,4
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,RJ Harvey,rush_yds,14.5,-111,-112,BetMGM,DraftKings,3
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Sam Darnold,rush_yds,4.5,-113,-107,FanDuel,DraftKings,4
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Seattle Seahawks Defense,any_td,0.5,750,,FanDuel,,1
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Denver Broncos Defense,any_td,0.5,850,,FanDuel,,1
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Velus Jones Jr.,any_td,0.5,1800,,FanDuel,,2
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Robert Henry Jr.,any_td,0.5,1800,,FanDuel,,1
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Jaxon Smith-Njigba,rush_yds,0.5,290,-410,FanDuel,FanDuel,1
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Rashid Shaheed,rush_yds,2.5,114,-146,FanDuel,FanDuel,1
