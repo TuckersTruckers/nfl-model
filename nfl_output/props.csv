@@ -28,47 +28,47 @@ event,commence,home,away,player,stat,line,over_odds,under_odds,book_over,book_un
 855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Adam Prentice,any_td,0.5,3500,,BetRivers,,5
 855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Brady Russell,any_td,0.5,4000,,FanDuel,,5
 855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Montorie Foster Jr.,any_td,0.5,4500,,DraftKings,,4
-855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Sam Darnold,pass_td,1.5,132,-159,BetRivers,BetOnline.ag,5
-855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Bo Nix,pass_td,1.5,188,-218,BetRivers,DraftKings,4
-855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Sam Darnold,pass_yds,220.5,-111,-113,DraftKings,DraftKings,4
-855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Bo Nix,pass_yds,199.5,-112,-112,DraftKings,DraftKings,2
-855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Jaxon Smith-Njigba,rec_yds,92.5,-111,-113,DraftKings,DraftKings,3
-855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Jaylen Waddle,rec_yds,47.5,-110,-113,DraftKings,FanDuel,3
-855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Courtland Sutton,rec_yds,31.5,-113,-111,FanDuel,BetMGM,3
-855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,AJ Barner,rec_yds,23.5,-113,-105,DraftKings,BetMGM,4
-855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Evan Engram,rec_yds,21.5,-112,-109,BetRivers,DraftKings,4
-855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Rashid Shaheed,rec_yds,22.5,-113,-113,FanDuel,FanDuel,3
-855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Cooper Kupp,rec_yds,21.5,-111,-113,DraftKings,DraftKings,4
-855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,RJ Harvey,rec_yds,20.5,-113,-107,FanDuel,DraftKings,5
-855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Troy Franklin,rec_yds,16.5,-113,-113,FanDuel,FanDuel,3
-855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Marvin Mims Jr.,rec_yds,10.5,-110,-111,DraftKings,BetOnline.ag,3
-855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Emanuel Wilson,rec_yds,9.5,-110,-107,BetMGM,DraftKings,5
-855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,George Holani,rec_yds,9.5,-112,-109,BetRivers,DraftKings,5
-855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,J.K. Dobbins,rec_yds,4.5,-113,-106,FanDuel,DraftKings,2
-855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Tory Horton,rec_yds,5.5,-111,-113,BetOnline.ag,FanDuel,2
-855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Jaxon Smith-Njigba,rec,6.5,-127,106,BetRivers,DraftKings,5
-855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Jaylen Waddle,rec,4.5,119,-140,DraftKings,BetMGM,5
-855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,RJ Harvey,rec,3.5,-105,-112,BetMGM,DraftKings,5
-855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Courtland Sutton,rec,3.5,124,-145,FanDuel,BetOnline.ag,4
-855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Evan Engram,rec,2.5,-150,120,BetMGM,DraftKings,5
-855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,AJ Barner,rec,2.5,-125,120,BetRivers,BetOnline.ag,5
-855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Cooper Kupp,rec,2.5,125,-143,BetMGM,DraftKings,5
-855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Rashid Shaheed,rec,2.5,148,-167,FanDuel,DraftKings,3
-855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Troy Franklin,rec,1.5,-125,108,FanDuel,BetOnline.ag,5
-855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Emanuel Wilson,rec,1.5,-114,-101,FanDuel,DraftKings,5
-855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,George Holani,rec,1.5,-120,112,DraftKings,FanDuel,5
-855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Marvin Mims Jr.,rec,1.5,142,-175,DraftKings,BetOnline.ag,4
-855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,J.K. Dobbins,rec,1.5,153,-194,DraftKings,FanDuel,2
-855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Tory Horton,rec,0.5,-142,118,DraftKings,FanDuel,3
-855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Emanuel Wilson,rush_yds,66.5,-113,-109,FanDuel,DraftKings,5
-855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,J.K. Dobbins,rush_yds,47.5,-109,-113,DraftKings,FanDuel,4
-855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Bo Nix,rush_yds,14.5,-110,-110,BetMGM,BetRivers,3
-855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,George Holani,rush_yds,14.5,-112,-107,BetRivers,DraftKings,4
-855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,RJ Harvey,rush_yds,14.5,-111,-112,BetMGM,DraftKings,3
-855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Sam Darnold,rush_yds,4.5,-113,-107,FanDuel,DraftKings,4
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Sam Darnold,pass_td,1.5,132,-159.0,BetRivers,BetOnline.ag,5
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Bo Nix,pass_td,1.5,188,-218.0,BetRivers,DraftKings,4
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Sam Darnold,pass_yds,220.5,-111,-113.0,DraftKings,DraftKings,4
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Bo Nix,pass_yds,199.5,-112,-112.0,DraftKings,DraftKings,2
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Jaxon Smith-Njigba,rec_yds,92.5,-111,-113.0,DraftKings,DraftKings,3
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Jaylen Waddle,rec_yds,47.5,-110,-113.0,DraftKings,FanDuel,3
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Courtland Sutton,rec_yds,31.5,-113,-111.0,FanDuel,BetMGM,3
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,AJ Barner,rec_yds,23.5,-113,-105.0,DraftKings,BetMGM,4
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Evan Engram,rec_yds,21.5,-112,-109.0,BetRivers,DraftKings,4
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Rashid Shaheed,rec_yds,22.5,-113,-113.0,FanDuel,FanDuel,3
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Cooper Kupp,rec_yds,21.5,-111,-113.0,DraftKings,DraftKings,4
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,RJ Harvey,rec_yds,20.5,-113,-107.0,FanDuel,DraftKings,5
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Troy Franklin,rec_yds,16.5,-113,-113.0,FanDuel,FanDuel,3
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Marvin Mims Jr.,rec_yds,10.5,-110,-111.0,DraftKings,BetOnline.ag,3
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Emanuel Wilson,rec_yds,9.5,-110,-107.0,BetMGM,DraftKings,5
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,George Holani,rec_yds,9.5,-112,-109.0,BetRivers,DraftKings,5
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,J.K. Dobbins,rec_yds,4.5,-113,-106.0,FanDuel,DraftKings,2
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Tory Horton,rec_yds,5.5,-111,-113.0,BetOnline.ag,FanDuel,2
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Jaxon Smith-Njigba,rec,6.5,-127,106.0,BetRivers,DraftKings,5
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Jaylen Waddle,rec,4.5,119,-140.0,DraftKings,BetMGM,5
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,RJ Harvey,rec,3.5,-105,-112.0,BetMGM,DraftKings,5
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Courtland Sutton,rec,3.5,124,-145.0,FanDuel,BetOnline.ag,4
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Evan Engram,rec,2.5,-150,120.0,BetMGM,DraftKings,5
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,AJ Barner,rec,2.5,-125,120.0,BetRivers,BetOnline.ag,5
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Cooper Kupp,rec,2.5,125,-143.0,BetMGM,DraftKings,5
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Rashid Shaheed,rec,2.5,148,-167.0,FanDuel,DraftKings,3
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Troy Franklin,rec,1.5,-125,108.0,FanDuel,BetOnline.ag,5
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Emanuel Wilson,rec,1.5,-114,-101.0,FanDuel,DraftKings,5
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,George Holani,rec,1.5,-120,112.0,DraftKings,FanDuel,5
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Marvin Mims Jr.,rec,1.5,142,-175.0,DraftKings,BetOnline.ag,4
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,J.K. Dobbins,rec,1.5,153,-194.0,DraftKings,FanDuel,2
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Tory Horton,rec,0.5,-142,118.0,DraftKings,FanDuel,3
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Emanuel Wilson,rush_yds,66.5,-113,-109.0,FanDuel,DraftKings,5
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,J.K. Dobbins,rush_yds,47.5,-109,-113.0,DraftKings,FanDuel,4
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Bo Nix,rush_yds,14.5,-110,-110.0,BetMGM,BetRivers,3
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,George Holani,rush_yds,14.5,-112,-107.0,BetRivers,DraftKings,4
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,RJ Harvey,rush_yds,14.5,-111,-112.0,BetMGM,DraftKings,3
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Sam Darnold,rush_yds,4.5,-113,-107.0,FanDuel,DraftKings,4
 855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Seattle Seahawks Defense,any_td,0.5,750,,FanDuel,,1
 855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Denver Broncos Defense,any_td,0.5,850,,FanDuel,,1
 855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Velus Jones Jr.,any_td,0.5,1800,,FanDuel,,2
 855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Robert Henry Jr.,any_td,0.5,1800,,FanDuel,,1
-855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Jaxon Smith-Njigba,rush_yds,0.5,290,-410,FanDuel,FanDuel,1
-855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Rashid Shaheed,rush_yds,2.5,114,-146,FanDuel,FanDuel,1
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Jaxon Smith-Njigba,rush_yds,0.5,290,-410.0,FanDuel,FanDuel,1
+855f58fad5f0f14b239f4f63df27998b,2026-10-16T00:15:00Z,Denver Broncos,Seattle Seahawks,Rashid Shaheed,rush_yds,2.5,114,-146.0,FanDuel,FanDuel,1
