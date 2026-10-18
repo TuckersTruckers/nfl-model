@@ -68,7 +68,6 @@ week,team,player,pos,status,injury
 6,HOU,Henry To'oTo'o,LB,Questionable,Shoulder
 6,HOU,Tank Dell,WR,Out,Knee
 6,IND,Ashton Dulin,WR,Out,Hamstring
-6,IND,Will Mallory,TE,Questionable,Thumb
 6,IND,Jaylon Carlies,LB,Out,Ribs
 6,IND,Tyler Warren,TE,Questionable,Groin
 6,JAX,Ross Matiscik,LS,Out,Shoulder
@@ -128,24 +127,34 @@ week,team,player,pos,status,injury
 6,PHI,A.J. Epenesa,LB,Doubtful,Back
 6,PHI,Jalen Hurts,QB,Out,Calf
 6,PHI,Michael Carter II,S,Out,Abdomen
-6,PHI,Landon Dickerson,G,Questionable,Knee
-6,PHI,Grant Calcaterra,TE,Questionable,Back
-6,PHI,Jakorian Bennett,CB,Questionable,Knee
+6,PHI,Landon Dickerson,G,Out,Knee
+6,PHI,Grant Calcaterra,TE,Out,Back
+6,PHI,Jakorian Bennett,CB,Out,Knee
 6,PHI,Jalyx Hunt,LB,Out,Knee
 6,PHI,Will Shipley,RB,Out,Foot
 6,PHI,Drew Kendall,C,Questionable,Knee
-6,PHI,Eli Stowers,TE,Questionable,Quadricep
+6,PHI,Eli Stowers,TE,Out,Quadricep
 6,PIT,Jalen Ramsey,CB,Questionable,Wrist
 6,PIT,DeShon Elliott,S,Out,Knee
-6,PIT,DK Metcalf,WR,Questionable,Illness
 6,PIT,Jamel Dean,CB,Questionable,Ankle
 6,PIT,Rico Dowdle,RB,Questionable,Toe
 6,PIT,Ben Skowronek,WR,Out,Calf
+6,PIT,Pat Freiermuth,TE,Questionable,Calf
 6,PIT,Keeanu Benton,DT,Questionable,Ankle
 6,PIT,Roman Wilson,WR,Out,Finger
 6,SEA,Chazz Surratt,LB,Out,Calf
 6,SEA,Drake Thomas,LB,Out,Ankle
 6,SEA,Zach Charbonnet,RB,Out,Knee
+6,SFO,Mike Evans,WR,Questionable,Ribs
+6,SFO,Siran Neal,S,Questionable,Neck
+6,SFO,Christian Kirk,WR,Questionable,Calf
+6,SFO,Nick Bosa,DE,Out,Knee
+6,SFO,Deebo Samuel Sr.,WR,Out,Hamstring
+6,SFO,Garret Wallow,LB,Out,Hamstring
+6,SFO,Upton Stout,CB,Questionable,Shoulder
+6,SFO,Marques Sigle,S,Out,Ankle
+6,SFO,Mykel Williams,DE,Questionable,Knee
+6,SFO,Gracen Halton,DT,Questionable,Quadricep
 6,TAM,Baker Mayfield,QB,Out,Thumb
 6,TAM,David Sills,WR,Out,Hamstring
 6,TAM,Antoine Winfield Jr.,S,Out,Rib
@@ -158,3 +167,16 @@ week,team,player,pos,status,injury
 6,TEN,Joshua Williams,CB,Questionable,Pectoral
 6,TEN,Tyjae Spears,RB,Questionable,Knee
 6,TEN,Kevin Winston Jr.,S,Out,Quadricep
+6,WAS,Stefon Diggs,WR,Questionable,Hamstring
+6,WAS,Marcus Mariota,QB,Out,Knee
+6,WAS,Lucas Patrick,G,Questionable,Illness
+6,WAS,Jeremy McNichols,RB,Questionable,Quadricep
+6,WAS,Charles Omenihu,DE,Out,Groin
+6,WAS,Javon Kinlaw,DT,Questionable,Ankle
+6,WAS,Nick Cross,S,Questionable,Illness
+6,WAS,Percy Butler,S,Questionable,Hamstring
+6,WAS,Jordan Magee,LB,Questionable,Hamstring
+6,WAS,Javontae Jean-Baptiste,LB,Out,Pectoral
+6,WAS,Tyler Owens,S,Questionable,Hamstring
+6,WAS,Jacory Croskey-Merritt,RB,Out,Groin
+6,WAS,Trey Amos,CB,Questionable,Ankle
