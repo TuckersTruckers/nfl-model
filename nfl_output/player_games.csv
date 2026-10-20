@@ -1772,6 +1772,14 @@ season,week,player,team,opp,pos,att,cmp,pyds,ptd,int,car,ryds,rtd,tgt,rec,recyds
 2026,6,Sam Darnold,SEA,DEN,QB,51,27,278,0,2,2,19,0,0,0,0,0,11.02
 2026,6,Tory Horton,SEA,DEN,WR,0,0,0,0,0,0,0,0,5,1,13,0,2.3
 2026,6,Velus Jones Jr.,SEA,DEN,RB,0,0,0,0,0,4,20,0,1,1,-1,0,2.9
+2026,6,Brandin Cooks,SFO,WAS,WR,0,0,0,0,0,0,0,0,2,1,13,0,2.3
+2026,6,Brock Purdy,SFO,WAS,QB,29,21,264,1,0,5,28,0,0,0,0,0,17.36
+2026,6,Christian McCaffrey,SFO,WAS,RB,0,0,0,0,0,16,64,2,10,9,53,0,30.7
+2026,6,George Kittle,SFO,WAS,TE,0,0,0,0,0,0,0,0,8,5,69,1,17.9
+2026,6,Jordan Watkins,SFO,WAS,WR,0,0,0,0,0,0,0,0,1,1,22,0,3.2
+2026,6,Kaelon Black,SFO,WAS,RB,0,0,0,0,0,8,34,0,1,1,3,0,4.7
+2026,6,Kyle Juszczyk,SFO,WAS,RB,0,0,0,0,0,0,0,0,2,1,10,0,2.0
+2026,6,Mike Evans,SFO,WAS,WR,0,0,0,0,0,0,0,0,5,3,94,0,12.4
 2026,6,Bauer Sharp,TAM,PIT,TE,0,0,0,0,0,0,0,0,1,1,21,0,3.1
 2026,6,Bucky Irving,TAM,PIT,RB,0,0,0,0,0,19,46,0,3,2,3,0,6.9
 2026,6,Cade Otton,TAM,PIT,TE,0,0,0,0,0,0,0,0,2,1,4,0,1.4
@@ -1789,3 +1797,15 @@ season,week,player,team,opp,pos,att,cmp,pyds,ptd,int,car,ryds,rtd,tgt,rec,recyds
 2026,6,Tony Pollard,TEN,IND,RB,0,0,0,0,0,19,76,0,1,0,0,0,7.6
 2026,6,Tyjae Spears,TEN,IND,RB,0,0,0,0,0,1,1,0,1,1,7,0,1.8
 2026,6,Wan'Dale Robinson,TEN,IND,WR,0,0,0,0,0,0,0,0,7,3,22,0,5.2
+2026,6,Antonio Williams,WAS,SFO,WR,0,0,0,0,0,0,0,0,4,3,50,0,8.0
+2026,6,Austin Ekeler,WAS,SFO,RB,0,0,0,0,0,1,3,0,2,2,4,0,2.7
+2026,6,Chig Okonkwo,WAS,SFO,TE,0,0,0,0,0,0,0,0,7,7,69,0,13.9
+2026,6,Dyami Brown,WAS,SFO,WR,0,0,0,0,0,0,0,0,1,1,6,0,1.6
+2026,6,Jayden Daniels,WAS,SFO,QB,40,29,300,2,0,4,10,0,0,0,0,0,21.0
+2026,6,Jeremy McNichols,WAS,SFO,RB,0,0,0,0,0,5,13,0,0,0,0,0,1.3
+2026,6,John Bates,WAS,SFO,TE,0,0,0,0,0,0,0,0,1,1,4,0,1.4
+2026,6,Luke McCaffrey,WAS,SFO,WR,0,0,0,0,0,0,0,0,1,0,0,0,0.0
+2026,6,Rachaad White,WAS,SFO,RB,0,0,0,0,0,7,27,0,5,4,30,1,15.7
+2026,6,Stefon Diggs,WAS,SFO,WR,0,0,0,0,0,0,0,0,7,6,44,1,16.4
+2026,6,Terry McLaurin,WAS,SFO,WR,0,0,0,0,0,0,0,0,1,1,27,0,3.7
+2026,6,Treylon Burks,WAS,SFO,WR,0,0,0,0,0,0,0,0,6,4,66,0,10.6
