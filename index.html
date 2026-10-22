@@ -125,7 +125,7 @@ th:first-child,td:first-child{text-align:left}th{color:var(--mu);font-weight:600
  .gc .fin{font-size:8px;line-height:1.1}
 }
 </style></head><body>
-<header><b>🏈<span class="d-only"> NFL Model</span></b><span class="mu d-only" style="margin-right:10px">v11</span><span id="tabs"></span><span id="sync" class="mu" style="margin-left:auto;font-size:11px"></span></header>
+<header><b>🏈<span class="d-only"> NFL Model</span></b><span class="mu d-only" style="margin-right:10px">v13</span><span id="tabs"></span><span id="sync" class="mu" style="margin-left:auto;font-size:11px"></span></header>
 <main id="app"></main>
 <script>
 const T="ARI ATL BAL BUF CAR CHI CIN CLE DAL DEN DET GNB HOU IND JAX KAN LVR LAC LAR MIA MIN NWE NOR NYG NYJ PHI PIT SFO SEA TAM TEN WAS".split(" ");
@@ -246,9 +246,16 @@ const lockOne=()=>{lockGame(S.games[gid]);save();render()};
 const rankLow=(k,t)=>T.filter(x=>S.teams[x][k]<=S.teams[t][k]).length; // COUNTIFS "<=": 1 = toughest
 
 /* ---------- views ---------- */
-function card(g){const p=dp(g,aid),sp=typeof g.spread==='number'?g.home+' '+(g.spread===0?'PK':(g.spread>0?'+':'')+f(g.spread)):g.home+' –',tl=typeof g.total==='number'?f(g.total):'–';
+function card(g){const p=dp(g,aid),bt=bet(g,p),hasS=typeof g.spread==='number',hasT=typeof g.total==='number',fs_=v=>v===0?'PK':(v>0?'+':'')+f(v),
+ sp=hasS?(bt.ats===g.away?g.away+' '+fs_(-g.spread):g.home+' '+fs_(g.spread)):g.home+' –',tl=hasT?(bt.ou?bt.ou+' ':'')+f(g.total):'–',
+ fin=g.final&&typeof g.home_score==='number'&&typeof g.away_score==='number',GRN='background:rgba(63,207,122,.34);',RED='background:rgba(255,80,60,.38);',PAD='border-radius:4px;padding:0 5px;';
+ let spC='',tlC='',hC='',aC='';
+ if(fin){const am=g.home_score-g.away_score,at=g.home_score+g.away_score;
+  if(hasS&&bt.ats){const ac=am+g.spread;if(ac!==0)spC=((ac>0?g.home:g.away)===bt.ats?GRN:RED)+PAD}
+  if(hasT&&bt.ou&&at!==g.total)tlC=((at>g.total?'O':'U')===bt.ou?GRN:RED)+PAD;
+  if(am!==0&&isFinite(bt.margin)&&bt.margin!==0){const pw=bt.margin>0?g.home:g.away,aw=am>0?g.home:g.away,c=(pw===aw?GRN:RED)+PAD;if(pw===g.home)hC=c;else aC=c}}
  const box=(t,x)=>`<div class="tb"><div class="nm" style="background:${TC[t][0]};color:${TC[t][1]}"><span class="d-only">${FN(t)}</span><span class="m-only">${t}</span></div><div class="ys"><span>Pass<b>${f(x.pass,0)}</b></span><span>Rush<b>${f(x.rush,0)}</b></span><span><i class="d-only">Total Yds</i><i class="m-only">Tot</i><b>${f(x.tot,0)}</b></span></div></div>`;
- return `<div class="gc ${g.id===gid?'on':''}" onclick="pick('${g.id}')">${box(g.home,p.h)}<div class="mid"><div class="sp" title="Sportsbook home spread and total"><span>${sp}</span><span>${tl}</span></div><div class="ys"><span>Home<b>${f(p.h.pts,0)}</b></span><span>Away<b>${f(p.a.pts,0)}</b></span></div></div>${box(g.away,p.a)}${g.final?`<div class="fin">Final: ${g.away} ${g.away_score} – ${g.home} ${g.home_score}<span class="d-only"> · projection shown = ${GV.mode==='wk'?'as it stood that week':'moving, from current stats'}</span></div>`:''}</div>`}
+ return `<div class="gc ${g.id===gid?'on':''}" onclick="pick('${g.id}')">${box(g.home,p.h)}<div class="mid"><div class="sp" title="The side the selected projection says covers the spread, and its over (O) or under (U) pick on the total. Finished games: green = the pick was right, red = wrong. The predicted winner's score is green or red for the moneyline."><span style="${spC}">${sp}</span><span style="${tlC}">${tl}</span></div><div class="ys"><span>Home<b style="${hC}">${f(p.h.pts,0)}</b></span><span>Away<b style="${aC}">${f(p.a.pts,0)}</b></span></div></div>${box(g.away,p.a)}${g.final?`<div class="fin">Final: ${g.away} ${g.away_score} – ${g.home} ${g.home_score}<span class="d-only"> · projection shown = ${GV.mode==='wk'?'as it stood that week':'moving, from current stats'}</span></div>`:''}</div>`}
 function accShow(){ensureVL();const mv=MV(),n=Object.keys(mv).length;let cap;
  if(VLerr)cap='⚠ Error: '+VLerr;else if(!S.weekly)cap='weekly.csv not loaded — upload weekly.csv on the Data tab.';else if(!n)cap='No completed games yet.';
  else cap='Moving record: accuracy across all '+n+' completed games this season, each re-projected with the current stats (not the stats of that week). The week-by-week betting record is on the Performance tab.';
@@ -841,11 +848,21 @@ function pTeam(g,t,o,s,role){const Lg=lgRates(),T_=S.teams[t],ypa_t=T_.ypa||7,yp
  rsh.forEach(x=>{const p=get(x),pos=x.r.pos,n=x.r.n_car??60,sh=x.r.carry_share*x.a*cs,cr=sh*car;p.car=cr;p.ryds=cr*shr(x.r.ypc,n,Lg[pos].ypc,40)*dvpF(o,pos==='QB'?'qb_ryds':'rb_yds');p.rtd=cr*shr(x.r.rush_td_rate,n,Lg[pos].rtd,60)});
  const list=Object.values(P);list.forEach(p=>{p.fp=FPW(p);Object.assign(p,boomBust(p))});
  return{t,role,s,o,att,car,swap,swapF,priorKind:starter?qe(starter).prior:'',starter:starter&&starter.r.player,usual:usual&&usual.r.player,players:list.filter(p=>p.att>.5||p.car>=.3||p.tgt>=.3||p.a<1||p.starter).sort((a,b)=>b.fp-a.fp)}}
-function boomBust(p){if(!hasLogs())return{pBoom:null,pBust:null,call:'',nG:0,thin:true};const logs=(plIdx().get(p.name)||{logs:[]}).logs,fps=logs.map(l=>l.fp),n=fps.length,cvp=posCV()[p.pos].fp,mu=Math.max(p.fp,.01);
+function boomBustRaw(p){if(!hasLogs())return{pBoom:null,pBust:null,call:'',nG:0,thin:true};const logs=(plIdx().get(p.name)||{logs:[]}).logs,fps=logs.map(l=>l.fp),n=fps.length,cvp=posCV()[p.pos].fp,mu=Math.max(p.fp,.01);
  let cv=cvp,mean=n?avg_(fps):NaN;if(n>=3){const sd=Math.sqrt(avg_(fps.map(x=>(x-mean)**2))),cvo=mean>0?sd/mean:cvp;cv=Math.sqrt((n*cvo*cvo+6*cvp*cvp)/(n+6))}
  let bT,uT;if(n>=6){const q=quant(fps,[.2,.8]);bT=q[0];uT=q[1]}else{bT=.5*mu;uT=1.5*mu}
  const pBoom=1-gcdf(uT,mu,cv),pBust=gcdf(bT,mu,cv),call=p.a<.5?'':(pBoom>=.3&&pBust>=.3?'🎲 Volatile':pBoom>=.3?'🔥 Boom':pBust>=.3?'❄ Bust risk':'');
  return{pBoom,pBust,call:'',nG:n,thin:n<4,cv,boomT:uT,bustT:bT,mean,vsAvg:n&&mean>0?mu/mean-1:null}}
+
+/* ---- boom/bust calibration: the raw odds ran too extreme at the low end on real data, so they are mapped through what actually happened ---- */
+function calMaps(){if(PLC.cal!==undefined)return PLC.cal;if(!hasLogs())return PLC.cal=null;let r;try{r=bbTest()}catch(e){r=null}if(!r||!r.rows||r.rows.length<800)return PLC.cal=null;
+ const mk=(key,hit)=>{const xs=[...r.rows].sort((a,b)=>a[key]-b[key]),K=8,sz=Math.floor(xs.length/K),v=[];for(let i=0;i<K;i++){const sl=xs.slice(i*sz,i===K-1?xs.length:(i+1)*sz);v.push({x:avg_(sl.map(z=>z[key])),y:sl.filter(z=>z[hit]).length/sl.length,w:sl.length})}
+  for(let i=0;i<v.length-1;){if(v[i].y>v[i+1].y+1e-12){const a=v[i],b=v[i+1],w=a.w+b.w;v.splice(i,2,{x:(a.x*a.w+b.x*b.w)/w,y:(a.y*a.w+b.y*b.w)/w,w});i=Math.max(0,i-1)}else i++}
+  return v.map(o=>[o.x,o.y])};
+ return PLC.cal={B:mk('pB','B'),U:mk('pU','U'),n:r.rows.length}}
+function calAdj(kind,p){const m=calMaps();if(!m)return p;const q=m[kind],lo=q[0],hi=q[q.length-1];if(p<=lo[0])return Math.max(.01,lo[1]+(p-lo[0])*.5);if(p>=hi[0])return Math.min(.95,hi[1]+(p-hi[0])*.5);
+ for(let i=0;i<q.length-1;i++)if(p<=q[i+1][0]){const t=(p-q[i][0])/((q[i+1][0]-q[i][0])||1);return q[i][1]+t*(q[i+1][1]-q[i][1])}return p}
+function boomBust(p){const r=boomBustRaw(p);if(r.pBoom!=null){r.rawBoom=r.pBoom;r.rawBust=r.pBust;r.pBoom=calAdj('B',r.pBoom);r.pBust=calAdj('U',r.pBust)}return r}
 function flagBB(out){const all=[];Object.values(out).forEach(P=>P.players.forEach(p=>{p.call='';if(p.pBoom!=null)all.push(p)}));const el=all.filter(p=>p.a>=.5&&p.fp>=3);
  [...el].sort((a,b)=>b.pBoom-a.pBoom).slice(0,3).filter(p=>p.pBoom>=.25).forEach(p=>p.call='🔥 Boom');
  [...el].filter(p=>p.fp>=4).sort((a,b)=>b.pBust-a.pBust).slice(0,3).filter(p=>p.pBust>=.3).forEach(p=>p.call=p.call?'🎲 Volatile':'❄ Bust risk')}
@@ -1014,7 +1031,7 @@ function bbTest(){const all=[...(BIG.hplog||[]),...(BIG.plog||[])].sort((a,b)=>a
  seasons.forEach(s=>{const weeks=[...new Set(all.filter(l=>l.season===s).map(l=>l.week))].sort((a,b)=>a-b);weeks.forEach(w=>{const wk_=all.filter(l=>l.season===s&&l.week===w),cvs={};const pc={QB:[],RB:[],WR:[],TE:[]};by.forEach(a=>{if(a.f.length>=6&&pc[a.pos]){const m=avg_(a.f);if(m>0)pc[a.pos].push(Math.sqrt(avg_(a.f.map(x=>(x-m)**2)))/m)}});POS4.forEach(p=>cvs[p]=pc[p].length>=5?quant(pc[p],[.5])[0]:DCV.fp);
   wk_.forEach(l=>{const a=by.get(l.player);if(a&&a.f.length>=6){const f_=a.f,m=avg_(f_),sd=Math.sqrt(avg_(f_.map(x=>(x-m)**2))),cvo=m>0?sd/m:cvs[l.pos],cv=Math.sqrt((f_.length*cvo*cvo+6*cvs[l.pos]**2)/(f_.length+6)),q=quant(f_,[.2,.8]);if(m>0)rows.push({s,pB:1-gcdf(q[1],m,cv),pU:gcdf(q[0],m,cv),B:l.fp>=q[1],U:l.fp<=q[0]})}});
   wk_.forEach(l=>{let a=by.get(l.player);if(!a)by.set(l.player,a={pos:l.pos,f:[]});a.f.push(l.fp);a.pos=l.pos})})});
- const bk=(key,hit)=>[[0,.12],[.12,.17],[.17,.22],[.22,.28],[.28,1.01]].map(([lo,hi])=>{const x=rows.filter(r=>r[key]>=lo&&r[key]<hi);return{lo,hi,n:x.length,pred:x.length?avg_(x.map(r=>r[key])):NaN,act:x.length?x.filter(r=>r[hit]).length/x.length:NaN}});return{n:rows.length,boom:bk('pB','B'),bust:bk('pU','U')}}
+ const bk=(key,hit)=>[[0,.12],[.12,.17],[.17,.22],[.22,.28],[.28,1.01]].map(([lo,hi])=>{const x=rows.filter(r=>r[key]>=lo&&r[key]<hi);return{lo,hi,n:x.length,pred:x.length?avg_(x.map(r=>r[key])):NaN,act:x.length?x.filter(r=>r[hit]).length/x.length:NaN}});return{n:rows.length,boom:bk('pB','B'),bust:bk('pU','U'),rows}}
 let FTEST=null;
 const fanRun=()=>{FTEST={busy:1};render();setTimeout(()=>{try{const seasons=[...new Set([...(BIG.hplog||[]),...(BIG.plog||[])].map(l=>l.season))].sort();FTEST={fp:seasons.map(s=>({s,r:fpTest(s)})),bb:bbTest(),dv:DV}}catch(e){FTEST={err:e.message}}render()},40)};
 const fanSet=(k,v)=>{FAN[k]=k==='po'?+v:v;render()};
@@ -1039,7 +1056,7 @@ function vFan(){if(!S.teams)return '<div class="card">Loading the latest data…
  else if(FTEST&&FTEST.fp){const imp=(a,b)=>isFinite(a)&&isFinite(b)?(100*(1-b/a)).toFixed(1)+'%':'–';
   ev=`<div class="w"><table class="xt"><tr><th>Season</th><th>Player-games</th><th>Average miss, no DvP</th><th>+ standard DvP</th><th>+ adjusted DvP</th><th>Adjusted vs none</th><th>Adjusted vs standard</th></tr>${FTEST.fp.map(({s,r})=>r?`<tr><td>${s}</td><td>${r.n}</td><td>${f(r.mae0,3)}</td><td>${f(r.mae1,3)}</td><td>${f(r.mae2,3)}</td><td>${imp(r.mae0,r.mae2)}</td><td>${imp(r.mae1,r.mae2)}</td></tr>`:`<tr><td>${s}</td><td colspan=6 class="mu">not enough games</td></tr>`).join('')}</table></div>
   <div class="mu">Each prediction = the player’s own average to date (shrunk toward his position) × a DvP factor computed only from earlier weeks of that season; week 4 onward; every season graded separately. “Average miss” is in fantasy points (lower is better); a positive percentage means the adjustment helped. Differences under about 1% are noise.</div>
-  <div style="margin-top:10px"><b>Boom/bust probability calibration</b> <span class="mu">(${FTEST.bb.n} player-games, players with 6+ prior games; thresholds and variability from earlier games only)</span></div><div class="w"><table class="xt"><tr><th>Predicted boom chance</th><th>Games</th><th>Predicted</th><th>Actually happened</th><th>Predicted bust chance</th><th>Games</th><th>Predicted</th><th>Actually happened</th></tr>${FTEST.bb.boom.map((b,i)=>{const u=FTEST.bb.bust[i];return `<tr><td>${Math.round(b.lo*100)}–${Math.min(100,Math.round(b.hi*100))}%</td><td>${b.n}</td><td>${isFinite(b.pred)?Math.round(b.pred*100)+'%':'–'}</td><td>${isFinite(b.act)?Math.round(b.act*100)+'%':'–'}</td><td>${Math.round(u.lo*100)}–${Math.min(100,Math.round(u.hi*100))}%</td><td>${u.n}</td><td>${isFinite(u.pred)?Math.round(u.pred*100)+'%':'–'}</td><td>${isFinite(u.act)?Math.round(u.act*100)+'%':'–'}</td></tr>`}).join('')}</table></div><div class="mu">A well-calibrated model has “actually happened” close to “predicted” in every row. This tests the shape of the boom/bust odds; game-specific shifts (matchup, injuries) come on top.</div>`}
+  <div style="margin-top:10px"><b>Boom/bust probability calibration</b> <span class="mu">(${FTEST.bb.n} player-games, players with 6+ prior games; thresholds and variability from earlier games only)</span></div><div class="w"><table class="xt"><tr><th>Predicted boom chance</th><th>Games</th><th>Predicted</th><th>Actually happened</th><th>Predicted bust chance</th><th>Games</th><th>Predicted</th><th>Actually happened</th></tr>${FTEST.bb.boom.map((b,i)=>{const u=FTEST.bb.bust[i];return `<tr><td>${Math.round(b.lo*100)}–${Math.min(100,Math.round(b.hi*100))}%</td><td>${b.n}</td><td>${isFinite(b.pred)?Math.round(b.pred*100)+'%':'–'}</td><td>${isFinite(b.act)?Math.round(b.act*100)+'%':'–'}</td><td>${Math.round(u.lo*100)}–${Math.min(100,Math.round(u.hi*100))}%</td><td>${u.n}</td><td>${isFinite(u.pred)?Math.round(u.pred*100)+'%':'–'}</td><td>${isFinite(u.act)?Math.round(u.act*100)+'%':'–'}</td></tr>`}).join('')}</table></div><div class="mu">A well-calibrated model has “actually happened” close to “predicted” in every row. This tests the shape of the boom/bust odds; game-specific shifts (matchup, injuries) come on top. The chances shown elsewhere are recalibrated with this table (a map that never decreases, learned from earlier games), so a displayed “5%” no longer overstates how rarely something happens.</div>`}
  else ev='<button class="b" onclick="fanRun()">Run the validation tests</button> <span class="mu">walk-forward on your loaded player logs: does opponent-adjusted DvP predict fantasy points better than standard DvP or none, and are the boom/bust odds calibrated?</span>';
  return board+dvpTbl+sigTbl+schedTbl+`<div class="card"><h3>Validation on your player logs</h3>${ev}</div>`}
 const vFanSafe=()=>{try{return vFan()}catch(e){return '<div class="card"><b>Fantasy page error:</b> '+e.message+'<div class="mu">The other tabs are unaffected.</div></div>'}};
