@@ -1,59 +1,70 @@
 event,commence,home,away,player,stat,line,over_odds,under_odds,book_over,book_under,books
-f122527f003276d3bca19efa48c902c1,2026-10-20T00:15:00Z,San Francisco 49ers,Washington Commanders,Christian McCaffrey,any_td,0.5,-260,,FanDuel,,6
-f122527f003276d3bca19efa48c902c1,2026-10-20T00:15:00Z,San Francisco 49ers,Washington Commanders,Mike Evans,any_td,0.5,-110,,DraftKings,,6
-f122527f003276d3bca19efa48c902c1,2026-10-20T00:15:00Z,San Francisco 49ers,Washington Commanders,George Kittle,any_td,0.5,114,,BetRivers,,6
-f122527f003276d3bca19efa48c902c1,2026-10-20T00:15:00Z,San Francisco 49ers,Washington Commanders,Rachaad White,any_td,0.5,115,,BetMGM,,6
-f122527f003276d3bca19efa48c902c1,2026-10-20T00:15:00Z,San Francisco 49ers,Washington Commanders,Terry McLaurin,any_td,0.5,230,,BetMGM,,6
-f122527f003276d3bca19efa48c902c1,2026-10-20T00:15:00Z,San Francisco 49ers,Washington Commanders,Stefon Diggs,any_td,0.5,240,,FanDuel,,6
-f122527f003276d3bca19efa48c902c1,2026-10-20T00:15:00Z,San Francisco 49ers,Washington Commanders,Brandin Cooks,any_td,0.5,260,,BetMGM,,6
-f122527f003276d3bca19efa48c902c1,2026-10-20T00:15:00Z,San Francisco 49ers,Washington Commanders,Jayden Daniels,any_td,0.5,285,,BetRivers,,6
-f122527f003276d3bca19efa48c902c1,2026-10-20T00:15:00Z,San Francisco 49ers,Washington Commanders,Chig Okonkwo,any_td,0.5,320,,FanDuel,,6
-f122527f003276d3bca19efa48c902c1,2026-10-20T00:15:00Z,San Francisco 49ers,Washington Commanders,Austin Ekeler,any_td,0.5,310,,DraftKings,,6
-f122527f003276d3bca19efa48c902c1,2026-10-20T00:15:00Z,San Francisco 49ers,Washington Commanders,Brock Purdy,any_td,0.5,335,,BetRivers,,6
-f122527f003276d3bca19efa48c902c1,2026-10-20T00:15:00Z,San Francisco 49ers,Washington Commanders,Jordan Watkins,any_td,0.5,600,,BetMGM,,6
-f122527f003276d3bca19efa48c902c1,2026-10-20T00:15:00Z,San Francisco 49ers,Washington Commanders,Jacob Cowing,any_td,0.5,460,,BetRivers,,6
-f122527f003276d3bca19efa48c902c1,2026-10-20T00:15:00Z,San Francisco 49ers,Washington Commanders,Kaelon Black,any_td,0.5,440,,BetRivers,,6
-f122527f003276d3bca19efa48c902c1,2026-10-20T00:15:00Z,San Francisco 49ers,Washington Commanders,Antonio Williams,any_td,0.5,475,,DraftKings,,6
-f122527f003276d3bca19efa48c902c1,2026-10-20T00:15:00Z,San Francisco 49ers,Washington Commanders,Kyle Juszczyk,any_td,0.5,575,,BetRivers,,5
-f122527f003276d3bca19efa48c902c1,2026-10-20T00:15:00Z,San Francisco 49ers,Washington Commanders,San Francisco 49ers D/ST,any_td,0.5,725,,Bovada,,3
-f122527f003276d3bca19efa48c902c1,2026-10-20T00:15:00Z,San Francisco 49ers,Washington Commanders,Treylon Burks,any_td,0.5,600,,FanDuel,,6
-f122527f003276d3bca19efa48c902c1,2026-10-20T00:15:00Z,San Francisco 49ers,Washington Commanders,Dyami Brown,any_td,0.5,1050,,BetMGM,,6
-f122527f003276d3bca19efa48c902c1,2026-10-20T00:15:00Z,San Francisco 49ers,Washington Commanders,Washington Commanders D/ST,any_td,0.5,700,,DraftKings,,3
-f122527f003276d3bca19efa48c902c1,2026-10-20T00:15:00Z,San Francisco 49ers,Washington Commanders,Luke Farrell,any_td,0.5,1000,,BetRivers,,6
-f122527f003276d3bca19efa48c902c1,2026-10-20T00:15:00Z,San Francisco 49ers,Washington Commanders,Brayden Willis,any_td,0.5,1150,,BetRivers,,5
-f122527f003276d3bca19efa48c902c1,2026-10-20T00:15:00Z,San Francisco 49ers,Washington Commanders,John Bates,any_td,0.5,1700,,BetRivers,,6
-f122527f003276d3bca19efa48c902c1,2026-10-20T00:15:00Z,San Francisco 49ers,Washington Commanders,Ben Sinnott,any_td,0.5,1700,,BetRivers,,6
-f122527f003276d3bca19efa48c902c1,2026-10-20T00:15:00Z,San Francisco 49ers,Washington Commanders,James Jordan,any_td,0.5,2000,,FanDuel,,6
-f122527f003276d3bca19efa48c902c1,2026-10-20T00:15:00Z,San Francisco 49ers,Washington Commanders,Colson Yankoff,any_td,0.5,2800,,BetRivers,,5
-f122527f003276d3bca19efa48c902c1,2026-10-20T00:15:00Z,San Francisco 49ers,Washington Commanders,Luke McCaffrey,any_td,0.5,3300,,FanDuel,,6
-f122527f003276d3bca19efa48c902c1,2026-10-20T00:15:00Z,San Francisco 49ers,Washington Commanders,Brock Purdy,pass_td,2.5,140,-166.0,Bovada,DraftKings,6
-f122527f003276d3bca19efa48c902c1,2026-10-20T00:15:00Z,San Francisco 49ers,Washington Commanders,Jayden Daniels,pass_td,1.5,122,-150.0,FanDuel,Bovada,6
-f122527f003276d3bca19efa48c902c1,2026-10-20T00:15:00Z,San Francisco 49ers,Washington Commanders,Brock Purdy,pass_yds,249.5,-113,-113.0,FanDuel,FanDuel,3
-f122527f003276d3bca19efa48c902c1,2026-10-20T00:15:00Z,San Francisco 49ers,Washington Commanders,Jayden Daniels,pass_yds,208.5,-114,-110.0,DraftKings,DraftKings,2
-f122527f003276d3bca19efa48c902c1,2026-10-20T00:15:00Z,San Francisco 49ers,Washington Commanders,George Kittle,rec_yds,66.5,-113,-113.0,FanDuel,FanDuel,2
-f122527f003276d3bca19efa48c902c1,2026-10-20T00:15:00Z,San Francisco 49ers,Washington Commanders,Mike Evans,rec_yds,65.5,-110,-114.0,Bovada,BetOnline.ag,2
-f122527f003276d3bca19efa48c902c1,2026-10-20T00:15:00Z,San Francisco 49ers,Washington Commanders,Terry McLaurin,rec_yds,47.5,-113,-110.0,BetRivers,DraftKings,3
-f122527f003276d3bca19efa48c902c1,2026-10-20T00:15:00Z,San Francisco 49ers,Washington Commanders,Stefon Diggs,rec_yds,38.5,-113,-110.0,FanDuel,BetOnline.ag,3
-f122527f003276d3bca19efa48c902c1,2026-10-20T00:15:00Z,San Francisco 49ers,Washington Commanders,Christian McCaffrey,rec_yds,40.5,-111,-115.0,BetMGM,BetOnline.ag,3
-f122527f003276d3bca19efa48c902c1,2026-10-20T00:15:00Z,San Francisco 49ers,Washington Commanders,Chig Okonkwo,rec_yds,26.5,-113,-113.0,FanDuel,FanDuel,3
-f122527f003276d3bca19efa48c902c1,2026-10-20T00:15:00Z,San Francisco 49ers,Washington Commanders,Antonio Williams,rec_yds,23.5,-113,-110.0,FanDuel,BetOnline.ag,3
-f122527f003276d3bca19efa48c902c1,2026-10-20T00:15:00Z,San Francisco 49ers,Washington Commanders,Rachaad White,rec_yds,13.5,-110,-108.0,BetRivers,DraftKings,6
-f122527f003276d3bca19efa48c902c1,2026-10-20T00:15:00Z,San Francisco 49ers,Washington Commanders,Austin Ekeler,rec_yds,7.5,-105,-110.0,DraftKings,BetOnline.ag,4
-f122527f003276d3bca19efa48c902c1,2026-10-20T00:15:00Z,San Francisco 49ers,Washington Commanders,George Kittle,rec,5.5,106,-125.0,BetRivers,DraftKings,6
-f122527f003276d3bca19efa48c902c1,2026-10-20T00:15:00Z,San Francisco 49ers,Washington Commanders,Mike Evans,rec,5.5,120,-160.0,FanDuel,FanDuel,3
-f122527f003276d3bca19efa48c902c1,2026-10-20T00:15:00Z,San Francisco 49ers,Washington Commanders,Christian McCaffrey,rec,4.5,-114,-102.0,BetOnline.ag,DraftKings,6
-f122527f003276d3bca19efa48c902c1,2026-10-20T00:15:00Z,San Francisco 49ers,Washington Commanders,Stefon Diggs,rec,3.5,-160,130.0,Bovada,DraftKings,4
-f122527f003276d3bca19efa48c902c1,2026-10-20T00:15:00Z,San Francisco 49ers,Washington Commanders,Terry McLaurin,rec,3.5,-115,112.0,BetMGM,FanDuel,6
-f122527f003276d3bca19efa48c902c1,2026-10-20T00:15:00Z,San Francisco 49ers,Washington Commanders,Chig Okonkwo,rec,2.5,-160,134.0,Bovada,FanDuel,5
-f122527f003276d3bca19efa48c902c1,2026-10-20T00:15:00Z,San Francisco 49ers,Washington Commanders,Rachaad White,rec,2.5,117,-135.0,DraftKings,Bovada,6
-f122527f003276d3bca19efa48c902c1,2026-10-20T00:15:00Z,San Francisco 49ers,Washington Commanders,Antonio Williams,rec,2.5,149,-158.0,BetOnline.ag,DraftKings,5
-f122527f003276d3bca19efa48c902c1,2026-10-20T00:15:00Z,San Francisco 49ers,Washington Commanders,Austin Ekeler,rec,1.5,128,-154.0,BetOnline.ag,FanDuel,4
-f122527f003276d3bca19efa48c902c1,2026-10-20T00:15:00Z,San Francisco 49ers,Washington Commanders,Christian McCaffrey,rush_yds,60.5,-114,-114.0,BetOnline.ag,BetOnline.ag,2
-f122527f003276d3bca19efa48c902c1,2026-10-20T00:15:00Z,San Francisco 49ers,Washington Commanders,Rachaad White,rush_yds,45.5,-113,-113.0,FanDuel,FanDuel,3
-f122527f003276d3bca19efa48c902c1,2026-10-20T00:15:00Z,San Francisco 49ers,Washington Commanders,Jayden Daniels,rush_yds,38.5,-115,-109.0,Bovada,DraftKings,3
-f122527f003276d3bca19efa48c902c1,2026-10-20T00:15:00Z,San Francisco 49ers,Washington Commanders,Kaelon Black,rush_yds,24.5,-109,-112.0,DraftKings,BetOnline.ag,4
-f122527f003276d3bca19efa48c902c1,2026-10-20T00:15:00Z,San Francisco 49ers,Washington Commanders,Austin Ekeler,rush_yds,18.5,-113,-113.0,FanDuel,FanDuel,3
-f122527f003276d3bca19efa48c902c1,2026-10-20T00:15:00Z,San Francisco 49ers,Washington Commanders,Brock Purdy,rush_yds,19.5,-111,-113.0,DraftKings,DraftKings,3
-f122527f003276d3bca19efa48c902c1,2026-10-20T00:15:00Z,San Francisco 49ers,Washington Commanders,Washington Commanders Defense,any_td,0.5,700,,FanDuel,,1
-f122527f003276d3bca19efa48c902c1,2026-10-20T00:15:00Z,San Francisco 49ers,Washington Commanders,San Francisco 49ers Defense,any_td,0.5,750,,FanDuel,,1
-f122527f003276d3bca19efa48c902c1,2026-10-20T00:15:00Z,San Francisco 49ers,Washington Commanders,Christian Kirk,any_td,0.5,775,,BetMGM,,2
+ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,D'Andre Swift,any_td,0.5,-155,,DraftKings,,6
+ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,Rhamondre Stevenson,any_td,0.5,-105,,FanDuel,,6
+ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,A.J. Brown,any_td,0.5,145,,DraftKings,,6
+ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,Colston Loveland,any_td,0.5,185,,BetMGM,,6
+ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,Rome Odunze,any_td,0.5,200,,BetMGM,,6
+ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,Luther Burden III,any_td,0.5,190,,DraftKings,,6
+ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,Hunter Henry,any_td,0.5,230,,DraftKings,,5
+ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,Roschon Johnson,any_td,0.5,240,,DraftKings,,6
+ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,DeMario Douglas,any_td,0.5,320,,FanDuel,,6
+ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,Drake Maye,any_td,0.5,350,,FanDuel,,6
+ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,Kalif Raymond,any_td,0.5,425,,BetRivers,,6
+ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,Caleb Williams,any_td,0.5,380,,DraftKings,,6
+ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,TreVeyon Henderson,any_td,0.5,380,,DraftKings,,6
+ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,Efton Chism III,any_td,0.5,600,,BetMGM,,6
+ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,Eli Raridon,any_td,0.5,600,,BetMGM,,6
+ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,Cole Kmet,any_td,0.5,650,,BetMGM,,6
+ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,Chicago Bears D/ST,any_td,0.5,600,,DraftKings,,3
+ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,New England Patriots D/ST,any_td,0.5,600,,DraftKings,,3
+ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,Kyle Williams,any_td,0.5,700,,FanDuel,,6
+ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,Corey Kiner,any_td,0.5,700,,BetRivers,,6
+ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,Sam Roush,any_td,0.5,1300,,BetRivers,,6
+ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,Jahdae Walker,any_td,0.5,1600,,FanDuel,,5
+ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,Zavion Thomas,any_td,0.5,1500,,DraftKings,,6
+ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,Cameron Latu,any_td,0.5,3000,,BetMGM,,6
+ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,Tanner Arkin,any_td,0.5,2200,,DraftKings,,5
+ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,Zavier Scott,any_td,0.5,2200,,DraftKings,,5
+ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,Caleb Williams,pass_td,1.5,-145,122,BetOnline.ag,DraftKings,6
+ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,Drake Maye,pass_td,1.5,-115,-104,Bovada,DraftKings,6
+ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,Drake Maye,pass_yds,247.5,-112,-112,DraftKings,DraftKings,2
+ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,Caleb Williams,pass_yds,245.5,-115,-111,Bovada,BetOnline.ag,2
+ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,A.J. Brown,rec_yds,69.5,-112,-112,DraftKings,DraftKings,2
+ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,Luther Burden III,rec_yds,56.5,-113,-110,FanDuel,Bovada,4
+ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,Colston Loveland,rec_yds,44.5,-115,-111,BetMGM,BetOnline.ag,2
+ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,Rome Odunze,rec_yds,44.5,-112,-110,BetOnline.ag,DraftKings,4
+ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,DeMario Douglas,rec_yds,37.5,-120,100,BetMGM,Bovada,3
+ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,Hunter Henry,rec_yds,33.5,-113,-111,FanDuel,BetOnline.ag,5
+ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,Kalif Raymond,rec_yds,24.5,-113,-110,FanDuel,BetOnline.ag,4
+ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,D'Andre Swift,rec_yds,20.5,-110,-113,DraftKings,FanDuel,2
+ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,Kyle Williams,rec_yds,19.5,-110,-110,Bovada,BetMGM,4
+ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,Rhamondre Stevenson,rec_yds,18.5,-111,-112,DraftKings,BetOnline.ag,4
+ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,Efton Chism III,rec_yds,17.5,-113,-111,DraftKings,DraftKings,2
+ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,Eli Raridon,rec_yds,15.5,-113,-112,FanDuel,BetOnline.ag,3
+ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,Cole Kmet,rec_yds,9.5,-107,-118,DraftKings,DraftKings,3
+ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,Roschon Johnson,rec_yds,7.5,-109,-110,DraftKings,BetOnline.ag,4
+ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,TreVeyon Henderson,rec_yds,2.5,-110,-113,BetOnline.ag,FanDuel,3
+ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,A.J. Brown,rec,4.5,-155,134,BetRivers,BetOnline.ag,4
+ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,Luther Burden III,rec,4.5,-132,113,BetRivers,DraftKings,6
+ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,Colston Loveland,rec,3.5,-160,134,DraftKings,FanDuel,5
+ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,DeMario Douglas,rec,3.5,103,-125,DraftKings,BetMGM,6
+ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,Rome Odunze,rec,3.5,130,-150,Bovada,BetMGM,6
+ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,Hunter Henry,rec,3.5,134,-154,DraftKings,FanDuel,5
+ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,D'Andre Swift,rec,2.5,-129,106,BetRivers,DraftKings,6
+ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,Rhamondre Stevenson,rec,2.5,-114,-102,BetOnline.ag,DraftKings,6
+ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,Kalif Raymond,rec,2.5,-105,-108,BetMGM,DraftKings,6
+ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,Efton Chism III,rec,1.5,-115,100,Bovada,DraftKings,6
+ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,Eli Raridon,rec,1.5,112,-135,DraftKings,BetMGM,6
+ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,Kyle Williams,rec,1.5,134,-154,FanDuel,DraftKings,6
+ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,Roschon Johnson,rec,1.5,126,-156,BetOnline.ag,DraftKings,4
+ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,Cole Kmet,rec,1.5,178,-215,FanDuel,Bovada,6
+ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,TreVeyon Henderson,rec,0.5,-190,155,BetMGM,DraftKings,5
+ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,D'Andre Swift,rush_yds,61.5,-111,-106,DraftKings,BetOnline.ag,4
+ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,Rhamondre Stevenson,rush_yds,41.5,-113,-112,FanDuel,BetOnline.ag,4
+ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,Drake Maye,rush_yds,27.5,-113,-113,FanDuel,FanDuel,3
+ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,Roschon Johnson,rush_yds,26.5,-113,-109,FanDuel,DraftKings,4
+ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,TreVeyon Henderson,rush_yds,24.5,-113,-113,FanDuel,FanDuel,4
+ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,Caleb Williams,rush_yds,19.5,-110,-110,Bovada,BetMGM,4
+ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,Corey Kiner,rush_yds,14.5,-112,-113,BetOnline.ag,FanDuel,3
+ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,New England Patriots Defense,any_td,0.5,700,,FanDuel,,1
+ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,Chicago Bears Defense,any_td,0.5,750,,FanDuel,,1
