@@ -1,0 +1,70 @@
+season,week,event,home_code,away_code,player,stat,line,over_odds,under_odds,book_over,book_under
+2026,,ffebea881c1d7b2dfb85b3e590c35985,CHI,NWE,A.J. Brown,any_td,0.5,145,,DraftKings,
+2026,,ffebea881c1d7b2dfb85b3e590c35985,CHI,NWE,A.J. Brown,rec,4.5,-155,134.0,BetRivers,BetOnline.ag
+2026,,ffebea881c1d7b2dfb85b3e590c35985,CHI,NWE,A.J. Brown,rec_yds,69.5,-112,-112.0,DraftKings,DraftKings
+2026,,ffebea881c1d7b2dfb85b3e590c35985,CHI,NWE,Caleb Williams,any_td,0.5,380,,DraftKings,
+2026,,ffebea881c1d7b2dfb85b3e590c35985,CHI,NWE,Caleb Williams,pass_td,1.5,-145,122.0,BetOnline.ag,DraftKings
+2026,,ffebea881c1d7b2dfb85b3e590c35985,CHI,NWE,Caleb Williams,pass_yds,245.5,-115,-111.0,Bovada,BetOnline.ag
+2026,,ffebea881c1d7b2dfb85b3e590c35985,CHI,NWE,Caleb Williams,rush_yds,19.5,-110,-110.0,Bovada,BetMGM
+2026,,ffebea881c1d7b2dfb85b3e590c35985,CHI,NWE,Cameron Latu,any_td,0.5,3000,,BetMGM,
+2026,,ffebea881c1d7b2dfb85b3e590c35985,CHI,NWE,Chicago Bears D/ST,any_td,0.5,600,,DraftKings,
+2026,,ffebea881c1d7b2dfb85b3e590c35985,CHI,NWE,Chicago Bears Defense,any_td,0.5,750,,FanDuel,
+2026,,ffebea881c1d7b2dfb85b3e590c35985,CHI,NWE,Cole Kmet,any_td,0.5,650,,BetMGM,
+2026,,ffebea881c1d7b2dfb85b3e590c35985,CHI,NWE,Cole Kmet,rec,1.5,178,-215.0,FanDuel,Bovada
+2026,,ffebea881c1d7b2dfb85b3e590c35985,CHI,NWE,Cole Kmet,rec_yds,9.5,-107,-118.0,DraftKings,DraftKings
+2026,,ffebea881c1d7b2dfb85b3e590c35985,CHI,NWE,Colston Loveland,any_td,0.5,185,,BetMGM,
+2026,,ffebea881c1d7b2dfb85b3e590c35985,CHI,NWE,Colston Loveland,rec,3.5,-160,134.0,DraftKings,FanDuel
+2026,,ffebea881c1d7b2dfb85b3e590c35985,CHI,NWE,Colston Loveland,rec_yds,44.5,-115,-111.0,BetMGM,BetOnline.ag
+2026,,ffebea881c1d7b2dfb85b3e590c35985,CHI,NWE,Corey Kiner,any_td,0.5,700,,BetRivers,
+2026,,ffebea881c1d7b2dfb85b3e590c35985,CHI,NWE,Corey Kiner,rush_yds,14.5,-112,-113.0,BetOnline.ag,FanDuel
+2026,,ffebea881c1d7b2dfb85b3e590c35985,CHI,NWE,D'Andre Swift,any_td,0.5,-155,,DraftKings,
+2026,,ffebea881c1d7b2dfb85b3e590c35985,CHI,NWE,D'Andre Swift,rec,2.5,-129,106.0,BetRivers,DraftKings
+2026,,ffebea881c1d7b2dfb85b3e590c35985,CHI,NWE,D'Andre Swift,rec_yds,20.5,-110,-113.0,DraftKings,FanDuel
+2026,,ffebea881c1d7b2dfb85b3e590c35985,CHI,NWE,D'Andre Swift,rush_yds,61.5,-111,-106.0,DraftKings,BetOnline.ag
+2026,,ffebea881c1d7b2dfb85b3e590c35985,CHI,NWE,DeMario Douglas,any_td,0.5,320,,FanDuel,
+2026,,ffebea881c1d7b2dfb85b3e590c35985,CHI,NWE,DeMario Douglas,rec,3.5,103,-125.0,DraftKings,BetMGM
+2026,,ffebea881c1d7b2dfb85b3e590c35985,CHI,NWE,DeMario Douglas,rec_yds,37.5,-120,100.0,BetMGM,Bovada
+2026,,ffebea881c1d7b2dfb85b3e590c35985,CHI,NWE,Drake Maye,any_td,0.5,350,,FanDuel,
+2026,,ffebea881c1d7b2dfb85b3e590c35985,CHI,NWE,Drake Maye,pass_td,1.5,-115,-104.0,Bovada,DraftKings
+2026,,ffebea881c1d7b2dfb85b3e590c35985,CHI,NWE,Drake Maye,pass_yds,247.5,-112,-112.0,DraftKings,DraftKings
+2026,,ffebea881c1d7b2dfb85b3e590c35985,CHI,NWE,Drake Maye,rush_yds,27.5,-113,-113.0,FanDuel,FanDuel
+2026,,ffebea881c1d7b2dfb85b3e590c35985,CHI,NWE,Efton Chism III,any_td,0.5,600,,BetMGM,
+2026,,ffebea881c1d7b2dfb85b3e590c35985,CHI,NWE,Efton Chism III,rec,1.5,-115,100.0,Bovada,DraftKings
+2026,,ffebea881c1d7b2dfb85b3e590c35985,CHI,NWE,Efton Chism III,rec_yds,17.5,-113,-111.0,DraftKings,DraftKings
+2026,,ffebea881c1d7b2dfb85b3e590c35985,CHI,NWE,Eli Raridon,any_td,0.5,600,,BetMGM,
+2026,,ffebea881c1d7b2dfb85b3e590c35985,CHI,NWE,Eli Raridon,rec,1.5,112,-135.0,DraftKings,BetMGM
+2026,,ffebea881c1d7b2dfb85b3e590c35985,CHI,NWE,Eli Raridon,rec_yds,15.5,-113,-112.0,FanDuel,BetOnline.ag
+2026,,ffebea881c1d7b2dfb85b3e590c35985,CHI,NWE,Hunter Henry,any_td,0.5,230,,DraftKings,
+2026,,ffebea881c1d7b2dfb85b3e590c35985,CHI,NWE,Hunter Henry,rec,3.5,134,-154.0,DraftKings,FanDuel
+2026,,ffebea881c1d7b2dfb85b3e590c35985,CHI,NWE,Hunter Henry,rec_yds,33.5,-113,-111.0,FanDuel,BetOnline.ag
+2026,,ffebea881c1d7b2dfb85b3e590c35985,CHI,NWE,Jahdae Walker,any_td,0.5,1600,,FanDuel,
+2026,,ffebea881c1d7b2dfb85b3e590c35985,CHI,NWE,Kalif Raymond,any_td,0.5,425,,BetRivers,
+2026,,ffebea881c1d7b2dfb85b3e590c35985,CHI,NWE,Kalif Raymond,rec,2.5,-105,-108.0,BetMGM,DraftKings
+2026,,ffebea881c1d7b2dfb85b3e590c35985,CHI,NWE,Kalif Raymond,rec_yds,24.5,-113,-110.0,FanDuel,BetOnline.ag
+2026,,ffebea881c1d7b2dfb85b3e590c35985,CHI,NWE,Kyle Williams,any_td,0.5,700,,FanDuel,
+2026,,ffebea881c1d7b2dfb85b3e590c35985,CHI,NWE,Kyle Williams,rec,1.5,134,-154.0,FanDuel,DraftKings
+2026,,ffebea881c1d7b2dfb85b3e590c35985,CHI,NWE,Kyle Williams,rec_yds,19.5,-110,-110.0,Bovada,BetMGM
+2026,,ffebea881c1d7b2dfb85b3e590c35985,CHI,NWE,Luther Burden III,any_td,0.5,190,,DraftKings,
+2026,,ffebea881c1d7b2dfb85b3e590c35985,CHI,NWE,Luther Burden III,rec,4.5,-132,113.0,BetRivers,DraftKings
+2026,,ffebea881c1d7b2dfb85b3e590c35985,CHI,NWE,Luther Burden III,rec_yds,56.5,-113,-110.0,FanDuel,Bovada
+2026,,ffebea881c1d7b2dfb85b3e590c35985,CHI,NWE,New England Patriots D/ST,any_td,0.5,600,,DraftKings,
+2026,,ffebea881c1d7b2dfb85b3e590c35985,CHI,NWE,New England Patriots Defense,any_td,0.5,700,,FanDuel,
+2026,,ffebea881c1d7b2dfb85b3e590c35985,CHI,NWE,Rhamondre Stevenson,any_td,0.5,-105,,FanDuel,
+2026,,ffebea881c1d7b2dfb85b3e590c35985,CHI,NWE,Rhamondre Stevenson,rec,2.5,-114,-102.0,BetOnline.ag,DraftKings
+2026,,ffebea881c1d7b2dfb85b3e590c35985,CHI,NWE,Rhamondre Stevenson,rec_yds,18.5,-111,-112.0,DraftKings,BetOnline.ag
+2026,,ffebea881c1d7b2dfb85b3e590c35985,CHI,NWE,Rhamondre Stevenson,rush_yds,41.5,-113,-112.0,FanDuel,BetOnline.ag
+2026,,ffebea881c1d7b2dfb85b3e590c35985,CHI,NWE,Rome Odunze,any_td,0.5,200,,BetMGM,
+2026,,ffebea881c1d7b2dfb85b3e590c35985,CHI,NWE,Rome Odunze,rec,3.5,130,-150.0,Bovada,BetMGM
+2026,,ffebea881c1d7b2dfb85b3e590c35985,CHI,NWE,Rome Odunze,rec_yds,44.5,-112,-110.0,BetOnline.ag,DraftKings
+2026,,ffebea881c1d7b2dfb85b3e590c35985,CHI,NWE,Roschon Johnson,any_td,0.5,240,,DraftKings,
+2026,,ffebea881c1d7b2dfb85b3e590c35985,CHI,NWE,Roschon Johnson,rec,1.5,126,-156.0,BetOnline.ag,DraftKings
+2026,,ffebea881c1d7b2dfb85b3e590c35985,CHI,NWE,Roschon Johnson,rec_yds,7.5,-109,-110.0,DraftKings,BetOnline.ag
+2026,,ffebea881c1d7b2dfb85b3e590c35985,CHI,NWE,Roschon Johnson,rush_yds,26.5,-113,-109.0,FanDuel,DraftKings
+2026,,ffebea881c1d7b2dfb85b3e590c35985,CHI,NWE,Sam Roush,any_td,0.5,1300,,BetRivers,
+2026,,ffebea881c1d7b2dfb85b3e590c35985,CHI,NWE,Tanner Arkin,any_td,0.5,2200,,DraftKings,
+2026,,ffebea881c1d7b2dfb85b3e590c35985,CHI,NWE,TreVeyon Henderson,any_td,0.5,380,,DraftKings,
+2026,,ffebea881c1d7b2dfb85b3e590c35985,CHI,NWE,TreVeyon Henderson,rec,0.5,-190,155.0,BetMGM,DraftKings
+2026,,ffebea881c1d7b2dfb85b3e590c35985,CHI,NWE,TreVeyon Henderson,rec_yds,2.5,-110,-113.0,BetOnline.ag,FanDuel
+2026,,ffebea881c1d7b2dfb85b3e590c35985,CHI,NWE,TreVeyon Henderson,rush_yds,24.5,-113,-113.0,FanDuel,FanDuel
+2026,,ffebea881c1d7b2dfb85b3e590c35985,CHI,NWE,Zavier Scott,any_td,0.5,2200,,DraftKings,
+2026,,ffebea881c1d7b2dfb85b3e590c35985,CHI,NWE,Zavion Thomas,any_td,0.5,1500,,DraftKings,
