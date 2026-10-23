@@ -403,6 +403,63 @@ def aggregate_props(event, data):
     return rows
 
 
+ODDS_NAME_TO_CODE = {
+    "Arizona Cardinals": "ARI", "Atlanta Falcons": "ATL", "Baltimore Ravens": "BAL", "Buffalo Bills": "BUF", "Carolina Panthers": "CAR",
+    "Chicago Bears": "CHI", "Cincinnati Bengals": "CIN", "Cleveland Browns": "CLE", "Dallas Cowboys": "DAL", "Denver Broncos": "DEN",
+    "Detroit Lions": "DET", "Green Bay Packers": "GNB", "Houston Texans": "HOU", "Indianapolis Colts": "IND", "Jacksonville Jaguars": "JAX",
+    "Kansas City Chiefs": "KAN", "Las Vegas Raiders": "LVR", "Los Angeles Chargers": "LAC", "Los Angeles Rams": "LAR", "Miami Dolphins": "MIA",
+    "Minnesota Vikings": "MIN", "New England Patriots": "NWE", "New Orleans Saints": "NOR", "New York Giants": "NYG", "New York Jets": "NYJ",
+    "Philadelphia Eagles": "PHI", "Pittsburgh Steelers": "PIT", "San Francisco 49ers": "SFO", "Seattle Seahawks": "SEA",
+    "Tampa Bay Buccaneers": "TAM", "Tennessee Titans": "TEN", "Washington Commanders": "WAS"}
+HIST_COLS = ["season", "week", "event", "home_code", "away_code", "player", "stat", "line", "over_odds", "under_odds", "book_over", "book_under"]
+
+
+def _game_meta(home_name, away_name, commence, g):
+    """Team codes and NFL week for an odds-feed event, using the schedule file written earlier in this run."""
+    h, a, wk = ODDS_NAME_TO_CODE.get(home_name), ODDS_NAME_TO_CODE.get(away_name), None
+    if g is not None and h and a:
+        c = g[(g.home == h) & (g.away == a)]
+        if len(c):
+            try:
+                d = pd.Timestamp(commence).tz_convert("America/New_York").tz_localize(None).normalize()
+                gd = pd.to_datetime(c.gameday, errors="coerce") if "gameday" in c.columns else None
+            except Exception:
+                gd = None
+            if gd is not None and gd.notna().any():
+                wk = c.loc[(gd - d).abs().idxmin(), "week"]
+            else:
+                un = c[c.home_score.isna()] if "home_score" in c.columns else c
+                wk = (un if len(un) else c).iloc[0]["week"]
+    try:
+        wk = int(wk)
+    except (TypeError, ValueError):
+        pass
+    return h, a, wk
+
+
+def _with_meta(rows, g, season):
+    ok = lambda v: v is not None and not (isinstance(v, float) and v != v) and v != ""
+    for r in rows:
+        if ok(r.get("week")) and ok(r.get("home_code")) and ok(r.get("season")):
+            continue    # already mapped on an earlier run: keep it
+        r["home_code"], r["away_code"], r["week"] = _game_meta(r.get("home"), r.get("away"), r.get("commence"), g)
+        r["season"] = season
+    return rows
+
+
+def save_props_history(out, current_rows, g, season):
+    """Every prop line ever fetched stays in props_history.csv so past weeks can be graded against what actually happened."""
+    hist = read_existing(os.path.join(out, "props_history.csv"))
+    parts = [hist] if hist is not None and len(hist) else []
+    if current_rows:
+        parts.append(pd.DataFrame(current_rows).reindex(columns=HIST_COLS))
+    if not parts:
+        return
+    allh = pd.concat(parts, ignore_index=True).drop_duplicates(subset=["season", "event", "player", "stat"], keep="last")
+    allh = allh.sort_values(["season", "week", "event", "player", "stat"], key=lambda s: s.astype(str) if s.name != "week" else pd.to_numeric(s, errors="coerce"))
+    write_csv(allh[HIST_COLS], out, "props_history.csv")
+
+
 def update_props(out, key, hours=30, reserve=25):
     """Fetch prop lines for games kicking off within `hours`, once per game (the free plan has 500 credits a month)."""
     state_path = os.path.join(out, "props_state.json")
@@ -440,18 +497,27 @@ def update_props(out, key, hours=30, reserve=25):
             new += rows
             state[e["id"]] = now.isoformat()
             print(f"  props: {e['away_team']} at {e['home_team']}: {len(rows)} player lines")
-    old = read_existing(os.path.join(out, "props.csv"))
+    gsched = read_existing(os.path.join(out, "games.csv"))
+    season = now.year if now.month >= 3 else now.year - 1
+    old_full = read_existing(os.path.join(out, "props.csv"))
+    old = old_full
     keep = []
     if old is not None and len(old):
         old = old[old.event.isin(set(state) - {r['event'] for r in new})]
         old = old[old.commence.map(lambda s: iso(str(s)) > now - datetime.timedelta(hours=4))]
         keep = old.to_dict("records")
     allrows = keep + new
-    cols = ["event", "commence", "home", "away", "player", "stat", "line", "over_odds", "under_odds", "book_over", "book_under", "books"]
+    _with_meta(allrows, gsched, season)
+    everything = (old_full.to_dict("records") if old_full is not None and len(old_full) else []) + new   # includes lines about to drop out of props.csv
+    if everything:
+        everything = [r for r in everything if r.get("home") and r.get("away")]
+        _with_meta(everything, gsched, season)
+    cols = ["event", "commence", "home", "away", "player", "stat", "line", "over_odds", "under_odds", "book_over", "book_under", "books", "home_code", "away_code", "week", "season"]
     cut = now - datetime.timedelta(days=14)
     state = {k: v for k, v in state.items() if iso(v) > cut}
     if allrows:
         write_csv(pd.DataFrame(allrows, columns=cols), out, "props.csv")
+    save_props_history(out, everything, gsched, season)
     with open(state_path, "w") as fh:
         json.dump(state, fh)
     print(f"  props: {len(allrows)} lines saved; credits remaining: {remaining if remaining is not None else 'unknown'}")
