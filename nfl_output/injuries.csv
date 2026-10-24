@@ -1,8 +1,87 @@
 week,team,player,pos,status,injury
+7,ARI,Budda Baker,S,Questionable,Groin
+7,ARI,Andrew Wingard,S,Out,Knee
+7,ARI,Jon Gaines II,G,Out,Knee
+7,ARI,Max Melton,CB,Questionable,Knee
+7,ARI,Darius Robinson,DT,Questionable,Back
+7,ARI,Walter Nolen,DT,Out,Ankle
+7,ARI,Jeremiyah Love,RB,Out,Ankle
+7,ARI,Carson Beck,QB,Questionable,Back
+7,ATL,Za'Darius Smith,DE,Questionable,Neck
+7,ATL,Samson Ebukam,DE,Questionable,Hamstring
+7,ATL,Olamide Zaccheaus,WR,Questionable,Shoulder
+7,ATL,C.J. Henderson,CB,Questionable,Groin
+7,ATL,A.J. Terrell,CB,Questionable,Groin
+7,ATL,Divine Deablo,LB,Out,Forearm
+7,ATL,Brian Robinson,RB,Out,Hamstring
+7,ATL,Gervon Dexter Sr.,DT,Questionable,Hamstring
+7,ATL,Michael Jerrell,T,Out,Biceps
+7,ATL,Billy Bowman Jr.,CB,Out,Hamstring
+7,ATL,Beaux Collins,WR,Questionable,Hip
+7,ATL,Cameron Williams,T,Questionable,Ankle
+7,ATL,Kendal Daniels,LB,Questionable,Neck
+7,ATL,Avieon Terrell,CB,Questionable,Back
+7,BAL,Lamar Jackson,QB,Questionable,Ankle
+7,BAL,Broderick Washington,DE,Questionable,Ankle
+7,BAL,Jaylinn Hawkins,S,Out,Knee
+7,BAL,Tavius Robinson,LB,Out,Pectoral
+7,BAL,T.J. Tampa,CB,Doubtful,Knee
+7,CAR,Jaelan Phillips,LB,Out,Hamstring
+7,CAR,Thomas Incoom,LB,Out,Calf
+7,CAR,Bam Martin-Scott,LB,Questionable,Hamstring
+7,CAR,Monroe Freeling,T,Questionable,Knee
 7,CHI,T.J. Edwards,LB,Doubtful,Hamstring
 7,CHI,Jack Sanborn,LB,Out,Concussion
 7,CHI,Tyrique Stevenson,CB,Questionable,Hip
 7,CHI,Kyle Monangai,RB,Out,Thumb
+7,CLE,Denzel Ward,CB,Questionable,Hand
+7,CLE,Quincy Williams,LB,Questionable,Neck
+7,CLE,Grant Delpit,S,Questionable,Concussion
+7,CLE,Teven Jenkins,G,Out,Back
+7,CLE,Kalia Davis,DT,Out,Quadricep
+7,CLE,Mike Hall Jr.,DT,Out,Ankle
+7,CLE,Dylan Sampson,RB,Questionable,Knee
+7,CLE,Dillon Gabriel,QB,Out,Back
+7,DEN,Talanoa Hufanga,S,Out,Ankle
+7,DEN,Pat Surtain II,CB,Questionable,Ankle
+7,DEN,Tyler Badie,RB,Out,Thumb
+7,DEN,Jonah Elliss,LB,Out,Ankle
+7,DEN,Jonah Coleman,RB,Questionable,Ankle
+7,DET,Cade Mays,C,Questionable,Wrist
+7,DET,Brian Branch,S,Questionable,Achilles
+7,GNB,Zaire Franklin,LB,Out,Shin
+7,GNB,Aaron Banks,G,Questionable,Knee
+7,GNB,Benjamin St-Juste,CB,Questionable,Hamstring
+7,GNB,Bo Melton,WR,Questionable,Back
+7,GNB,Jordon Riley,DT,Questionable,Achilles
+7,HOU,David Montgomery,RB,Out,Groin
+7,HOU,Reed Blankenship,S,Out,Concussion
+7,HOU,Jalen Pitre,S,Out,Shoulder
+7,HOU,Tank Dell,WR,Questionable,Knee
+7,HOU,Blake Fisher,T,Out,Thumb
+7,IND,Rigoberto Sanchez,P,Questionable,Foot
+7,IND,Sauce Gardner,CB,Out,Calf
+7,IND,Anthony Gould,WR,Out,Concussion
+7,IND,Tyler Warren,TE,Out,Groin
+7,IND,Justin Walley,CB,Questionable,Knee
+7,IND,CJ Allen,LB,Questionable,Ankle
+7,IND,Bryce Boettcher,LB,Questionable,Groin
+7,KAN,L'Jarius Sneed,CB,Questionable,Knee
+7,KAN,Jaylon Moore,T,Out,Concussion
+7,KAN,Rashee Rice,WR,Out,Hamstring
+7,KAN,Brashard Smith,RB,Out,Hamstring
+7,KAN,Cooper McDonald,LB,Questionable,Knee
+7,LAR,Trent McDuffie,CB,Questionable,Groin
+7,LAR,Nate Landman,LB,Out,Concussion
+7,LAR,Puka Nacua,WR,Questionable,Calf
+7,LVR,Carter Runyon,TE,Out,Foot
+7,LVR,Dont'e Thornton Jr.,WR,Out,Hamstring
+7,LVR,Mike Washington Jr.,RB,Questionable,Foot
+7,MIA,Willie Gay Jr.,LB,Questionable,Illness
+7,MIA,Reese Taylor,CB,Out,Quadricep
+7,MIA,Rob Beal Jr.,DE,Doubtful,Hamstring
+7,MIA,Kyle Louis,S,Questionable,Knee
+7,MIN,Jordan Mason,RB,Questionable,Thumb
 7,NWE,Morgan Moses,T,Questionable,Foot
 7,NWE,Kevin Byard,S,Questionable,Chest
 7,NWE,Carlton Davis III,CB,Out,Neck
@@ -12,5 +91,49 @@ week,team,player,pos,status,injury
 7,NWE,Craig Woodson,S,Questionable,Shoulder
 7,NWE,Karon Prunty,CB,Out,Hamstring
 7,NWE,Channing Canada,CB,Out,Hamstring
+7,NOR,Nathan Shepherd,DT,Questionable,Illness
+7,NOR,Cesar Ruiz,G,Questionable,Knee
+7,NYG,Jermaine Eluemunor,T,Questionable,Calf
+7,NYG,Tremaine Edmunds,LB,Out,Shoulder
+7,NYG,Paulson Adebo,CB,Questionable,Knee
+7,NYG,Greg Newsome II,CB,Out,Concussion
+7,NYG,Jevon Holland,S,Questionable,Concussion
+7,NYG,Theo Johnson,TE,Doubtful,Neck
+7,NYG,Tyler Nubin,S,Questionable,Neck
+7,NYG,Marcus Mbow,T,Questionable,Knee
+7,NYJ,Kene Nwangwu,RB,Questionable,Knee
+7,NYJ,Joseph Ossai,DE,Out,Ankle
+7,NYJ,Dylan Parham,G,Questionable,Knee
+7,NYJ,Max Mitchell,T,Out,Concussion
+7,NYJ,Breece Hall,RB,Questionable,Quadricep
+7,NYJ,Francisco Mauigoa,LB,Out,Quadricep
+7,PIT,DeShon Elliott,S,Questionable,Knee
+7,PIT,Rico Dowdle,RB,Questionable,Knee
 7,PIT,Brandin Echols,CB,Out,Hamstring
 7,PIT,Ben Skowronek,WR,Out,Calf
+7,SEA,DeMarcus Lawrence,LB,Questionable,Knee
+7,SEA,Uchenna Nwosu,LB,Questionable,Hip
+7,SEA,Drew Lock,QB,Questionable,Elbow
+7,SEA,Chazz Surratt,LB,Out,Calf
+7,SEA,Drake Thomas,LB,Out,Ankle
+7,SEA,Zach Charbonnet,RB,Out,Knee
+7,SEA,Connor O'Toole,LB,Questionable,Hamstring
+7,SEA,Nick Emmanwori,S,Questionable,Hip
+7,SFO,Mike Evans,WR,Out,Ribs
+7,SFO,Siran Neal,S,Questionable,Knee
+7,SFO,Christian Kirk,WR,Questionable,Calf
+7,SFO,Luke Gifford,LB,Out,Groin
+7,SFO,Nick Bosa,DE,Out,Knee
+7,SFO,Deebo Samuel Sr.,WR,Out,Hamstring
+7,SFO,Garret Wallow,LB,Out,Hamstring
+7,SFO,Upton Stout,CB,Questionable,Shoulder
+7,SFO,Marques Sigle,S,Out,Ankle
+7,TAM,Baker Mayfield,QB,Questionable,Thumb
+7,TAM,Antoine Winfield Jr.,S,Out,Rib
+7,TAM,Luke Goedeke,T,Out,Calf
+7,TAM,Emeka Egbuka,WR,Out,Concussion
+7,TEN,Calvin Ridley,WR,Questionable,Hip
+7,TEN,Tony Adams,S,Questionable,Ankle
+7,TEN,Tyjae Spears,RB,Questionable,Not injury related - resting player
+7,TEN,Kevin Winston Jr.,S,Questionable,Quadricep
+7,TEN,Dorian Mausi,LB,Questionable,Foot

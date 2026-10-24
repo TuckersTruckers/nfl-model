@@ -1,70 +1,587 @@
-event,commence,home,away,player,stat,line,over_odds,under_odds,book_over,book_under,books
-ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,D'Andre Swift,any_td,0.5,-155,,DraftKings,,6
-ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,Rhamondre Stevenson,any_td,0.5,-105,,FanDuel,,6
-ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,A.J. Brown,any_td,0.5,145,,DraftKings,,6
-ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,Colston Loveland,any_td,0.5,185,,BetMGM,,6
-ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,Rome Odunze,any_td,0.5,200,,BetMGM,,6
-ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,Luther Burden III,any_td,0.5,190,,DraftKings,,6
-ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,Hunter Henry,any_td,0.5,230,,DraftKings,,5
-ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,Roschon Johnson,any_td,0.5,240,,DraftKings,,6
-ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,DeMario Douglas,any_td,0.5,320,,FanDuel,,6
-ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,Drake Maye,any_td,0.5,350,,FanDuel,,6
-ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,Kalif Raymond,any_td,0.5,425,,BetRivers,,6
-ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,Caleb Williams,any_td,0.5,380,,DraftKings,,6
-ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,TreVeyon Henderson,any_td,0.5,380,,DraftKings,,6
-ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,Efton Chism III,any_td,0.5,600,,BetMGM,,6
-ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,Eli Raridon,any_td,0.5,600,,BetMGM,,6
-ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,Cole Kmet,any_td,0.5,650,,BetMGM,,6
-ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,Chicago Bears D/ST,any_td,0.5,600,,DraftKings,,3
-ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,New England Patriots D/ST,any_td,0.5,600,,DraftKings,,3
-ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,Kyle Williams,any_td,0.5,700,,FanDuel,,6
-ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,Corey Kiner,any_td,0.5,700,,BetRivers,,6
-ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,Sam Roush,any_td,0.5,1300,,BetRivers,,6
-ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,Jahdae Walker,any_td,0.5,1600,,FanDuel,,5
-ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,Zavion Thomas,any_td,0.5,1500,,DraftKings,,6
-ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,Cameron Latu,any_td,0.5,3000,,BetMGM,,6
-ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,Tanner Arkin,any_td,0.5,2200,,DraftKings,,5
-ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,Zavier Scott,any_td,0.5,2200,,DraftKings,,5
-ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,Caleb Williams,pass_td,1.5,-145,122,BetOnline.ag,DraftKings,6
-ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,Drake Maye,pass_td,1.5,-115,-104,Bovada,DraftKings,6
-ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,Drake Maye,pass_yds,247.5,-112,-112,DraftKings,DraftKings,2
-ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,Caleb Williams,pass_yds,245.5,-115,-111,Bovada,BetOnline.ag,2
-ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,A.J. Brown,rec_yds,69.5,-112,-112,DraftKings,DraftKings,2
-ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,Luther Burden III,rec_yds,56.5,-113,-110,FanDuel,Bovada,4
-ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,Colston Loveland,rec_yds,44.5,-115,-111,BetMGM,BetOnline.ag,2
-ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,Rome Odunze,rec_yds,44.5,-112,-110,BetOnline.ag,DraftKings,4
-ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,DeMario Douglas,rec_yds,37.5,-120,100,BetMGM,Bovada,3
-ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,Hunter Henry,rec_yds,33.5,-113,-111,FanDuel,BetOnline.ag,5
-ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,Kalif Raymond,rec_yds,24.5,-113,-110,FanDuel,BetOnline.ag,4
-ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,D'Andre Swift,rec_yds,20.5,-110,-113,DraftKings,FanDuel,2
-ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,Kyle Williams,rec_yds,19.5,-110,-110,Bovada,BetMGM,4
-ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,Rhamondre Stevenson,rec_yds,18.5,-111,-112,DraftKings,BetOnline.ag,4
-ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,Efton Chism III,rec_yds,17.5,-113,-111,DraftKings,DraftKings,2
-ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,Eli Raridon,rec_yds,15.5,-113,-112,FanDuel,BetOnline.ag,3
-ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,Cole Kmet,rec_yds,9.5,-107,-118,DraftKings,DraftKings,3
-ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,Roschon Johnson,rec_yds,7.5,-109,-110,DraftKings,BetOnline.ag,4
-ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,TreVeyon Henderson,rec_yds,2.5,-110,-113,BetOnline.ag,FanDuel,3
-ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,A.J. Brown,rec,4.5,-155,134,BetRivers,BetOnline.ag,4
-ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,Luther Burden III,rec,4.5,-132,113,BetRivers,DraftKings,6
-ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,Colston Loveland,rec,3.5,-160,134,DraftKings,FanDuel,5
-ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,DeMario Douglas,rec,3.5,103,-125,DraftKings,BetMGM,6
-ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,Rome Odunze,rec,3.5,130,-150,Bovada,BetMGM,6
-ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,Hunter Henry,rec,3.5,134,-154,DraftKings,FanDuel,5
-ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,D'Andre Swift,rec,2.5,-129,106,BetRivers,DraftKings,6
-ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,Rhamondre Stevenson,rec,2.5,-114,-102,BetOnline.ag,DraftKings,6
-ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,Kalif Raymond,rec,2.5,-105,-108,BetMGM,DraftKings,6
-ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,Efton Chism III,rec,1.5,-115,100,Bovada,DraftKings,6
-ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,Eli Raridon,rec,1.5,112,-135,DraftKings,BetMGM,6
-ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,Kyle Williams,rec,1.5,134,-154,FanDuel,DraftKings,6
-ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,Roschon Johnson,rec,1.5,126,-156,BetOnline.ag,DraftKings,4
-ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,Cole Kmet,rec,1.5,178,-215,FanDuel,Bovada,6
-ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,TreVeyon Henderson,rec,0.5,-190,155,BetMGM,DraftKings,5
-ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,D'Andre Swift,rush_yds,61.5,-111,-106,DraftKings,BetOnline.ag,4
-ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,Rhamondre Stevenson,rush_yds,41.5,-113,-112,FanDuel,BetOnline.ag,4
-ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,Drake Maye,rush_yds,27.5,-113,-113,FanDuel,FanDuel,3
-ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,Roschon Johnson,rush_yds,26.5,-113,-109,FanDuel,DraftKings,4
-ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,TreVeyon Henderson,rush_yds,24.5,-113,-113,FanDuel,FanDuel,4
-ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,Caleb Williams,rush_yds,19.5,-110,-110,Bovada,BetMGM,4
-ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,Corey Kiner,rush_yds,14.5,-112,-113,BetOnline.ag,FanDuel,3
-ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,New England Patriots Defense,any_td,0.5,700,,FanDuel,,1
-ffebea881c1d7b2dfb85b3e590c35985,2026-10-23T00:15:00Z,Chicago Bears,New England Patriots,Chicago Bears Defense,any_td,0.5,750,,FanDuel,,1
+event,commence,home,away,player,stat,line,over_odds,under_odds,book_over,book_under,books,home_code,away_code,week,season
+2e710ea5a306b614f0f966e3d78732f8,2026-10-25T13:30:00Z,New Orleans Saints,Pittsburgh Steelers,Jaylen Warren,any_td,0.5,-120,,DraftKings,,5,NOR,PIT,,2026
+2e710ea5a306b614f0f966e3d78732f8,2026-10-25T13:30:00Z,New Orleans Saints,Pittsburgh Steelers,Kendre Miller,any_td,0.5,188,,BetMGM,,5,NOR,PIT,,2026
+2e710ea5a306b614f0f966e3d78732f8,2026-10-25T13:30:00Z,New Orleans Saints,Pittsburgh Steelers,DK Metcalf,any_td,0.5,165,,FanDuel,,5,NOR,PIT,,2026
+2e710ea5a306b614f0f966e3d78732f8,2026-10-25T13:30:00Z,New Orleans Saints,Pittsburgh Steelers,Chris Olave,any_td,0.5,190,,DraftKings,,5,NOR,PIT,,2026
+2e710ea5a306b614f0f966e3d78732f8,2026-10-25T13:30:00Z,New Orleans Saints,Pittsburgh Steelers,Germie Bernard,any_td,0.5,240,,BetMGM,,5,NOR,PIT,,2026
+2e710ea5a306b614f0f966e3d78732f8,2026-10-25T13:30:00Z,New Orleans Saints,Pittsburgh Steelers,Pat Freiermuth,any_td,0.5,250,,DraftKings,,5,NOR,PIT,,2026
+2e710ea5a306b614f0f966e3d78732f8,2026-10-25T13:30:00Z,New Orleans Saints,Pittsburgh Steelers,Darnell Washington,any_td,0.5,280,,FanDuel,,5,NOR,PIT,,2026
+2e710ea5a306b614f0f966e3d78732f8,2026-10-25T13:30:00Z,New Orleans Saints,Pittsburgh Steelers,Rico Dowdle,any_td,0.5,275,,DraftKings,,5,NOR,PIT,,2026
+2e710ea5a306b614f0f966e3d78732f8,2026-10-25T13:30:00Z,New Orleans Saints,Pittsburgh Steelers,Devaughn Vele,any_td,0.5,290,,FanDuel,,5,NOR,PIT,,2026
+2e710ea5a306b614f0f966e3d78732f8,2026-10-25T13:30:00Z,New Orleans Saints,Pittsburgh Steelers,Juwan Johnson,any_td,0.5,310,,BetMGM,,5,NOR,PIT,,2026
+2e710ea5a306b614f0f966e3d78732f8,2026-10-25T13:30:00Z,New Orleans Saints,Pittsburgh Steelers,Alvin Kamara,any_td,0.5,350,,DraftKings,,5,NOR,PIT,,2026
+2e710ea5a306b614f0f966e3d78732f8,2026-10-25T13:30:00Z,New Orleans Saints,Pittsburgh Steelers,Tyler Shough,any_td,0.5,420,,FanDuel,,5,NOR,PIT,,2026
+2e710ea5a306b614f0f966e3d78732f8,2026-10-25T13:30:00Z,New Orleans Saints,Pittsburgh Steelers,Pittsburgh Steelers D/ST,any_td,0.5,550,,DraftKings,,2,NOR,PIT,,2026
+2e710ea5a306b614f0f966e3d78732f8,2026-10-25T13:30:00Z,New Orleans Saints,Pittsburgh Steelers,CJ Donaldson,any_td,0.5,550,,DraftKings,,5,NOR,PIT,,2026
+2e710ea5a306b614f0f966e3d78732f8,2026-10-25T13:30:00Z,New Orleans Saints,Pittsburgh Steelers,New Orleans Saints D/ST,any_td,0.5,600,,DraftKings,,2,NOR,PIT,,2026
+2e710ea5a306b614f0f966e3d78732f8,2026-10-25T13:30:00Z,New Orleans Saints,Pittsburgh Steelers,Bryce Lance,any_td,0.5,650,,FanDuel,,5,NOR,PIT,,2026
+2e710ea5a306b614f0f966e3d78732f8,2026-10-25T13:30:00Z,New Orleans Saints,Pittsburgh Steelers,Noah Fant,any_td,0.5,750,,BetMGM,,5,NOR,PIT,,2026
+2e710ea5a306b614f0f966e3d78732f8,2026-10-25T13:30:00Z,New Orleans Saints,Pittsburgh Steelers,Oscar Delp,any_td,0.5,1750,,BetMGM,,5,NOR,PIT,,2026
+2e710ea5a306b614f0f966e3d78732f8,2026-10-25T13:30:00Z,New Orleans Saints,Pittsburgh Steelers,Aaron Rodgers,any_td,0.5,1300,,BetRivers,,5,NOR,PIT,,2026
+2e710ea5a306b614f0f966e3d78732f8,2026-10-25T13:30:00Z,New Orleans Saints,Pittsburgh Steelers,Barion Brown,any_td,0.5,1600,,BetRivers,,5,NOR,PIT,,2026
+2e710ea5a306b614f0f966e3d78732f8,2026-10-25T13:30:00Z,New Orleans Saints,Pittsburgh Steelers,Kaden Wetjen,any_td,0.5,1600,,DraftKings,,5,NOR,PIT,,2026
+2e710ea5a306b614f0f966e3d78732f8,2026-10-25T13:30:00Z,New Orleans Saints,Pittsburgh Steelers,Robert Tonyan,any_td,0.5,1700,,DraftKings,,4,NOR,PIT,,2026
+2e710ea5a306b614f0f966e3d78732f8,2026-10-25T13:30:00Z,New Orleans Saints,Pittsburgh Steelers,Travis Homer,any_td,0.5,2200,,DraftKings,,4,NOR,PIT,,2026
+2e710ea5a306b614f0f966e3d78732f8,2026-10-25T13:30:00Z,New Orleans Saints,Pittsburgh Steelers,Riley Nowakowski,any_td,0.5,4000,,BetMGM,,5,NOR,PIT,,2026
+2e710ea5a306b614f0f966e3d78732f8,2026-10-25T13:30:00Z,New Orleans Saints,Pittsburgh Steelers,Eli Heidenreich,any_td,0.5,2900,,BetRivers,,4,NOR,PIT,,2026
+2e710ea5a306b614f0f966e3d78732f8,2026-10-25T13:30:00Z,New Orleans Saints,Pittsburgh Steelers,Lew Nichols,any_td,0.5,3500,,FanDuel,,4,NOR,PIT,,2026
+2e710ea5a306b614f0f966e3d78732f8,2026-10-25T13:30:00Z,New Orleans Saints,Pittsburgh Steelers,Treyton Welch,any_td,0.5,5000,,FanDuel,,5,NOR,PIT,,2026
+2e710ea5a306b614f0f966e3d78732f8,2026-10-25T13:30:00Z,New Orleans Saints,Pittsburgh Steelers,Aaron Rodgers,pass_td,1.5,102,-111,BetRivers,DraftKings,5,NOR,PIT,,2026
+2e710ea5a306b614f0f966e3d78732f8,2026-10-25T13:30:00Z,New Orleans Saints,Pittsburgh Steelers,Tyler Shough,pass_td,1.5,155,-164,BetMGM,DraftKings,5,NOR,PIT,,2026
+2e710ea5a306b614f0f966e3d78732f8,2026-10-25T13:30:00Z,New Orleans Saints,Pittsburgh Steelers,Aaron Rodgers,pass_yds,231.5,-117,-114,BetRivers,BetRivers,1,NOR,PIT,,2026
+2e710ea5a306b614f0f966e3d78732f8,2026-10-25T13:30:00Z,New Orleans Saints,Pittsburgh Steelers,Tyler Shough,pass_yds,227.5,-113,-112,FanDuel,BetOnline.ag,2,NOR,PIT,,2026
+2e710ea5a306b614f0f966e3d78732f8,2026-10-25T13:30:00Z,New Orleans Saints,Pittsburgh Steelers,Chris Olave,rec_yds,75.5,-113,-110,FanDuel,DraftKings,3,NOR,PIT,,2026
+2e710ea5a306b614f0f966e3d78732f8,2026-10-25T13:30:00Z,New Orleans Saints,Pittsburgh Steelers,DK Metcalf,rec_yds,57.5,-113,-111,DraftKings,DraftKings,2,NOR,PIT,,2026
+2e710ea5a306b614f0f966e3d78732f8,2026-10-25T13:30:00Z,New Orleans Saints,Pittsburgh Steelers,Germie Bernard,rec_yds,53.5,-113,-113,FanDuel,FanDuel,2,NOR,PIT,,2026
+2e710ea5a306b614f0f966e3d78732f8,2026-10-25T13:30:00Z,New Orleans Saints,Pittsburgh Steelers,Devaughn Vele,rec_yds,43.5,-111,-112,DraftKings,BetOnline.ag,3,NOR,PIT,,2026
+2e710ea5a306b614f0f966e3d78732f8,2026-10-25T13:30:00Z,New Orleans Saints,Pittsburgh Steelers,Juwan Johnson,rec_yds,32.5,-113,-113,FanDuel,FanDuel,2,NOR,PIT,,2026
+2e710ea5a306b614f0f966e3d78732f8,2026-10-25T13:30:00Z,New Orleans Saints,Pittsburgh Steelers,Pat Freiermuth,rec_yds,32.5,-111,-113,DraftKings,DraftKings,3,NOR,PIT,,2026
+2e710ea5a306b614f0f966e3d78732f8,2026-10-25T13:30:00Z,New Orleans Saints,Pittsburgh Steelers,Jaylen Warren,rec_yds,25.5,-109,-113,BetOnline.ag,FanDuel,3,NOR,PIT,,2026
+2e710ea5a306b614f0f966e3d78732f8,2026-10-25T13:30:00Z,New Orleans Saints,Pittsburgh Steelers,Darnell Washington,rec_yds,24.5,-113,-113,FanDuel,FanDuel,2,NOR,PIT,,2026
+2e710ea5a306b614f0f966e3d78732f8,2026-10-25T13:30:00Z,New Orleans Saints,Pittsburgh Steelers,Bryce Lance,rec_yds,13.5,-111,-113,DraftKings,DraftKings,5,NOR,PIT,,2026
+2e710ea5a306b614f0f966e3d78732f8,2026-10-25T13:30:00Z,New Orleans Saints,Pittsburgh Steelers,Alvin Kamara,rec_yds,12.5,-108,-110,DraftKings,BetMGM,4,NOR,PIT,,2026
+2e710ea5a306b614f0f966e3d78732f8,2026-10-25T13:30:00Z,New Orleans Saints,Pittsburgh Steelers,Noah Fant,rec_yds,11.5,-111,-113,DraftKings,DraftKings,4,NOR,PIT,,2026
+2e710ea5a306b614f0f966e3d78732f8,2026-10-25T13:30:00Z,New Orleans Saints,Pittsburgh Steelers,Rico Dowdle,rec_yds,7.5,-107,-113,DraftKings,FanDuel,3,NOR,PIT,,2026
+2e710ea5a306b614f0f966e3d78732f8,2026-10-25T13:30:00Z,New Orleans Saints,Pittsburgh Steelers,Kendre Miller,rec_yds,3.5,-113,-111,FanDuel,BetMGM,3,NOR,PIT,,2026
+2e710ea5a306b614f0f966e3d78732f8,2026-10-25T13:30:00Z,New Orleans Saints,Pittsburgh Steelers,Chris Olave,rec,5.5,-135,116,BetOnline.ag,FanDuel,4,NOR,PIT,,2026
+2e710ea5a306b614f0f966e3d78732f8,2026-10-25T13:30:00Z,New Orleans Saints,Pittsburgh Steelers,Germie Bernard,rec,4.5,-148,119,BetRivers,BetOnline.ag,5,NOR,PIT,,2026
+2e710ea5a306b614f0f966e3d78732f8,2026-10-25T13:30:00Z,New Orleans Saints,Pittsburgh Steelers,DK Metcalf,rec,4.5,-120,113,BetMGM,DraftKings,5,NOR,PIT,,2026
+2e710ea5a306b614f0f966e3d78732f8,2026-10-25T13:30:00Z,New Orleans Saints,Pittsburgh Steelers,Devaughn Vele,rec,3.5,-149,126,BetOnline.ag,DraftKings,3,NOR,PIT,,2026
+2e710ea5a306b614f0f966e3d78732f8,2026-10-25T13:30:00Z,New Orleans Saints,Pittsburgh Steelers,Juwan Johnson,rec,3.5,-120,100,BetOnline.ag,BetMGM,5,NOR,PIT,,2026
+2e710ea5a306b614f0f966e3d78732f8,2026-10-25T13:30:00Z,New Orleans Saints,Pittsburgh Steelers,Pat Freiermuth,rec,3.5,120,-145,BetRivers,DraftKings,4,NOR,PIT,,2026
+2e710ea5a306b614f0f966e3d78732f8,2026-10-25T13:30:00Z,New Orleans Saints,Pittsburgh Steelers,Jaylen Warren,rec,3.5,134,-155,FanDuel,BetMGM,5,NOR,PIT,,2026
+2e710ea5a306b614f0f966e3d78732f8,2026-10-25T13:30:00Z,New Orleans Saints,Pittsburgh Steelers,Alvin Kamara,rec,2.5,-110,103,DraftKings,BetOnline.ag,5,NOR,PIT,,2026
+2e710ea5a306b614f0f966e3d78732f8,2026-10-25T13:30:00Z,New Orleans Saints,Pittsburgh Steelers,Darnell Washington,rec,2.5,100,-115,FanDuel,BetMGM,5,NOR,PIT,,2026
+2e710ea5a306b614f0f966e3d78732f8,2026-10-25T13:30:00Z,New Orleans Saints,Pittsburgh Steelers,Noah Fant,rec,1.5,-115,-102,BetMGM,FanDuel,5,NOR,PIT,,2026
+2e710ea5a306b614f0f966e3d78732f8,2026-10-25T13:30:00Z,New Orleans Saints,Pittsburgh Steelers,Rico Dowdle,rec,1.5,106,-110,DraftKings,BetMGM,5,NOR,PIT,,2026
+2e710ea5a306b614f0f966e3d78732f8,2026-10-25T13:30:00Z,New Orleans Saints,Pittsburgh Steelers,Bryce Lance,rec,1.5,125,-148,BetOnline.ag,FanDuel,4,NOR,PIT,,2026
+2e710ea5a306b614f0f966e3d78732f8,2026-10-25T13:30:00Z,New Orleans Saints,Pittsburgh Steelers,Kendre Miller,rec,0.5,-172,136,DraftKings,FanDuel,3,NOR,PIT,,2026
+2e710ea5a306b614f0f966e3d78732f8,2026-10-25T13:30:00Z,New Orleans Saints,Pittsburgh Steelers,Jaylen Warren,rush_yds,64.5,-113,-113,FanDuel,FanDuel,2,NOR,PIT,,2026
+2e710ea5a306b614f0f966e3d78732f8,2026-10-25T13:30:00Z,New Orleans Saints,Pittsburgh Steelers,Kendre Miller,rush_yds,37.5,-109,-113,DraftKings,FanDuel,2,NOR,PIT,,2026
+2e710ea5a306b614f0f966e3d78732f8,2026-10-25T13:30:00Z,New Orleans Saints,Pittsburgh Steelers,Rico Dowdle,rush_yds,29.5,-108,-112,DraftKings,BetOnline.ag,5,NOR,PIT,,2026
+2e710ea5a306b614f0f966e3d78732f8,2026-10-25T13:30:00Z,New Orleans Saints,Pittsburgh Steelers,Alvin Kamara,rush_yds,16.5,-113,-112,FanDuel,BetOnline.ag,2,NOR,PIT,,2026
+2e710ea5a306b614f0f966e3d78732f8,2026-10-25T13:30:00Z,New Orleans Saints,Pittsburgh Steelers,Tyler Shough,rush_yds,14.5,-109,-112,DraftKings,BetRivers,4,NOR,PIT,,2026
+2e710ea5a306b614f0f966e3d78732f8,2026-10-25T13:30:00Z,New Orleans Saints,Pittsburgh Steelers,CJ Donaldson,rush_yds,10.5,-111,-111,BetMGM,DraftKings,4,NOR,PIT,,2026
+2e710ea5a306b614f0f966e3d78732f8,2026-10-25T13:30:00Z,New Orleans Saints,Pittsburgh Steelers,Aaron Rodgers,rush_yds,0.5,-121,108,DraftKings,FanDuel,2,NOR,PIT,,2026
+2e710ea5a306b614f0f966e3d78732f8,2026-10-25T13:30:00Z,New Orleans Saints,Pittsburgh Steelers,Pittsburgh Steelers Defense,any_td,0.5,600,,FanDuel,,1,NOR,PIT,,2026
+2e710ea5a306b614f0f966e3d78732f8,2026-10-25T13:30:00Z,New Orleans Saints,Pittsburgh Steelers,New Orleans Saints Defense,any_td,0.5,850,,FanDuel,,1,NOR,PIT,,2026
+2e710ea5a306b614f0f966e3d78732f8,2026-10-25T13:30:00Z,New Orleans Saints,Pittsburgh Steelers,Cedric Tillman,any_td,0.5,3500,,BetMGM,,2,NOR,PIT,,2026
+2e710ea5a306b614f0f966e3d78732f8,2026-10-25T13:30:00Z,New Orleans Saints,Pittsburgh Steelers,Brandon Smith,any_td,0.5,1700,,BetMGM,,2,NOR,PIT,,2026
+b1be064fb52a198a62109c279e7ab24c,2026-10-25T17:00:00Z,Atlanta Falcons,San Francisco 49ers,Bijan Robinson,any_td,0.5,-275,,BetMGM,,5,ATL,SFO,,2026
+b1be064fb52a198a62109c279e7ab24c,2026-10-25T17:00:00Z,Atlanta Falcons,San Francisco 49ers,Christian McCaffrey,any_td,0.5,-235,,BetMGM,,5,ATL,SFO,,2026
+b1be064fb52a198a62109c279e7ab24c,2026-10-25T17:00:00Z,Atlanta Falcons,San Francisco 49ers,George Kittle,any_td,0.5,120,,DraftKings,,5,ATL,SFO,,2026
+b1be064fb52a198a62109c279e7ab24c,2026-10-25T17:00:00Z,Atlanta Falcons,San Francisco 49ers,Drake London,any_td,0.5,130,,DraftKings,,5,ATL,SFO,,2026
+b1be064fb52a198a62109c279e7ab24c,2026-10-25T17:00:00Z,Atlanta Falcons,San Francisco 49ers,Kyle Pitts,any_td,0.5,310,,BetMGM,,5,ATL,SFO,,2026
+b1be064fb52a198a62109c279e7ab24c,2026-10-25T17:00:00Z,Atlanta Falcons,San Francisco 49ers,Brock Purdy,any_td,0.5,375,,BetMGM,,5,ATL,SFO,,2026
+b1be064fb52a198a62109c279e7ab24c,2026-10-25T17:00:00Z,Atlanta Falcons,San Francisco 49ers,Jahan Dotson,any_td,0.5,410,,FanDuel,,5,ATL,SFO,,2026
+b1be064fb52a198a62109c279e7ab24c,2026-10-25T17:00:00Z,Atlanta Falcons,San Francisco 49ers,Kaelon Black,any_td,0.5,420,,FanDuel,,5,ATL,SFO,,2026
+b1be064fb52a198a62109c279e7ab24c,2026-10-25T17:00:00Z,Atlanta Falcons,San Francisco 49ers,Christian Kirk,any_td,0.5,400,,DraftKings,,4,ATL,SFO,,2026
+b1be064fb52a198a62109c279e7ab24c,2026-10-25T17:00:00Z,Atlanta Falcons,San Francisco 49ers,Jordan Watkins,any_td,0.5,500,,FanDuel,,5,ATL,SFO,,2026
+b1be064fb52a198a62109c279e7ab24c,2026-10-25T17:00:00Z,Atlanta Falcons,San Francisco 49ers,Brandin Cooks,any_td,0.5,500,,DraftKings,,5,ATL,SFO,,2026
+b1be064fb52a198a62109c279e7ab24c,2026-10-25T17:00:00Z,Atlanta Falcons,San Francisco 49ers,Atlanta Falcons D/ST,any_td,0.5,600,,DraftKings,,2,ATL,SFO,,2026
+b1be064fb52a198a62109c279e7ab24c,2026-10-25T17:00:00Z,Atlanta Falcons,San Francisco 49ers,San Francisco 49ers D/ST,any_td,0.5,600,,DraftKings,,2,ATL,SFO,,2026
+b1be064fb52a198a62109c279e7ab24c,2026-10-25T17:00:00Z,Atlanta Falcons,San Francisco 49ers,Kyle Juszczyk,any_td,0.5,600,,DraftKings,,5,ATL,SFO,,2026
+b1be064fb52a198a62109c279e7ab24c,2026-10-25T17:00:00Z,Atlanta Falcons,San Francisco 49ers,Khalil Herbert,any_td,0.5,600,,DraftKings,,4,ATL,SFO,,2026
+b1be064fb52a198a62109c279e7ab24c,2026-10-25T17:00:00Z,Atlanta Falcons,San Francisco 49ers,Jacob Cowing,any_td,0.5,850,,DraftKings,,5,ATL,SFO,,2026
+b1be064fb52a198a62109c279e7ab24c,2026-10-25T17:00:00Z,Atlanta Falcons,San Francisco 49ers,Zachariah Branch,any_td,0.5,950,,FanDuel,,5,ATL,SFO,,2026
+b1be064fb52a198a62109c279e7ab24c,2026-10-25T17:00:00Z,Atlanta Falcons,San Francisco 49ers,Luke Farrell,any_td,0.5,1000,,FanDuel,,5,ATL,SFO,,2026
+b1be064fb52a198a62109c279e7ab24c,2026-10-25T17:00:00Z,Atlanta Falcons,San Francisco 49ers,Michael Penix Jr.,any_td,0.5,1150,,BetMGM,,5,ATL,SFO,,2026
+b1be064fb52a198a62109c279e7ab24c,2026-10-25T17:00:00Z,Atlanta Falcons,San Francisco 49ers,Austin Hooper,any_td,0.5,1200,,FanDuel,,5,ATL,SFO,,2026
+b1be064fb52a198a62109c279e7ab24c,2026-10-25T17:00:00Z,Atlanta Falcons,San Francisco 49ers,Olamide Zaccheaus,any_td,0.5,1200,,DraftKings,,5,ATL,SFO,,2026
+b1be064fb52a198a62109c279e7ab24c,2026-10-25T17:00:00Z,Atlanta Falcons,San Francisco 49ers,Charlie Woerner,any_td,0.5,1700,,DraftKings,,5,ATL,SFO,,2026
+b1be064fb52a198a62109c279e7ab24c,2026-10-25T17:00:00Z,Atlanta Falcons,San Francisco 49ers,Chris Blair,any_td,0.5,2800,,BetMGM,,5,ATL,SFO,,2026
+b1be064fb52a198a62109c279e7ab24c,2026-10-25T17:00:00Z,Atlanta Falcons,San Francisco 49ers,James Jordan,any_td,0.5,2500,,DraftKings,,4,ATL,SFO,,2026
+b1be064fb52a198a62109c279e7ab24c,2026-10-25T17:00:00Z,Atlanta Falcons,San Francisco 49ers,Brayden Willis,any_td,0.5,2800,,BetRivers,,4,ATL,SFO,,2026
+b1be064fb52a198a62109c279e7ab24c,2026-10-25T17:00:00Z,Atlanta Falcons,San Francisco 49ers,Malik Turner,any_td,0.5,3000,,DraftKings,,4,ATL,SFO,,2026
+b1be064fb52a198a62109c279e7ab24c,2026-10-25T17:00:00Z,Atlanta Falcons,San Francisco 49ers,Nick Muse,any_td,0.5,3500,,DraftKings,,4,ATL,SFO,,2026
+b1be064fb52a198a62109c279e7ab24c,2026-10-25T17:00:00Z,Atlanta Falcons,San Francisco 49ers,Brock Purdy,pass_td,1.5,-136,115,DraftKings,BetRivers,5,ATL,SFO,,2026
+b1be064fb52a198a62109c279e7ab24c,2026-10-25T17:00:00Z,Atlanta Falcons,San Francisco 49ers,Michael Penix Jr.,pass_td,1.5,122,-152,DraftKings,BetOnline.ag,5,ATL,SFO,,2026
+b1be064fb52a198a62109c279e7ab24c,2026-10-25T17:00:00Z,Atlanta Falcons,San Francisco 49ers,Brock Purdy,pass_yds,241.5,-113,-111,DraftKings,DraftKings,2,ATL,SFO,,2026
+b1be064fb52a198a62109c279e7ab24c,2026-10-25T17:00:00Z,Atlanta Falcons,San Francisco 49ers,Michael Penix Jr.,pass_yds,230.5,-111,-113,DraftKings,DraftKings,2,ATL,SFO,,2026
+b1be064fb52a198a62109c279e7ab24c,2026-10-25T17:00:00Z,Atlanta Falcons,San Francisco 49ers,Drake London,rec_yds,83.5,-112,-112,DraftKings,DraftKings,4,ATL,SFO,,2026
+b1be064fb52a198a62109c279e7ab24c,2026-10-25T17:00:00Z,Atlanta Falcons,San Francisco 49ers,George Kittle,rec_yds,69.5,-114,-110,DraftKings,DraftKings,3,ATL,SFO,,2026
+b1be064fb52a198a62109c279e7ab24c,2026-10-25T17:00:00Z,Atlanta Falcons,San Francisco 49ers,Christian McCaffrey,rec_yds,44.5,-113,-111,DraftKings,DraftKings,2,ATL,SFO,,2026
+b1be064fb52a198a62109c279e7ab24c,2026-10-25T17:00:00Z,Atlanta Falcons,San Francisco 49ers,Kyle Pitts,rec_yds,34.5,-113,-111,DraftKings,DraftKings,4,ATL,SFO,,2026
+b1be064fb52a198a62109c279e7ab24c,2026-10-25T17:00:00Z,Atlanta Falcons,San Francisco 49ers,Bijan Robinson,rec_yds,29.5,-112,-112,DraftKings,DraftKings,3,ATL,SFO,,2026
+b1be064fb52a198a62109c279e7ab24c,2026-10-25T17:00:00Z,Atlanta Falcons,San Francisco 49ers,Jahan Dotson,rec_yds,29.5,-114,-114,FanDuel,FanDuel,3,ATL,SFO,,2026
+b1be064fb52a198a62109c279e7ab24c,2026-10-25T17:00:00Z,Atlanta Falcons,San Francisco 49ers,Christian Kirk,rec_yds,27.5,-110,-114,DraftKings,DraftKings,2,ATL,SFO,,2026
+b1be064fb52a198a62109c279e7ab24c,2026-10-25T17:00:00Z,Atlanta Falcons,San Francisco 49ers,Brandin Cooks,rec_yds,23.5,-113,-109,BetRivers,DraftKings,4,ATL,SFO,,2026
+b1be064fb52a198a62109c279e7ab24c,2026-10-25T17:00:00Z,Atlanta Falcons,San Francisco 49ers,Jordan Watkins,rec_yds,24.5,-114,-114,FanDuel,FanDuel,2,ATL,SFO,,2026
+b1be064fb52a198a62109c279e7ab24c,2026-10-25T17:00:00Z,Atlanta Falcons,San Francisco 49ers,Kyle Juszczyk,rec_yds,11.5,-107,-114,DraftKings,FanDuel,4,ATL,SFO,,2026
+b1be064fb52a198a62109c279e7ab24c,2026-10-25T17:00:00Z,Atlanta Falcons,San Francisco 49ers,Olamide Zaccheaus,rec_yds,7.5,-108,-109,FanDuel,BetRivers,5,ATL,SFO,,2026
+b1be064fb52a198a62109c279e7ab24c,2026-10-25T17:00:00Z,Atlanta Falcons,San Francisco 49ers,Zachariah Branch,rec_yds,5.5,-106,-106,FanDuel,DraftKings,3,ATL,SFO,,2026
+b1be064fb52a198a62109c279e7ab24c,2026-10-25T17:00:00Z,Atlanta Falcons,San Francisco 49ers,Austin Hooper,rec_yds,3.5,-114,-110,DraftKings,DraftKings,2,ATL,SFO,,2026
+b1be064fb52a198a62109c279e7ab24c,2026-10-25T17:00:00Z,Atlanta Falcons,San Francisco 49ers,Drake London,rec,5.5,-129,112,DraftKings,FanDuel,4,ATL,SFO,,2026
+b1be064fb52a198a62109c279e7ab24c,2026-10-25T17:00:00Z,Atlanta Falcons,San Francisco 49ers,George Kittle,rec,5.5,-112,-109,FanDuel,DraftKings,5,ATL,SFO,,2026
+b1be064fb52a198a62109c279e7ab24c,2026-10-25T17:00:00Z,Atlanta Falcons,San Francisco 49ers,Christian McCaffrey,rec,5.5,-101,-115,DraftKings,BetMGM,5,ATL,SFO,,2026
+b1be064fb52a198a62109c279e7ab24c,2026-10-25T17:00:00Z,Atlanta Falcons,San Francisco 49ers,Bijan Robinson,rec,3.5,-158,128,DraftKings,FanDuel,3,ATL,SFO,,2026
+b1be064fb52a198a62109c279e7ab24c,2026-10-25T17:00:00Z,Atlanta Falcons,San Francisco 49ers,Kyle Pitts,rec,3.5,106,-122,FanDuel,DraftKings,5,ATL,SFO,,2026
+b1be064fb52a198a62109c279e7ab24c,2026-10-25T17:00:00Z,Atlanta Falcons,San Francisco 49ers,Christian Kirk,rec,2.5,114,-130,BetRivers,FanDuel,3,ATL,SFO,,2026
+b1be064fb52a198a62109c279e7ab24c,2026-10-25T17:00:00Z,Atlanta Falcons,San Francisco 49ers,Brandin Cooks,rec,2.5,148,-181,BetRivers,DraftKings,4,ATL,SFO,,2026
+b1be064fb52a198a62109c279e7ab24c,2026-10-25T17:00:00Z,Atlanta Falcons,San Francisco 49ers,Jahan Dotson,rec,2.5,148,-175,DraftKings,BetMGM,4,ATL,SFO,,2026
+b1be064fb52a198a62109c279e7ab24c,2026-10-25T17:00:00Z,Atlanta Falcons,San Francisco 49ers,Jordan Watkins,rec,1.5,-106,-119,DraftKings,BetOnline.ag,4,ATL,SFO,,2026
+b1be064fb52a198a62109c279e7ab24c,2026-10-25T17:00:00Z,Atlanta Falcons,San Francisco 49ers,Kyle Juszczyk,rec,1.5,130,-125,BetRivers,BetMGM,5,ATL,SFO,,2026
+b1be064fb52a198a62109c279e7ab24c,2026-10-25T17:00:00Z,Atlanta Falcons,San Francisco 49ers,Zachariah Branch,rec,1.5,158,-185,DraftKings,BetOnline.ag,2,ATL,SFO,,2026
+b1be064fb52a198a62109c279e7ab24c,2026-10-25T17:00:00Z,Atlanta Falcons,San Francisco 49ers,Olamide Zaccheaus,rec,1.5,182,-225,FanDuel,BetMGM,4,ATL,SFO,,2026
+b1be064fb52a198a62109c279e7ab24c,2026-10-25T17:00:00Z,Atlanta Falcons,San Francisco 49ers,Austin Hooper,rec,0.5,-138,116,FanDuel,DraftKings,3,ATL,SFO,,2026
+b1be064fb52a198a62109c279e7ab24c,2026-10-25T17:00:00Z,Atlanta Falcons,San Francisco 49ers,Bijan Robinson,rush_yds,88.5,-113,-111,DraftKings,DraftKings,3,ATL,SFO,,2026
+b1be064fb52a198a62109c279e7ab24c,2026-10-25T17:00:00Z,Atlanta Falcons,San Francisco 49ers,Christian McCaffrey,rush_yds,60.5,-113,-111,DraftKings,DraftKings,5,ATL,SFO,,2026
+b1be064fb52a198a62109c279e7ab24c,2026-10-25T17:00:00Z,Atlanta Falcons,San Francisco 49ers,Kaelon Black,rush_yds,28.5,-114,-114,FanDuel,FanDuel,3,ATL,SFO,,2026
+b1be064fb52a198a62109c279e7ab24c,2026-10-25T17:00:00Z,Atlanta Falcons,San Francisco 49ers,Brock Purdy,rush_yds,19.5,-114,-111,FanDuel,BetOnline.ag,3,ATL,SFO,,2026
+b1be064fb52a198a62109c279e7ab24c,2026-10-25T17:00:00Z,Atlanta Falcons,San Francisco 49ers,Michael Penix Jr.,rush_yds,2.5,-102,-128,FanDuel,FanDuel,1,ATL,SFO,,2026
+b1be064fb52a198a62109c279e7ab24c,2026-10-25T17:00:00Z,Atlanta Falcons,San Francisco 49ers,Atlanta Falcons Defense,any_td,0.5,700,,FanDuel,,1,ATL,SFO,,2026
+b1be064fb52a198a62109c279e7ab24c,2026-10-25T17:00:00Z,Atlanta Falcons,San Francisco 49ers,San Francisco 49ers Defense,any_td,0.5,900,,FanDuel,,1,ATL,SFO,,2026
+550ec5290f935d311995affbcb0b5c79,2026-10-25T17:00:00Z,Baltimore Ravens,Cincinnati Bengals,Derrick Henry,any_td,0.5,-200,,BetMGM,,5,BAL,CIN,7.0,2026
+550ec5290f935d311995affbcb0b5c79,2026-10-25T17:00:00Z,Baltimore Ravens,Cincinnati Bengals,Chase Brown,any_td,0.5,105,,BetMGM,,5,BAL,CIN,7.0,2026
+550ec5290f935d311995affbcb0b5c79,2026-10-25T17:00:00Z,Baltimore Ravens,Cincinnati Bengals,Ja'Marr Chase,any_td,0.5,120,,BetMGM,,5,BAL,CIN,7.0,2026
+550ec5290f935d311995affbcb0b5c79,2026-10-25T17:00:00Z,Baltimore Ravens,Cincinnati Bengals,Tee Higgins,any_td,0.5,150,,DraftKings,,5,BAL,CIN,7.0,2026
+550ec5290f935d311995affbcb0b5c79,2026-10-25T17:00:00Z,Baltimore Ravens,Cincinnati Bengals,Zay Flowers,any_td,0.5,180,,DraftKings,,5,BAL,CIN,7.0,2026
+550ec5290f935d311995affbcb0b5c79,2026-10-25T17:00:00Z,Baltimore Ravens,Cincinnati Bengals,Mark Andrews,any_td,0.5,245,,DraftKings,,5,BAL,CIN,7.0,2026
+550ec5290f935d311995affbcb0b5c79,2026-10-25T17:00:00Z,Baltimore Ravens,Cincinnati Bengals,Samaje Perine,any_td,0.5,310,,FanDuel,,5,BAL,CIN,7.0,2026
+550ec5290f935d311995affbcb0b5c79,2026-10-25T17:00:00Z,Baltimore Ravens,Cincinnati Bengals,Mike Gesicki,any_td,0.5,360,,BetMGM,,5,BAL,CIN,7.0,2026
+550ec5290f935d311995affbcb0b5c79,2026-10-25T17:00:00Z,Baltimore Ravens,Cincinnati Bengals,Dohnte Meyers,any_td,0.5,475,,BetMGM,,5,BAL,CIN,7.0,2026
+550ec5290f935d311995affbcb0b5c79,2026-10-25T17:00:00Z,Baltimore Ravens,Cincinnati Bengals,Ja'Kobi Lane,any_td,0.5,425,,DraftKings,,5,BAL,CIN,7.0,2026
+550ec5290f935d311995affbcb0b5c79,2026-10-25T17:00:00Z,Baltimore Ravens,Cincinnati Bengals,Cincinnati Bengals D/ST,any_td,0.5,500,,BetMGM,,2,BAL,CIN,7.0,2026
+550ec5290f935d311995affbcb0b5c79,2026-10-25T17:00:00Z,Baltimore Ravens,Cincinnati Bengals,Rashod Bateman,any_td,0.5,490,,FanDuel,,5,BAL,CIN,7.0,2026
+550ec5290f935d311995affbcb0b5c79,2026-10-25T17:00:00Z,Baltimore Ravens,Cincinnati Bengals,Baltimore Ravens D/ST,any_td,0.5,600,,DraftKings,,2,BAL,CIN,7.0,2026
+550ec5290f935d311995affbcb0b5c79,2026-10-25T17:00:00Z,Baltimore Ravens,Cincinnati Bengals,Justice Hill,any_td,0.5,700,,DraftKings,,5,BAL,CIN,7.0,2026
+550ec5290f935d311995affbcb0b5c79,2026-10-25T17:00:00Z,Baltimore Ravens,Cincinnati Bengals,Joe Burrow,any_td,0.5,800,,DraftKings,,5,BAL,CIN,7.0,2026
+550ec5290f935d311995affbcb0b5c79,2026-10-25T17:00:00Z,Baltimore Ravens,Cincinnati Bengals,Matthew Hibner,any_td,0.5,1050,,BetMGM,,5,BAL,CIN,7.0,2026
+550ec5290f935d311995affbcb0b5c79,2026-10-25T17:00:00Z,Baltimore Ravens,Cincinnati Bengals,Josh Cuevas,any_td,0.5,1200,,BetMGM,,5,BAL,CIN,7.0,2026
+550ec5290f935d311995affbcb0b5c79,2026-10-25T17:00:00Z,Baltimore Ravens,Cincinnati Bengals,Drew Sample,any_td,0.5,1100,,BetRivers,,5,BAL,CIN,7.0,2026
+550ec5290f935d311995affbcb0b5c79,2026-10-25T17:00:00Z,Baltimore Ravens,Cincinnati Bengals,Erick All,any_td,0.5,1000,,DraftKings,,5,BAL,CIN,7.0,2026
+550ec5290f935d311995affbcb0b5c79,2026-10-25T17:00:00Z,Baltimore Ravens,Cincinnati Bengals,Colbie Young,any_td,0.5,1400,,BetRivers,,5,BAL,CIN,7.0,2026
+550ec5290f935d311995affbcb0b5c79,2026-10-25T17:00:00Z,Baltimore Ravens,Cincinnati Bengals,Mitchell Tinsley,any_td,0.5,1200,,DraftKings,,4,BAL,CIN,7.0,2026
+550ec5290f935d311995affbcb0b5c79,2026-10-25T17:00:00Z,Baltimore Ravens,Cincinnati Bengals,Devontez Walker,any_td,0.5,1400,,FanDuel,,5,BAL,CIN,7.0,2026
+550ec5290f935d311995affbcb0b5c79,2026-10-25T17:00:00Z,Baltimore Ravens,Cincinnati Bengals,LaJohntay Wester,any_td,0.5,1700,,BetMGM,,5,BAL,CIN,7.0,2026
+550ec5290f935d311995affbcb0b5c79,2026-10-25T17:00:00Z,Baltimore Ravens,Cincinnati Bengals,Jack Endries,any_td,0.5,1700,,FanDuel,,4,BAL,CIN,7.0,2026
+550ec5290f935d311995affbcb0b5c79,2026-10-25T17:00:00Z,Baltimore Ravens,Cincinnati Bengals,Elijah Sarratt,any_td,0.5,1600,,DraftKings,,4,BAL,CIN,7.0,2026
+550ec5290f935d311995affbcb0b5c79,2026-10-25T17:00:00Z,Baltimore Ravens,Cincinnati Bengals,Nick Vannett,any_td,0.5,2200,,DraftKings,,4,BAL,CIN,7.0,2026
+550ec5290f935d311995affbcb0b5c79,2026-10-25T17:00:00Z,Baltimore Ravens,Cincinnati Bengals,Tahj Brooks,any_td,0.5,3000,,DraftKings,,4,BAL,CIN,7.0,2026
+550ec5290f935d311995affbcb0b5c79,2026-10-25T17:00:00Z,Baltimore Ravens,Cincinnati Bengals,Rasheen Ali,any_td,0.5,6500,,DraftKings,,5,BAL,CIN,7.0,2026
+550ec5290f935d311995affbcb0b5c79,2026-10-25T17:00:00Z,Baltimore Ravens,Cincinnati Bengals,Joe Burrow,pass_td,1.5,-167,137,BetRivers,DraftKings,5,BAL,CIN,7.0,2026
+550ec5290f935d311995affbcb0b5c79,2026-10-25T17:00:00Z,Baltimore Ravens,Cincinnati Bengals,Joe Burrow,pass_yds,260.5,-114,-114,FanDuel,FanDuel,1,BAL,CIN,7.0,2026
+550ec5290f935d311995affbcb0b5c79,2026-10-25T17:00:00Z,Baltimore Ravens,Cincinnati Bengals,Ja'Marr Chase,rec_yds,83.5,-113,-111,DraftKings,DraftKings,3,BAL,CIN,7.0,2026
+550ec5290f935d311995affbcb0b5c79,2026-10-25T17:00:00Z,Baltimore Ravens,Cincinnati Bengals,Tee Higgins,rec_yds,65.5,-114,-112,FanDuel,BetOnline.ag,3,BAL,CIN,7.0,2026
+550ec5290f935d311995affbcb0b5c79,2026-10-25T17:00:00Z,Baltimore Ravens,Cincinnati Bengals,Mike Gesicki,rec_yds,22.5,-114,-110,DraftKings,DraftKings,4,BAL,CIN,7.0,2026
+550ec5290f935d311995affbcb0b5c79,2026-10-25T17:00:00Z,Baltimore Ravens,Cincinnati Bengals,Chase Brown,rec_yds,20.5,-112,-112,DraftKings,DraftKings,4,BAL,CIN,7.0,2026
+550ec5290f935d311995affbcb0b5c79,2026-10-25T17:00:00Z,Baltimore Ravens,Cincinnati Bengals,Dohnte Meyers,rec_yds,14.5,-112,-112,DraftKings,DraftKings,3,BAL,CIN,7.0,2026
+550ec5290f935d311995affbcb0b5c79,2026-10-25T17:00:00Z,Baltimore Ravens,Cincinnati Bengals,Samaje Perine,rec_yds,8.5,-108,-105,DraftKings,BetMGM,4,BAL,CIN,7.0,2026
+550ec5290f935d311995affbcb0b5c79,2026-10-25T17:00:00Z,Baltimore Ravens,Cincinnati Bengals,Derrick Henry,rec_yds,6.5,-111,-112,DraftKings,BetOnline.ag,3,BAL,CIN,7.0,2026
+550ec5290f935d311995affbcb0b5c79,2026-10-25T17:00:00Z,Baltimore Ravens,Cincinnati Bengals,Ja'Marr Chase,rec,7.5,108,-120,BetRivers,DraftKings,4,BAL,CIN,7.0,2026
+550ec5290f935d311995affbcb0b5c79,2026-10-25T17:00:00Z,Baltimore Ravens,Cincinnati Bengals,Tee Higgins,rec,4.5,-135,117,BetOnline.ag,DraftKings,4,BAL,CIN,7.0,2026
+550ec5290f935d311995affbcb0b5c79,2026-10-25T17:00:00Z,Baltimore Ravens,Cincinnati Bengals,Chase Brown,rec,3.5,-102,-111,DraftKings,BetMGM,5,BAL,CIN,7.0,2026
+550ec5290f935d311995affbcb0b5c79,2026-10-25T17:00:00Z,Baltimore Ravens,Cincinnati Bengals,Mike Gesicki,rec,2.5,-103,-114,DraftKings,FanDuel,5,BAL,CIN,7.0,2026
+550ec5290f935d311995affbcb0b5c79,2026-10-25T17:00:00Z,Baltimore Ravens,Cincinnati Bengals,Samaje Perine,rec,1.5,-135,119,BetOnline.ag,DraftKings,5,BAL,CIN,7.0,2026
+550ec5290f935d311995affbcb0b5c79,2026-10-25T17:00:00Z,Baltimore Ravens,Cincinnati Bengals,Dohnte Meyers,rec,1.5,-123,112,BetOnline.ag,FanDuel,4,BAL,CIN,7.0,2026
+550ec5290f935d311995affbcb0b5c79,2026-10-25T17:00:00Z,Baltimore Ravens,Cincinnati Bengals,Derrick Henry,rec,1.5,162,-185,DraftKings,BetOnline.ag,3,BAL,CIN,7.0,2026
+550ec5290f935d311995affbcb0b5c79,2026-10-25T17:00:00Z,Baltimore Ravens,Cincinnati Bengals,Derrick Henry,rush_yds,85.5,-110,-114,DraftKings,DraftKings,2,BAL,CIN,7.0,2026
+550ec5290f935d311995affbcb0b5c79,2026-10-25T17:00:00Z,Baltimore Ravens,Cincinnati Bengals,Chase Brown,rush_yds,41.5,-110,-114,DraftKings,DraftKings,2,BAL,CIN,7.0,2026
+550ec5290f935d311995affbcb0b5c79,2026-10-25T17:00:00Z,Baltimore Ravens,Cincinnati Bengals,Samaje Perine,rush_yds,28.5,-108,-116,DraftKings,DraftKings,2,BAL,CIN,7.0,2026
+550ec5290f935d311995affbcb0b5c79,2026-10-25T17:00:00Z,Baltimore Ravens,Cincinnati Bengals,Joe Burrow,rush_yds,7.5,-102,-114,DraftKings,BetOnline.ag,2,BAL,CIN,7.0,2026
+550ec5290f935d311995affbcb0b5c79,2026-10-25T17:00:00Z,Baltimore Ravens,Cincinnati Bengals,Cincinnati Bengals Defense,any_td,0.5,850,,FanDuel,,1,BAL,CIN,7.0,2026
+550ec5290f935d311995affbcb0b5c79,2026-10-25T17:00:00Z,Baltimore Ravens,Cincinnati Bengals,Baltimore Ravens Defense,any_td,0.5,950,,FanDuel,,1,BAL,CIN,7.0,2026
+550ec5290f935d311995affbcb0b5c79,2026-10-25T17:00:00Z,Baltimore Ravens,Cincinnati Bengals,Lamar Jackson,any_td,0.5,225,,BetRivers,,2,BAL,CIN,7.0,2026
+2823e986597c449ab94126cd5ed3fae9,2026-10-25T17:00:00Z,Carolina Panthers,Tampa Bay Buccaneers,Chuba Hubbard,any_td,0.5,-118,,BetMGM,,5,CAR,TAM,,2026
+2823e986597c449ab94126cd5ed3fae9,2026-10-25T17:00:00Z,Carolina Panthers,Tampa Bay Buccaneers,Bucky Irving,any_td,0.5,115,,DraftKings,,5,CAR,TAM,,2026
+2823e986597c449ab94126cd5ed3fae9,2026-10-25T17:00:00Z,Carolina Panthers,Tampa Bay Buccaneers,Tetairoa McMillan,any_td,0.5,150,,BetMGM,,5,CAR,TAM,,2026
+2823e986597c449ab94126cd5ed3fae9,2026-10-25T17:00:00Z,Carolina Panthers,Tampa Bay Buccaneers,Jalen Coker,any_td,0.5,175,,DraftKings,,5,CAR,TAM,,2026
+2823e986597c449ab94126cd5ed3fae9,2026-10-25T17:00:00Z,Carolina Panthers,Tampa Bay Buccaneers,Cade Otton,any_td,0.5,260,,BetMGM,,5,CAR,TAM,,2026
+2823e986597c449ab94126cd5ed3fae9,2026-10-25T17:00:00Z,Carolina Panthers,Tampa Bay Buccaneers,Chris Godwin,any_td,0.5,270,,BetMGM,,5,CAR,TAM,,2026
+2823e986597c449ab94126cd5ed3fae9,2026-10-25T17:00:00Z,Carolina Panthers,Tampa Bay Buccaneers,Darren Waller,any_td,0.5,320,,BetRivers,,5,CAR,TAM,,2026
+2823e986597c449ab94126cd5ed3fae9,2026-10-25T17:00:00Z,Carolina Panthers,Tampa Bay Buccaneers,Tommy Tremble,any_td,0.5,320,,FanDuel,,5,CAR,TAM,,2026
+2823e986597c449ab94126cd5ed3fae9,2026-10-25T17:00:00Z,Carolina Panthers,Tampa Bay Buccaneers,Ted Hurst III,any_td,0.5,310,,DraftKings,,5,CAR,TAM,,2026
+2823e986597c449ab94126cd5ed3fae9,2026-10-25T17:00:00Z,Carolina Panthers,Tampa Bay Buccaneers,Kenny Gainwell,any_td,0.5,410,,FanDuel,,5,CAR,TAM,,2026
+2823e986597c449ab94126cd5ed3fae9,2026-10-25T17:00:00Z,Carolina Panthers,Tampa Bay Buccaneers,Carolina Panthers D/ST,any_td,0.5,500,,BetMGM,,2,CAR,TAM,,2026
+2823e986597c449ab94126cd5ed3fae9,2026-10-25T17:00:00Z,Carolina Panthers,Tampa Bay Buccaneers,Tampa Bay Buccaneers D/ST,any_td,0.5,575,,BetMGM,,2,CAR,TAM,,2026
+2823e986597c449ab94126cd5ed3fae9,2026-10-25T17:00:00Z,Carolina Panthers,Tampa Bay Buccaneers,Tez Johnson,any_td,0.5,500,,DraftKings,,5,CAR,TAM,,2026
+2823e986597c449ab94126cd5ed3fae9,2026-10-25T17:00:00Z,Carolina Panthers,Tampa Bay Buccaneers,Baker Mayfield,any_td,0.5,525,,BetMGM,,5,CAR,TAM,,2026
+2823e986597c449ab94126cd5ed3fae9,2026-10-25T17:00:00Z,Carolina Panthers,Tampa Bay Buccaneers,Mitchell Evans,any_td,0.5,850,,BetRivers,,5,CAR,TAM,,2026
+2823e986597c449ab94126cd5ed3fae9,2026-10-25T17:00:00Z,Carolina Panthers,Tampa Bay Buccaneers,Sean Tucker,any_td,0.5,600,,DraftKings,,5,CAR,TAM,,2026
+2823e986597c449ab94126cd5ed3fae9,2026-10-25T17:00:00Z,Carolina Panthers,Tampa Bay Buccaneers,Bryce Young,any_td,0.5,750,,DraftKings,,5,CAR,TAM,,2026
+2823e986597c449ab94126cd5ed3fae9,2026-10-25T17:00:00Z,Carolina Panthers,Tampa Bay Buccaneers,AJ Dillon,any_td,0.5,950,,DraftKings,,5,CAR,TAM,,2026
+2823e986597c449ab94126cd5ed3fae9,2026-10-25T17:00:00Z,Carolina Panthers,Tampa Bay Buccaneers,John Metchie III,any_td,0.5,1000,,DraftKings,,5,CAR,TAM,,2026
+2823e986597c449ab94126cd5ed3fae9,2026-10-25T17:00:00Z,Carolina Panthers,Tampa Bay Buccaneers,Brycen Tremayne,any_td,0.5,1200,,DraftKings,,5,CAR,TAM,,2026
+2823e986597c449ab94126cd5ed3fae9,2026-10-25T17:00:00Z,Carolina Panthers,Tampa Bay Buccaneers,David Sills V,any_td,0.5,1500,,BetRivers,,5,CAR,TAM,,2026
+2823e986597c449ab94126cd5ed3fae9,2026-10-25T17:00:00Z,Carolina Panthers,Tampa Bay Buccaneers,Kameron Johnson,any_td,0.5,1900,,BetMGM,,5,CAR,TAM,,2026
+2823e986597c449ab94126cd5ed3fae9,2026-10-25T17:00:00Z,Carolina Panthers,Tampa Bay Buccaneers,Trevor Etienne,any_td,0.5,1700,,DraftKings,,5,CAR,TAM,,2026
+2823e986597c449ab94126cd5ed3fae9,2026-10-25T17:00:00Z,Carolina Panthers,Tampa Bay Buccaneers,Anthony Tyus III,any_td,0.5,2400,,BetRivers,,4,CAR,TAM,,2026
+2823e986597c449ab94126cd5ed3fae9,2026-10-25T17:00:00Z,Carolina Panthers,Tampa Bay Buccaneers,David Moore,any_td,0.5,2000,,DraftKings,,5,CAR,TAM,,2026
+2823e986597c449ab94126cd5ed3fae9,2026-10-25T17:00:00Z,Carolina Panthers,Tampa Bay Buccaneers,Payne Durham,any_td,0.5,2000,,DraftKings,,5,CAR,TAM,,2026
+2823e986597c449ab94126cd5ed3fae9,2026-10-25T17:00:00Z,Carolina Panthers,Tampa Bay Buccaneers,Ko Kieft,any_td,0.5,2000,,DraftKings,,4,CAR,TAM,,2026
+2823e986597c449ab94126cd5ed3fae9,2026-10-25T17:00:00Z,Carolina Panthers,Tampa Bay Buccaneers,Ja'Tavion Sanders,any_td,0.5,2000,,DraftKings,,4,CAR,TAM,,2026
+2823e986597c449ab94126cd5ed3fae9,2026-10-25T17:00:00Z,Carolina Panthers,Tampa Bay Buccaneers,Bauer Sharp,any_td,0.5,2200,,DraftKings,,5,CAR,TAM,,2026
+2823e986597c449ab94126cd5ed3fae9,2026-10-25T17:00:00Z,Carolina Panthers,Tampa Bay Buccaneers,Feleipe Franks,any_td,0.5,4000,,DraftKings,,5,CAR,TAM,,2026
+2823e986597c449ab94126cd5ed3fae9,2026-10-25T17:00:00Z,Carolina Panthers,Tampa Bay Buccaneers,Bryce Young,pass_td,1.5,-133,114,DraftKings,FanDuel,5,CAR,TAM,,2026
+2823e986597c449ab94126cd5ed3fae9,2026-10-25T17:00:00Z,Carolina Panthers,Tampa Bay Buccaneers,Baker Mayfield,pass_td,1.5,155,-178,BetMGM,DraftKings,5,CAR,TAM,,2026
+2823e986597c449ab94126cd5ed3fae9,2026-10-25T17:00:00Z,Carolina Panthers,Tampa Bay Buccaneers,Bryce Young,pass_yds,253.5,-113,-111,DraftKings,DraftKings,3,CAR,TAM,,2026
+2823e986597c449ab94126cd5ed3fae9,2026-10-25T17:00:00Z,Carolina Panthers,Tampa Bay Buccaneers,Baker Mayfield,pass_yds,216.5,-113,-111,DraftKings,DraftKings,2,CAR,TAM,,2026
+2823e986597c449ab94126cd5ed3fae9,2026-10-25T17:00:00Z,Carolina Panthers,Tampa Bay Buccaneers,Tetairoa McMillan,rec_yds,71.5,-110,-114,DraftKings,DraftKings,2,CAR,TAM,,2026
+2823e986597c449ab94126cd5ed3fae9,2026-10-25T17:00:00Z,Carolina Panthers,Tampa Bay Buccaneers,Jalen Coker,rec_yds,66.5,-114,-114,FanDuel,FanDuel,2,CAR,TAM,,2026
+2823e986597c449ab94126cd5ed3fae9,2026-10-25T17:00:00Z,Carolina Panthers,Tampa Bay Buccaneers,Chris Godwin,rec_yds,44.5,-114,-106,FanDuel,BetOnline.ag,3,CAR,TAM,,2026
+2823e986597c449ab94126cd5ed3fae9,2026-10-25T17:00:00Z,Carolina Panthers,Tampa Bay Buccaneers,Cade Otton,rec_yds,40.5,-112,-114,BetOnline.ag,FanDuel,3,CAR,TAM,,2026
+2823e986597c449ab94126cd5ed3fae9,2026-10-25T17:00:00Z,Carolina Panthers,Tampa Bay Buccaneers,Ted Hurst III,rec_yds,36.5,-112,-112,DraftKings,DraftKings,3,CAR,TAM,,2026
+2823e986597c449ab94126cd5ed3fae9,2026-10-25T17:00:00Z,Carolina Panthers,Tampa Bay Buccaneers,Tez Johnson,rec_yds,28.5,-109,-114,DraftKings,FanDuel,4,CAR,TAM,,2026
+2823e986597c449ab94126cd5ed3fae9,2026-10-25T17:00:00Z,Carolina Panthers,Tampa Bay Buccaneers,Darren Waller,rec_yds,22.5,-111,-110,DraftKings,BetMGM,4,CAR,TAM,,2026
+2823e986597c449ab94126cd5ed3fae9,2026-10-25T17:00:00Z,Carolina Panthers,Tampa Bay Buccaneers,Bucky Irving,rec_yds,16.5,-115,-112,BetOnline.ag,BetOnline.ag,2,CAR,TAM,,2026
+2823e986597c449ab94126cd5ed3fae9,2026-10-25T17:00:00Z,Carolina Panthers,Tampa Bay Buccaneers,Tommy Tremble,rec_yds,16.5,-114,-111,FanDuel,BetMGM,3,CAR,TAM,,2026
+2823e986597c449ab94126cd5ed3fae9,2026-10-25T17:00:00Z,Carolina Panthers,Tampa Bay Buccaneers,Chuba Hubbard,rec_yds,14.5,-112,-112,DraftKings,DraftKings,3,CAR,TAM,,2026
+2823e986597c449ab94126cd5ed3fae9,2026-10-25T17:00:00Z,Carolina Panthers,Tampa Bay Buccaneers,Kenny Gainwell,rec_yds,13.5,-111,-110,DraftKings,BetMGM,4,CAR,TAM,,2026
+2823e986597c449ab94126cd5ed3fae9,2026-10-25T17:00:00Z,Carolina Panthers,Tampa Bay Buccaneers,John Metchie III,rec_yds,10.5,-106,-114,DraftKings,FanDuel,4,CAR,TAM,,2026
+2823e986597c449ab94126cd5ed3fae9,2026-10-25T17:00:00Z,Carolina Panthers,Tampa Bay Buccaneers,Jalen Coker,rec,5.5,106,-115,FanDuel,BetMGM,5,CAR,TAM,,2026
+2823e986597c449ab94126cd5ed3fae9,2026-10-25T17:00:00Z,Carolina Panthers,Tampa Bay Buccaneers,Tetairoa McMillan,rec,5.5,110,-140,DraftKings,BetMGM,5,CAR,TAM,,2026
+2823e986597c449ab94126cd5ed3fae9,2026-10-25T17:00:00Z,Carolina Panthers,Tampa Bay Buccaneers,Chris Godwin,rec,4.5,-106,100,FanDuel,DraftKings,5,CAR,TAM,,2026
+2823e986597c449ab94126cd5ed3fae9,2026-10-25T17:00:00Z,Carolina Panthers,Tampa Bay Buccaneers,Cade Otton,rec,3.5,-160,128,FanDuel,DraftKings,4,CAR,TAM,,2026
+2823e986597c449ab94126cd5ed3fae9,2026-10-25T17:00:00Z,Carolina Panthers,Tampa Bay Buccaneers,Bucky Irving,rec,2.5,-141,140,BetRivers,FanDuel,5,CAR,TAM,,2026
+2823e986597c449ab94126cd5ed3fae9,2026-10-25T17:00:00Z,Carolina Panthers,Tampa Bay Buccaneers,Ted Hurst III,rec,2.5,-146,128,DraftKings,FanDuel,5,CAR,TAM,,2026
+2823e986597c449ab94126cd5ed3fae9,2026-10-25T17:00:00Z,Carolina Panthers,Tampa Bay Buccaneers,Chuba Hubbard,rec,2.5,112,-130,FanDuel,BetOnline.ag,5,CAR,TAM,,2026
+2823e986597c449ab94126cd5ed3fae9,2026-10-25T17:00:00Z,Carolina Panthers,Tampa Bay Buccaneers,Kenny Gainwell,rec,2.5,118,-132,BetRivers,BetOnline.ag,5,CAR,TAM,,2026
+2823e986597c449ab94126cd5ed3fae9,2026-10-25T17:00:00Z,Carolina Panthers,Tampa Bay Buccaneers,Tez Johnson,rec,2.5,134,-140,FanDuel,BetMGM,5,CAR,TAM,,2026
+2823e986597c449ab94126cd5ed3fae9,2026-10-25T17:00:00Z,Carolina Panthers,Tampa Bay Buccaneers,Darren Waller,rec,2.5,126,-150,DraftKings,BetMGM,5,CAR,TAM,,2026
+2823e986597c449ab94126cd5ed3fae9,2026-10-25T17:00:00Z,Carolina Panthers,Tampa Bay Buccaneers,Tommy Tremble,rec,1.5,-175,152,BetOnline.ag,FanDuel,4,CAR,TAM,,2026
+2823e986597c449ab94126cd5ed3fae9,2026-10-25T17:00:00Z,Carolina Panthers,Tampa Bay Buccaneers,John Metchie III,rec,1.5,140,-154,BetRivers,FanDuel,5,CAR,TAM,,2026
+2823e986597c449ab94126cd5ed3fae9,2026-10-25T17:00:00Z,Carolina Panthers,Tampa Bay Buccaneers,Chuba Hubbard,rush_yds,64.5,-115,-112,BetOnline.ag,BetOnline.ag,2,CAR,TAM,,2026
+2823e986597c449ab94126cd5ed3fae9,2026-10-25T17:00:00Z,Carolina Panthers,Tampa Bay Buccaneers,Bucky Irving,rush_yds,65.5,-114,-110,DraftKings,DraftKings,2,CAR,TAM,,2026
+2823e986597c449ab94126cd5ed3fae9,2026-10-25T17:00:00Z,Carolina Panthers,Tampa Bay Buccaneers,Baker Mayfield,rush_yds,16.5,-113,-111,DraftKings,DraftKings,3,CAR,TAM,,2026
+2823e986597c449ab94126cd5ed3fae9,2026-10-25T17:00:00Z,Carolina Panthers,Tampa Bay Buccaneers,Kenny Gainwell,rush_yds,11.5,-110,-114,BetOnline.ag,FanDuel,3,CAR,TAM,,2026
+2823e986597c449ab94126cd5ed3fae9,2026-10-25T17:00:00Z,Carolina Panthers,Tampa Bay Buccaneers,Bryce Young,rush_yds,10.5,-113,-108,BetRivers,DraftKings,4,CAR,TAM,,2026
+2823e986597c449ab94126cd5ed3fae9,2026-10-25T17:00:00Z,Carolina Panthers,Tampa Bay Buccaneers,Sean Tucker,rush_yds,7.5,-112,-112,DraftKings,DraftKings,3,CAR,TAM,,2026
+2823e986597c449ab94126cd5ed3fae9,2026-10-25T17:00:00Z,Carolina Panthers,Tampa Bay Buccaneers,Tampa Bay Buccaneers Defense,any_td,0.5,700,,FanDuel,,1,CAR,TAM,,2026
+2823e986597c449ab94126cd5ed3fae9,2026-10-25T17:00:00Z,Carolina Panthers,Tampa Bay Buccaneers,Carolina Panthers Defense,any_td,0.5,750,,FanDuel,,1,CAR,TAM,,2026
+2823e986597c449ab94126cd5ed3fae9,2026-10-25T17:00:00Z,Carolina Panthers,Tampa Bay Buccaneers,Jalon Daniels,any_td,0.5,325,,BetOnline.ag,,1,CAR,TAM,,2026
+5dce18baccec5d3ad5fb3a3ce52f7619,2026-10-25T17:00:00Z,Tennessee Titans,Cleveland Browns,Tony Pollard,any_td,0.5,125,,FanDuel,,5,TEN,CLE,7.0,2026
+5dce18baccec5d3ad5fb3a3ce52f7619,2026-10-25T17:00:00Z,Tennessee Titans,Cleveland Browns,Quinshon Judkins,any_td,0.5,190,,FanDuel,,5,TEN,CLE,7.0,2026
+5dce18baccec5d3ad5fb3a3ce52f7619,2026-10-25T17:00:00Z,Tennessee Titans,Cleveland Browns,Harold Fannin Jr.,any_td,0.5,240,,BetMGM,,5,TEN,CLE,7.0,2026
+5dce18baccec5d3ad5fb3a3ce52f7619,2026-10-25T17:00:00Z,Tennessee Titans,Cleveland Browns,Denzel Boston,any_td,0.5,220,,FanDuel,,5,TEN,CLE,7.0,2026
+5dce18baccec5d3ad5fb3a3ce52f7619,2026-10-25T17:00:00Z,Tennessee Titans,Cleveland Browns,KC Concepcion,any_td,0.5,300,,DraftKings,,5,TEN,CLE,7.0,2026
+5dce18baccec5d3ad5fb3a3ce52f7619,2026-10-25T17:00:00Z,Tennessee Titans,Cleveland Browns,Carnell Tate,any_td,0.5,330,,FanDuel,,5,TEN,CLE,7.0,2026
+5dce18baccec5d3ad5fb3a3ce52f7619,2026-10-25T17:00:00Z,Tennessee Titans,Cleveland Browns,Deshaun Watson,any_td,0.5,370,,DraftKings,,5,TEN,CLE,7.0,2026
+5dce18baccec5d3ad5fb3a3ce52f7619,2026-10-25T17:00:00Z,Tennessee Titans,Cleveland Browns,Wan'Dale Robinson,any_td,0.5,400,,DraftKings,,5,TEN,CLE,7.0,2026
+5dce18baccec5d3ad5fb3a3ce52f7619,2026-10-25T17:00:00Z,Tennessee Titans,Cleveland Browns,Cleveland Browns D/ST,any_td,0.5,525,,BetMGM,,2,TEN,CLE,7.0,2026
+5dce18baccec5d3ad5fb3a3ce52f7619,2026-10-25T17:00:00Z,Tennessee Titans,Cleveland Browns,Tennessee Titans D/ST,any_td,0.5,500,,DraftKings,,2,TEN,CLE,7.0,2026
+5dce18baccec5d3ad5fb3a3ce52f7619,2026-10-25T17:00:00Z,Tennessee Titans,Cleveland Browns,Cam Ward,any_td,0.5,525,,BetMGM,,5,TEN,CLE,7.0,2026
+5dce18baccec5d3ad5fb3a3ce52f7619,2026-10-25T17:00:00Z,Tennessee Titans,Cleveland Browns,Gunnar Helm,any_td,0.5,575,,BetMGM,,5,TEN,CLE,7.0,2026
+5dce18baccec5d3ad5fb3a3ce52f7619,2026-10-25T17:00:00Z,Tennessee Titans,Cleveland Browns,Tyjae Spears,any_td,0.5,600,,DraftKings,,4,TEN,CLE,7.0,2026
+5dce18baccec5d3ad5fb3a3ce52f7619,2026-10-25T17:00:00Z,Tennessee Titans,Cleveland Browns,Jerry Jeudy,any_td,0.5,600,,DraftKings,,5,TEN,CLE,7.0,2026
+5dce18baccec5d3ad5fb3a3ce52f7619,2026-10-25T17:00:00Z,Tennessee Titans,Cleveland Browns,Elic Ayomanor,any_td,0.5,750,,FanDuel,,5,TEN,CLE,7.0,2026
+5dce18baccec5d3ad5fb3a3ce52f7619,2026-10-25T17:00:00Z,Tennessee Titans,Cleveland Browns,Dylan Sampson,any_td,0.5,700,,DraftKings,,5,TEN,CLE,7.0,2026
+5dce18baccec5d3ad5fb3a3ce52f7619,2026-10-25T17:00:00Z,Tennessee Titans,Cleveland Browns,Jaleel McLaughlin,any_td,0.5,900,,BetMGM,,5,TEN,CLE,7.0,2026
+5dce18baccec5d3ad5fb3a3ce52f7619,2026-10-25T17:00:00Z,Tennessee Titans,Cleveland Browns,Chimere Dike,any_td,0.5,1300,,BetRivers,,5,TEN,CLE,7.0,2026
+5dce18baccec5d3ad5fb3a3ce52f7619,2026-10-25T17:00:00Z,Tennessee Titans,Cleveland Browns,Calvin Ridley,any_td,0.5,1000,,DraftKings,,5,TEN,CLE,7.0,2026
+5dce18baccec5d3ad5fb3a3ce52f7619,2026-10-25T17:00:00Z,Tennessee Titans,Cleveland Browns,Malachi Corley,any_td,0.5,1500,,BetRivers,,4,TEN,CLE,7.0,2026
+5dce18baccec5d3ad5fb3a3ce52f7619,2026-10-25T17:00:00Z,Tennessee Titans,Cleveland Browns,Daniel Bellinger,any_td,0.5,1150,,BetMGM,,5,TEN,CLE,7.0,2026
+5dce18baccec5d3ad5fb3a3ce52f7619,2026-10-25T17:00:00Z,Tennessee Titans,Cleveland Browns,Nicholas Singleton,any_td,0.5,1400,,FanDuel,,4,TEN,CLE,7.0,2026
+5dce18baccec5d3ad5fb3a3ce52f7619,2026-10-25T17:00:00Z,Tennessee Titans,Cleveland Browns,Isaiah Bond,any_td,0.5,1350,,BetMGM,,5,TEN,CLE,7.0,2026
+5dce18baccec5d3ad5fb3a3ce52f7619,2026-10-25T17:00:00Z,Tennessee Titans,Cleveland Browns,Blake Whiteheart,any_td,0.5,1300,,DraftKings,,4,TEN,CLE,7.0,2026
+5dce18baccec5d3ad5fb3a3ce52f7619,2026-10-25T17:00:00Z,Tennessee Titans,Cleveland Browns,Michael Carter,any_td,0.5,2200,,DraftKings,,4,TEN,CLE,7.0,2026
+5dce18baccec5d3ad5fb3a3ce52f7619,2026-10-25T17:00:00Z,Tennessee Titans,Cleveland Browns,Tylan Wallace,any_td,0.5,4500,,FanDuel,,5,TEN,CLE,7.0,2026
+5dce18baccec5d3ad5fb3a3ce52f7619,2026-10-25T17:00:00Z,Tennessee Titans,Cleveland Browns,Julius Chestnut,any_td,0.5,3000,,DraftKings,,4,TEN,CLE,7.0,2026
+5dce18baccec5d3ad5fb3a3ce52f7619,2026-10-25T17:00:00Z,Tennessee Titans,Cleveland Browns,David Martin-Robinson,any_td,0.5,3500,,DraftKings,,4,TEN,CLE,7.0,2026
+5dce18baccec5d3ad5fb3a3ce52f7619,2026-10-25T17:00:00Z,Tennessee Titans,Cleveland Browns,Michael Burton,any_td,0.5,3500,,DraftKings,,5,TEN,CLE,7.0,2026
+5dce18baccec5d3ad5fb3a3ce52f7619,2026-10-25T17:00:00Z,Tennessee Titans,Cleveland Browns,Carsen Ryan,any_td,0.5,4000,,DraftKings,,4,TEN,CLE,7.0,2026
+5dce18baccec5d3ad5fb3a3ce52f7619,2026-10-25T17:00:00Z,Tennessee Titans,Cleveland Browns,Kylen Granson,any_td,0.5,4000,,DraftKings,,5,TEN,CLE,7.0,2026
+5dce18baccec5d3ad5fb3a3ce52f7619,2026-10-25T17:00:00Z,Tennessee Titans,Cleveland Browns,Deshaun Watson,pass_td,1.5,165,-200,BetMGM,DraftKings,4,TEN,CLE,7.0,2026
+5dce18baccec5d3ad5fb3a3ce52f7619,2026-10-25T17:00:00Z,Tennessee Titans,Cleveland Browns,Cam Ward,pass_td,0.5,-200,165,BetRivers,BetOnline.ag,5,TEN,CLE,7.0,2026
+5dce18baccec5d3ad5fb3a3ce52f7619,2026-10-25T17:00:00Z,Tennessee Titans,Cleveland Browns,Deshaun Watson,pass_yds,208.5,-112,-112,DraftKings,DraftKings,3,TEN,CLE,7.0,2026
+5dce18baccec5d3ad5fb3a3ce52f7619,2026-10-25T17:00:00Z,Tennessee Titans,Cleveland Browns,Cam Ward,pass_yds,182.5,100,-113,BetMGM,DraftKings,3,TEN,CLE,7.0,2026
+5dce18baccec5d3ad5fb3a3ce52f7619,2026-10-25T17:00:00Z,Tennessee Titans,Cleveland Browns,Carnell Tate,rec_yds,52.5,-111,-113,DraftKings,DraftKings,3,TEN,CLE,7.0,2026
+5dce18baccec5d3ad5fb3a3ce52f7619,2026-10-25T17:00:00Z,Tennessee Titans,Cleveland Browns,Denzel Boston,rec_yds,51.5,-114,-114,FanDuel,FanDuel,2,TEN,CLE,7.0,2026
+5dce18baccec5d3ad5fb3a3ce52f7619,2026-10-25T17:00:00Z,Tennessee Titans,Cleveland Browns,KC Concepcion,rec_yds,38.5,-114,-110,DraftKings,DraftKings,4,TEN,CLE,7.0,2026
+5dce18baccec5d3ad5fb3a3ce52f7619,2026-10-25T17:00:00Z,Tennessee Titans,Cleveland Browns,Wan'Dale Robinson,rec_yds,36.5,-111,-113,DraftKings,DraftKings,2,TEN,CLE,7.0,2026
+5dce18baccec5d3ad5fb3a3ce52f7619,2026-10-25T17:00:00Z,Tennessee Titans,Cleveland Browns,Harold Fannin Jr.,rec_yds,28.5,-114,-112,FanDuel,BetOnline.ag,3,TEN,CLE,7.0,2026
+5dce18baccec5d3ad5fb3a3ce52f7619,2026-10-25T17:00:00Z,Tennessee Titans,Cleveland Browns,Jerry Jeudy,rec_yds,20.5,-114,-110,DraftKings,DraftKings,3,TEN,CLE,7.0,2026
+5dce18baccec5d3ad5fb3a3ce52f7619,2026-10-25T17:00:00Z,Tennessee Titans,Cleveland Browns,Elic Ayomanor,rec_yds,15.5,-111,-112,DraftKings,BetOnline.ag,3,TEN,CLE,7.0,2026
+5dce18baccec5d3ad5fb3a3ce52f7619,2026-10-25T17:00:00Z,Tennessee Titans,Cleveland Browns,Gunnar Helm,rec_yds,13.5,-114,-114,FanDuel,FanDuel,2,TEN,CLE,7.0,2026
+5dce18baccec5d3ad5fb3a3ce52f7619,2026-10-25T17:00:00Z,Tennessee Titans,Cleveland Browns,Quinshon Judkins,rec_yds,12.5,-114,-110,DraftKings,DraftKings,3,TEN,CLE,7.0,2026
+5dce18baccec5d3ad5fb3a3ce52f7619,2026-10-25T17:00:00Z,Tennessee Titans,Cleveland Browns,Tyjae Spears,rec_yds,12.5,-107,-117,DraftKings,DraftKings,2,TEN,CLE,7.0,2026
+5dce18baccec5d3ad5fb3a3ce52f7619,2026-10-25T17:00:00Z,Tennessee Titans,Cleveland Browns,Calvin Ridley,rec_yds,8.5,-114,-108,FanDuel,DraftKings,3,TEN,CLE,7.0,2026
+5dce18baccec5d3ad5fb3a3ce52f7619,2026-10-25T17:00:00Z,Tennessee Titans,Cleveland Browns,Tony Pollard,rec_yds,6.5,-114,-104,FanDuel,DraftKings,3,TEN,CLE,7.0,2026
+5dce18baccec5d3ad5fb3a3ce52f7619,2026-10-25T17:00:00Z,Tennessee Titans,Cleveland Browns,KC Concepcion,rec,4.5,110,-111,BetRivers,BetMGM,5,TEN,CLE,7.0,2026
+5dce18baccec5d3ad5fb3a3ce52f7619,2026-10-25T17:00:00Z,Tennessee Titans,Cleveland Browns,Carnell Tate,rec,4.5,105,-122,BetOnline.ag,DraftKings,5,TEN,CLE,7.0,2026
+5dce18baccec5d3ad5fb3a3ce52f7619,2026-10-25T17:00:00Z,Tennessee Titans,Cleveland Browns,Wan'Dale Robinson,rec,4.5,124,-146,FanDuel,DraftKings,5,TEN,CLE,7.0,2026
+5dce18baccec5d3ad5fb3a3ce52f7619,2026-10-25T17:00:00Z,Tennessee Titans,Cleveland Browns,Harold Fannin Jr.,rec,3.5,110,-128,BetMGM,DraftKings,4,TEN,CLE,7.0,2026
+5dce18baccec5d3ad5fb3a3ce52f7619,2026-10-25T17:00:00Z,Tennessee Titans,Cleveland Browns,Denzel Boston,rec,3.5,115,-140,DraftKings,BetMGM,5,TEN,CLE,7.0,2026
+5dce18baccec5d3ad5fb3a3ce52f7619,2026-10-25T17:00:00Z,Tennessee Titans,Cleveland Browns,Tyjae Spears,rec,2.5,115,-136,BetMGM,FanDuel,4,TEN,CLE,7.0,2026
+5dce18baccec5d3ad5fb3a3ce52f7619,2026-10-25T17:00:00Z,Tennessee Titans,Cleveland Browns,Quinshon Judkins,rec,2.5,117,-148,DraftKings,FanDuel,3,TEN,CLE,7.0,2026
+5dce18baccec5d3ad5fb3a3ce52f7619,2026-10-25T17:00:00Z,Tennessee Titans,Cleveland Browns,Gunnar Helm,rec,2.5,145,-186,DraftKings,DraftKings,2,TEN,CLE,7.0,2026
+5dce18baccec5d3ad5fb3a3ce52f7619,2026-10-25T17:00:00Z,Tennessee Titans,Cleveland Browns,Jerry Jeudy,rec,1.5,-169,134,BetOnline.ag,DraftKings,3,TEN,CLE,7.0,2026
+5dce18baccec5d3ad5fb3a3ce52f7619,2026-10-25T17:00:00Z,Tennessee Titans,Cleveland Browns,Tony Pollard,rec,1.5,-105,-108,BetMGM,FanDuel,4,TEN,CLE,7.0,2026
+5dce18baccec5d3ad5fb3a3ce52f7619,2026-10-25T17:00:00Z,Tennessee Titans,Cleveland Browns,Elic Ayomanor,rec,1.5,136,-149,FanDuel,BetOnline.ag,4,TEN,CLE,7.0,2026
+5dce18baccec5d3ad5fb3a3ce52f7619,2026-10-25T17:00:00Z,Tennessee Titans,Cleveland Browns,Calvin Ridley,rec,0.5,-191,151,DraftKings,BetOnline.ag,3,TEN,CLE,7.0,2026
+5dce18baccec5d3ad5fb3a3ce52f7619,2026-10-25T17:00:00Z,Tennessee Titans,Cleveland Browns,Tony Pollard,rush_yds,68.5,-110,-115,DraftKings,DraftKings,3,TEN,CLE,7.0,2026
+5dce18baccec5d3ad5fb3a3ce52f7619,2026-10-25T17:00:00Z,Tennessee Titans,Cleveland Browns,Quinshon Judkins,rush_yds,46.5,-113,-109,DraftKings,BetRivers,4,TEN,CLE,7.0,2026
+5dce18baccec5d3ad5fb3a3ce52f7619,2026-10-25T17:00:00Z,Tennessee Titans,Cleveland Browns,Deshaun Watson,rush_yds,29.5,-111,-114,BetMGM,FanDuel,3,TEN,CLE,7.0,2026
+5dce18baccec5d3ad5fb3a3ce52f7619,2026-10-25T17:00:00Z,Tennessee Titans,Cleveland Browns,Cam Ward,rush_yds,9.5,-114,-110,DraftKings,DraftKings,2,TEN,CLE,7.0,2026
+5dce18baccec5d3ad5fb3a3ce52f7619,2026-10-25T17:00:00Z,Tennessee Titans,Cleveland Browns,Tyjae Spears,rush_yds,9.5,-106,-110,DraftKings,BetMGM,2,TEN,CLE,7.0,2026
+5dce18baccec5d3ad5fb3a3ce52f7619,2026-10-25T17:00:00Z,Tennessee Titans,Cleveland Browns,Cleveland Browns Defense,any_td,0.5,700,,FanDuel,,1,TEN,CLE,7.0,2026
+5dce18baccec5d3ad5fb3a3ce52f7619,2026-10-25T17:00:00Z,Tennessee Titans,Cleveland Browns,Tennessee Titans Defense,any_td,0.5,700,,FanDuel,,1,TEN,CLE,7.0,2026
+5dce18baccec5d3ad5fb3a3ce52f7619,2026-10-25T17:00:00Z,Tennessee Titans,Cleveland Browns,Audric Estime,any_td,0.5,800,,BetOnline.ag,,2,TEN,CLE,7.0,2026
+2bba7fde6f97d0e54403d53676e4ab63,2026-10-25T17:00:00Z,Houston Texans,New York Giants,Woody Marks,any_td,0.5,-115,,BetRivers,,5,HOU,NYG,7.0,2026
+2bba7fde6f97d0e54403d53676e4ab63,2026-10-25T17:00:00Z,Houston Texans,New York Giants,Nico Collins,any_td,0.5,135,,DraftKings,,5,HOU,NYG,7.0,2026
+2bba7fde6f97d0e54403d53676e4ab63,2026-10-25T17:00:00Z,Houston Texans,New York Giants,Dalton Schultz,any_td,0.5,270,,BetMGM,,5,HOU,NYG,7.0,2026
+2bba7fde6f97d0e54403d53676e4ab63,2026-10-25T17:00:00Z,Houston Texans,New York Giants,Malik Nabers,any_td,0.5,250,,FanDuel,,5,HOU,NYG,7.0,2026
+2bba7fde6f97d0e54403d53676e4ab63,2026-10-25T17:00:00Z,Houston Texans,New York Giants,Isaiah Likely,any_td,0.5,260,,BetRivers,,5,HOU,NYG,7.0,2026
+2bba7fde6f97d0e54403d53676e4ab63,2026-10-25T17:00:00Z,Houston Texans,New York Giants,Marvin Harrison Jr.,any_td,0.5,275,,DraftKings,,5,HOU,NYG,7.0,2026
+2bba7fde6f97d0e54403d53676e4ab63,2026-10-25T17:00:00Z,Houston Texans,New York Giants,Cam Skattebo,any_td,0.5,370,,DraftKings,,5,HOU,NYG,7.0,2026
+2bba7fde6f97d0e54403d53676e4ab63,2026-10-25T17:00:00Z,Houston Texans,New York Giants,Houston Texans D/ST,any_td,0.5,425,,DraftKings,,2,HOU,NYG,7.0,2026
+2bba7fde6f97d0e54403d53676e4ab63,2026-10-25T17:00:00Z,Houston Texans,New York Giants,Tyrone Tracy Jr.,any_td,0.5,425,,DraftKings,,5,HOU,NYG,7.0,2026
+2bba7fde6f97d0e54403d53676e4ab63,2026-10-25T17:00:00Z,Houston Texans,New York Giants,Jaylin Noel,any_td,0.5,450,,DraftKings,,5,HOU,NYG,7.0,2026
+2bba7fde6f97d0e54403d53676e4ab63,2026-10-25T17:00:00Z,Houston Texans,New York Giants,J.J. McCarthy,any_td,0.5,500,,BetRivers,,5,HOU,NYG,7.0,2026
+2bba7fde6f97d0e54403d53676e4ab63,2026-10-25T17:00:00Z,Houston Texans,New York Giants,New York Giants D/ST,any_td,0.5,650,,BetMGM,,2,HOU,NYG,7.0,2026
+2bba7fde6f97d0e54403d53676e4ab63,2026-10-25T17:00:00Z,Houston Texans,New York Giants,Foster Moreau,any_td,0.5,650,,BetMGM,,5,HOU,NYG,7.0,2026
+2bba7fde6f97d0e54403d53676e4ab63,2026-10-25T17:00:00Z,Houston Texans,New York Giants,Dare Ogunbowale,any_td,0.5,500,,DraftKings,,5,HOU,NYG,7.0,2026
+2bba7fde6f97d0e54403d53676e4ab63,2026-10-25T17:00:00Z,Houston Texans,New York Giants,C.J. Stroud,any_td,0.5,550,,DraftKings,,5,HOU,NYG,7.0,2026
+2bba7fde6f97d0e54403d53676e4ab63,2026-10-25T17:00:00Z,Houston Texans,New York Giants,Kayshon Boutte,any_td,0.5,700,,FanDuel,,5,HOU,NYG,7.0,2026
+2bba7fde6f97d0e54403d53676e4ab63,2026-10-25T17:00:00Z,Houston Texans,New York Giants,Xavier Hutchinson,any_td,0.5,650,,DraftKings,,5,HOU,NYG,7.0,2026
+2bba7fde6f97d0e54403d53676e4ab63,2026-10-25T17:00:00Z,Houston Texans,New York Giants,Malachi Fields,any_td,0.5,750,,FanDuel,,5,HOU,NYG,7.0,2026
+2bba7fde6f97d0e54403d53676e4ab63,2026-10-25T17:00:00Z,Houston Texans,New York Giants,Tank Dell,any_td,0.5,850,,BetMGM,,4,HOU,NYG,7.0,2026
+2bba7fde6f97d0e54403d53676e4ab63,2026-10-25T17:00:00Z,Houston Texans,New York Giants,Devin Singletary,any_td,0.5,750,,DraftKings,,5,HOU,NYG,7.0,2026
+2bba7fde6f97d0e54403d53676e4ab63,2026-10-25T17:00:00Z,Houston Texans,New York Giants,Darnell Mooney,any_td,0.5,850,,BetMGM,,5,HOU,NYG,7.0,2026
+2bba7fde6f97d0e54403d53676e4ab63,2026-10-25T17:00:00Z,Houston Texans,New York Giants,Cade Stover,any_td,0.5,1200,,DraftKings,,5,HOU,NYG,7.0,2026
+2bba7fde6f97d0e54403d53676e4ab63,2026-10-25T17:00:00Z,Houston Texans,New York Giants,Charlie Jones,any_td,0.5,2000,,BetMGM,,5,HOU,NYG,7.0,2026
+2bba7fde6f97d0e54403d53676e4ab63,2026-10-25T17:00:00Z,Houston Texans,New York Giants,Thomas Fidone,any_td,0.5,2000,,DraftKings,,5,HOU,NYG,7.0,2026
+2bba7fde6f97d0e54403d53676e4ab63,2026-10-25T17:00:00Z,Houston Texans,New York Giants,Chris Manhertz,any_td,0.5,3500,,BetMGM,,5,HOU,NYG,7.0,2026
+2bba7fde6f97d0e54403d53676e4ab63,2026-10-25T17:00:00Z,Houston Texans,New York Giants,Brevin Jordan,any_td,0.5,2500,,FanDuel,,4,HOU,NYG,7.0,2026
+2bba7fde6f97d0e54403d53676e4ab63,2026-10-25T17:00:00Z,Houston Texans,New York Giants,Marlin Klein,any_td,0.5,2500,,FanDuel,,4,HOU,NYG,7.0,2026
+2bba7fde6f97d0e54403d53676e4ab63,2026-10-25T17:00:00Z,Houston Texans,New York Giants,Patrick Ricard,any_td,0.5,3500,,DraftKings,,5,HOU,NYG,7.0,2026
+2bba7fde6f97d0e54403d53676e4ab63,2026-10-25T17:00:00Z,Houston Texans,New York Giants,C.J. Stroud,pass_td,1.5,-165,140,DraftKings,FanDuel,5,HOU,NYG,7.0,2026
+2bba7fde6f97d0e54403d53676e4ab63,2026-10-25T17:00:00Z,Houston Texans,New York Giants,J.J. McCarthy,pass_td,0.5,-195,167,BetRivers,BetOnline.ag,5,HOU,NYG,7.0,2026
+2bba7fde6f97d0e54403d53676e4ab63,2026-10-25T17:00:00Z,Houston Texans,New York Giants,C.J. Stroud,pass_yds,255.5,-113,-111,DraftKings,DraftKings,3,HOU,NYG,7.0,2026
+2bba7fde6f97d0e54403d53676e4ab63,2026-10-25T17:00:00Z,Houston Texans,New York Giants,J.J. McCarthy,pass_yds,203.5,-114,-114,FanDuel,FanDuel,2,HOU,NYG,7.0,2026
+2bba7fde6f97d0e54403d53676e4ab63,2026-10-25T17:00:00Z,Houston Texans,New York Giants,Malik Nabers,rec_yds,68.5,-114,-114,FanDuel,FanDuel,2,HOU,NYG,7.0,2026
+2bba7fde6f97d0e54403d53676e4ab63,2026-10-25T17:00:00Z,Houston Texans,New York Giants,Nico Collins,rec_yds,68.5,-114,-114,FanDuel,FanDuel,2,HOU,NYG,7.0,2026
+2bba7fde6f97d0e54403d53676e4ab63,2026-10-25T17:00:00Z,Houston Texans,New York Giants,Isaiah Likely,rec_yds,52.5,-113,-111,DraftKings,DraftKings,3,HOU,NYG,7.0,2026
+2bba7fde6f97d0e54403d53676e4ab63,2026-10-25T17:00:00Z,Houston Texans,New York Giants,Marvin Harrison Jr.,rec_yds,29.5,-110,-110,DraftKings,BetOnline.ag,3,HOU,NYG,7.0,2026
+2bba7fde6f97d0e54403d53676e4ab63,2026-10-25T17:00:00Z,Houston Texans,New York Giants,Dalton Schultz,rec_yds,26.5,-114,-113,FanDuel,BetRivers,3,HOU,NYG,7.0,2026
+2bba7fde6f97d0e54403d53676e4ab63,2026-10-25T17:00:00Z,Houston Texans,New York Giants,Jaylin Noel,rec_yds,27.5,-114,-110,DraftKings,DraftKings,3,HOU,NYG,7.0,2026
+2bba7fde6f97d0e54403d53676e4ab63,2026-10-25T17:00:00Z,Houston Texans,New York Giants,Darnell Mooney,rec_yds,17.5,-116,-108,DraftKings,DraftKings,2,HOU,NYG,7.0,2026
+2bba7fde6f97d0e54403d53676e4ab63,2026-10-25T17:00:00Z,Houston Texans,New York Giants,Malachi Fields,rec_yds,19.5,-114,-114,FanDuel,FanDuel,3,HOU,NYG,7.0,2026
+2bba7fde6f97d0e54403d53676e4ab63,2026-10-25T17:00:00Z,Houston Texans,New York Giants,Xavier Hutchinson,rec_yds,13.5,-114,-110,FanDuel,BetOnline.ag,2,HOU,NYG,7.0,2026
+2bba7fde6f97d0e54403d53676e4ab63,2026-10-25T17:00:00Z,Houston Texans,New York Giants,Woody Marks,rec_yds,13.5,-106,-118,DraftKings,DraftKings,1,HOU,NYG,7.0,2026
+2bba7fde6f97d0e54403d53676e4ab63,2026-10-25T17:00:00Z,Houston Texans,New York Giants,Kayshon Boutte,rec_yds,11.5,-110,-109,BetMGM,DraftKings,2,HOU,NYG,7.0,2026
+2bba7fde6f97d0e54403d53676e4ab63,2026-10-25T17:00:00Z,Houston Texans,New York Giants,Tank Dell,rec_yds,8.5,-116,-108,DraftKings,DraftKings,2,HOU,NYG,7.0,2026
+2bba7fde6f97d0e54403d53676e4ab63,2026-10-25T17:00:00Z,Houston Texans,New York Giants,Tyrone Tracy Jr.,rec_yds,8.5,-115,-108,BetMGM,DraftKings,4,HOU,NYG,7.0,2026
+2bba7fde6f97d0e54403d53676e4ab63,2026-10-25T17:00:00Z,Houston Texans,New York Giants,Foster Moreau,rec_yds,8.5,-106,-114,DraftKings,FanDuel,3,HOU,NYG,7.0,2026
+2bba7fde6f97d0e54403d53676e4ab63,2026-10-25T17:00:00Z,Houston Texans,New York Giants,Devin Singletary,rec_yds,6.5,-114,-110,FanDuel,BetMGM,4,HOU,NYG,7.0,2026
+2bba7fde6f97d0e54403d53676e4ab63,2026-10-25T17:00:00Z,Houston Texans,New York Giants,Malik Nabers,rec,5.5,-119,-101,DraftKings,BetOnline.ag,5,HOU,NYG,7.0,2026
+2bba7fde6f97d0e54403d53676e4ab63,2026-10-25T17:00:00Z,Houston Texans,New York Giants,Isaiah Likely,rec,5.5,100,-112,BetMGM,FanDuel,5,HOU,NYG,7.0,2026
+2bba7fde6f97d0e54403d53676e4ab63,2026-10-25T17:00:00Z,Houston Texans,New York Giants,Nico Collins,rec,4.5,-138,109,DraftKings,BetOnline.ag,4,HOU,NYG,7.0,2026
+2bba7fde6f97d0e54403d53676e4ab63,2026-10-25T17:00:00Z,Houston Texans,New York Giants,Dalton Schultz,rec,3.5,141,-165,BetOnline.ag,DraftKings,5,HOU,NYG,7.0,2026
+2bba7fde6f97d0e54403d53676e4ab63,2026-10-25T17:00:00Z,Houston Texans,New York Giants,Marvin Harrison Jr.,rec,2.5,-112,-108,BetRivers,DraftKings,5,HOU,NYG,7.0,2026
+2bba7fde6f97d0e54403d53676e4ab63,2026-10-25T17:00:00Z,Houston Texans,New York Giants,Jaylin Noel,rec,2.5,120,-135,BetRivers,BetMGM,5,HOU,NYG,7.0,2026
+2bba7fde6f97d0e54403d53676e4ab63,2026-10-25T17:00:00Z,Houston Texans,New York Giants,Woody Marks,rec,2.5,136,-174,DraftKings,DraftKings,1,HOU,NYG,7.0,2026
+2bba7fde6f97d0e54403d53676e4ab63,2026-10-25T17:00:00Z,Houston Texans,New York Giants,Malachi Fields,rec,1.5,-135,118,DraftKings,BetOnline.ag,5,HOU,NYG,7.0,2026
+2bba7fde6f97d0e54403d53676e4ab63,2026-10-25T17:00:00Z,Houston Texans,New York Giants,Tyrone Tracy Jr.,rec,1.5,105,-120,BetOnline.ag,BetMGM,5,HOU,NYG,7.0,2026
+2bba7fde6f97d0e54403d53676e4ab63,2026-10-25T17:00:00Z,Houston Texans,New York Giants,Darnell Mooney,rec,1.5,112,-139,DraftKings,BetOnline.ag,5,HOU,NYG,7.0,2026
+2bba7fde6f97d0e54403d53676e4ab63,2026-10-25T17:00:00Z,Houston Texans,New York Giants,Devin Singletary,rec,1.5,123,-135,DraftKings,BetMGM,5,HOU,NYG,7.0,2026
+2bba7fde6f97d0e54403d53676e4ab63,2026-10-25T17:00:00Z,Houston Texans,New York Giants,Kayshon Boutte,rec,1.5,155,-166,BetMGM,DraftKings,5,HOU,NYG,7.0,2026
+2bba7fde6f97d0e54403d53676e4ab63,2026-10-25T17:00:00Z,Houston Texans,New York Giants,Foster Moreau,rec,1.5,148,-166,BetRivers,FanDuel,5,HOU,NYG,7.0,2026
+2bba7fde6f97d0e54403d53676e4ab63,2026-10-25T17:00:00Z,Houston Texans,New York Giants,Xavier Hutchinson,rec,1.5,164,-190,DraftKings,BetMGM,5,HOU,NYG,7.0,2026
+2bba7fde6f97d0e54403d53676e4ab63,2026-10-25T17:00:00Z,Houston Texans,New York Giants,Tank Dell,rec,1.5,170,-220,DraftKings,DraftKings,2,HOU,NYG,7.0,2026
+2bba7fde6f97d0e54403d53676e4ab63,2026-10-25T17:00:00Z,Houston Texans,New York Giants,Woody Marks,rush_yds,63.5,-109,-114,DraftKings,FanDuel,2,HOU,NYG,7.0,2026
+2bba7fde6f97d0e54403d53676e4ab63,2026-10-25T17:00:00Z,Houston Texans,New York Giants,Cam Skattebo,rush_yds,28.5,-114,-108,FanDuel,BetOnline.ag,3,HOU,NYG,7.0,2026
+2bba7fde6f97d0e54403d53676e4ab63,2026-10-25T17:00:00Z,Houston Texans,New York Giants,Tyrone Tracy Jr.,rush_yds,23.5,-111,-108,BetOnline.ag,DraftKings,4,HOU,NYG,7.0,2026
+2bba7fde6f97d0e54403d53676e4ab63,2026-10-25T17:00:00Z,Houston Texans,New York Giants,J.J. McCarthy,rush_yds,22.5,-111,-118,BetMGM,BetMGM,2,HOU,NYG,7.0,2026
+2bba7fde6f97d0e54403d53676e4ab63,2026-10-25T17:00:00Z,Houston Texans,New York Giants,C.J. Stroud,rush_yds,9.5,-109,-114,DraftKings,FanDuel,3,HOU,NYG,7.0,2026
+2bba7fde6f97d0e54403d53676e4ab63,2026-10-25T17:00:00Z,Houston Texans,New York Giants,Houston Texans Defense,any_td,0.5,480,,FanDuel,,1,HOU,NYG,7.0,2026
+2bba7fde6f97d0e54403d53676e4ab63,2026-10-25T17:00:00Z,Houston Texans,New York Giants,New York Giants Defense,any_td,0.5,950,,FanDuel,,1,HOU,NYG,7.0,2026
+2bba7fde6f97d0e54403d53676e4ab63,2026-10-25T17:00:00Z,Houston Texans,New York Giants,Theo Johnson,any_td,0.5,850,,BetRivers,,1,HOU,NYG,7.0,2026
+2bba7fde6f97d0e54403d53676e4ab63,2026-10-25T17:00:00Z,Houston Texans,New York Giants,Jawhar Jordan,any_td,0.5,500,,BetRivers,,1,HOU,NYG,7.0,2026
+f3992ad4496724baf7dcd1ef58245d6b,2026-10-25T17:00:00Z,Minnesota Vikings,Indianapolis Colts,Jonathan Taylor,any_td,0.5,-110,,BetMGM,,5,MIN,IND,7.0,2026
+f3992ad4496724baf7dcd1ef58245d6b,2026-10-25T17:00:00Z,Minnesota Vikings,Indianapolis Colts,Aaron Jones,any_td,0.5,145,,DraftKings,,5,MIN,IND,7.0,2026
+f3992ad4496724baf7dcd1ef58245d6b,2026-10-25T17:00:00Z,Minnesota Vikings,Indianapolis Colts,Justin Jefferson,any_td,0.5,165,,DraftKings,,5,MIN,IND,7.0,2026
+f3992ad4496724baf7dcd1ef58245d6b,2026-10-25T17:00:00Z,Minnesota Vikings,Indianapolis Colts,Jordan Mason,any_td,0.5,165,,DraftKings,,4,MIN,IND,7.0,2026
+f3992ad4496724baf7dcd1ef58245d6b,2026-10-25T17:00:00Z,Minnesota Vikings,Indianapolis Colts,T.J. Hockenson,any_td,0.5,250,,BetMGM,,5,MIN,IND,7.0,2026
+f3992ad4496724baf7dcd1ef58245d6b,2026-10-25T17:00:00Z,Minnesota Vikings,Indianapolis Colts,Jordan Addison,any_td,0.5,300,,BetRivers,,5,MIN,IND,7.0,2026
+f3992ad4496724baf7dcd1ef58245d6b,2026-10-25T17:00:00Z,Minnesota Vikings,Indianapolis Colts,Keenan Allen,any_td,0.5,360,,FanDuel,,5,MIN,IND,7.0,2026
+f3992ad4496724baf7dcd1ef58245d6b,2026-10-25T17:00:00Z,Minnesota Vikings,Indianapolis Colts,Josh Downs,any_td,0.5,370,,DraftKings,,4,MIN,IND,7.0,2026
+f3992ad4496724baf7dcd1ef58245d6b,2026-10-25T17:00:00Z,Minnesota Vikings,Indianapolis Colts,Kyler Murray,any_td,0.5,425,,DraftKings,,5,MIN,IND,7.0,2026
+f3992ad4496724baf7dcd1ef58245d6b,2026-10-25T17:00:00Z,Minnesota Vikings,Indianapolis Colts,Minnesota Vikings D/ST,any_td,0.5,475,,DraftKings,,2,MIN,IND,7.0,2026
+f3992ad4496724baf7dcd1ef58245d6b,2026-10-25T17:00:00Z,Minnesota Vikings,Indianapolis Colts,Will Mallory,any_td,0.5,700,,BetMGM,,5,MIN,IND,7.0,2026
+f3992ad4496724baf7dcd1ef58245d6b,2026-10-25T17:00:00Z,Minnesota Vikings,Indianapolis Colts,Indianapolis Colts D/ST,any_td,0.5,600,,DraftKings,,2,MIN,IND,7.0,2026
+f3992ad4496724baf7dcd1ef58245d6b,2026-10-25T17:00:00Z,Minnesota Vikings,Indianapolis Colts,Jauan Jennings,any_td,0.5,700,,DraftKings,,5,MIN,IND,7.0,2026
+f3992ad4496724baf7dcd1ef58245d6b,2026-10-25T17:00:00Z,Minnesota Vikings,Indianapolis Colts,Tai Felton,any_td,0.5,900,,BetRivers,,4,MIN,IND,7.0,2026
+f3992ad4496724baf7dcd1ef58245d6b,2026-10-25T17:00:00Z,Minnesota Vikings,Indianapolis Colts,Myles Price,any_td,0.5,1050,,BetRivers,,4,MIN,IND,7.0,2026
+f3992ad4496724baf7dcd1ef58245d6b,2026-10-25T17:00:00Z,Minnesota Vikings,Indianapolis Colts,Laquon Treadwell,any_td,0.5,750,,DraftKings,,5,MIN,IND,7.0,2026
+f3992ad4496724baf7dcd1ef58245d6b,2026-10-25T17:00:00Z,Minnesota Vikings,Indianapolis Colts,Daniel Jones,any_td,0.5,850,,BetRivers,,5,MIN,IND,7.0,2026
+f3992ad4496724baf7dcd1ef58245d6b,2026-10-25T17:00:00Z,Minnesota Vikings,Indianapolis Colts,Mo Alie-Cox,any_td,0.5,900,,BetMGM,,5,MIN,IND,7.0,2026
+f3992ad4496724baf7dcd1ef58245d6b,2026-10-25T17:00:00Z,Minnesota Vikings,Indianapolis Colts,Gavin Bartholomew,any_td,0.5,1200,,BetMGM,,5,MIN,IND,7.0,2026
+f3992ad4496724baf7dcd1ef58245d6b,2026-10-25T17:00:00Z,Minnesota Vikings,Indianapolis Colts,Deion Burks,any_td,0.5,1550,,BetMGM,,5,MIN,IND,7.0,2026
+f3992ad4496724baf7dcd1ef58245d6b,2026-10-25T17:00:00Z,Minnesota Vikings,Indianapolis Colts,Demond Claiborne,any_td,0.5,1100,,DraftKings,,4,MIN,IND,7.0,2026
+f3992ad4496724baf7dcd1ef58245d6b,2026-10-25T17:00:00Z,Minnesota Vikings,Indianapolis Colts,Ben Yurosek,any_td,0.5,1200,,DraftKings,,4,MIN,IND,7.0,2026
+f3992ad4496724baf7dcd1ef58245d6b,2026-10-25T17:00:00Z,Minnesota Vikings,Indianapolis Colts,Ashton Dulin,any_td,0.5,1600,,BetRivers,,5,MIN,IND,7.0,2026
+f3992ad4496724baf7dcd1ef58245d6b,2026-10-25T17:00:00Z,Minnesota Vikings,Indianapolis Colts,Seth McGowan,any_td,0.5,1500,,BetRivers,,5,MIN,IND,7.0,2026
+f3992ad4496724baf7dcd1ef58245d6b,2026-10-25T17:00:00Z,Minnesota Vikings,Indianapolis Colts,Drew Ogletree,any_td,0.5,1400,,BetMGM,,5,MIN,IND,7.0,2026
+f3992ad4496724baf7dcd1ef58245d6b,2026-10-25T17:00:00Z,Minnesota Vikings,Indianapolis Colts,Max Bredeson,any_td,0.5,3000,,BetRivers,,5,MIN,IND,7.0,2026
+f3992ad4496724baf7dcd1ef58245d6b,2026-10-25T17:00:00Z,Minnesota Vikings,Indianapolis Colts,Pharaoh Brown,any_td,0.5,3000,,DraftKings,,4,MIN,IND,7.0,2026
+f3992ad4496724baf7dcd1ef58245d6b,2026-10-25T17:00:00Z,Minnesota Vikings,Indianapolis Colts,DJ Giddens,any_td,0.5,4000,,DraftKings,,5,MIN,IND,7.0,2026
+f3992ad4496724baf7dcd1ef58245d6b,2026-10-25T17:00:00Z,Minnesota Vikings,Indianapolis Colts,Anthony Gould,any_td,0.5,4500,,DraftKings,,2,MIN,IND,7.0,2026
+f3992ad4496724baf7dcd1ef58245d6b,2026-10-25T17:00:00Z,Minnesota Vikings,Indianapolis Colts,Kyler Murray,pass_td,1.5,118,-136,BetRivers,FanDuel,5,MIN,IND,7.0,2026
+f3992ad4496724baf7dcd1ef58245d6b,2026-10-25T17:00:00Z,Minnesota Vikings,Indianapolis Colts,Daniel Jones,pass_td,0.5,-217,181,BetOnline.ag,DraftKings,5,MIN,IND,7.0,2026
+f3992ad4496724baf7dcd1ef58245d6b,2026-10-25T17:00:00Z,Minnesota Vikings,Indianapolis Colts,Kyler Murray,pass_yds,209.5,-113,-111,DraftKings,DraftKings,3,MIN,IND,7.0,2026
+f3992ad4496724baf7dcd1ef58245d6b,2026-10-25T17:00:00Z,Minnesota Vikings,Indianapolis Colts,Daniel Jones,pass_yds,187.5,-113,-111,DraftKings,DraftKings,3,MIN,IND,7.0,2026
+f3992ad4496724baf7dcd1ef58245d6b,2026-10-25T17:00:00Z,Minnesota Vikings,Indianapolis Colts,Justin Jefferson,rec_yds,73.5,-114,-115,BetRivers,BetMGM,2,MIN,IND,7.0,2026
+f3992ad4496724baf7dcd1ef58245d6b,2026-10-25T17:00:00Z,Minnesota Vikings,Indianapolis Colts,Josh Downs,rec_yds,49.5,-114,-109,FanDuel,DraftKings,4,MIN,IND,7.0,2026
+f3992ad4496724baf7dcd1ef58245d6b,2026-10-25T17:00:00Z,Minnesota Vikings,Indianapolis Colts,Keenan Allen,rec_yds,42.5,-118,-113,BetRivers,BetRivers,1,MIN,IND,7.0,2026
+f3992ad4496724baf7dcd1ef58245d6b,2026-10-25T17:00:00Z,Minnesota Vikings,Indianapolis Colts,Jordan Addison,rec_yds,38.5,-114,-110,DraftKings,DraftKings,3,MIN,IND,7.0,2026
+f3992ad4496724baf7dcd1ef58245d6b,2026-10-25T17:00:00Z,Minnesota Vikings,Indianapolis Colts,T.J. Hockenson,rec_yds,36.5,-109,-114,DraftKings,FanDuel,4,MIN,IND,7.0,2026
+f3992ad4496724baf7dcd1ef58245d6b,2026-10-25T17:00:00Z,Minnesota Vikings,Indianapolis Colts,Laquon Treadwell,rec_yds,20.5,-111,-113,DraftKings,DraftKings,3,MIN,IND,7.0,2026
+f3992ad4496724baf7dcd1ef58245d6b,2026-10-25T17:00:00Z,Minnesota Vikings,Indianapolis Colts,Jonathan Taylor,rec_yds,17.5,-114,-114,FanDuel,FanDuel,3,MIN,IND,7.0,2026
+f3992ad4496724baf7dcd1ef58245d6b,2026-10-25T17:00:00Z,Minnesota Vikings,Indianapolis Colts,Will Mallory,rec_yds,18.5,-114,-114,FanDuel,FanDuel,2,MIN,IND,7.0,2026
+f3992ad4496724baf7dcd1ef58245d6b,2026-10-25T17:00:00Z,Minnesota Vikings,Indianapolis Colts,Aaron Jones,rec_yds,14.5,-107,-114,DraftKings,FanDuel,4,MIN,IND,7.0,2026
+f3992ad4496724baf7dcd1ef58245d6b,2026-10-25T17:00:00Z,Minnesota Vikings,Indianapolis Colts,Jauan Jennings,rec_yds,7.5,-114,-114,FanDuel,FanDuel,2,MIN,IND,7.0,2026
+f3992ad4496724baf7dcd1ef58245d6b,2026-10-25T17:00:00Z,Minnesota Vikings,Indianapolis Colts,Justin Jefferson,rec,5.5,-122,104,FanDuel,BetOnline.ag,4,MIN,IND,7.0,2026
+f3992ad4496724baf7dcd1ef58245d6b,2026-10-25T17:00:00Z,Minnesota Vikings,Indianapolis Colts,Keenan Allen,rec,4.5,-155,121,BetMGM,BetOnline.ag,3,MIN,IND,7.0,2026
+f3992ad4496724baf7dcd1ef58245d6b,2026-10-25T17:00:00Z,Minnesota Vikings,Indianapolis Colts,Josh Downs,rec,4.5,-105,-112,BetMGM,FanDuel,5,MIN,IND,7.0,2026
+f3992ad4496724baf7dcd1ef58245d6b,2026-10-25T17:00:00Z,Minnesota Vikings,Indianapolis Colts,T.J. Hockenson,rec,4.5,117,-144,BetOnline.ag,DraftKings,5,MIN,IND,7.0,2026
+f3992ad4496724baf7dcd1ef58245d6b,2026-10-25T17:00:00Z,Minnesota Vikings,Indianapolis Colts,Jordan Addison,rec,3.5,134,-140,BetOnline.ag,BetMGM,5,MIN,IND,7.0,2026
+f3992ad4496724baf7dcd1ef58245d6b,2026-10-25T17:00:00Z,Minnesota Vikings,Indianapolis Colts,Aaron Jones,rec,2.5,-111,-110,DraftKings,BetMGM,5,MIN,IND,7.0,2026
+f3992ad4496724baf7dcd1ef58245d6b,2026-10-25T17:00:00Z,Minnesota Vikings,Indianapolis Colts,Jonathan Taylor,rec,2.5,100,-120,BetOnline.ag,BetMGM,5,MIN,IND,7.0,2026
+f3992ad4496724baf7dcd1ef58245d6b,2026-10-25T17:00:00Z,Minnesota Vikings,Indianapolis Colts,Laquon Treadwell,rec,1.5,-164,138,BetOnline.ag,DraftKings,4,MIN,IND,7.0,2026
+f3992ad4496724baf7dcd1ef58245d6b,2026-10-25T17:00:00Z,Minnesota Vikings,Indianapolis Colts,Will Mallory,rec,1.5,-172,139,FanDuel,BetOnline.ag,4,MIN,IND,7.0,2026
+f3992ad4496724baf7dcd1ef58245d6b,2026-10-25T17:00:00Z,Minnesota Vikings,Indianapolis Colts,Jauan Jennings,rec,0.5,-230,183,FanDuel,DraftKings,4,MIN,IND,7.0,2026
+f3992ad4496724baf7dcd1ef58245d6b,2026-10-25T17:00:00Z,Minnesota Vikings,Indianapolis Colts,Jonathan Taylor,rush_yds,70.5,-112,-114,BetOnline.ag,FanDuel,3,MIN,IND,7.0,2026
+f3992ad4496724baf7dcd1ef58245d6b,2026-10-25T17:00:00Z,Minnesota Vikings,Indianapolis Colts,Jordan Mason,rush_yds,49.5,-114,-114,FanDuel,FanDuel,1,MIN,IND,7.0,2026
+f3992ad4496724baf7dcd1ef58245d6b,2026-10-25T17:00:00Z,Minnesota Vikings,Indianapolis Colts,Aaron Jones,rush_yds,39.5,-114,-110,DraftKings,DraftKings,3,MIN,IND,7.0,2026
+f3992ad4496724baf7dcd1ef58245d6b,2026-10-25T17:00:00Z,Minnesota Vikings,Indianapolis Colts,Kyler Murray,rush_yds,25.5,-114,-114,FanDuel,FanDuel,3,MIN,IND,7.0,2026
+f3992ad4496724baf7dcd1ef58245d6b,2026-10-25T17:00:00Z,Minnesota Vikings,Indianapolis Colts,Seth McGowan,rush_yds,13.5,-114,-110,DraftKings,DraftKings,2,MIN,IND,7.0,2026
+f3992ad4496724baf7dcd1ef58245d6b,2026-10-25T17:00:00Z,Minnesota Vikings,Indianapolis Colts,Daniel Jones,rush_yds,7.5,105,-121,BetMGM,DraftKings,3,MIN,IND,7.0,2026
+f3992ad4496724baf7dcd1ef58245d6b,2026-10-25T17:00:00Z,Minnesota Vikings,Indianapolis Colts,Minnesota Vikings Defense,any_td,0.5,650,,FanDuel,,1,MIN,IND,7.0,2026
+f3992ad4496724baf7dcd1ef58245d6b,2026-10-25T17:00:00Z,Minnesota Vikings,Indianapolis Colts,Indianapolis Colts Defense,any_td,0.5,750,,FanDuel,,1,MIN,IND,7.0,2026
+f3992ad4496724baf7dcd1ef58245d6b,2026-10-25T17:00:00Z,Minnesota Vikings,Indianapolis Colts,DeeJay Dallas,any_td,0.5,1400,,BetRivers,,2,MIN,IND,7.0,2026
+be5dd120ca08b43d647b6caa8953500a,2026-10-25T17:00:00Z,New York Jets,Miami Dolphins,Braelon Allen,any_td,0.5,-110,,BetMGM,,5,NYJ,MIA,7.0,2026
+be5dd120ca08b43d647b6caa8953500a,2026-10-25T17:00:00Z,New York Jets,Miami Dolphins,Breece Hall,any_td,0.5,105,,BetMGM,,5,NYJ,MIA,7.0,2026
+be5dd120ca08b43d647b6caa8953500a,2026-10-25T17:00:00Z,New York Jets,Miami Dolphins,Garrett Wilson,any_td,0.5,175,,BetMGM,,5,NYJ,MIA,7.0,2026
+be5dd120ca08b43d647b6caa8953500a,2026-10-25T17:00:00Z,New York Jets,Miami Dolphins,Ollie Gordon II,any_td,0.5,200,,DraftKings,,5,NYJ,MIA,7.0,2026
+be5dd120ca08b43d647b6caa8953500a,2026-10-25T17:00:00Z,New York Jets,Miami Dolphins,Kenyon Sadiq,any_td,0.5,410,,BetRivers,,5,NYJ,MIA,7.0,2026
+be5dd120ca08b43d647b6caa8953500a,2026-10-25T17:00:00Z,New York Jets,Miami Dolphins,Malik Willis,any_td,0.5,370,,DraftKings,,5,NYJ,MIA,7.0,2026
+be5dd120ca08b43d647b6caa8953500a,2026-10-25T17:00:00Z,New York Jets,Miami Dolphins,Malik Washington,any_td,0.5,390,,DraftKings,,5,NYJ,MIA,7.0,2026
+be5dd120ca08b43d647b6caa8953500a,2026-10-25T17:00:00Z,New York Jets,Miami Dolphins,Omar Cooper Jr.,any_td,0.5,420,,FanDuel,,5,NYJ,MIA,7.0,2026
+be5dd120ca08b43d647b6caa8953500a,2026-10-25T17:00:00Z,New York Jets,Miami Dolphins,Mason Taylor,any_td,0.5,450,,BetMGM,,5,NYJ,MIA,7.0,2026
+be5dd120ca08b43d647b6caa8953500a,2026-10-25T17:00:00Z,New York Jets,Miami Dolphins,Adonai Mitchell,any_td,0.5,400,,DraftKings,,5,NYJ,MIA,7.0,2026
+be5dd120ca08b43d647b6caa8953500a,2026-10-25T17:00:00Z,New York Jets,Miami Dolphins,Caleb Douglas,any_td,0.5,430,,FanDuel,,5,NYJ,MIA,7.0,2026
+be5dd120ca08b43d647b6caa8953500a,2026-10-25T17:00:00Z,New York Jets,Miami Dolphins,Greg Dulcich,any_td,0.5,475,,BetMGM,,5,NYJ,MIA,7.0,2026
+be5dd120ca08b43d647b6caa8953500a,2026-10-25T17:00:00Z,New York Jets,Miami Dolphins,New York Jets D/ST,any_td,0.5,600,,DraftKings,,2,NYJ,MIA,7.0,2026
+be5dd120ca08b43d647b6caa8953500a,2026-10-25T17:00:00Z,New York Jets,Miami Dolphins,Jaylen Wright,any_td,0.5,600,,DraftKings,,5,NYJ,MIA,7.0,2026
+be5dd120ca08b43d647b6caa8953500a,2026-10-25T17:00:00Z,New York Jets,Miami Dolphins,Chris Bell,any_td,0.5,650,,FanDuel,,5,NYJ,MIA,7.0,2026
+be5dd120ca08b43d647b6caa8953500a,2026-10-25T17:00:00Z,New York Jets,Miami Dolphins,Miami Dolphins D/ST,any_td,0.5,650,,DraftKings,,2,NYJ,MIA,7.0,2026
+be5dd120ca08b43d647b6caa8953500a,2026-10-25T17:00:00Z,New York Jets,Miami Dolphins,Isaiah Davis,any_td,0.5,650,,DraftKings,,5,NYJ,MIA,7.0,2026
+be5dd120ca08b43d647b6caa8953500a,2026-10-25T17:00:00Z,New York Jets,Miami Dolphins,Geno Smith,any_td,0.5,850,,FanDuel,,5,NYJ,MIA,7.0,2026
+be5dd120ca08b43d647b6caa8953500a,2026-10-25T17:00:00Z,New York Jets,Miami Dolphins,Kaytron Allen,any_td,0.5,950,,DraftKings,,5,NYJ,MIA,7.0,2026
+be5dd120ca08b43d647b6caa8953500a,2026-10-25T17:00:00Z,New York Jets,Miami Dolphins,Kevin Coleman Jr.,any_td,0.5,1150,,BetMGM,,5,NYJ,MIA,7.0,2026
+be5dd120ca08b43d647b6caa8953500a,2026-10-25T17:00:00Z,New York Jets,Miami Dolphins,Will Kacmarek,any_td,0.5,1200,,BetRivers,,5,NYJ,MIA,7.0,2026
+be5dd120ca08b43d647b6caa8953500a,2026-10-25T17:00:00Z,New York Jets,Miami Dolphins,Tim Patrick,any_td,0.5,1300,,FanDuel,,4,NYJ,MIA,7.0,2026
+be5dd120ca08b43d647b6caa8953500a,2026-10-25T17:00:00Z,New York Jets,Miami Dolphins,Isaiah Williams,any_td,0.5,1550,,BetMGM,,5,NYJ,MIA,7.0,2026
+be5dd120ca08b43d647b6caa8953500a,2026-10-25T17:00:00Z,New York Jets,Miami Dolphins,Jeremy Ruckert,any_td,0.5,2000,,DraftKings,,5,NYJ,MIA,7.0,2026
+be5dd120ca08b43d647b6caa8953500a,2026-10-25T17:00:00Z,New York Jets,Miami Dolphins,Malik McClain,any_td,0.5,2400,,BetRivers,,4,NYJ,MIA,7.0,2026
+be5dd120ca08b43d647b6caa8953500a,2026-10-25T17:00:00Z,New York Jets,Miami Dolphins,Kene Nwangwu,any_td,0.5,2800,,BetMGM,,5,NYJ,MIA,7.0,2026
+be5dd120ca08b43d647b6caa8953500a,2026-10-25T17:00:00Z,New York Jets,Miami Dolphins,Jelani Woods,any_td,0.5,2500,,DraftKings,,5,NYJ,MIA,7.0,2026
+be5dd120ca08b43d647b6caa8953500a,2026-10-25T17:00:00Z,New York Jets,Miami Dolphins,Jalen Tolbert,any_td,0.5,2500,,DraftKings,,5,NYJ,MIA,7.0,2026
+be5dd120ca08b43d647b6caa8953500a,2026-10-25T17:00:00Z,New York Jets,Miami Dolphins,Jared Wayne,any_td,0.5,2500,,DraftKings,,5,NYJ,MIA,7.0,2026
+be5dd120ca08b43d647b6caa8953500a,2026-10-25T17:00:00Z,New York Jets,Miami Dolphins,Seydou Traore,any_td,0.5,3300,,BetMGM,,5,NYJ,MIA,7.0,2026
+be5dd120ca08b43d647b6caa8953500a,2026-10-25T17:00:00Z,New York Jets,Miami Dolphins,DJ Herman,any_td,0.5,3000,,FanDuel,,4,NYJ,MIA,7.0,2026
+be5dd120ca08b43d647b6caa8953500a,2026-10-25T17:00:00Z,New York Jets,Miami Dolphins,Justin Joly,any_td,0.5,3000,,DraftKings,,4,NYJ,MIA,7.0,2026
+be5dd120ca08b43d647b6caa8953500a,2026-10-25T17:00:00Z,New York Jets,Miami Dolphins,Andrew Beck,any_td,0.5,4000,,DraftKings,,4,NYJ,MIA,7.0,2026
+be5dd120ca08b43d647b6caa8953500a,2026-10-25T17:00:00Z,New York Jets,Miami Dolphins,Geno Smith,pass_td,1.5,115,-136,BetRivers,FanDuel,5,NYJ,MIA,7.0,2026
+be5dd120ca08b43d647b6caa8953500a,2026-10-25T17:00:00Z,New York Jets,Miami Dolphins,Malik Willis,pass_td,0.5,-175,152,BetRivers,DraftKings,5,NYJ,MIA,7.0,2026
+be5dd120ca08b43d647b6caa8953500a,2026-10-25T17:00:00Z,New York Jets,Miami Dolphins,Geno Smith,pass_yds,223.5,-114,-114,FanDuel,FanDuel,2,NYJ,MIA,7.0,2026
+be5dd120ca08b43d647b6caa8953500a,2026-10-25T17:00:00Z,New York Jets,Miami Dolphins,Malik Willis,pass_yds,183.5,-111,-112,BetOnline.ag,DraftKings,3,NYJ,MIA,7.0,2026
+be5dd120ca08b43d647b6caa8953500a,2026-10-25T17:00:00Z,New York Jets,Miami Dolphins,Garrett Wilson,rec_yds,62.5,-114,-108,FanDuel,BetOnline.ag,2,NYJ,MIA,7.0,2026
+be5dd120ca08b43d647b6caa8953500a,2026-10-25T17:00:00Z,New York Jets,Miami Dolphins,Malik Washington,rec_yds,39.5,-114,-114,BetOnline.ag,BetOnline.ag,2,NYJ,MIA,7.0,2026
+be5dd120ca08b43d647b6caa8953500a,2026-10-25T17:00:00Z,New York Jets,Miami Dolphins,Caleb Douglas,rec_yds,33.5,-111,-112,DraftKings,BetOnline.ag,3,NYJ,MIA,7.0,2026
+be5dd120ca08b43d647b6caa8953500a,2026-10-25T17:00:00Z,New York Jets,Miami Dolphins,Omar Cooper Jr.,rec_yds,29.5,-113,-111,DraftKings,DraftKings,1,NYJ,MIA,7.0,2026
+be5dd120ca08b43d647b6caa8953500a,2026-10-25T17:00:00Z,New York Jets,Miami Dolphins,Adonai Mitchell,rec_yds,26.5,-114,-114,FanDuel,FanDuel,2,NYJ,MIA,7.0,2026
+be5dd120ca08b43d647b6caa8953500a,2026-10-25T17:00:00Z,New York Jets,Miami Dolphins,Mason Taylor,rec_yds,21.5,-110,-115,DraftKings,DraftKings,3,NYJ,MIA,7.0,2026
+be5dd120ca08b43d647b6caa8953500a,2026-10-25T17:00:00Z,New York Jets,Miami Dolphins,Greg Dulcich,rec_yds,21.5,-114,-111,FanDuel,BetMGM,3,NYJ,MIA,7.0,2026
+be5dd120ca08b43d647b6caa8953500a,2026-10-25T17:00:00Z,New York Jets,Miami Dolphins,Chris Bell,rec_yds,19.5,-114,-106,FanDuel,BetRivers,2,NYJ,MIA,7.0,2026
+be5dd120ca08b43d647b6caa8953500a,2026-10-25T17:00:00Z,New York Jets,Miami Dolphins,Kenyon Sadiq,rec_yds,18.5,-109,-114,DraftKings,FanDuel,5,NYJ,MIA,7.0,2026
+be5dd120ca08b43d647b6caa8953500a,2026-10-25T17:00:00Z,New York Jets,Miami Dolphins,Ollie Gordon II,rec_yds,8.5,-105,-114,BetMGM,FanDuel,3,NYJ,MIA,7.0,2026
+be5dd120ca08b43d647b6caa8953500a,2026-10-25T17:00:00Z,New York Jets,Miami Dolphins,Garrett Wilson,rec,5.5,-110,-106,FanDuel,DraftKings,5,NYJ,MIA,7.0,2026
+be5dd120ca08b43d647b6caa8953500a,2026-10-25T17:00:00Z,New York Jets,Miami Dolphins,Malik Washington,rec,4.5,128,-157,BetOnline.ag,DraftKings,3,NYJ,MIA,7.0,2026
+be5dd120ca08b43d647b6caa8953500a,2026-10-25T17:00:00Z,New York Jets,Miami Dolphins,Mason Taylor,rec,2.5,-122,118,BetRivers,FanDuel,5,NYJ,MIA,7.0,2026
+be5dd120ca08b43d647b6caa8953500a,2026-10-25T17:00:00Z,New York Jets,Miami Dolphins,Caleb Douglas,rec,2.5,-114,105,FanDuel,BetMGM,5,NYJ,MIA,7.0,2026
+be5dd120ca08b43d647b6caa8953500a,2026-10-25T17:00:00Z,New York Jets,Miami Dolphins,Omar Cooper Jr.,rec,2.5,-114,-110,DraftKings,BetMGM,4,NYJ,MIA,7.0,2026
+be5dd120ca08b43d647b6caa8953500a,2026-10-25T17:00:00Z,New York Jets,Miami Dolphins,Greg Dulcich,rec,2.5,125,-150,DraftKings,BetMGM,4,NYJ,MIA,7.0,2026
+be5dd120ca08b43d647b6caa8953500a,2026-10-25T17:00:00Z,New York Jets,Miami Dolphins,Kenyon Sadiq,rec,2.5,140,-164,BetMGM,DraftKings,4,NYJ,MIA,7.0,2026
+be5dd120ca08b43d647b6caa8953500a,2026-10-25T17:00:00Z,New York Jets,Miami Dolphins,Adonai Mitchell,rec,2.5,135,-172,DraftKings,BetOnline.ag,3,NYJ,MIA,7.0,2026
+be5dd120ca08b43d647b6caa8953500a,2026-10-25T17:00:00Z,New York Jets,Miami Dolphins,Chris Bell,rec,1.5,-110,-110,BetOnline.ag,BetMGM,5,NYJ,MIA,7.0,2026
+be5dd120ca08b43d647b6caa8953500a,2026-10-25T17:00:00Z,New York Jets,Miami Dolphins,Ollie Gordon II,rec,1.5,-102,-122,DraftKings,FanDuel,5,NYJ,MIA,7.0,2026
+be5dd120ca08b43d647b6caa8953500a,2026-10-25T17:00:00Z,New York Jets,Miami Dolphins,Ollie Gordon II,rush_yds,53.5,-115,-105,DraftKings,BetMGM,2,NYJ,MIA,7.0,2026
+be5dd120ca08b43d647b6caa8953500a,2026-10-25T17:00:00Z,New York Jets,Miami Dolphins,Malik Willis,rush_yds,30.5,-110,-114,DraftKings,DraftKings,4,NYJ,MIA,7.0,2026
+be5dd120ca08b43d647b6caa8953500a,2026-10-25T17:00:00Z,New York Jets,Miami Dolphins,Jaylen Wright,rush_yds,15.5,-114,-114,FanDuel,FanDuel,2,NYJ,MIA,7.0,2026
+be5dd120ca08b43d647b6caa8953500a,2026-10-25T17:00:00Z,New York Jets,Miami Dolphins,Geno Smith,rush_yds,6.5,-112,-110,DraftKings,BetOnline.ag,3,NYJ,MIA,7.0,2026
+be5dd120ca08b43d647b6caa8953500a,2026-10-25T17:00:00Z,New York Jets,Miami Dolphins,Miami Dolphins Defense,any_td,0.5,700,,FanDuel,,1,NYJ,MIA,7.0,2026
+be5dd120ca08b43d647b6caa8953500a,2026-10-25T17:00:00Z,New York Jets,Miami Dolphins,New York Jets Defense,any_td,0.5,750,,FanDuel,,1,NYJ,MIA,7.0,2026
+436119bb3ccdaa6ed7808aa3ebd82b76,2026-10-25T20:05:00Z,Arizona Cardinals,Denver Broncos,J.K. Dobbins,any_td,0.5,145,,BetMGM,,5,ARI,DEN,7.0,2026
+436119bb3ccdaa6ed7808aa3ebd82b76,2026-10-25T20:05:00Z,Arizona Cardinals,Denver Broncos,Trey McBride,any_td,0.5,155,,BetMGM,,5,ARI,DEN,7.0,2026
+436119bb3ccdaa6ed7808aa3ebd82b76,2026-10-25T20:05:00Z,Arizona Cardinals,Denver Broncos,Jaylen Waddle,any_td,0.5,200,,BetMGM,,5,ARI,DEN,7.0,2026
+436119bb3ccdaa6ed7808aa3ebd82b76,2026-10-25T20:05:00Z,Arizona Cardinals,Denver Broncos,Tyler Allgeier,any_td,0.5,230,,BetMGM,,5,ARI,DEN,7.0,2026
+436119bb3ccdaa6ed7808aa3ebd82b76,2026-10-25T20:05:00Z,Arizona Cardinals,Denver Broncos,Michael Wilson,any_td,0.5,240,,DraftKings,,5,ARI,DEN,7.0,2026
+436119bb3ccdaa6ed7808aa3ebd82b76,2026-10-25T20:05:00Z,Arizona Cardinals,Denver Broncos,Courtland Sutton,any_td,0.5,250,,BetRivers,,5,ARI,DEN,7.0,2026
+436119bb3ccdaa6ed7808aa3ebd82b76,2026-10-25T20:05:00Z,Arizona Cardinals,Denver Broncos,Zonovan Knight,any_td,0.5,290,,BetMGM,,4,ARI,DEN,7.0,2026
+436119bb3ccdaa6ed7808aa3ebd82b76,2026-10-25T20:05:00Z,Arizona Cardinals,Denver Broncos,RJ Harvey,any_td,0.5,285,,DraftKings,,5,ARI,DEN,7.0,2026
+436119bb3ccdaa6ed7808aa3ebd82b76,2026-10-25T20:05:00Z,Arizona Cardinals,Denver Broncos,Evan Engram,any_td,0.5,425,,BetMGM,,5,ARI,DEN,7.0,2026
+436119bb3ccdaa6ed7808aa3ebd82b76,2026-10-25T20:05:00Z,Arizona Cardinals,Denver Broncos,Jonah Coleman,any_td,0.5,380,,FanDuel,,5,ARI,DEN,7.0,2026
+436119bb3ccdaa6ed7808aa3ebd82b76,2026-10-25T20:05:00Z,Arizona Cardinals,Denver Broncos,Kendrick Bourne,any_td,0.5,425,,BetMGM,,5,ARI,DEN,7.0,2026
+436119bb3ccdaa6ed7808aa3ebd82b76,2026-10-25T20:05:00Z,Arizona Cardinals,Denver Broncos,Bo Nix,any_td,0.5,450,,BetMGM,,5,ARI,DEN,7.0,2026
+436119bb3ccdaa6ed7808aa3ebd82b76,2026-10-25T20:05:00Z,Arizona Cardinals,Denver Broncos,Denver Broncos D/ST,any_td,0.5,550,,DraftKings,,2,ARI,DEN,7.0,2026
+436119bb3ccdaa6ed7808aa3ebd82b76,2026-10-25T20:05:00Z,Arizona Cardinals,Denver Broncos,Marvin Mims Jr.,any_td,0.5,550,,DraftKings,,5,ARI,DEN,7.0,2026
+436119bb3ccdaa6ed7808aa3ebd82b76,2026-10-25T20:05:00Z,Arizona Cardinals,Denver Broncos,Arizona Cardinals D/ST,any_td,0.5,650,,BetMGM,,2,ARI,DEN,7.0,2026
+436119bb3ccdaa6ed7808aa3ebd82b76,2026-10-25T20:05:00Z,Arizona Cardinals,Denver Broncos,Troy Franklin,any_td,0.5,600,,DraftKings,,5,ARI,DEN,7.0,2026
+436119bb3ccdaa6ed7808aa3ebd82b76,2026-10-25T20:05:00Z,Arizona Cardinals,Denver Broncos,Elijah Higgins,any_td,0.5,800,,FanDuel,,5,ARI,DEN,7.0,2026
+436119bb3ccdaa6ed7808aa3ebd82b76,2026-10-25T20:05:00Z,Arizona Cardinals,Denver Broncos,Jacoby Brissett,any_td,0.5,800,,FanDuel,,5,ARI,DEN,7.0,2026
+436119bb3ccdaa6ed7808aa3ebd82b76,2026-10-25T20:05:00Z,Arizona Cardinals,Denver Broncos,Jalen Brooks,any_td,0.5,800,,DraftKings,,5,ARI,DEN,7.0,2026
+436119bb3ccdaa6ed7808aa3ebd82b76,2026-10-25T20:05:00Z,Arizona Cardinals,Denver Broncos,Adam Trautman,any_td,0.5,1150,,BetMGM,,5,ARI,DEN,7.0,2026
+436119bb3ccdaa6ed7808aa3ebd82b76,2026-10-25T20:05:00Z,Arizona Cardinals,Denver Broncos,Nate Adkins,any_td,0.5,1150,,BetRivers,,5,ARI,DEN,7.0,2026
+436119bb3ccdaa6ed7808aa3ebd82b76,2026-10-25T20:05:00Z,Arizona Cardinals,Denver Broncos,Lil'Jordan Humphrey,any_td,0.5,1500,,DraftKings,,5,ARI,DEN,7.0,2026
+436119bb3ccdaa6ed7808aa3ebd82b76,2026-10-25T20:05:00Z,Arizona Cardinals,Denver Broncos,Teagan Quitoriano,any_td,0.5,1700,,BetRivers,,5,ARI,DEN,7.0,2026
+436119bb3ccdaa6ed7808aa3ebd82b76,2026-10-25T20:05:00Z,Arizona Cardinals,Denver Broncos,Reggie Virgil,any_td,0.5,2000,,DraftKings,,5,ARI,DEN,7.0,2026
+436119bb3ccdaa6ed7808aa3ebd82b76,2026-10-25T20:05:00Z,Arizona Cardinals,Denver Broncos,Adam Prentice,any_td,0.5,2400,,BetRivers,,5,ARI,DEN,7.0,2026
+436119bb3ccdaa6ed7808aa3ebd82b76,2026-10-25T20:05:00Z,Arizona Cardinals,Denver Broncos,Dallen Bentley,any_td,0.5,2200,,DraftKings,,4,ARI,DEN,7.0,2026
+436119bb3ccdaa6ed7808aa3ebd82b76,2026-10-25T20:05:00Z,Arizona Cardinals,Denver Broncos,Devin Duvernay,any_td,0.5,3000,,DraftKings,,5,ARI,DEN,7.0,2026
+436119bb3ccdaa6ed7808aa3ebd82b76,2026-10-25T20:05:00Z,Arizona Cardinals,Denver Broncos,Simi Fehoko,any_td,0.5,3500,,DraftKings,,4,ARI,DEN,7.0,2026
+436119bb3ccdaa6ed7808aa3ebd82b76,2026-10-25T20:05:00Z,Arizona Cardinals,Denver Broncos,Bo Nix,pass_td,1.5,117,-132,BetRivers,FanDuel,5,ARI,DEN,7.0,2026
+436119bb3ccdaa6ed7808aa3ebd82b76,2026-10-25T20:05:00Z,Arizona Cardinals,Denver Broncos,Jacoby Brissett,pass_td,1.5,143,-174,DraftKings,FanDuel,5,ARI,DEN,7.0,2026
+436119bb3ccdaa6ed7808aa3ebd82b76,2026-10-25T20:05:00Z,Arizona Cardinals,Denver Broncos,Jacoby Brissett,pass_yds,227.5,-112,-112,DraftKings,DraftKings,4,ARI,DEN,7.0,2026
+436119bb3ccdaa6ed7808aa3ebd82b76,2026-10-25T20:05:00Z,Arizona Cardinals,Denver Broncos,Bo Nix,pass_yds,219.5,-114,-114,FanDuel,FanDuel,2,ARI,DEN,7.0,2026
+436119bb3ccdaa6ed7808aa3ebd82b76,2026-10-25T20:05:00Z,Arizona Cardinals,Denver Broncos,Trey McBride,rec_yds,60.5,-114,-114,FanDuel,FanDuel,2,ARI,DEN,7.0,2026
+436119bb3ccdaa6ed7808aa3ebd82b76,2026-10-25T20:05:00Z,Arizona Cardinals,Denver Broncos,Jaylen Waddle,rec_yds,52.5,-114,-110,DraftKings,DraftKings,2,ARI,DEN,7.0,2026
+436119bb3ccdaa6ed7808aa3ebd82b76,2026-10-25T20:05:00Z,Arizona Cardinals,Denver Broncos,Michael Wilson,rec_yds,48.5,-114,-111,FanDuel,BetOnline.ag,3,ARI,DEN,7.0,2026
+436119bb3ccdaa6ed7808aa3ebd82b76,2026-10-25T20:05:00Z,Arizona Cardinals,Denver Broncos,Kendrick Bourne,rec_yds,34.5,-114,-114,FanDuel,FanDuel,2,ARI,DEN,7.0,2026
+436119bb3ccdaa6ed7808aa3ebd82b76,2026-10-25T20:05:00Z,Arizona Cardinals,Denver Broncos,Courtland Sutton,rec_yds,33.5,-111,-112,DraftKings,BetOnline.ag,3,ARI,DEN,7.0,2026
+436119bb3ccdaa6ed7808aa3ebd82b76,2026-10-25T20:05:00Z,Arizona Cardinals,Denver Broncos,RJ Harvey,rec_yds,24.5,-108,-120,FanDuel,FanDuel,2,ARI,DEN,7.0,2026
+436119bb3ccdaa6ed7808aa3ebd82b76,2026-10-25T20:05:00Z,Arizona Cardinals,Denver Broncos,Evan Engram,rec_yds,22.5,-114,-114,FanDuel,FanDuel,2,ARI,DEN,7.0,2026
+436119bb3ccdaa6ed7808aa3ebd82b76,2026-10-25T20:05:00Z,Arizona Cardinals,Denver Broncos,Jalen Brooks,rec_yds,16.5,-109,-112,DraftKings,BetOnline.ag,4,ARI,DEN,7.0,2026
+436119bb3ccdaa6ed7808aa3ebd82b76,2026-10-25T20:05:00Z,Arizona Cardinals,Denver Broncos,Troy Franklin,rec_yds,15.5,-110,-114,DraftKings,DraftKings,3,ARI,DEN,7.0,2026
+436119bb3ccdaa6ed7808aa3ebd82b76,2026-10-25T20:05:00Z,Arizona Cardinals,Denver Broncos,Marvin Mims Jr.,rec_yds,14.5,-114,-111,FanDuel,BetOnline.ag,2,ARI,DEN,7.0,2026
+436119bb3ccdaa6ed7808aa3ebd82b76,2026-10-25T20:05:00Z,Arizona Cardinals,Denver Broncos,Elijah Higgins,rec_yds,12.5,-111,-113,DraftKings,DraftKings,4,ARI,DEN,7.0,2026
+436119bb3ccdaa6ed7808aa3ebd82b76,2026-10-25T20:05:00Z,Arizona Cardinals,Denver Broncos,Tyler Allgeier,rec_yds,10.5,-114,-112,FanDuel,BetOnline.ag,2,ARI,DEN,7.0,2026
+436119bb3ccdaa6ed7808aa3ebd82b76,2026-10-25T20:05:00Z,Arizona Cardinals,Denver Broncos,J.K. Dobbins,rec_yds,4.5,-114,-110,DraftKings,DraftKings,4,ARI,DEN,7.0,2026
+436119bb3ccdaa6ed7808aa3ebd82b76,2026-10-25T20:05:00Z,Arizona Cardinals,Denver Broncos,Adam Trautman,rec_yds,3.5,-114,-114,FanDuel,FanDuel,1,ARI,DEN,7.0,2026
+436119bb3ccdaa6ed7808aa3ebd82b76,2026-10-25T20:05:00Z,Arizona Cardinals,Denver Broncos,Trey McBride,rec,7.5,124,-150,FanDuel,BetMGM,3,ARI,DEN,7.0,2026
+436119bb3ccdaa6ed7808aa3ebd82b76,2026-10-25T20:05:00Z,Arizona Cardinals,Denver Broncos,Jaylen Waddle,rec,4.5,-108,104,FanDuel,DraftKings,5,ARI,DEN,7.0,2026
+436119bb3ccdaa6ed7808aa3ebd82b76,2026-10-25T20:05:00Z,Arizona Cardinals,Denver Broncos,Michael Wilson,rec,4.5,104,-120,FanDuel,BetMGM,5,ARI,DEN,7.0,2026
+436119bb3ccdaa6ed7808aa3ebd82b76,2026-10-25T20:05:00Z,Arizona Cardinals,Denver Broncos,RJ Harvey,rec,3.5,-109,-106,BetRivers,FanDuel,5,ARI,DEN,7.0,2026
+436119bb3ccdaa6ed7808aa3ebd82b76,2026-10-25T20:05:00Z,Arizona Cardinals,Denver Broncos,Kendrick Bourne,rec,3.5,110,-122,BetMGM,FanDuel,5,ARI,DEN,7.0,2026
+436119bb3ccdaa6ed7808aa3ebd82b76,2026-10-25T20:05:00Z,Arizona Cardinals,Denver Broncos,Courtland Sutton,rec,3.5,130,-157,BetMGM,DraftKings,3,ARI,DEN,7.0,2026
+436119bb3ccdaa6ed7808aa3ebd82b76,2026-10-25T20:05:00Z,Arizona Cardinals,Denver Broncos,Evan Engram,rec,2.5,-103,-107,BetOnline.ag,DraftKings,5,ARI,DEN,7.0,2026
+436119bb3ccdaa6ed7808aa3ebd82b76,2026-10-25T20:05:00Z,Arizona Cardinals,Denver Broncos,Tyler Allgeier,rec,2.5,118,-136,DraftKings,FanDuel,3,ARI,DEN,7.0,2026
+436119bb3ccdaa6ed7808aa3ebd82b76,2026-10-25T20:05:00Z,Arizona Cardinals,Denver Broncos,Marvin Mims Jr.,rec,1.5,-120,112,BetMGM,FanDuel,5,ARI,DEN,7.0,2026
+436119bb3ccdaa6ed7808aa3ebd82b76,2026-10-25T20:05:00Z,Arizona Cardinals,Denver Broncos,Troy Franklin,rec,1.5,102,-106,FanDuel,DraftKings,5,ARI,DEN,7.0,2026
+436119bb3ccdaa6ed7808aa3ebd82b76,2026-10-25T20:05:00Z,Arizona Cardinals,Denver Broncos,Jalen Brooks,rec,1.5,-110,-106,BetMGM,FanDuel,5,ARI,DEN,7.0,2026
+436119bb3ccdaa6ed7808aa3ebd82b76,2026-10-25T20:05:00Z,Arizona Cardinals,Denver Broncos,Elijah Higgins,rec,1.5,-108,-110,BetOnline.ag,BetMGM,5,ARI,DEN,7.0,2026
+436119bb3ccdaa6ed7808aa3ebd82b76,2026-10-25T20:05:00Z,Arizona Cardinals,Denver Broncos,J.K. Dobbins,rec,1.5,162,-196,FanDuel,BetOnline.ag,4,ARI,DEN,7.0,2026
+436119bb3ccdaa6ed7808aa3ebd82b76,2026-10-25T20:05:00Z,Arizona Cardinals,Denver Broncos,Adam Trautman,rec,0.5,-112,-102,DraftKings,FanDuel,2,ARI,DEN,7.0,2026
+436119bb3ccdaa6ed7808aa3ebd82b76,2026-10-25T20:05:00Z,Arizona Cardinals,Denver Broncos,J.K. Dobbins,rush_yds,47.5,-114,-109,FanDuel,DraftKings,2,ARI,DEN,7.0,2026
+436119bb3ccdaa6ed7808aa3ebd82b76,2026-10-25T20:05:00Z,Arizona Cardinals,Denver Broncos,Zonovan Knight,rush_yds,42.5,-114,-114,BetOnline.ag,BetOnline.ag,1,ARI,DEN,7.0,2026
+436119bb3ccdaa6ed7808aa3ebd82b76,2026-10-25T20:05:00Z,Arizona Cardinals,Denver Broncos,Tyler Allgeier,rush_yds,30.5,-114,-114,FanDuel,FanDuel,2,ARI,DEN,7.0,2026
+436119bb3ccdaa6ed7808aa3ebd82b76,2026-10-25T20:05:00Z,Arizona Cardinals,Denver Broncos,Jonah Coleman,rush_yds,19.5,-108,-114,DraftKings,FanDuel,3,ARI,DEN,7.0,2026
+436119bb3ccdaa6ed7808aa3ebd82b76,2026-10-25T20:05:00Z,Arizona Cardinals,Denver Broncos,RJ Harvey,rush_yds,14.5,-108,-111,FanDuel,DraftKings,3,ARI,DEN,7.0,2026
+436119bb3ccdaa6ed7808aa3ebd82b76,2026-10-25T20:05:00Z,Arizona Cardinals,Denver Broncos,Bo Nix,rush_yds,10.5,-114,-105,DraftKings,BetMGM,4,ARI,DEN,7.0,2026
+436119bb3ccdaa6ed7808aa3ebd82b76,2026-10-25T20:05:00Z,Arizona Cardinals,Denver Broncos,Jacoby Brissett,rush_yds,6.5,-106,-114,DraftKings,FanDuel,3,ARI,DEN,7.0,2026
+436119bb3ccdaa6ed7808aa3ebd82b76,2026-10-25T20:05:00Z,Arizona Cardinals,Denver Broncos,Bam Knight,any_td,0.5,260,,FanDuel,,1,ARI,DEN,7.0,2026
+436119bb3ccdaa6ed7808aa3ebd82b76,2026-10-25T20:05:00Z,Arizona Cardinals,Denver Broncos,Denver Broncos Defense,any_td,0.5,550,,FanDuel,,1,ARI,DEN,7.0,2026
+436119bb3ccdaa6ed7808aa3ebd82b76,2026-10-25T20:05:00Z,Arizona Cardinals,Denver Broncos,Arizona Cardinals Defense,any_td,0.5,950,,FanDuel,,1,ARI,DEN,7.0,2026
+436119bb3ccdaa6ed7808aa3ebd82b76,2026-10-25T20:05:00Z,Arizona Cardinals,Denver Broncos,Bam Knight,rush_yds,40.5,-114,-114,FanDuel,FanDuel,1,ARI,DEN,7.0,2026
+436119bb3ccdaa6ed7808aa3ebd82b76,2026-10-25T20:05:00Z,Arizona Cardinals,Denver Broncos,Jeremiyah Love,any_td,0.5,160,,BetOnline.ag,,1,ARI,DEN,7.0,2026
+436119bb3ccdaa6ed7808aa3ebd82b76,2026-10-25T20:05:00Z,Arizona Cardinals,Denver Broncos,Evan Hull,any_td,0.5,4000,,BetMGM,,1,ARI,DEN,7.0,2026
