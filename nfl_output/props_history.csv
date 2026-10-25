@@ -1385,78 +1385,78 @@ season,week,event,home_code,away_code,player,stat,line,over_odds,under_odds,book
 2026,,0b0b582b32b09ab6ff6664ffae0c9653,NWE,NYJ,Tim Patrick,rec_yds,14.5,-114,-114.0,FanDuel,FanDuel
 2026,,0b0b582b32b09ab6ff6664ffae0c9653,NWE,NYJ,TreVeyon Henderson,any_td,0.5,140,,BetOnline.ag,
 2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,AJ Barner,any_td,0.5,290,,BetMGM,
-2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,AJ Barner,rec,2.5,-139,118,DraftKings,FanDuel
-2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,AJ Barner,rec_yds,24.5,-110,-112,BetMGM,DraftKings
+2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,AJ Barner,rec,2.5,-139,118.0,DraftKings,FanDuel
+2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,AJ Barner,rec_yds,24.5,-110,-112.0,BetMGM,DraftKings
 2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,Andrew Armstrong,any_td,0.5,1100,,DraftKings,
-2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,Andrew Armstrong,rec,1.5,159,-192,DraftKings,BetOnline.ag
-2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,Andrew Armstrong,rec_yds,10.5,-111,-113,DraftKings,DraftKings
+2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,Andrew Armstrong,rec,1.5,159,-192.0,DraftKings,BetOnline.ag
+2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,Andrew Armstrong,rec_yds,10.5,-111,-113.0,DraftKings,DraftKings
 2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,Ben VanSumeren,any_td,0.5,6000,,FanDuel,
 2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,Brady Russell,any_td,0.5,3500,,DraftKings,
 2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,Cooper Kupp,any_td,0.5,425,,DraftKings,
-2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,Cooper Kupp,rec,2.5,102,-112,BetRivers,BetOnline.ag
-2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,Cooper Kupp,rec_yds,24.5,-113,-111,DraftKings,DraftKings
+2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,Cooper Kupp,rec,2.5,102,-112.0,BetRivers,BetOnline.ag
+2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,Cooper Kupp,rec_yds,24.5,-113,-111.0,DraftKings,DraftKings
 2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,Cyrus Allen,any_td,0.5,1400,,DraftKings,
-2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,Cyrus Allen,rec,0.5,-172,153,FanDuel,DraftKings
-2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,Cyrus Allen,rec_yds,5.5,-113,-113,FanDuel,FanDuel
+2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,Cyrus Allen,rec,0.5,-172,153.0,FanDuel,DraftKings
+2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,Cyrus Allen,rec_yds,5.5,-113,-113.0,FanDuel,FanDuel
 2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,Emanuel Wilson,any_td,0.5,135,,BetMGM,
-2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,Emanuel Wilson,rec,1.5,120,-143,FanDuel,DraftKings
-2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,Emanuel Wilson,rec_yds,7.5,-113,-106,FanDuel,DraftKings
-2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,Emanuel Wilson,rush_yds,51.5,-110,-112,DraftKings,BetOnline.ag
+2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,Emanuel Wilson,rec,1.5,120,-143.0,FanDuel,DraftKings
+2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,Emanuel Wilson,rec_yds,7.5,-113,-106.0,FanDuel,DraftKings
+2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,Emanuel Wilson,rush_yds,51.5,-110,-112.0,DraftKings,BetOnline.ag
 2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,Emmett Johnson,any_td,0.5,1000,,BetRivers,
-2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,Emmett Johnson,rush_yds,8.5,-113,-105,FanDuel,DraftKings
+2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,Emmett Johnson,rush_yds,8.5,-113,-105.0,FanDuel,DraftKings
 2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,Eric Saubert,any_td,0.5,1650,,BetMGM,
 2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,George Holani,any_td,0.5,430,,FanDuel,
-2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,George Holani,rec,1.5,-115,108,BetMGM,DraftKings
-2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,George Holani,rec_yds,9.5,-105,-118,BetMGM,DraftKings
-2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,George Holani,rush_yds,13.5,-113,-110,FanDuel,DraftKings
+2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,George Holani,rec,1.5,-115,108.0,BetMGM,DraftKings
+2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,George Holani,rec_yds,9.5,-105,-118.0,BetMGM,DraftKings
+2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,George Holani,rush_yds,13.5,-113,-110.0,FanDuel,DraftKings
 2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,Irv Charles,any_td,0.5,4000,,DraftKings,
 2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,Jake Briningstool,any_td,0.5,3500,,FanDuel,
 2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,Jalen Royals,any_td,0.5,500,,DraftKings,
-2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,Jalen Royals,rec,2.5,145,-162,BetRivers,DraftKings
-2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,Jalen Royals,rec_yds,21.5,-108,-113,DraftKings,FanDuel
+2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,Jalen Royals,rec,2.5,145,-162.0,BetRivers,DraftKings
+2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,Jalen Royals,rec_yds,21.5,-108,-113.0,DraftKings,FanDuel
 2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,Jared Wiley,any_td,0.5,3500,,FanDuel,
 2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,Jaxon Smith-Njigba,any_td,0.5,125,,DraftKings,
-2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,Jaxon Smith-Njigba,rec,6.5,-135,116,BetOnline.ag,FanDuel
-2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,Jaxon Smith-Njigba,rec_yds,92.5,-113,-110,FanDuel,DraftKings
+2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,Jaxon Smith-Njigba,rec,6.5,-135,116.0,BetOnline.ag,FanDuel
+2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,Jaxon Smith-Njigba,rec_yds,92.5,-113,-110.0,FanDuel,DraftKings
 2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,Jaydn Ott,any_td,0.5,4500,,DraftKings,
 2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,Justin Watson,any_td,0.5,2700,,FanDuel,
 2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,Kansas City Chiefs D/ST,any_td,0.5,550,,DraftKings,
 2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,Kansas City Chiefs Defense,any_td,0.5,750,,FanDuel,
 2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,Kenneth Walker III,any_td,0.5,-120,,DraftKings,
-2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,Kenneth Walker III,rec,3.5,120,-149,FanDuel,BetOnline.ag
-2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,Kenneth Walker III,rec_yds,21.5,-112,-112,DraftKings,DraftKings
-2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,Kenneth Walker III,rush_yds,80.5,-110,-115,DraftKings,DraftKings
+2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,Kenneth Walker III,rec,3.5,120,-149.0,FanDuel,BetOnline.ag
+2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,Kenneth Walker III,rec_yds,21.5,-112,-112.0,DraftKings,DraftKings
+2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,Kenneth Walker III,rush_yds,80.5,-110,-115.0,DraftKings,DraftKings
 2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,Montorie Foster Jr.,any_td,0.5,2900,,BetOnline.ag,
 2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,Nick Kallerup,any_td,0.5,2700,,FanDuel,
 2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,Nikko Remigio,any_td,0.5,4000,,DraftKings,
 2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,Noah Gray,any_td,0.5,650,,DraftKings,
-2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,Noah Gray,rec,1.5,-157,145,BetRivers,DraftKings
-2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,Noah Gray,rec_yds,15.5,-113,-113,FanDuel,FanDuel
+2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,Noah Gray,rec,1.5,-157,145.0,BetRivers,DraftKings
+2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,Noah Gray,rec_yds,15.5,-113,-113.0,FanDuel,FanDuel
 2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,Patrick Mahomes,any_td,0.5,600,,FanDuel,
-2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,Patrick Mahomes,pass_td,1.5,160,-186,DraftKings,BetRivers
-2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,Patrick Mahomes,pass_yds,218.5,-111,-113,DraftKings,DraftKings
-2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,Patrick Mahomes,rush_yds,17.5,-108,-113,DraftKings,FanDuel
+2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,Patrick Mahomes,pass_td,1.5,160,-186.0,DraftKings,BetRivers
+2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,Patrick Mahomes,pass_yds,218.5,-111,-113.0,DraftKings,DraftKings
+2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,Patrick Mahomes,rush_yds,17.5,-108,-113.0,DraftKings,FanDuel
 2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,Rashid Shaheed,any_td,0.5,400,,DraftKings,
-2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,Rashid Shaheed,rec,2.5,130,-145,BetMGM,DraftKings
-2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,Rashid Shaheed,rec_yds,23.5,-113,-111,DraftKings,DraftKings
+2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,Rashid Shaheed,rec,2.5,130,-145.0,BetMGM,DraftKings
+2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,Rashid Shaheed,rec_yds,23.5,-113,-111.0,DraftKings,DraftKings
 2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,Robert Henry Jr.,any_td,0.5,1900,,DraftKings,
 2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,Sam Darnold,any_td,0.5,800,,BetRivers,
-2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,Sam Darnold,pass_td,1.5,125,-152,BetRivers,FanDuel
-2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,Sam Darnold,pass_yds,225.5,-113,-113,FanDuel,FanDuel
-2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,Sam Darnold,rush_yds,4.5,-111,-113,BetOnline.ag,FanDuel
+2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,Sam Darnold,pass_td,1.5,125,-152.0,BetRivers,FanDuel
+2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,Sam Darnold,pass_yds,225.5,-113,-113.0,FanDuel,FanDuel
+2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,Sam Darnold,rush_yds,4.5,-111,-113.0,BetOnline.ag,FanDuel
 2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,Seattle Seahawks D/ST,any_td,0.5,500,,DraftKings,
 2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,Seattle Seahawks Defense,any_td,0.5,750,,FanDuel,
 2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,Tory Horton,any_td,0.5,850,,DraftKings,
-2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,Tory Horton,rec,1.5,132,-163,BetOnline.ag,DraftKings
-2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,Tory Horton,rec_yds,11.5,-111,-113,DraftKings,DraftKings
+2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,Tory Horton,rec,1.5,132,-163.0,BetOnline.ag,DraftKings
+2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,Tory Horton,rec_yds,11.5,-111,-113.0,DraftKings,DraftKings
 2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,Travis Kelce,any_td,0.5,230,,BetMGM,
-2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,Travis Kelce,rec,4.5,118,-151,DraftKings,DraftKings
-2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,Travis Kelce,rec_yds,44.5,-111,-113,DraftKings,DraftKings
+2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,Travis Kelce,rec,4.5,118,-151.0,DraftKings,DraftKings
+2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,Travis Kelce,rec_yds,44.5,-111,-113.0,DraftKings,DraftKings
 2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,Velus Jones Jr.,any_td,0.5,1000,,FanDuel,
-2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,Velus Jones Jr.,rush_yds,9.5,-113,-111,DraftKings,DraftKings
+2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,Velus Jones Jr.,rush_yds,9.5,-113,-111.0,DraftKings,DraftKings
 2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,Xavier Worthy,any_td,0.5,250,,DraftKings,
-2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,Xavier Worthy,rec,4.5,-110,105,DraftKings,BetMGM
-2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,Xavier Worthy,rec_yds,49.5,-109,-113,DraftKings,FanDuel
+2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,Xavier Worthy,rec,4.5,-110,105.0,DraftKings,BetMGM
+2026,,176d474ed8b2bbf1eb4d7e9c56b4bf22,SEA,KAN,Xavier Worthy,rec_yds,49.5,-109,-113.0,DraftKings,FanDuel
 2026,,1cf74afd313e9fd300e1462012b174cb,NYG,NOR,Alvin Kamara,any_td,0.5,250,,DraftKings,
 2026,,1cf74afd313e9fd300e1462012b174cb,NYG,NOR,Alvin Kamara,rec,2.5,-107,100.0,DraftKings,FanDuel
 2026,,1cf74afd313e9fd300e1462012b174cb,NYG,NOR,Alvin Kamara,rec_yds,11.5,-114,-114.0,FanDuel,FanDuel
