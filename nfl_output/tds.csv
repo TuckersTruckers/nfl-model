@@ -472,9 +472,68 @@ Christian McCaffrey,RB,Rushing,1.0,,SFO,WAS,6,WAS @ SF,1,04:11,0
 Christian McCaffrey,RB,Rushing,1.0,,SFO,WAS,6,WAS @ SF,2,00:18,0
 Stefon Diggs,WR,Passing,1.0,J.Daniels,WAS,SFO,6,WAS @ SF,3,00:18,0
 Rachaad White,RB,Passing,9.0,J.Daniels,WAS,SFO,6,WAS @ SF,4,09:26,0
+Zay Flowers,WR,Passing,48.0,T.Huntley,BAL,CIN,7,CIN @ BAL,1,13:45,1
+Mike Gesicki,TE,Passing,6.0,J.Burrow,CIN,BAL,7,CIN @ BAL,3,09:28,0
+Tee Higgins,WR,Passing,13.0,J.Burrow,CIN,BAL,7,CIN @ BAL,3,04:33,0
+Samaje Perine,RB,Rushing,1.0,,CIN,BAL,7,CIN @ BAL,4,11:17,0
+Ja'Marr Chase,WR,Passing,2.0,J.Burrow,CIN,BAL,7,CIN @ BAL,4,07:29,0
+Drew Sample,TE,Passing,16.0,J.Burrow,CIN,BAL,7,CIN @ BAL,4,06:28,0
+Tony Pollard,RB,Rushing,36.0,,TEN,CLE,7,CLE @ TEN,1,13:04,1
+Tony Pollard,RB,Rushing,10.0,,TEN,CLE,7,CLE @ TEN,1,08:41,0
+Quinshon Judkins,RB,Rushing,5.0,,CLE,TEN,7,CLE @ TEN,1,05:36,0
+Quinshon Judkins,RB,Rushing,6.0,,CLE,TEN,7,CLE @ TEN,2,02:22,0
+Deshaun Watson,QB,Rushing,9.0,,CLE,TEN,7,CLE @ TEN,4,04:39,0
+Tony Pollard,RB,Rushing,1.0,,TEN,CLE,7,CLE @ TEN,4,01:01,0
+Bo Nix,QB,Rushing,62.0,,DEN,ARI,7,DEN @ ARI,2,03:57,1
+RJ Harvey,RB,Passing,52.0,B.Nix,DEN,ARI,7,DEN @ ARI,3,10:36,0
+Trey McBride,TE,Passing,7.0,J.Brissett,ARI,DEN,7,DEN @ ARI,3,03:54,0
+J.K. Dobbins,RB,Rushing,1.0,,DEN,ARI,7,DEN @ ARI,3,00:02,0
+Jameson Williams,WR,Passing,16.0,J.Goff,DET,GNB,7,GB @ DET,1,07:08,1
+Tucker Kraft,TE,Passing,14.0,J.Love,GNB,DET,7,GB @ DET,1,01:04,0
+Josh Jacobs,RB,Passing,25.0,J.Love,GNB,DET,7,GB @ DET,3,12:22,0
+Jameson Williams,WR,Passing,10.0,J.Goff,DET,GNB,7,GB @ DET,3,06:40,0
+Jonathan Taylor,RB,Rushing,38.0,,IND,MIN,7,IND @ MIN,1,09:20,1
+T.J. Hockenson,TE,Passing,5.0,K.Murray,MIN,IND,7,IND @ MIN,4,14:41,0
+Jaxon Smith-Njigba,WR,Passing,28.0,S.Darnold,SEA,KAN,7,KC @ SEA,2,01:49,1
+Emanuel Wilson,RB,Rushing,21.0,,SEA,KAN,7,KC @ SEA,4,03:52,0
+Davis Allen,TE,Passing,3.0,M.Stafford,LAR,LVR,7,LA @ LV,1,06:28,1
+Davis Allen,TE,Passing,5.0,M.Stafford,LAR,LVR,7,LA @ LV,2,10:05,0
+Puka Nacua,WR,Passing,11.0,M.Stafford,LAR,LVR,7,LA @ LV,2,04:20,0
+Kyren Williams,RB,Rushing,17.0,,LAR,LVR,7,LA @ LV,2,01:25,0
+Tre Tucker,WR,Passing,37.0,K.Cousins,LVR,LAR,7,LA @ LV,4,15:00,0
+Ashton Jeanty,RB,Passing,15.0,K.Cousins,LVR,LAR,7,LA @ LV,4,13:18,0
+Blake Corum,RB,Rushing,4.0,,LAR,LVR,7,LA @ LV,4,06:37,0
+Caleb Douglas,WR,Passing,7.0,M.Willis,MIA,NYJ,7,MIA @ NYJ,1,10:57,1
+Mason Taylor,TE,Passing,13.0,G.Smith,NYJ,MIA,7,MIA @ NYJ,1,08:42,0
+Ollie Gordon II,RB,Rushing,1.0,,MIA,NYJ,7,MIA @ NYJ,1,01:05,0
+Malik Willis,QB,Rushing,2.0,,MIA,NYJ,7,MIA @ NYJ,2,00:12,0
+Omar Cooper Jr.,WR,Passing,3.0,G.Smith,NYJ,MIA,7,MIA @ NYJ,3,05:53,0
+Caleb Douglas,WR,Passing,63.0,M.Willis,MIA,NYJ,7,MIA @ NYJ,4,04:55,0
+Mason Taylor,TE,Passing,12.0,G.Smith,NYJ,MIA,7,MIA @ NYJ,4,03:30,0
 D'Andre Swift,RB,Rushing,4.0,,CHI,NWE,7,NE @ CHI,1,01:43,1
 Drake Maye,QB,Rushing,7.0,,NWE,CHI,7,NE @ CHI,2,11:37,0
 Luther Burden III,WR,Passing,24.0,C.Williams,CHI,NWE,7,NE @ CHI,2,00:21,0
 Rhamondre Stevenson,RB,Passing,48.0,D.Maye,NWE,CHI,7,NE @ CHI,2,00:03,0
 Colston Loveland,TE,Passing,12.0,C.Williams,CHI,NWE,7,NE @ CHI,3,09:48,0
 Eli Raridon,TE,Passing,30.0,D.Maye,NWE,CHI,7,NE @ CHI,3,03:52,0
+Tyrone Tracy Jr.,RB,Rushing,2.0,,NYG,HOU,7,NYG @ HOU,1,06:29,1
+Jameis Winston,QB,Rushing,1.0,,NYG,HOU,7,NYG @ HOU,2,03:37,0
+Marvin Harrison Jr.,WR,Passing,6.0,C.Stroud,HOU,NYG,7,NYG @ HOU,2,00:39,0
+Cam Skattebo,RB,Rushing,16.0,,NYG,HOU,7,NYG @ HOU,4,09:03,0
+Xavier Hutchinson,WR,Passing,3.0,C.Stroud,HOU,NYG,7,NYG @ HOU,4,00:57,0
+Devin Singletary,RB,Rushing,30.0,,NYG,HOU,7,NYG @ HOU,5,07:33,0
+Darnell Washington,TE,Passing,4.0,A.Rodgers,PIT,NOR,7,PIT @ NO,2,06:51,1
+Devaughn Vele,WR,Passing,1.0,T.Shough,NOR,PIT,7,PIT @ NO,2,01:48,0
+Christian McCaffrey,RB,Rushing,1.0,,SFO,ATL,7,SF @ ATL,1,09:25,1
+Kaelon Black,RB,Rushing,30.0,,SFO,ATL,7,SF @ ATL,2,15:00,0
+Nick Muse,TE,Passing,1.0,M.Penix,ATL,SFO,7,SF @ ATL,2,08:51,0
+Kyle Pitts,TE,Passing,5.0,M.Penix,ATL,SFO,7,SF @ ATL,3,09:05,0
+Drake London,WR,Passing,21.0,M.Penix,ATL,SFO,7,SF @ ATL,4,15:00,0
+Kyle Juszczyk,RB,Passing,1.0,B.Purdy,SFO,ATL,7,SF @ ATL,4,05:09,0
+Bucky Irving,RB,Rushing,4.0,,TAM,CAR,7,TB @ CAR,1,07:26,1
+Calijah Kancey,DEF,Return/Defensive,-8.0,,TAM,CAR,7,TB @ CAR,2,11:15,0
+Darren Waller,TE,Passing,50.0,B.Young,CAR,TAM,7,TB @ CAR,2,09:18,0
+Bucky Irving,RB,Rushing,1.0,,TAM,CAR,7,TB @ CAR,2,03:58,0
+Tez Johnson,WR,Passing,14.0,B.Mayfield,TAM,CAR,7,TB @ CAR,2,00:12,0
+Sean Tucker,RB,Rushing,46.0,,TAM,CAR,7,TB @ CAR,4,10:31,0
+Anthony Tyus III,RB,Rushing,12.0,,CAR,TAM,7,TB @ CAR,4,05:34,0
