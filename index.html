@@ -124,8 +124,11 @@ th:first-child,td:first-child{text-align:left}th{color:var(--mu);font-weight:600
  .gc .ys b{font-size:10px;line-height:1.1;padding:3px 0;margin:2px -1px 0}
  .gc .fin{font-size:8px;line-height:1.1}
 }
+.algb.wide{width:480px}
+@media(max-width:1000px){.algb.wide{width:100%}}
+@media(max-width:700px){.algb.wide{width:150px}}
 </style></head><body>
-<header><b>🏈<span class="d-only"> NFL Model</span></b><span class="mu d-only" style="margin-right:10px">v15</span><span id="tabs"></span><span id="sync" class="mu" style="margin-left:auto;font-size:11px"></span></header>
+<header><b>🏈<span class="d-only"> NFL Model</span></b><span class="mu d-only" style="margin-right:10px">v16</span><span id="tabs"></span><span id="sync" class="mu" style="margin-left:auto;font-size:11px"></span></header>
 <main id="app"></main>
 <script>
 const T="ARI ATL BAL BUF CAR CHI CIN CLE DAL DEN DET GNB HOU IND JAX KAN LVR LAC LAR MIA MIN NWE NOR NYG NYJ PHI PIT SFO SEA TAM TEN WAS".split(" ");
@@ -1147,7 +1150,7 @@ IMP.phist=t=>{const r=csv(t);need(r,['player','stat','line']);r.forEach(x=>{x.pl
 const algSort=k=>{if(k==='p'){ALGS.k='p';ALGS.d=1}else{ALGS.d=ALGS.k===k?-ALGS.d:-1;ALGS.k=k}render()},accRange=r=>{ACCR.r=r;render()};
 function completeWeeks(){const by={};games().forEach(g=>{if(!/^\d+$/.test(g.week))return;const w=+g.week;(by[w]=by[w]||[]).push(g)});return Object.keys(by).map(Number).sort((a,b)=>a-b).filter(w=>by[w].every(g=>g.final))}
 function accRec(src,weeks){return ALG.map((n,i)=>{const c={ats:[0,0],ml:[0,0],ou:[0,0]};Object.keys(src).forEach(id=>{const g=S.games[id];if(!g||!g.final)return;if(weeks&&!weeks.includes(+g.week))return;const r=grade(src[id],g,i+1);['ats','ml','ou'].forEach(m=>{if(r[m]==='W')c[m][0]++;else if(r[m]==='L')c[m][1]++})});return c})}
-function algb(){const A=accShow();if(VLerr||!S.weekly||A.cap.startsWith('No completed'))return `<div class="algb"><div class="mu cap" style="padding:4px">${A.cap}</div></div>`;
+function algbV2(){const A=accShow();if(VLerr||!S.weekly||A.cap.startsWith('No completed'))return `<div class="algb"><div class="mu cap" style="padding:4px">${A.cap}</div></div>`;
  ensureVL();const wk=GV.mode==='wk',src=wk?VL:MV(),cw=completeWeeks(),weeks=ACCR.r==='all'?null:(ACCR.r==='last1'?cw.slice(-1):cw.slice(-3)),rec=accRec(src,weeks),M=['ats','ml','ou'];
  const P=rec.map(c=>{const o={};M.forEach(m=>{o[m]=c[m][0]+c[m][1]?100*c[m][0]/(c[m][0]+c[m][1]):null});return o}),best={},worst={},cnt={};
  M.forEach(m=>{const v=P.map(x=>x[m]).filter(x=>x!=null);cnt[m]=v.length;if(!v.length)return;best[m]=Math.max(...v);const asc=[...v].sort((a,b)=>a-b);worst[m]=asc[Math.min(4,asc.length-1)]});
@@ -1283,6 +1286,28 @@ function lists(){const opp={};games().filter(g=>g.week===wk).forEach(g=>{opp[g.h
   return `<div class="card" style="flex:1 1 440px;min-width:0"><h3>${title}</h3><div class="w"><table class="xt"><tr><th>#</th><th>Team</th><th>${statN}</th><th>Opp wk ${WL[wk]||wk}</th><th>${oppN}</th><th>Opp rank</th>${rbSide?`<th>${rbSide==='own'?'Top RB':'Opposing top RB'}</th>`:''}</tr>${a.map((t,i)=>{const o=opp[t];const os=o?S.teams[o.o][ok]:null,orr=o?R[ok][o.o]:null;
    return `<tr><td class="mu">${i+1}</td><td>${chip(t)}</td><td>${f(S.teams[t][k],1)}</td><td>${o?(o.at?'@ ':'vs ')+chip(o.o):'<span class="mu">bye</span>'}</td><td>${o?f(os,1):'–'}</td><td style="background:${o?tint(orr):'transparent'}">${o?'#'+orr:'–'}</td>${rbSide?`<td>${o?topRB(rbSide==='own'?t:o.o):'–'}</td>`:''}</tr>`}).join('')}</table></div></div>`};
  return '<div class="row" style="display:flex;gap:12px;flex-wrap:wrap">'+L('Best scoring offenses','pf','pa','Pts/g','Opp pts allowed/g',null,true)+L('Best rushing offenses','rush','rush_a','Rush yds/g','Opp rush yds allowed/g','own',true)+L('Worst scoring defenses','pa','pf','Pts allowed/g','Opp pts/g',null,false)+L('Worst rush defenses','rush_a','rush','Rush yds allowed/g','Opp rush yds/g','opp',false)+'</div><div class="mu" style="margin:4px 2px 10px">Opp rank is the opponent’s rank on the matching stat among all 32 teams, 1 = the highest value (the most points or rush yards allowed for a defense, the best offense for an offense). Green = a favorable matchup for the team in the list, red = an unfavorable one. Tap any header to sort.</div>'}
+
+/* ---- accuracy panel v3: adds prop hit rates (pass TDs, pass yds, rush yds, rec yds, receptions) per projection ---- */
+const PCOLS=[['pass_td','ptd','Pass TD','PTD'],['pass_yds','pyd','Pass Yds','PYd'],['rush_yds','ryd','Rush Yds','RuYd'],['rec_yds','reyd','Rec Yds','ReYd'],['rec','rec','Receptions','Rec']],PPC={busy:false,failDV:-1};
+/* hit rate of every projection on each saved prop line (both sides). Grading all 16 projections takes a few seconds the first time, so it runs in the background. */
+function propPanel(mode,weeks){if(!allLines().length||!hasLogs())return null;const ready=ALG.every((n,i)=>PLC['prr|'+(i+1)+'|'+mode]);
+ if(!ready){if(!PPC.busy&&PPC.failDV!==DV){PPC.busy=true;setTimeout(()=>{try{ALG.forEach((n,i)=>propRows(i+1,mode))}catch(e){PPC.failDV=DV}PPC.busy=false;render()},60)}return{pending:true}}
+ const rates=ALG.map((n,i)=>{const c={};PCOLS.forEach(p=>c[p[0]]=[0,0]);propRows(i+1,mode).forEach(r=>{const cc=c[r.st];if(!cc)return;if(weeks&&!weeks.includes(r.w))return;const ps=projSide(r.proj,r.line),as_=r.act>r.line?'O':r.act<r.line?'U':null;if(ps&&as_)cc[ps===as_?0:1]++});return c});return{rates}}
+function algb(){const A=accShow();if(VLerr||!S.weekly||A.cap.startsWith('No completed'))return `<div class="algb"><div class="mu cap" style="padding:4px">${A.cap}</div></div>`;
+ ensureVL();const wk_=GV.mode==='wk',src=wk_?VL:MV(),cw=completeWeeks(),weeks=ACCR.r==='all'?null:(ACCR.r==='last1'?cw.slice(-1):cw.slice(-3)),rec=accRec(src,weeks),M=['ats','ml','ou'];
+ const canProps=allLines().length>0&&hasLogs(),pp=(canProps&&ACCR.props!==false)?propPanel(wk_?'wk':'mv',weeks):null,hasP=!!(pp&&pp.rates),wide=!!pp;
+ const P=rec.map((c,i)=>{const o={};M.forEach(m=>{o[m]=c[m][0]+c[m][1]?100*c[m][0]/(c[m][0]+c[m][1]):null});if(hasP)PCOLS.forEach(p=>{const q=pp.rates[i][p[0]];o[p[1]]=q[0]+q[1]?100*q[0]/(q[0]+q[1]):null});return o});
+ const wlOf=(i,m)=>{if(M.includes(m))return rec[i][m];const col=PCOLS.find(p=>p[1]===m);return pp.rates[i][col[0]]};
+ const MM=[...M,...(hasP?PCOLS.map(p=>p[1]):[])],best={},worst={},cnt={};
+ const rd=x=>x==null?null:Math.round(x);
+ MM.forEach(m=>{const v=P.map(x=>rd(x[m])).filter(x=>x!=null);cnt[m]=v.length;if(!v.length)return;best[m]=Math.max(...v);const asc=[...v].sort((a,b)=>a-b);worst[m]=asc[Math.min(4,asc.length-1)]});
+ const cell=(i,m)=>{if(pp&&pp.pending&&!M.includes(m))return '<td class="mu" title="grading the saved prop lines…">…</td>';const v=P[i][m];if(v==null)return '<td class="mu">–</td>';const c=wlOf(i,m),isBest=rd(v)===best[m],isWorst=cnt[m]>=6&&rd(v)<=worst[m]&&!isBest;return `<td title="${c[0]}-${c[1]}" style="background:${isBest?'rgba(63,207,122,.5)':isWorst?'rgba(255,80,60,.42)':'transparent'}">${f(v,0)}%</td>`};
+ let order=ALG.map((n,i)=>i);if(ALGS.k!=='p'&&P[0]&&ALGS.k in P[0])order.sort((a,b)=>{const x=P[a][ALGS.k],y=P[b][ALGS.k];if(x==null&&y==null)return a-b;if(x==null)return 1;if(y==null)return -1;return (x-y)*ALGS.d||a-b});
+ const ar=k=>ALGS.k===k?(ALGS.d>0?' ▲':' ▼'):'',th=(k,d,m)=>`<th style="cursor:pointer;white-space:nowrap" onclick="algSort('${k}')"><span class="d-only">${d}</span><span class="m-only">${m}</span>${ar(k)}</th>`;
+ const rg=[['all','All','All'],['last1','Last week','Wk-1'],['last3','Last 3 weeks','3 wks']].map(([k,d,m])=>`<button class="b ${ACCR.r===k?'':'s'}" style="padding:2px 6px;font-size:11px" onclick="accRange('${k}')"><span class="d-only">${d}</span><span class="m-only">${m}</span></button>`).join(' ')+(canProps?` <button class="b ${ACCR.props===false?'s':''}" style="padding:2px 6px;font-size:11px" onclick="ACCR.props=ACCR.props===false?true:false;render()">Props ${ACCR.props===false?'off':'on'}</button>`:'');
+ const used=weeks?(weeks.length?'week'+(weeks.length>1?'s ':' ')+weeks.join(', '):'no complete week yet'):'all completed games';
+ const cap=(wk_?'As it was that week (stats entering each game; week 2 on)':'Moving record (every game re-projected with current stats)')+' · '+used+'. Green = best in the column (ties included), red = the 5 lowest. Tap a header to sort; tap Projection to reset.'+(wide?' Prop columns: how often that projection’s stat landed on the right side (Over/Under) of the saved prop lines for the same games'+(pp.pending?' (grading now…)':'')+'; hover a cell for the record.':'');
+ return `<div class="algb${wide?' wide':''}"><div style="padding:2px 2px 4px">${rg}</div><table><tr>${th('p','Projection','#')}${th('ats','Spread','Spr')}${th('ml','ML','ML')}${th('ou','Total','Tot')}${wide?PCOLS.map(p=>th(p[1],p[2],p[3])).join(''):''}</tr>${order.map(i=>`<tr class="${aid===i+1?'on':''}" onclick="aid=${i+1};NAV.touched=1;render()"><td><span class="d-only">${ALG[i]}</span><span class="m-only">${i+1}</span></td>${cell(i,'ats')}${cell(i,'ml')}${cell(i,'ou')}${wide?PCOLS.map(p=>cell(i,p[1])).join(''):''}</tr>`).join('')}</table><div class="mu cap" style="padding:4px">${cap}</div></div>`}
 
 if(document.body&&document.addEventListener){const tipEl=document.createElement('div');tipEl.id='tip';document.body.appendChild(tipEl);
  document.addEventListener('mouseover',e=>{const t=e.target.closest&&e.target.closest('[data-tip]');if(!t){tipEl.style.display='none';return}tipEl.innerHTML=t.getAttribute('data-tip');tipEl.style.display='block'});
