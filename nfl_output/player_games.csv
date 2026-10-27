@@ -1877,6 +1877,16 @@ season,week,player,team,opp,pos,att,cmp,pyds,ptd,int,car,ryds,rtd,tgt,rec,recyds
 2026,7,Jerry Jeudy,CLE,TEN,WR,0,0,0,0,0,0,0,0,4,4,21,0,6.1
 2026,7,KC Concepcion,CLE,TEN,WR,0,0,0,0,0,3,23,0,10,8,129,0,23.2
 2026,7,Quinshon Judkins,CLE,TEN,RB,0,0,0,0,0,17,96,2,1,1,8,0,23.4
+2026,7,Brevyn Spann-Ford,DAL,PHI,TE,0,0,0,0,0,0,0,0,2,2,11,0,3.1
+2026,7,CeeDee Lamb,DAL,PHI,WR,0,0,0,0,0,0,0,0,12,5,74,2,24.4
+2026,7,Dak Prescott,DAL,PHI,QB,27,15,212,3,0,2,8,0,0,0,0,0,23.28
+2026,7,George Pickens,DAL,PHI,WR,0,0,0,0,0,0,0,0,6,4,57,1,15.7
+2026,7,Hunter Luepke,DAL,PHI,RB,0,0,0,0,0,1,3,0,0,0,0,0,0.3
+2026,7,Jake Ferguson,DAL,PHI,TE,0,0,0,0,0,0,0,0,1,0,0,0,0.0
+2026,7,Javonte Williams,DAL,PHI,RB,0,0,0,0,0,25,155,1,0,0,0,0,21.5
+2026,7,Jonathan Mingo,DAL,PHI,WR,0,0,0,0,0,0,0,0,1,0,0,0,0.0
+2026,7,Ryan Flournoy,DAL,PHI,WR,0,0,0,0,0,0,0,0,4,4,70,0,11.0
+2026,7,Tyler Goodson,DAL,PHI,RB,0,0,0,0,0,10,38,0,0,0,0,0,3.8
 2026,7,Adam Trautman,DEN,ARI,TE,0,0,0,0,0,0,0,0,1,0,0,0,0.0
 2026,7,Bo Nix,DEN,ARI,QB,29,15,222,1,0,7,73,1,0,0,0,0,26.18
 2026,7,Courtland Sutton,DEN,ARI,WR,0,0,0,0,0,0,0,0,5,3,45,0,7.5
@@ -2014,6 +2024,16 @@ season,week,player,team,opp,pos,att,cmp,pyds,ptd,int,car,ryds,rtd,tgt,rec,recyds
 2026,7,Kenyon Sadiq,NYJ,MIA,TE,0,0,0,0,0,0,0,0,1,1,6,0,1.6
 2026,7,Mason Taylor,NYJ,MIA,TE,0,0,0,0,0,0,0,0,6,5,62,2,25.2
 2026,7,Omar Cooper Jr.,NYJ,MIA,WR,0,0,0,0,0,0,0,0,5,5,115,1,22.5
+2026,7,Dallas Goedert,PHI,DAL,TE,0,0,0,0,0,0,0,0,7,5,48,0,9.8
+2026,7,Dameon Pierce,PHI,DAL,RB,0,0,0,0,0,14,47,1,1,1,1,0,11.8
+2026,7,Darius Cooper,PHI,DAL,WR,0,0,0,0,0,0,0,0,3,1,17,0,2.7
+2026,7,Eli Stowers,PHI,DAL,TE,0,0,0,0,0,0,0,0,1,0,0,0,0.0
+2026,7,Elijah Mitchell,PHI,DAL,RB,0,0,0,0,0,3,11,0,4,3,23,0,6.4
+2026,7,Elijah Moore,PHI,DAL,WR,0,0,0,0,0,0,0,0,2,2,16,0,3.6
+2026,7,Makai Lemon,PHI,DAL,WR,0,0,0,0,0,0,0,0,8,7,67,1,19.7
+2026,7,Marquise Brown,PHI,DAL,WR,0,0,0,0,0,0,0,0,5,2,30,0,5.0
+2026,7,Saquon Barkley,PHI,DAL,RB,0,0,0,0,0,7,62,1,2,2,9,0,15.1
+2026,7,Tanner McKee,PHI,DAL,QB,35,23,211,1,1,1,1,0,0,0,0,0,10.54
 2026,7,Aaron Rodgers,PIT,NOR,QB,30,19,212,1,0,3,6,0,0,0,0,0,13.08
 2026,7,Brandon Smith,PIT,NOR,WR,0,0,0,0,0,0,0,0,2,2,24,0,4.4
 2026,7,DK Metcalf,PIT,NOR,WR,0,0,0,0,0,0,0,0,6,2,56,0,7.6
