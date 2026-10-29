@@ -1,64 +1,78 @@
 event,commence,home,away,player,stat,line,over_odds,under_odds,book_over,book_under,books,home_code,away_code,week,season
-4853610e63c246f2027a6a248e642c9a,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,Javonte Williams,any_td,0.5,-160,,BetMGM,,6,PHI,DAL,7,2026
-4853610e63c246f2027a6a248e642c9a,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,Saquon Barkley,any_td,0.5,114,,BetRivers,,6,PHI,DAL,7,2026
-4853610e63c246f2027a6a248e642c9a,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,CeeDee Lamb,any_td,0.5,130,,BetRivers,,6,PHI,DAL,7,2026
-4853610e63c246f2027a6a248e642c9a,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,George Pickens,any_td,0.5,175,,BetRivers,,6,PHI,DAL,7,2026
-4853610e63c246f2027a6a248e642c9a,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,Dallas Goedert,any_td,0.5,190,,BetMGM,,6,PHI,DAL,7,2026
-4853610e63c246f2027a6a248e642c9a,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,Darius Cooper,any_td,0.5,260,,BetMGM,,6,PHI,DAL,7,2026
-4853610e63c246f2027a6a248e642c9a,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,Jake Ferguson,any_td,0.5,310,,BetRivers,,6,PHI,DAL,7,2026
-4853610e63c246f2027a6a248e642c9a,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,Makai Lemon,any_td,0.5,330,,BetRivers,,6,PHI,DAL,7,2026
-4853610e63c246f2027a6a248e642c9a,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,Ryan Flournoy,any_td,0.5,390,,DraftKings,,6,PHI,DAL,7,2026
-4853610e63c246f2027a6a248e642c9a,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,Dallas Cowboys D/ST,any_td,0.5,525,,BetMGM,,3,PHI,DAL,7,2026
-4853610e63c246f2027a6a248e642c9a,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,Philadelphia Eagles D/ST,any_td,0.5,550,,DraftKings,,3,PHI,DAL,7,2026
-4853610e63c246f2027a6a248e642c9a,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,Dameon Pierce,any_td,0.5,650,,FanDuel,,6,PHI,DAL,7,2026
-4853610e63c246f2027a6a248e642c9a,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,Dak Prescott,any_td,0.5,625,,BetMGM,,6,PHI,DAL,7,2026
-4853610e63c246f2027a6a248e642c9a,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,Brevyn Spann-Ford,any_td,0.5,750,,FanDuel,,6,PHI,DAL,7,2026
-4853610e63c246f2027a6a248e642c9a,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,Tanner McKee,any_td,0.5,950,,DraftKings,,6,PHI,DAL,7,2026
-4853610e63c246f2027a6a248e642c9a,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,Jonathan Mingo,any_td,0.5,1100,,FanDuel,,6,PHI,DAL,7,2026
-4853610e63c246f2027a6a248e642c9a,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,Grant Calcaterra,any_td,0.5,1000,,FanDuel,,4,PHI,DAL,7,2026
-4853610e63c246f2027a6a248e642c9a,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,Tyler Goodson,any_td,0.5,1100,,DraftKings,,6,PHI,DAL,7,2026
-4853610e63c246f2027a6a248e642c9a,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,Elijah Moore,any_td,0.5,1400,,FanDuel,,6,PHI,DAL,7,2026
-4853610e63c246f2027a6a248e642c9a,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,Hunter Luepke,any_td,0.5,1400,,BetRivers,,6,PHI,DAL,7,2026
-4853610e63c246f2027a6a248e642c9a,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,Emari Demercado,any_td,0.5,1700,,BetRivers,,5,PHI,DAL,7,2026
-4853610e63c246f2027a6a248e642c9a,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,Luke Schoonmaker,any_td,0.5,1700,,BetMGM,,6,PHI,DAL,7,2026
-4853610e63c246f2027a6a248e642c9a,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,Johnny Mundt,any_td,0.5,1700,,FanDuel,,6,PHI,DAL,7,2026
-4853610e63c246f2027a6a248e642c9a,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,Camden Brown,any_td,0.5,1500,,DraftKings,,5,PHI,DAL,7,2026
-4853610e63c246f2027a6a248e642c9a,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,Eli Stowers,any_td,0.5,1700,,FanDuel,,4,PHI,DAL,7,2026
-4853610e63c246f2027a6a248e642c9a,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,Britain Covey,any_td,0.5,2000,,FanDuel,,6,PHI,DAL,7,2026
-4853610e63c246f2027a6a248e642c9a,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,Dak Prescott,pass_td,1.5,-138,115.0,FanDuel,DraftKings,6,PHI,DAL,7,2026
-4853610e63c246f2027a6a248e642c9a,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,Tanner McKee,pass_td,1.5,160,-195.0,BetMGM,BetRivers,6,PHI,DAL,7,2026
-4853610e63c246f2027a6a248e642c9a,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,Dak Prescott,pass_yds,268.5,-111,-111.0,DraftKings,BetOnline.ag,3,PHI,DAL,7,2026
-4853610e63c246f2027a6a248e642c9a,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,Tanner McKee,pass_yds,199.5,-112,-112.0,DraftKings,DraftKings,4,PHI,DAL,7,2026
-4853610e63c246f2027a6a248e642c9a,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,CeeDee Lamb,rec_yds,81.5,-110,-114.0,DraftKings,DraftKings,3,PHI,DAL,7,2026
-4853610e63c246f2027a6a248e642c9a,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,George Pickens,rec_yds,63.5,-112,-112.0,DraftKings,DraftKings,3,PHI,DAL,7,2026
-4853610e63c246f2027a6a248e642c9a,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,Dallas Goedert,rec_yds,49.5,-113,-113.0,FanDuel,FanDuel,3,PHI,DAL,7,2026
-4853610e63c246f2027a6a248e642c9a,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,Makai Lemon,rec_yds,38.5,-113,-111.0,DraftKings,DraftKings,4,PHI,DAL,7,2026
-4853610e63c246f2027a6a248e642c9a,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,Darius Cooper,rec_yds,38.5,-111,-111.0,DraftKings,BetOnline.ag,3,PHI,DAL,7,2026
-4853610e63c246f2027a6a248e642c9a,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,Ryan Flournoy,rec_yds,34.5,-109,-112.0,DraftKings,BetOnline.ag,5,PHI,DAL,7,2026
-4853610e63c246f2027a6a248e642c9a,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,Jake Ferguson,rec_yds,18.5,-110,-114.0,DraftKings,DraftKings,2,PHI,DAL,7,2026
-4853610e63c246f2027a6a248e642c9a,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,Saquon Barkley,rec_yds,14.5,-112,-110.0,BetRivers,DraftKings,6,PHI,DAL,7,2026
-4853610e63c246f2027a6a248e642c9a,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,Javonte Williams,rec_yds,12.5,-110,-110.0,BetMGM,DraftKings,6,PHI,DAL,7,2026
-4853610e63c246f2027a6a248e642c9a,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,Brevyn Spann-Ford,rec_yds,10.5,-111,-113.0,DraftKings,DraftKings,4,PHI,DAL,7,2026
-4853610e63c246f2027a6a248e642c9a,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,CeeDee Lamb,rec,6.5,-136,110.0,FanDuel,Bovada,4,PHI,DAL,7,2026
-4853610e63c246f2027a6a248e642c9a,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,Dallas Goedert,rec,5.5,115,-131.0,BetRivers,DraftKings,5,PHI,DAL,7,2026
-4853610e63c246f2027a6a248e642c9a,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,George Pickens,rec,4.5,-141,119.0,BetRivers,BetOnline.ag,5,PHI,DAL,7,2026
-4853610e63c246f2027a6a248e642c9a,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,Makai Lemon,rec,3.5,-184,142.0,DraftKings,DraftKings,4,PHI,DAL,7,2026
-4853610e63c246f2027a6a248e642c9a,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,Ryan Flournoy,rec,3.5,110,-130.0,Bovada,FanDuel,6,PHI,DAL,7,2026
-4853610e63c246f2027a6a248e642c9a,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,Darius Cooper,rec,3.5,116,-143.0,DraftKings,BetOnline.ag,6,PHI,DAL,7,2026
-4853610e63c246f2027a6a248e642c9a,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,Jake Ferguson,rec,2.5,-117,105.0,BetRivers,DraftKings,6,PHI,DAL,7,2026
-4853610e63c246f2027a6a248e642c9a,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,Saquon Barkley,rec,2.5,-115,-108.0,DraftKings,FanDuel,6,PHI,DAL,7,2026
-4853610e63c246f2027a6a248e642c9a,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,Javonte Williams,rec,2.5,110,-138.0,BetMGM,DraftKings,6,PHI,DAL,7,2026
-4853610e63c246f2027a6a248e642c9a,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,Brevyn Spann-Ford,rec,1.5,140,-153.0,FanDuel,DraftKings,6,PHI,DAL,7,2026
-4853610e63c246f2027a6a248e642c9a,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,Saquon Barkley,rush_yds,67.5,-114,-110.0,DraftKings,DraftKings,4,PHI,DAL,7,2026
-4853610e63c246f2027a6a248e642c9a,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,Javonte Williams,rush_yds,64.5,-113,-110.0,FanDuel,DraftKings,3,PHI,DAL,7,2026
-4853610e63c246f2027a6a248e642c9a,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,Dameon Pierce,rush_yds,15.5,-112,-112.0,DraftKings,DraftKings,5,PHI,DAL,7,2026
-4853610e63c246f2027a6a248e642c9a,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,Dak Prescott,rush_yds,9.5,-113,-113.0,FanDuel,FanDuel,2,PHI,DAL,7,2026
-4853610e63c246f2027a6a248e642c9a,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,Tyler Goodson,rush_yds,9.5,-118,-106.0,DraftKings,DraftKings,3,PHI,DAL,7,2026
-4853610e63c246f2027a6a248e642c9a,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,Tanner McKee,rush_yds,5.5,-114,-108.0,DraftKings,BetOnline.ag,3,PHI,DAL,7,2026
-4853610e63c246f2027a6a248e642c9a,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,Philadelphia Eagles Defense,any_td,0.5,700,,FanDuel,,1,PHI,DAL,7,2026
-4853610e63c246f2027a6a248e642c9a,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,Dallas Cowboys Defense,any_td,0.5,800,,FanDuel,,1,PHI,DAL,7,2026
-4853610e63c246f2027a6a248e642c9a,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,KaVontae Turpin,any_td,0.5,650,,BetOnline.ag,,1,PHI,DAL,7,2026
-4853610e63c246f2027a6a248e642c9a,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,Dontayvion Wicks,any_td,0.5,250,,BetOnline.ag,,1,PHI,DAL,7,2026
-4853610e63c246f2027a6a248e642c9a,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,Hollywood Brown,any_td,0.5,800,,BetOnline.ag,,2,PHI,DAL,7,2026
-4853610e63c246f2027a6a248e642c9a,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,Hollywood Brown,rec_yds,10.5,-115,-109.0,BetMGM,BetOnline.ag,2,PHI,DAL,7,2026
-4853610e63c246f2027a6a248e642c9a,2026-10-27T00:15:00Z,Philadelphia Eagles,Dallas Cowboys,Hollywood Brown,rec,1.5,145,-189.0,BetMGM,BetOnline.ag,2,PHI,DAL,7,2026
+ab2865e9f2d4b012de8bc6fb6de11a7c,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,Josh Jacobs,any_td,0.5,-137,,BetRivers,,6,GNB,CAR,,2026
+ab2865e9f2d4b012de8bc6fb6de11a7c,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,Chuba Hubbard,any_td,0.5,-115,,FanDuel,,6,GNB,CAR,,2026
+ab2865e9f2d4b012de8bc6fb6de11a7c,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,Christian Watson,any_td,0.5,145,,FanDuel,,6,GNB,CAR,,2026
+ab2865e9f2d4b012de8bc6fb6de11a7c,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,Matthew Golden,any_td,0.5,170,,BetRivers,,6,GNB,CAR,,2026
+ab2865e9f2d4b012de8bc6fb6de11a7c,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,Tetairoa McMillan,any_td,0.5,185,,FanDuel,,6,GNB,CAR,,2026
+ab2865e9f2d4b012de8bc6fb6de11a7c,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,Tucker Kraft,any_td,0.5,195,,BetMGM,,6,GNB,CAR,,2026
+ab2865e9f2d4b012de8bc6fb6de11a7c,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,Jalen Coker,any_td,0.5,215,,BetRivers,,6,GNB,CAR,,2026
+ab2865e9f2d4b012de8bc6fb6de11a7c,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,Darren Waller,any_td,0.5,380,,BetMGM,,6,GNB,CAR,,2026
+ab2865e9f2d4b012de8bc6fb6de11a7c,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,Savion Williams,any_td,0.5,390,,FanDuel,,6,GNB,CAR,,2026
+ab2865e9f2d4b012de8bc6fb6de11a7c,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,MarShawn Lloyd,any_td,0.5,390,,DraftKings,,6,GNB,CAR,,2026
+ab2865e9f2d4b012de8bc6fb6de11a7c,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,Tommy Tremble,any_td,0.5,500,,BetMGM,,6,GNB,CAR,,2026
+ab2865e9f2d4b012de8bc6fb6de11a7c,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,Green Bay Packers D/ST,any_td,0.5,500,,BetMGM,,3,GNB,CAR,,2026
+ab2865e9f2d4b012de8bc6fb6de11a7c,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,Carolina Panthers D/ST,any_td,0.5,600,,BetMGM,,3,GNB,CAR,,2026
+ab2865e9f2d4b012de8bc6fb6de11a7c,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,Bryce Young,any_td,0.5,775,,BetMGM,,6,GNB,CAR,,2026
+ab2865e9f2d4b012de8bc6fb6de11a7c,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,Jordan Love,any_td,0.5,800,,BetRivers,,6,GNB,CAR,,2026
+ab2865e9f2d4b012de8bc6fb6de11a7c,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,Bo Melton,any_td,0.5,1000,,BetMGM,,6,GNB,CAR,,2026
+ab2865e9f2d4b012de8bc6fb6de11a7c,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,John Metchie III,any_td,0.5,900,,BetRivers,,6,GNB,CAR,,2026
+ab2865e9f2d4b012de8bc6fb6de11a7c,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,Mitchell Evans,any_td,0.5,900,,FanDuel,,6,GNB,CAR,,2026
+ab2865e9f2d4b012de8bc6fb6de11a7c,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,Jonnu Smith,any_td,0.5,1100,,FanDuel,,6,GNB,CAR,,2026
+ab2865e9f2d4b012de8bc6fb6de11a7c,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,Brycen Tremayne,any_td,0.5,1200,,DraftKings,,6,GNB,CAR,,2026
+ab2865e9f2d4b012de8bc6fb6de11a7c,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,Ja'Tavion Sanders,any_td,0.5,1200,,DraftKings,,4,GNB,CAR,,2026
+ab2865e9f2d4b012de8bc6fb6de11a7c,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,Mark Redman,any_td,0.5,1600,,BetMGM,,6,GNB,CAR,,2026
+ab2865e9f2d4b012de8bc6fb6de11a7c,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,Trevor Etienne,any_td,0.5,1500,,FanDuel,,6,GNB,CAR,,2026
+ab2865e9f2d4b012de8bc6fb6de11a7c,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,AJ Dillon,any_td,0.5,1700,,FanDuel,,5,GNB,CAR,,2026
+ab2865e9f2d4b012de8bc6fb6de11a7c,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,Pierre Strong Jr.,any_td,0.5,1600,,DraftKings,,6,GNB,CAR,,2026
+ab2865e9f2d4b012de8bc6fb6de11a7c,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,Anthony Tyus III,any_td,0.5,1700,,FanDuel,,6,GNB,CAR,,2026
+ab2865e9f2d4b012de8bc6fb6de11a7c,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,Kaleb Johnson,any_td,0.5,1700,,DraftKings,,5,GNB,CAR,,2026
+ab2865e9f2d4b012de8bc6fb6de11a7c,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,David Moore,any_td,0.5,2500,,DraftKings,,6,GNB,CAR,,2026
+ab2865e9f2d4b012de8bc6fb6de11a7c,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,Josh Whyle,any_td,0.5,2800,,DraftKings,,6,GNB,CAR,,2026
+ab2865e9f2d4b012de8bc6fb6de11a7c,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,Coleman Owen,any_td,0.5,3500,,DraftKings,,5,GNB,CAR,,2026
+ab2865e9f2d4b012de8bc6fb6de11a7c,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,Feleipe Franks,any_td,0.5,5500,,DraftKings,,6,GNB,CAR,,2026
+ab2865e9f2d4b012de8bc6fb6de11a7c,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,Jordan Love,pass_td,1.5,-141,125,DraftKings,FanDuel,6,GNB,CAR,,2026
+ab2865e9f2d4b012de8bc6fb6de11a7c,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,Bryce Young,pass_td,1.5,105,-122,Bovada,FanDuel,6,GNB,CAR,,2026
+ab2865e9f2d4b012de8bc6fb6de11a7c,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,Jordan Love,pass_yds,261.5,-112,-112,DraftKings,DraftKings,2,GNB,CAR,,2026
+ab2865e9f2d4b012de8bc6fb6de11a7c,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,Bryce Young,pass_yds,252.5,-113,-112,FanDuel,BetOnline.ag,2,GNB,CAR,,2026
+ab2865e9f2d4b012de8bc6fb6de11a7c,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,Tetairoa McMillan,rec_yds,73.5,-110,-114,DraftKings,DraftKings,2,GNB,CAR,,2026
+ab2865e9f2d4b012de8bc6fb6de11a7c,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,Christian Watson,rec_yds,71.5,-113,-111,DraftKings,DraftKings,2,GNB,CAR,,2026
+ab2865e9f2d4b012de8bc6fb6de11a7c,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,Jalen Coker,rec_yds,62.5,-113,-112,FanDuel,BetOnline.ag,2,GNB,CAR,,2026
+ab2865e9f2d4b012de8bc6fb6de11a7c,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,Matthew Golden,rec_yds,58.5,-113,-111,DraftKings,DraftKings,5,GNB,CAR,,2026
+ab2865e9f2d4b012de8bc6fb6de11a7c,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,Tucker Kraft,rec_yds,44.5,-110,-114,DraftKings,DraftKings,2,GNB,CAR,,2026
+ab2865e9f2d4b012de8bc6fb6de11a7c,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,Savion Williams,rec_yds,23.5,-113,-112,FanDuel,BetRivers,3,GNB,CAR,,2026
+ab2865e9f2d4b012de8bc6fb6de11a7c,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,Darren Waller,rec_yds,20.5,-112,-109,BetRivers,DraftKings,5,GNB,CAR,,2026
+ab2865e9f2d4b012de8bc6fb6de11a7c,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,Josh Jacobs,rec_yds,18.5,-108,-110,DraftKings,BetOnline.ag,3,GNB,CAR,,2026
+ab2865e9f2d4b012de8bc6fb6de11a7c,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,Chuba Hubbard,rec_yds,16.5,-112,-108,BetRivers,DraftKings,5,GNB,CAR,,2026
+ab2865e9f2d4b012de8bc6fb6de11a7c,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,John Metchie III,rec_yds,15.5,-112,-109,BetRivers,DraftKings,4,GNB,CAR,,2026
+ab2865e9f2d4b012de8bc6fb6de11a7c,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,Tommy Tremble,rec_yds,15.5,-113,-112,FanDuel,BetOnline.ag,4,GNB,CAR,,2026
+ab2865e9f2d4b012de8bc6fb6de11a7c,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,Mitchell Evans,rec_yds,6.5,-120,100,DraftKings,FanDuel,3,GNB,CAR,,2026
+ab2865e9f2d4b012de8bc6fb6de11a7c,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,MarShawn Lloyd,rec_yds,5.5,-116,-108,DraftKings,DraftKings,3,GNB,CAR,,2026
+ab2865e9f2d4b012de8bc6fb6de11a7c,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,Bo Melton,rec_yds,4.5,-110,-113,BetOnline.ag,FanDuel,2,GNB,CAR,,2026
+ab2865e9f2d4b012de8bc6fb6de11a7c,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,Brycen Tremayne,rec_yds,5.5,-102,-110,FanDuel,BetMGM,3,GNB,CAR,,2026
+ab2865e9f2d4b012de8bc6fb6de11a7c,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,Jonnu Smith,rec_yds,2.5,-113,-111,DraftKings,DraftKings,2,GNB,CAR,,2026
+ab2865e9f2d4b012de8bc6fb6de11a7c,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,Tetairoa McMillan,rec,5.5,118,-133,BetRivers,DraftKings,6,GNB,CAR,,2026
+ab2865e9f2d4b012de8bc6fb6de11a7c,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,Jalen Coker,rec,4.5,-154,121,DraftKings,DraftKings,5,GNB,CAR,,2026
+ab2865e9f2d4b012de8bc6fb6de11a7c,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,Christian Watson,rec,4.5,-121,107,BetRivers,DraftKings,6,GNB,CAR,,2026
+ab2865e9f2d4b012de8bc6fb6de11a7c,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,Matthew Golden,rec,4.5,-105,-104,BetMGM,DraftKings,6,GNB,CAR,,2026
+ab2865e9f2d4b012de8bc6fb6de11a7c,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,Tucker Kraft,rec,4.5,116,-120,FanDuel,BetMGM,6,GNB,CAR,,2026
+ab2865e9f2d4b012de8bc6fb6de11a7c,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,Josh Jacobs,rec,2.5,-118,102,BetRivers,FanDuel,6,GNB,CAR,,2026
+ab2865e9f2d4b012de8bc6fb6de11a7c,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,Chuba Hubbard,rec,2.5,-111,-108,BetMGM,FanDuel,6,GNB,CAR,,2026
+ab2865e9f2d4b012de8bc6fb6de11a7c,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,Savion Williams,rec,2.5,-109,-105,DraftKings,BetMGM,6,GNB,CAR,,2026
+ab2865e9f2d4b012de8bc6fb6de11a7c,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,Darren Waller,rec,2.5,135,-170,BetMGM,Bovada,6,GNB,CAR,,2026
+ab2865e9f2d4b012de8bc6fb6de11a7c,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,Tommy Tremble,rec,2.5,136,-170,BetOnline.ag,Bovada,6,GNB,CAR,,2026
+ab2865e9f2d4b012de8bc6fb6de11a7c,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,John Metchie III,rec,1.5,-135,115,BetMGM,Bovada,6,GNB,CAR,,2026
+ab2865e9f2d4b012de8bc6fb6de11a7c,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,Mitchell Evans,rec,1.5,177,-227,DraftKings,BetOnline.ag,3,GNB,CAR,,2026
+ab2865e9f2d4b012de8bc6fb6de11a7c,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,MarShawn Lloyd,rec,1.5,182,-225,FanDuel,BetMGM,3,GNB,CAR,,2026
+ab2865e9f2d4b012de8bc6fb6de11a7c,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,Bo Melton,rec,0.5,-123,107,BetOnline.ag,DraftKings,3,GNB,CAR,,2026
+ab2865e9f2d4b012de8bc6fb6de11a7c,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,Brycen Tremayne,rec,0.5,-130,120,FanDuel,BetMGM,4,GNB,CAR,,2026
+ab2865e9f2d4b012de8bc6fb6de11a7c,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,Jonnu Smith,rec,0.5,-124,-102,DraftKings,FanDuel,3,GNB,CAR,,2026
+ab2865e9f2d4b012de8bc6fb6de11a7c,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,Chuba Hubbard,rush_yds,67.5,-113,-110,FanDuel,DraftKings,4,GNB,CAR,,2026
+ab2865e9f2d4b012de8bc6fb6de11a7c,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,Josh Jacobs,rush_yds,59.5,-113,-110,FanDuel,DraftKings,4,GNB,CAR,,2026
+ab2865e9f2d4b012de8bc6fb6de11a7c,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,MarShawn Lloyd,rush_yds,17.5,-109,-115,DraftKings,DraftKings,4,GNB,CAR,,2026
+ab2865e9f2d4b012de8bc6fb6de11a7c,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,Bryce Young,rush_yds,9.5,-111,-112,BetMGM,DraftKings,4,GNB,CAR,,2026
+ab2865e9f2d4b012de8bc6fb6de11a7c,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,Trevor Etienne,rush_yds,8.5,-113,-112,FanDuel,BetOnline.ag,3,GNB,CAR,,2026
+ab2865e9f2d4b012de8bc6fb6de11a7c,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,Jordan Love,rush_yds,5.5,-106,-115,DraftKings,FanDuel,4,GNB,CAR,,2026
+ab2865e9f2d4b012de8bc6fb6de11a7c,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,Savion Williams,rush_yds,3.5,-102,-110,FanDuel,BetMGM,2,GNB,CAR,,2026
+ab2865e9f2d4b012de8bc6fb6de11a7c,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,Green Bay Packers Defense,any_td,0.5,750,,FanDuel,,1,GNB,CAR,,2026
+ab2865e9f2d4b012de8bc6fb6de11a7c,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,Carolina Panthers Defense,any_td,0.5,750,,FanDuel,,1,GNB,CAR,,2026
+ab2865e9f2d4b012de8bc6fb6de11a7c,2026-10-30T00:15:00Z,Green Bay Packers,Carolina Panthers,J. Michael Sturdivant,any_td,0.5,2200,,FanDuel,,3,GNB,CAR,,2026
