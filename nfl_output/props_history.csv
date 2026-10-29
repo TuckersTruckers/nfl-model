@@ -2300,28 +2300,28 @@ season,week,event,home_code,away_code,player,stat,line,over_odds,under_odds,book
 2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,AJ Dillon,any_td,0.5,1700,,FanDuel,
 2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,Anthony Tyus III,any_td,0.5,1700,,FanDuel,
 2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,Bo Melton,any_td,0.5,1000,,BetMGM,
-2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,Bo Melton,rec,0.5,-123,107,BetOnline.ag,DraftKings
-2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,Bo Melton,rec_yds,4.5,-110,-113,BetOnline.ag,FanDuel
+2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,Bo Melton,rec,0.5,-123,107.0,BetOnline.ag,DraftKings
+2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,Bo Melton,rec_yds,4.5,-110,-113.0,BetOnline.ag,FanDuel
 2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,Bryce Young,any_td,0.5,775,,BetMGM,
-2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,Bryce Young,pass_td,1.5,105,-122,Bovada,FanDuel
-2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,Bryce Young,pass_yds,252.5,-113,-112,FanDuel,BetOnline.ag
-2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,Bryce Young,rush_yds,9.5,-111,-112,BetMGM,DraftKings
+2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,Bryce Young,pass_td,1.5,105,-122.0,Bovada,FanDuel
+2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,Bryce Young,pass_yds,252.5,-113,-112.0,FanDuel,BetOnline.ag
+2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,Bryce Young,rush_yds,9.5,-111,-112.0,BetMGM,DraftKings
 2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,Brycen Tremayne,any_td,0.5,1200,,DraftKings,
-2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,Brycen Tremayne,rec,0.5,-130,120,FanDuel,BetMGM
-2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,Brycen Tremayne,rec_yds,5.5,-102,-110,FanDuel,BetMGM
+2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,Brycen Tremayne,rec,0.5,-130,120.0,FanDuel,BetMGM
+2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,Brycen Tremayne,rec_yds,5.5,-102,-110.0,FanDuel,BetMGM
 2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,Carolina Panthers D/ST,any_td,0.5,600,,BetMGM,
 2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,Carolina Panthers Defense,any_td,0.5,750,,FanDuel,
 2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,Christian Watson,any_td,0.5,145,,FanDuel,
-2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,Christian Watson,rec,4.5,-121,107,BetRivers,DraftKings
-2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,Christian Watson,rec_yds,71.5,-113,-111,DraftKings,DraftKings
+2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,Christian Watson,rec,4.5,-121,107.0,BetRivers,DraftKings
+2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,Christian Watson,rec_yds,71.5,-113,-111.0,DraftKings,DraftKings
 2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,Chuba Hubbard,any_td,0.5,-115,,FanDuel,
-2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,Chuba Hubbard,rec,2.5,-111,-108,BetMGM,FanDuel
-2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,Chuba Hubbard,rec_yds,16.5,-112,-108,BetRivers,DraftKings
-2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,Chuba Hubbard,rush_yds,67.5,-113,-110,FanDuel,DraftKings
+2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,Chuba Hubbard,rec,2.5,-111,-108.0,BetMGM,FanDuel
+2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,Chuba Hubbard,rec_yds,16.5,-112,-108.0,BetRivers,DraftKings
+2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,Chuba Hubbard,rush_yds,67.5,-113,-110.0,FanDuel,DraftKings
 2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,Coleman Owen,any_td,0.5,3500,,DraftKings,
 2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,Darren Waller,any_td,0.5,380,,BetMGM,
-2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,Darren Waller,rec,2.5,135,-170,BetMGM,Bovada
-2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,Darren Waller,rec_yds,20.5,-112,-109,BetRivers,DraftKings
+2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,Darren Waller,rec,2.5,135,-170.0,BetMGM,Bovada
+2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,Darren Waller,rec_yds,20.5,-112,-109.0,BetRivers,DraftKings
 2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,David Moore,any_td,0.5,2500,,DraftKings,
 2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,Feleipe Franks,any_td,0.5,5500,,DraftKings,
 2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,Green Bay Packers D/ST,any_td,0.5,500,,BetMGM,
@@ -2329,51 +2329,51 @@ season,week,event,home_code,away_code,player,stat,line,over_odds,under_odds,book
 2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,J. Michael Sturdivant,any_td,0.5,2200,,FanDuel,
 2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,Ja'Tavion Sanders,any_td,0.5,1200,,DraftKings,
 2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,Jalen Coker,any_td,0.5,215,,BetRivers,
-2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,Jalen Coker,rec,4.5,-154,121,DraftKings,DraftKings
-2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,Jalen Coker,rec_yds,62.5,-113,-112,FanDuel,BetOnline.ag
+2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,Jalen Coker,rec,4.5,-154,121.0,DraftKings,DraftKings
+2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,Jalen Coker,rec_yds,62.5,-113,-112.0,FanDuel,BetOnline.ag
 2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,John Metchie III,any_td,0.5,900,,BetRivers,
-2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,John Metchie III,rec,1.5,-135,115,BetMGM,Bovada
-2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,John Metchie III,rec_yds,15.5,-112,-109,BetRivers,DraftKings
+2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,John Metchie III,rec,1.5,-135,115.0,BetMGM,Bovada
+2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,John Metchie III,rec_yds,15.5,-112,-109.0,BetRivers,DraftKings
 2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,Jonnu Smith,any_td,0.5,1100,,FanDuel,
-2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,Jonnu Smith,rec,0.5,-124,-102,DraftKings,FanDuel
-2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,Jonnu Smith,rec_yds,2.5,-113,-111,DraftKings,DraftKings
+2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,Jonnu Smith,rec,0.5,-124,-102.0,DraftKings,FanDuel
+2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,Jonnu Smith,rec_yds,2.5,-113,-111.0,DraftKings,DraftKings
 2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,Jordan Love,any_td,0.5,800,,BetRivers,
-2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,Jordan Love,pass_td,1.5,-141,125,DraftKings,FanDuel
-2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,Jordan Love,pass_yds,261.5,-112,-112,DraftKings,DraftKings
-2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,Jordan Love,rush_yds,5.5,-106,-115,DraftKings,FanDuel
+2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,Jordan Love,pass_td,1.5,-141,125.0,DraftKings,FanDuel
+2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,Jordan Love,pass_yds,261.5,-112,-112.0,DraftKings,DraftKings
+2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,Jordan Love,rush_yds,5.5,-106,-115.0,DraftKings,FanDuel
 2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,Josh Jacobs,any_td,0.5,-137,,BetRivers,
-2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,Josh Jacobs,rec,2.5,-118,102,BetRivers,FanDuel
-2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,Josh Jacobs,rec_yds,18.5,-108,-110,DraftKings,BetOnline.ag
-2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,Josh Jacobs,rush_yds,59.5,-113,-110,FanDuel,DraftKings
+2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,Josh Jacobs,rec,2.5,-118,102.0,BetRivers,FanDuel
+2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,Josh Jacobs,rec_yds,18.5,-108,-110.0,DraftKings,BetOnline.ag
+2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,Josh Jacobs,rush_yds,59.5,-113,-110.0,FanDuel,DraftKings
 2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,Josh Whyle,any_td,0.5,2800,,DraftKings,
 2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,Kaleb Johnson,any_td,0.5,1700,,DraftKings,
 2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,MarShawn Lloyd,any_td,0.5,390,,DraftKings,
-2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,MarShawn Lloyd,rec,1.5,182,-225,FanDuel,BetMGM
-2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,MarShawn Lloyd,rec_yds,5.5,-116,-108,DraftKings,DraftKings
-2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,MarShawn Lloyd,rush_yds,17.5,-109,-115,DraftKings,DraftKings
+2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,MarShawn Lloyd,rec,1.5,182,-225.0,FanDuel,BetMGM
+2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,MarShawn Lloyd,rec_yds,5.5,-116,-108.0,DraftKings,DraftKings
+2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,MarShawn Lloyd,rush_yds,17.5,-109,-115.0,DraftKings,DraftKings
 2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,Mark Redman,any_td,0.5,1600,,BetMGM,
 2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,Matthew Golden,any_td,0.5,170,,BetRivers,
-2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,Matthew Golden,rec,4.5,-105,-104,BetMGM,DraftKings
-2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,Matthew Golden,rec_yds,58.5,-113,-111,DraftKings,DraftKings
+2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,Matthew Golden,rec,4.5,-105,-104.0,BetMGM,DraftKings
+2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,Matthew Golden,rec_yds,58.5,-113,-111.0,DraftKings,DraftKings
 2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,Mitchell Evans,any_td,0.5,900,,FanDuel,
-2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,Mitchell Evans,rec,1.5,177,-227,DraftKings,BetOnline.ag
-2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,Mitchell Evans,rec_yds,6.5,-120,100,DraftKings,FanDuel
+2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,Mitchell Evans,rec,1.5,177,-227.0,DraftKings,BetOnline.ag
+2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,Mitchell Evans,rec_yds,6.5,-120,100.0,DraftKings,FanDuel
 2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,Pierre Strong Jr.,any_td,0.5,1600,,DraftKings,
 2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,Savion Williams,any_td,0.5,390,,FanDuel,
-2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,Savion Williams,rec,2.5,-109,-105,DraftKings,BetMGM
-2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,Savion Williams,rec_yds,23.5,-113,-112,FanDuel,BetRivers
-2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,Savion Williams,rush_yds,3.5,-102,-110,FanDuel,BetMGM
+2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,Savion Williams,rec,2.5,-109,-105.0,DraftKings,BetMGM
+2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,Savion Williams,rec_yds,23.5,-113,-112.0,FanDuel,BetRivers
+2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,Savion Williams,rush_yds,3.5,-102,-110.0,FanDuel,BetMGM
 2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,Tetairoa McMillan,any_td,0.5,185,,FanDuel,
-2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,Tetairoa McMillan,rec,5.5,118,-133,BetRivers,DraftKings
-2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,Tetairoa McMillan,rec_yds,73.5,-110,-114,DraftKings,DraftKings
+2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,Tetairoa McMillan,rec,5.5,118,-133.0,BetRivers,DraftKings
+2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,Tetairoa McMillan,rec_yds,73.5,-110,-114.0,DraftKings,DraftKings
 2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,Tommy Tremble,any_td,0.5,500,,BetMGM,
-2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,Tommy Tremble,rec,2.5,136,-170,BetOnline.ag,Bovada
-2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,Tommy Tremble,rec_yds,15.5,-113,-112,FanDuel,BetOnline.ag
+2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,Tommy Tremble,rec,2.5,136,-170.0,BetOnline.ag,Bovada
+2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,Tommy Tremble,rec_yds,15.5,-113,-112.0,FanDuel,BetOnline.ag
 2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,Trevor Etienne,any_td,0.5,1500,,FanDuel,
-2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,Trevor Etienne,rush_yds,8.5,-113,-112,FanDuel,BetOnline.ag
+2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,Trevor Etienne,rush_yds,8.5,-113,-112.0,FanDuel,BetOnline.ag
 2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,Tucker Kraft,any_td,0.5,195,,BetMGM,
-2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,Tucker Kraft,rec,4.5,116,-120,FanDuel,BetMGM
-2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,Tucker Kraft,rec_yds,44.5,-110,-114,DraftKings,DraftKings
+2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,Tucker Kraft,rec,4.5,116,-120.0,FanDuel,BetMGM
+2026,,ab2865e9f2d4b012de8bc6fb6de11a7c,GNB,CAR,Tucker Kraft,rec_yds,44.5,-110,-114.0,DraftKings,DraftKings
 2026,,b1be064fb52a198a62109c279e7ab24c,ATL,SFO,Atlanta Falcons D/ST,any_td,0.5,600,,DraftKings,
 2026,,b1be064fb52a198a62109c279e7ab24c,ATL,SFO,Atlanta Falcons Defense,any_td,0.5,700,,FanDuel,
 2026,,b1be064fb52a198a62109c279e7ab24c,ATL,SFO,Austin Hooper,any_td,0.5,1200,,FanDuel,
