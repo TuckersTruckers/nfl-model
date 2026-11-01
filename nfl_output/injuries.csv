@@ -29,6 +29,9 @@ week,team,player,pos,status,injury
 8,CAR,Jaelan Phillips,LB,Out,Hamstring
 8,CAR,Akayleb Evans,CB,Out,Triceps
 8,CAR,Torricelli Simpkins III,G,Out,Ankle
+8,CHI,D'Marco Jackson,LB,Questionable,Ankle
+8,CHI,Kyle Monangai,RB,Out,Thumb
+8,CHI,Malik Muhammad,CB,Questionable,Toe
 8,CIN,Joe Giles-Harris,LB,Questionable,Calf
 8,CIN,Kyle Dugger,S,Out,Quadricep
 8,CLE,Tytus Howard,T,Questionable,Concussion
@@ -105,6 +108,14 @@ week,team,player,pos,status,injury
 8,PIT,Brandin Echols,CB,Out,Hamstring
 8,PIT,Ben Skowronek,WR,Questionable,Calf
 8,PIT,Doneiko Slaughter,CB,Out,Hamstring
+8,SEA,Uchenna Nwosu,LB,Doubtful,Ankle
+8,SEA,Drew Lock,QB,Questionable,Elbow
+8,SEA,Rashid Shaheed,WR,Out,Knee
+8,SEA,Velus Jones Jr.,RB,Out,Hamstring
+8,SEA,Charles Cross,T,Out,Ankle
+8,SEA,Brandon Pili,DT,Questionable,Back
+8,SEA,Patrick O'Connell,LB,Questionable,Toe
+8,SEA,Anthony Bradford,G,Questionable,Knee
 8,TAM,Kenny Gainwell,RB,Questionable,Hip
 8,TAM,Luke Goedeke,T,Questionable,Calf
 8,TAM,Emeka Egbuka,WR,Out,Foot
