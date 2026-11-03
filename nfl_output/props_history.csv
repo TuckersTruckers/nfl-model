@@ -1513,73 +1513,73 @@ season,week,event,home_code,away_code,player,stat,line,over_odds,under_odds,book
 2026,8.0,52e7ee9c42525e6deec02da32dc2fad8,DET,MIN,Tay Martin,any_td,0.5,4000,,BetMGM,
 2026,8.0,52e7ee9c42525e6deec02da32dc2fad8,DET,MIN,Tyler Conklin,any_td,0.5,2200,,DraftKings,
 2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,AJ Barner,any_td,0.5,265,,BetRivers,
-2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,AJ Barner,rec,3.5,130,-150,BetRivers,Bovada
-2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,AJ Barner,rec_yds,30.5,-114,-110,BetRivers,Bovada
+2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,AJ Barner,rec,3.5,130,-150.0,BetRivers,Bovada
+2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,AJ Barner,rec_yds,30.5,-114,-110.0,BetRivers,Bovada
 2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,Brady Russell,any_td,0.5,3500,,DraftKings,
 2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,Caleb Williams,any_td,0.5,480,,FanDuel,
-2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,Caleb Williams,pass_td,1.5,134,-164,FanDuel,BetOnline.ag
-2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,Caleb Williams,pass_yds,229.5,-111,-113,DraftKings,DraftKings
-2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,Caleb Williams,rush_yds,25.5,-110,-115,DraftKings,DraftKings
+2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,Caleb Williams,pass_td,1.5,134,-164.0,FanDuel,BetOnline.ag
+2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,Caleb Williams,pass_yds,229.5,-111,-113.0,DraftKings,DraftKings
+2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,Caleb Williams,rush_yds,25.5,-110,-115.0,DraftKings,DraftKings
 2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,Chicago Bears D/ST,any_td,0.5,600,,DraftKings,
 2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,Chicago Bears Defense,any_td,0.5,700,,FanDuel,
 2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,Colston Loveland,any_td,0.5,230,,DraftKings,
-2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,Colston Loveland,rec,4.5,118,-138,BetOnline.ag,DraftKings
-2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,Colston Loveland,rec_yds,43.5,-111,-113,DraftKings,DraftKings
+2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,Colston Loveland,rec,4.5,118,-138.0,BetOnline.ag,DraftKings
+2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,Colston Loveland,rec_yds,43.5,-111,-113.0,DraftKings,DraftKings
 2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,Cooper Kupp,any_td,0.5,330,,Bovada,
-2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,Cooper Kupp,rec,2.5,-139,123,BetRivers,DraftKings
-2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,Cooper Kupp,rec_yds,29.5,-113,-111,FanDuel,BetOnline.ag
+2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,Cooper Kupp,rec,2.5,-139,123.0,BetRivers,DraftKings
+2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,Cooper Kupp,rec_yds,29.5,-113,-111.0,FanDuel,BetOnline.ag
 2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,D'Andre Swift,any_td,0.5,-110,,DraftKings,
-2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,D'Andre Swift,rec,3.5,132,-148,DraftKings,FanDuel
-2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,D'Andre Swift,rec_yds,20.5,-111,-113,DraftKings,DraftKings
-2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,D'Andre Swift,rush_yds,59.5,-113,-111,DraftKings,DraftKings
+2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,D'Andre Swift,rec,3.5,132,-148.0,DraftKings,FanDuel
+2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,D'Andre Swift,rec_yds,20.5,-111,-113.0,DraftKings,DraftKings
+2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,D'Andre Swift,rush_yds,59.5,-113,-111.0,DraftKings,DraftKings
 2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,Emanuel Wilson,any_td,0.5,350,,DraftKings,
-2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,Emanuel Wilson,rush_yds,25.5,-109,-115,DraftKings,DraftKings
+2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,Emanuel Wilson,rush_yds,25.5,-109,-115.0,DraftKings,DraftKings
 2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,Eric Saubert,any_td,0.5,1400,,Bovada,
-2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,Eric Saubert,rec_yds,4.5,136,-174,FanDuel,FanDuel
+2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,Eric Saubert,rec_yds,4.5,136,-174.0,FanDuel,FanDuel
 2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,George Holani,any_td,0.5,650,,BetRivers,
 2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,Irv Charles,any_td,0.5,3000,,DraftKings,
 2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,Jadarian Price,any_td,0.5,370,,DraftKings,
-2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,Jadarian Price,rec,1.5,-115,-112,BetOnline.ag,BetOnline.ag
-2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,Jadarian Price,rec_yds,9.5,-115,-112,BetOnline.ag,BetOnline.ag
-2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,Jadarian Price,rush_yds,27.5,-115,-109,DraftKings,DraftKings
+2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,Jadarian Price,rec,1.5,-115,-112.0,BetOnline.ag,BetOnline.ag
+2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,Jadarian Price,rec_yds,9.5,-115,-112.0,BetOnline.ag,BetOnline.ag
+2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,Jadarian Price,rush_yds,27.5,-115,-109.0,DraftKings,DraftKings
 2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,Jahdae Walker,any_td,0.5,3000,,BetRivers,
 2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,Jaxon Smith-Njigba,any_td,0.5,-105,,FanDuel,
-2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,Jaxon Smith-Njigba,rec,7.5,110,-135,DraftKings,BetMGM
-2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,Jaxon Smith-Njigba,rec_yds,99.5,-113,-112,FanDuel,BetOnline.ag
+2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,Jaxon Smith-Njigba,rec,7.5,110,-135.0,DraftKings,BetMGM
+2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,Jaxon Smith-Njigba,rec_yds,99.5,-113,-112.0,FanDuel,BetOnline.ag
 2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,Kalif Raymond,any_td,0.5,575,,BetMGM,
-2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,Kalif Raymond,rec,2.5,142,-175,DraftKings,BetOnline.ag
-2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,Kalif Raymond,rec_yds,17.5,-112,-110,DraftKings,BetOnline.ag
+2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,Kalif Raymond,rec,2.5,142,-175.0,DraftKings,BetOnline.ag
+2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,Kalif Raymond,rec_yds,17.5,-112,-110.0,DraftKings,BetOnline.ag
 2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,Kyle Monangai,any_td,0.5,-125,,BetOnline.ag,
 2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,Luther Burden III,any_td,0.5,235,,DraftKings,
-2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,Luther Burden III,rec,4.5,123,-140,DraftKings,BetMGM
-2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,Luther Burden III,rec_yds,53.5,-114,-108,DraftKings,BetOnline.ag
-2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,Luther Burden III,rush_yds,3.5,102,-112,FanDuel,DraftKings
+2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,Luther Burden III,rec,4.5,123,-140.0,DraftKings,BetMGM
+2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,Luther Burden III,rec_yds,53.5,-114,-108.0,DraftKings,BetOnline.ag
+2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,Luther Burden III,rush_yds,3.5,102,-112.0,FanDuel,DraftKings
 2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,Nick Kallerup,any_td,0.5,3000,,DraftKings,
 2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,Rashid Shaheed,any_td,0.5,350,,BetOnline.ag,
 2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,Rome Odunze,any_td,0.5,275,,Bovada,
-2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,Rome Odunze,rec,3.5,135,-170,Bovada,DraftKings
-2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,Rome Odunze,rec_yds,40.5,-110,-114,DraftKings,DraftKings
+2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,Rome Odunze,rec,3.5,135,-170.0,Bovada,DraftKings
+2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,Rome Odunze,rec_yds,40.5,-110,-114.0,DraftKings,DraftKings
 2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,Roschon Johnson,any_td,0.5,380,,DraftKings,
-2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,Roschon Johnson,rec,0.5,-173,152,DraftKings,FanDuel
-2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,Roschon Johnson,rec_yds,3.5,-102,-110,FanDuel,DraftKings
-2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,Roschon Johnson,rush_yds,12.5,-110,-113,BetOnline.ag,DraftKings
+2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,Roschon Johnson,rec,0.5,-173,152.0,DraftKings,FanDuel
+2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,Roschon Johnson,rec_yds,3.5,-102,-110.0,FanDuel,DraftKings
+2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,Roschon Johnson,rush_yds,12.5,-110,-113.0,BetOnline.ag,DraftKings
 2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,Sam Darnold,any_td,0.5,700,,DraftKings,
-2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,Sam Darnold,pass_td,1.5,-108,-109,BetRivers,DraftKings
-2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,Sam Darnold,pass_yds,237.5,-113,-111,DraftKings,DraftKings
-2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,Sam Darnold,rush_yds,4.5,-112,-112,DraftKings,DraftKings
+2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,Sam Darnold,pass_td,1.5,-108,-109.0,BetRivers,DraftKings
+2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,Sam Darnold,pass_yds,237.5,-113,-111.0,DraftKings,DraftKings
+2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,Sam Darnold,rush_yds,4.5,-112,-112.0,DraftKings,DraftKings
 2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,Sam Roush,any_td,0.5,800,,BetRivers,
-2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,Sam Roush,rec,1.5,124,-143,FanDuel,DraftKings
-2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,Sam Roush,rec_yds,9.5,-112,-112,DraftKings,DraftKings
+2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,Sam Roush,rec,1.5,124,-143.0,FanDuel,DraftKings
+2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,Sam Roush,rec_yds,9.5,-112,-112.0,DraftKings,DraftKings
 2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,Seattle Seahawks D/ST,any_td,0.5,550,,DraftKings,
 2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,Seattle Seahawks Defense,any_td,0.5,700,,FanDuel,
 2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,Tory Horton,any_td,0.5,450,,DraftKings,
-2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,Tory Horton,rec,1.5,-165,142,BetMGM,FanDuel
-2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,Tory Horton,rec_yds,22.5,-111,-113,DraftKings,DraftKings
+2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,Tory Horton,rec,1.5,-165,142.0,BetMGM,FanDuel
+2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,Tory Horton,rec_yds,22.5,-111,-113.0,DraftKings,DraftKings
 2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,Velus Jones Jr.,any_td,0.5,600,,BetOnline.ag,
 2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,Zach Charbonnet,any_td,0.5,140,,DraftKings,
-2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,Zach Charbonnet,rec,1.5,150,-168,BetRivers,DraftKings
-2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,Zach Charbonnet,rec_yds,7.5,-109,-112,DraftKings,BetRivers
-2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,Zach Charbonnet,rush_yds,28.5,-108,-111,DraftKings,BetMGM
+2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,Zach Charbonnet,rec,1.5,150,-168.0,BetRivers,DraftKings
+2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,Zach Charbonnet,rec_yds,7.5,-109,-112.0,DraftKings,BetRivers
+2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,Zach Charbonnet,rush_yds,28.5,-108,-111.0,DraftKings,BetMGM
 2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,Zavier Scott,any_td,0.5,2800,,DraftKings,
 2026,8.0,7d664fbcd39350e559d83c0068ba7169,SEA,CHI,Zavion Thomas,any_td,0.5,1350,,BetMGM,
 2026,8.0,9255ca8f32aea590d00aa57de79f6bb6,DAL,ARI,Arizona Cardinals D/ST,any_td,0.5,650,,DraftKings,
