@@ -37,6 +37,9 @@ PROP_MARKETS = {"player_pass_yds": "pass_yds", "player_pass_tds": "pass_td", "pl
                 "player_reception_yds": "rec_yds", "player_receptions": "rec", "player_anytime_td": "any_td"}
 SAFE_MARKETS = ["player_pass_yds", "player_pass_tds", "player_rush_yds"]   # used if the full list is rejected
 INJ_URL = "https://github.com/nflverse/nflverse-data/releases/download/injuries/injuries_{s}.csv"
+ROSTER_URLS = ["https://github.com/nflverse/nflverse-data/releases/download/weekly_rosters/roster_weekly_{s}.csv",
+               "https://github.com/nflverse/nflverse-data/releases/download/weekly_rosters/roster_weekly_{s}.csv.gz"]
+RESERVE_CODES = {"RES": "Injured reserve", "PUP": "PUP list", "NFI": "Non-football injury", "SUS": "Suspended", "EXE": "Exempt list"}
 ROUND = {"WC": "wildcard", "DIV": "division", "CON": "confchamp", "SB": "superbowl"}
 
 
@@ -340,6 +343,41 @@ def build_injuries(season):
     return out[out.team.isin(TEAMS)].drop_duplicates(["team", "player"])
 
 
+def build_reserve(season):
+    """Players on injured reserve (or a similar list) from the latest weekly roster. They drop OFF the weekly injury report,
+    so without this a player like a QB on IR looks healthy. Returns None if nobody is flagged."""
+    df = None
+    for u in ROSTER_URLS:
+        try:
+            df = pd.read_csv(u.format(s=season), low_memory=False)
+            break
+        except Exception:
+            continue
+    if df is None:
+        raise ValueError("weekly roster file not available")
+    if not {"team", "week", "full_name", "position", "status"} <= set(df.columns):
+        raise ValueError("roster file format not recognised")
+    df = df[df.week == df.week.max()]
+    st = df.status.astype(str).str.upper().str.strip()
+    df, st = df[st.isin(RESERVE_CODES)], st[st.isin(RESERVE_CODES)]
+    if df.empty:
+        return None
+    out = pd.DataFrame({"week": df.week.astype(int), "team": df.team.map(code), "player": df.full_name.astype(str).str.replace(",", "", regex=False),
+                        "pos": df.position, "status": "Out", "injury": st.map(RESERVE_CODES)})
+    return out[out.team.isin(TEAMS)].drop_duplicates(["team", "player"])
+
+
+def add_reserve(inj, res):
+    """Add reserve-list players to the injury report (never overriding a player who is already on it)."""
+    if res is None or not len(res):
+        return inj
+    if inj is None or not len(inj):
+        return res
+    have = set(zip(inj.team, inj.player))
+    extra = res[[(t, p) not in have for t, p in zip(res.team, res.player)]].assign(week=int(inj.week.max()))
+    return pd.concat([inj, extra], ignore_index=True)
+
+
 def history_bundle(g_raw, season, qs):
     ts = download(TEAM_URLS, f"{season} team weekly stats", season)
     pl = download(PLAYER_URLS, f"{season} player weekly stats", season)
@@ -613,9 +651,19 @@ def main():
         write_csv(build_player_games(pl, a.season), a.out, "player_games.csv")
     except (Exception, SystemExit) as e:
         print("  player_games.csv skipped:", str(e).strip().splitlines()[0][:110] if str(e).strip() else type(e).__name__)
+    inj, res = None, None
     try:
         inj = build_injuries(a.season)
-        if inj is not None:
+    except (Exception, SystemExit) as e:
+        print("  injury report skipped:", str(e).strip().splitlines()[0][:110] if str(e).strip() else type(e).__name__)
+    try:
+        res = build_reserve(a.season)
+        print("  injured reserve / unavailable lists:", "none flagged" if res is None else f"{len(res)} players flagged Out (e.g. {', '.join(res.player.head(3))})")
+    except (Exception, SystemExit) as e:
+        print("  injured-reserve list skipped:", str(e).strip().splitlines()[0][:110] if str(e).strip() else type(e).__name__)
+    try:
+        inj = add_reserve(inj, res)
+        if inj is not None and len(inj):
             write_csv(inj, a.out, "injuries.csv")
         else:
             print("  injuries.csv skipped: no injury report posted yet")
