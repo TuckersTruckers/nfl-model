@@ -1,369 +1,303 @@
 week,team,player,pos,status,injury
-8,ARI,Hjalte Froholdt,C,Questionable,Knee
-8,ARI,Andrew Wingard,S,Questionable,Knee
-8,ARI,Jon Gaines II,G,Out,Ankle
-8,ARI,Max Melton,CB,Questionable,Knee
-8,ARI,Walter Nolen,DT,Out,Ankle
-8,ATL,Samson Ebukam,DE,Questionable,Hamstring
-8,ATL,Olamide Zaccheaus,WR,Questionable,Shoulder
-8,ATL,Charles Snowden,DE,Questionable,Back
-8,ATL,Divine Deablo,LB,Questionable,Forearm
-8,ATL,Brian Robinson,RB,Out,Hamstring
-8,ATL,Billy Bowman Jr.,CB,Questionable,Hamstring
-8,ATL,Beaux Collins,WR,Questionable,Hip
-8,ATL,Cameron Williams,T,Questionable,Ankle
-8,ATL,Avieon Terrell,CB,Questionable,Illness
-8,BAL,Jaylinn Hawkins,S,Out,Knee
-8,BAL,T.J. Tampa,CB,Questionable,Knee
-8,BAL,Olaivavega Ioane,G,Out,Knee
-8,BAL,Adam Randall,RB,Questionable,Neck
-8,BUF,DJ Moore,WR,Questionable,Shoulder
-8,BUF,Greg Gaines,DT,Questionable,Calf
-8,BUF,Spencer Brown,T,Questionable,Back
-8,BUF,Dee Alford,CB,Questionable,Ankle
-8,BUF,Tyrell Shavers,WR,Out,Knee
-8,BUF,Dalton Kincaid,TE,Questionable,Chest
-8,BUF,TJ Parker,LB,Questionable,Knee
-8,CAR,Damien Lewis,G,Out,Knee
-8,CAR,Bobby Brown III,DT,Questionable,Hand
-8,CAR,Jaelan Phillips,LB,Out,Hamstring
-8,CAR,Akayleb Evans,CB,Out,Triceps
-8,CAR,Torricelli Simpkins III,G,Out,Ankle
-8,CHI,D'Marco Jackson,LB,Questionable,Ankle
-8,CHI,Kyle Monangai,RB,Out,Thumb
-8,CHI,Malik Muhammad,CB,Questionable,Toe
-8,CIN,Joe Giles-Harris,LB,Questionable,Calf
-8,CIN,Kyle Dugger,S,Out,Quadricep
-8,CLE,Tytus Howard,T,Questionable,Concussion
-8,CLE,Daniel Thomas,S,Questionable,Ankle
-8,CLE,Myles Harden,CB,Questionable,Hamstring
-8,DAL,Jonathan Bullard,DT,Questionable,Calf
-8,DAL,Kenny Clark,DT,Questionable,Back
-8,DAL,P.J. Locke,S,Questionable,Foot
-8,DAL,George Pickens,WR,Questionable,Shoulder
-8,DAL,KaVontae Turpin,WR,Out,Ribs
-8,DAL,Luke Schoonmaker,TE,Questionable,Groin
-8,DAL,Dee Winters,LB,Out,Calf
-8,DAL,Marist Liufau,LB,Questionable,Forearm
-8,DEN,Garett Bolles,T,Questionable,Hip
-8,DEN,Zach Allen,DE,Questionable,Hamstring
-8,DEN,Brandon Jones,S,Questionable,Hamstring
-8,DEN,Talanoa Hufanga,S,Out,Ankle
-8,DEN,Jaylen Waddle,WR,Questionable,Chest
-8,DEN,RJ Harvey,RB,Out,Knee
-8,DET,Kerby Joseph,S,Out,Knee
-8,DET,Roger McCreary,CB,Questionable,Foot
-8,GNB,Zaire Franklin,LB,Out,Shin
-8,GNB,Devonte Wyatt,DT,Questionable,Ankle
-8,GNB,Sean Rhyan,C,Out,Ankle
-8,GNB,Brenton Cox Jr.,LB,Questionable,Quadricep
-8,GNB,Travis Glover,G,Out,Knee
-8,GNB,Matthew Golden,WR,Questionable,Shoulder
-8,GNB,Anthony Campbell,DT,Questionable,Ankle
-8,IND,Andrew Ogletree,TE,Questionable,Knee
-8,IND,Anthony Gould,WR,Out,Concussion
-8,IND,Justin Walley,CB,Out,Knee
-8,IND,Bryce Boettcher,LB,Questionable,Groin
-8,JAX,Jakobi Meyers,WR,Questionable,Hamstring
-8,JAX,Antonio Johnson,S,Out,Ankle
-8,KAN,L'Jarius Sneed,CB,Questionable,Knee
-8,KAN,Omarr Norman-Lott,DT,Out,Knee
-8,KAN,R Mason Thomas,DE,Questionable,Not injury related - personal matter
-8,KAN,Mansoor Delane,CB,Questionable,Shoulder
-8,LAR,Joe Cardona,LS,Doubtful,Ankle
-8,LAR,Coleman Shelton,C,Questionable,Hip
-8,LAR,Colby Parkinson,TE,Questionable,Rib
-8,LAR,Trent McDuffie,CB,Questionable,Groin
-8,LAR,Jordan Whittington,WR,Questionable,Back
-8,LAC,Donte Jackson,CB,Questionable,Hamstring
-8,LAC,Derwin James,S,Out,Hamstring
-8,LAC,Kayode Awosika,G,Out,Fibula
-8,LAC,Deane Leonard,CB,Out,Concussion
-8,LAC,Rodney Shelley,CB,Questionable,Hamstring
-8,LAC,Brenen Thompson,WR,Out,Quadricep
-8,LVR,Patrick Johnson,DE,Out,Stinger
-8,LVR,Jackson Powers-Johnson,G,Questionable,Back
-8,LVR,Carter Runyon,TE,Out,Foot
-8,LVR,Jack Bech,WR,Questionable,Forearm
-8,MIA,Reese Taylor,CB,Questionable,Quadricep
-8,MIA,Julius Brents,CB,Questionable,Neck
-8,MIA,Kadyn Proctor,T,Out,Concussion
-8,MIN,Jay Ward,S,Questionable,Knee
-8,NWE,Carlton Davis III,CB,Questionable,Neck
-8,NWE,A.J. Brown,WR,Questionable,Ankle
-8,NWE,Christian Elliss,LB,Questionable,Chest
-8,NWE,TreVeyon Henderson,RB,Questionable,Illness
-8,NYJ,Joseph Ossai,DE,Out,Ankle
-8,NYJ,Dylan Parham,G,Questionable,Knee
-8,NYJ,Max Mitchell,T,Out,Concussion
-8,NYJ,Breece Hall,RB,Questionable,Quadricep
-8,NYJ,T'Vondre Sweat,DT,Out,Knee
-8,NYJ,David Bailey,DE,Doubtful,Groin
-8,PHI,Jonathan Jones,CB,Out,Hamstring
-8,PHI,DeVonta Smith,WR,Out,Hamstring
-8,PHI,Britain Covey,WR,Out,Knee
-8,PHI,Dontayvion Wicks,WR,Out,Ankle
-8,PHI,Jakorian Bennett,CB,Questionable,Knee
-8,PHI,Jihaad Campbell,LB,Out,Hamstring
-8,PIT,Brandin Echols,CB,Out,Hamstring
-8,PIT,Ben Skowronek,WR,Questionable,Calf
-8,PIT,Doneiko Slaughter,CB,Out,Hamstring
-8,SEA,Uchenna Nwosu,LB,Doubtful,Ankle
-8,SEA,Drew Lock,QB,Questionable,Elbow
-8,SEA,Rashid Shaheed,WR,Out,Knee
-8,SEA,Velus Jones Jr.,RB,Out,Hamstring
-8,SEA,Charles Cross,T,Out,Ankle
-8,SEA,Brandon Pili,DT,Questionable,Back
-8,SEA,Patrick O'Connell,LB,Questionable,Toe
-8,SEA,Anthony Bradford,G,Questionable,Knee
-8,TAM,Kenny Gainwell,RB,Questionable,Hip
-8,TAM,Luke Goedeke,T,Questionable,Calf
-8,TAM,Emeka Egbuka,WR,Out,Foot
-8,TEN,John Franklin-Myers,DE,Questionable,Groin
-8,TEN,Calvin Ridley,WR,Questionable,Hip
-8,TEN,Tommy Townsend,P,Out,Knee
-8,TEN,Jaylon Jones,CB,Questionable,Knee
-8,TEN,Tyjae Spears,RB,Out,Knee
-8,TEN,Dorian Mausi,LB,Questionable,Foot
-8,TEN,Carnell Tate,WR,Out,Shoulder
-8,WAS,Daron Payne,DT,Out,Foot
-8,WAS,Javon Kinlaw,DT,Out,Knee
-8,WAS,John Bates,TE,Questionable,Shoulder
-8,WAS,Treylon Burks,WR,Questionable,Foot
-8,WAS,Jer'Zhan Newton,DT,Questionable,Pectoral
-8,NWE,Greg Van Roten,OL,Out,Injured reserve
-8,LAR,Davante Adams,WR,Out,Injured reserve
-8,LAC,Denzel Perryman,LB,Out,Injured reserve
-8,WAS,Laremy Tunsil,OL,Out,Injured reserve
-8,NYJ,David Onyemata,DL,Out,Injured reserve
-8,GNB,Javon Hargrave,DL,Out,Injured reserve
-8,CAR,Taylor Moton,OL,Out,Injured reserve
-8,ARI,James Conner,RB,Out,Injured reserve
-8,NWE,Mack Hollins,WR,Out,Injured reserve
-8,ATL,Storm Norton,OL,Out,Injured reserve
-8,LAR,Myles Garrett,LB,Out,Injured reserve
-8,MIN,Jamal Adams,LB,Out,Injured reserve
-8,LAC,David Njoku,TE,Out,Injured reserve
-8,BAL,Ethan Pocic,OL,Out,Injured reserve
-8,TEN,Tanoh Kpassagnon,DL,Out,Injured reserve
-8,LAR,Poona Ford,DL,Out,Injured reserve
-8,ATL,Da'Shawn Hand,DL,Out,Injured reserve
-8,DET,Avonte Maddox,DB,Out,Injured reserve
-8,CIN,Jalen Davis,DB,Out,Injured reserve
-8,CIN,Tanner Hudson,TE,Out,Injured reserve
-8,MIA,Ronnie Harrison,LB,Out,Injured reserve
-8,BAL,Durham Smythe,TE,Out,Injured reserve
-8,PIT,Sebastian Joseph-Day,DL,Out,Injured reserve
-8,IND,Arden Key,DL,Out,Injured reserve
-8,NWE,Harold Landry III,LB,Out,Injured reserve
-8,IND,D.J. Montgomery,WR,Out,Injured reserve
-8,JAX,Sam Mustipher,OL,Out,Injured reserve
-8,JAX,Patrick Mekari,OL,Out,Injured reserve
-8,LAC,Alec Ingold,RB,Out,Injured reserve
-8,MIN,Josh Oliver,TE,Out,Injured reserve
-8,BUF,C.J. Gardner-Johnson,DB,Out,Injured reserve
-8,CAR,Mike Jackson,DB,Out,Injured reserve
-8,DET,Tom Kennedy,WR,Out,Injured reserve
-8,WAS,Terry McLaurin,WR,Out,Injured reserve
-8,DEN,Michael Deiter,OL,Out,Injured reserve
-8,LAC,Trey Pipkins,OL,Out,Injured reserve
-8,DAL,Jalen Thompson,DB,Out,Injured reserve
-8,DET,Devin White,LB,Out,Injured reserve
-8,TAM,Christian Rozeboom,LB,Out,Injured reserve
-8,NWE,Reggie Gilliam,RB,Out,Injured reserve
-8,NWE,Mike Onwenu,OL,Out,Injured reserve
-8,BAL,Danny Pinter,OL,Out,Injured reserve
-8,PIT,Michael Pittman,WR,Out,Injured reserve
-8,DET,Ben Bartch,OL,Out,Injured reserve
-8,CHI,Cole Kmet,TE,Out,Injured reserve
-8,DAL,Matt Hennessy,OL,Out,Injured reserve
-8,LAC,Tyler Biadasz,OL,Out,Injured reserve
-8,PHI,Jalen Hurts,QB,Out,Injured reserve
-8,PIT,Jack Driscoll,OL,Out,Injured reserve
-8,CHI,Dayo Odeyingbo,DL,Out,Injured reserve
-8,TEN,Milo Eifler,LB,Out,Injured reserve
-8,CHI,Tony Fields II,LB,Out,Injured reserve
-8,NYJ,Tre Brown,DB,Out,Injured reserve
-8,CLE,Jeremiah Owusu-Koramoah,LB,Out,Injured reserve
-8,DET,Payton Turner,DL,Out,Injured reserve
-8,GNB,Micah Parsons,LB,Out,Injured reserve
-8,CAR,Jaycee Horn,DB,Out,Injured reserve
-8,CLE,Teven Jenkins,OL,Out,Injured reserve
-8,CAR,Brady Christensen,OL,Out,Injured reserve
-8,NWE,Alijah Vera-Tucker,OL,Out,Injured reserve
-8,ATL,Trey Sermon,RB,Out,Injured reserve
-8,ARI,Hunter Long,TE,Out,Injured reserve
-8,LAC,Rashawn Slater,OL,Out,Injured reserve
-8,LAC,Trey Lance,QB,Out,Injured reserve
-8,CHI,Nikola Kalinic,TE,Out,Injured reserve
-8,MIA,Cole Turner,TE,Out,Injured reserve
-8,CHI,Braxton Jones,OL,Out,Injured reserve
-8,DEN,Tyler Badie,RB,Out,Injured reserve
-8,GNB,Jonathan Ford,DL,Out,Injured reserve
-8,ARI,Joey Blount,DB,Out,Injured reserve
-8,DET,Isiah Pacheco,RB,Out,Injured reserve
-8,CAR,Ikem Ekwonu,OL,Out,Injured reserve
-8,LAC,Trevor Penning,OL,Out,Injured reserve
-8,CLE,Alex Wright,DL,Out,Injured reserve
-8,PHI,Dameon Pierce,RB,Out,Injured reserve
-8,KAN,Matt Waletzko,OL,Out,Injured reserve
-8,DET,Damone Clark,LB,Out,Injured reserve
-8,DEN,Matt Henningsen,DL,Out,Injured reserve
-8,CIN,Ja'Sir Taylor,DB,Out,Injured reserve
-8,BAL,Skylar Thompson,QB,Out,Injured reserve
-8,CHI,Brittain Brown,RB,Out,Injured reserve
-8,CHI,Dallis Flowers,DB,Out,Injured reserve
-8,NYJ,Kingsley Jonathan,DL,Out,Injured reserve
-8,NYJ,Marcelino McCrary-Ball,LB,Out,Injured reserve
-8,CHI,Nephi Sewell,LB,Out,Injured reserve
-8,MIA,Darrell Baker Jr.,DB,Out,Injured reserve
-8,LAR,Ronnie Rivers,RB,Out,Injured reserve
-8,DAL,Malik Davis,RB,Out,Injured reserve
-8,IND,Alec Pierce,WR,Out,Injured reserve
-8,IND,Cam Taylor-Britt,DB,Out,Injured reserve
-8,ARI,Zachary Carter,DL,Out,Injured reserve
-8,ATL,DeAngelo Malone,LB,Out,Injured reserve
-8,NWE,Romeo Doubs,WR,Out,Injured reserve
-8,GNB,Zach Bako-Bewele,OL,Out,Injured reserve
-8,WAS,Leo Chenal,LB,Out,Injured reserve
-8,CLE,Kalia Davis,DL,Out,Injured reserve
-8,GNB,Skyy Moore,WR,Out,Injured reserve
-8,KAN,Tyquan Thornton,WR,Out,Injured reserve
-8,CLE,Damarri Mathis,DB,Out,Injured reserve
-8,IND,Micheal Clemons,DL,Out,Injured reserve
-8,CHI,Coby Bryant,DB,Out,Injured reserve
-8,BAL,Tavius Robinson,LB,Out,Injured reserve
-8,ARI,Paris Johnson Jr.,OL,Out,Injured reserve
-8,PHI,Tank Bigsby,RB,Out,Injured reserve
-8,ATL,Yasir Abdullah,LB,Out,Injured reserve
-8,IND,Cameron Mitchell,DB,Out,Injured reserve
-8,CIN,Andrei Iosivas,WR,Out,Injured reserve
-8,BAL,Jovaughn Gwyn,OL,Out,Injured reserve
-8,ARI,Jalen Brooks,WR,Out,Injured reserve
-8,GNB,Chris Brooks,RB,Out,Injured reserve
-8,TEN,Kendell Brooks,DB,Out,Injured reserve
-8,NWE,Julian Hill,TE,Out,Injured reserve
-8,DAL,Princeton Fant,TE,Out,Injured reserve
-8,SEA,Jake Bobo,WR,Out,Injured reserve
-8,CAR,Thomas Incoom,LB,Out,Injured reserve
-8,LAR,Blake Grupe,K,Out,Injured reserve
-8,JAX,Anton Harrison,OL,Out,Injured reserve
-8,MIA,De'Von Achane,RB,Out,Injured reserve
-8,TAM,Josh Hayes,DB,Out,Injured reserve
-8,LAR,Kobie Turner,DL,Out,Injured reserve
-8,GNB,Luke Musgrave,TE,Out,Injured reserve
-8,GNB,Jayden Reed,WR,Out,Injured reserve
-8,PHI,Johnny Wilson,WR,Out,Injured reserve
-8,MIN,Nick Samac,OL,Out,Injured reserve
-8,LVR,Chris Collier,RB,Out,Injured reserve
-8,PHI,Andre' Sam,DB,Out,Injured reserve
-8,NYJ,Braiden McGregor,LB,Out,Injured reserve
-8,CIN,Swayze Bozeman,LB,Out,Injured reserve
-8,CAR,Xavier Legette,WR,Out,Injured reserve
-8,CAR,Jonathon Brooks,RB,Out,Injured reserve
-8,DET,Giovanni Manu,OL,Out,Injured reserve
-8,ATL,JD Bertrand,LB,Out,Injured reserve
-8,PIT,Logan Lee,DL,Out,Injured reserve
-8,WAS,Javontae Jean-Baptiste,LB,Out,Injured reserve
-8,TEN,Jaylen Harrell,LB,Out,Injured reserve
-8,DEN,Nick Gargiulo,OL,Out,Injured reserve
-8,DEN,Levelle Bailey,LB,Out,Injured reserve
-8,DEN,Frank Crum,OL,Out,Injured reserve
-8,PIT,Cole Burgess,WR,Out,Injured reserve
-8,DET,Thomas Harper,DB,Out,Injured reserve
-8,LVR,Chigozie Anusiem,DB,Out,Injured reserve
-8,NWE,Dell Pettus,DB,Out,Injured reserve
-8,ARI,Tip Reiman,TE,Out,Injured reserve
-8,PIT,Roman Wilson,WR,Out,Injured reserve
-8,PHI,Will Shipley,RB,Out,Injured reserve
-8,CLE,Elijah Chatman,DL,Out,Injured reserve
-8,LAR,Justin Dedich,OL,Out,Injured reserve
-8,ARI,Isaiah Adams,OL,Out,Injured reserve
-8,DEN,Jonah Elliss,LB,Out,Injured reserve
-8,CIN,Erick All,TE,Out,Injured reserve
-8,GNB,Jacob Monk,OL,Out,Injured reserve
-8,LVR,Brennan Jackson,LB,Out,Injured reserve
-8,ATL,Michael Jerrell,OL,Out,Injured reserve
-8,GNB,Edgerrin Cooper,LB,Out,Injured reserve
-8,TAM,Jalen McMillan,WR,Out,Injured reserve
-8,TAM,Mohamed Kamara,LB,Out,Injured reserve
-8,CLE,Edefuan Ulofoshio,LB,Out,Injured reserve
-8,PIT,Daequan Hardy,DB,Out,Injured reserve
-8,SEA,Terrion Arnold,DB,Out,Exempt list
-8,ARI,Trey Benson,RB,Out,Injured reserve
-8,GNB,Thomas Yassmin,TE,Out,Injured reserve
-8,GNB,Collin Oliver,LB,Out,Injured reserve
-8,GNB,Warren Brinson,DL,Out,Injured reserve
-8,GNB,Johnathan Baldwin,DB,Out,Injured reserve
-8,BAL,Bilhal Kone,DB,Out,Injured reserve
-8,KAN,Brashard Smith,RB,Out,Injured reserve
-8,KAN,Josh Simmons,OL,Out,Injured reserve
-8,KAN,Jimmy Holiday,WR,Out,Injured reserve
-8,DEN,Pat Bryant,WR,Out,Injured reserve
-8,JAX,Caleb Ransaw,DB,Out,Injured reserve
-8,WAS,Jaylin Lane,WR,Out,Injured reserve
-8,CHI,Ruben Hyppolite II,LB,Out,Injured reserve
-8,CAR,Cam Jackson,DL,Out,Injured reserve
-8,NYJ,Francisco Mauigoa,LB,Out,Injured reserve
-8,TEN,Jackson Slater,OL,Out,Injured reserve
-8,BUF,Jordan Hancock,DB,Out,Injured reserve
-8,NYJ,Tyler Baron,LB,Out,Injured reserve
-8,BUF,Dorian Strong,DB,Out,Injured reserve
-8,NWE,Marcus Bryant,OL,Out,Injured reserve
-8,PIT,Donte Kent,DB,Out,Injured reserve
-8,DEN,Caleb Lohner,TE,Out,Injured reserve
-8,WAS,Jacory Croskey-Merritt,RB,Out,Injured reserve
-8,KAN,Ethan Downs,LB,Out,Injured reserve
-8,JAX,BJ Green II,DL,Out,Injured reserve
-8,JAX,Jared Bartlett,LB,Out,Injured reserve
-8,CLE,Raheim Sanders,RB,Out,Injured reserve
-8,MIN,Tyler Batty,LB,Out,Injured reserve
-8,ATL,Jalon Walker,LB,Out,Injured reserve
-8,ATL,James Pearce Jr.,LB,Out,Injured reserve
-8,NYJ,Arian Smith,WR,Out,Injured reserve
-8,SEA,Robbie Ouzts,RB,Out,Injured reserve
-8,SEA,Mason Richman,OL,Out,Injured reserve
-8,MIN,Donovan Jackson,OL,Out,Injured reserve
-8,PIT,Derrick Harmon,DL,Out,Injured reserve
-8,LAR,Terrance Ferguson,TE,Out,Injured reserve
-8,SEA,Elijah Arroyo,TE,Out,Injured reserve
-8,CAR,Nic Scourton,LB,Out,Injured reserve
-8,ARI,Will Johnson,DB,Out,Injured reserve
-8,IND,Carson Towt,TE,Out,Injured reserve
-8,SEA,Julian Neal,DB,Out,Injured reserve
-8,DAL,Devin Moore,DB,Out,Injured reserve
-8,TEN,Fernando Carmona,OL,Out,Injured reserve
-8,TEN,Jaren Kanak,TE,Out,Injured reserve
-8,PHI,Tucker Large,DB,Out,Injured reserve
-8,DAL,Kelvin Gilliam,DL,Out,Injured reserve
-8,KAN,Jeff Caldwell,WR,Out,Injured reserve
-8,KAN,John Michael Gyllenborg,TE,Out,Injured reserve
-8,BAL,Jahquez Robinson,DB,Out,Injured reserve
-8,LVR,Justin Pickett,OL,Out,Injured reserve
-8,CAR,Chris Brazzell II,WR,Out,Injured reserve
-8,CLE,Joe Royer,TE,Out,Injured reserve
-8,BUF,Zane Durant,DL,Out,Injured reserve
-8,NYJ,Anez Cooper,OL,Out,Injured reserve
-8,CIN,Brian Parker II,OL,Out,Injured reserve
-8,NYJ,VJ Payne,DB,Out,Injured reserve
-8,JAX,Zach Durfee,DL,Out,Injured reserve
-8,JAX,Parker Hughes,LB,Out,Injured reserve
-8,MIA,Rene Konga,DL,Out,Injured reserve
-8,CHI,Hayden Large,TE,Out,Injured reserve
-8,JAX,Garrett DiGiorgio,OL,Out,Injured reserve
-8,NYJ,Chip Trayanum,RB,Out,Injured reserve
-8,NWE,Khalil Jacobs,LB,Out,Injured reserve
-8,NWE,Myles Montgomery,RB,Out,Injured reserve
-8,LAC,Isaiah World,OL,Out,Injured reserve
-8,PIT,Gennings Dunker,OL,Out,Injured reserve
-8,NWE,Quintayvious Hutchins,LB,Out,Injured reserve
-8,LAR,Matthew Caldwell,QB,Out,Injured reserve
-8,LAR,Eddie Walls III,LB,Out,Injured reserve
-8,DET,Kendrick Law,WR,Out,Injured reserve
-8,SEA,Bud Clark,DB,Out,Injured reserve
-8,ARI,Chase Bisontis,OL,Out,Injured reserve
-8,ATL,Anterio Thompson,DL,Out,Injured reserve
-8,MIA,Trey Moore,LB,Out,Injured reserve
-8,LVR,Keyron Crawford,LB,Out,Injured reserve
-8,ARI,Kaleb Proctor,DL,Out,Injured reserve
-8,LAR,Daniel Rickert,LB,Out,Injured reserve
+9,BAL,Lamar Jackson,QB,Out,Thumb
+9,BAL,Tyler Huntley,QB,Out,Toe
+9,BAL,Jaylinn Hawkins,S,Out,Knee
+9,BAL,Nate Wiggins,CB,Questionable,Stinger
+9,BAL,Adam Randall,RB,Questionable,Neck
+9,JAX,Travon Walker,DE,Questionable,Rib
+9,JAX,Bhayshul Tuten,RB,Questionable,Ankle
+9,NWE,Greg Van Roten,OL,Out,Injured reserve
+9,LAR,Davante Adams,WR,Out,Injured reserve
+9,LAC,Denzel Perryman,LB,Out,Injured reserve
+9,HOU,Mario Edwards,DL,Out,Injured reserve
+9,WAS,Laremy Tunsil,OL,Out,Injured reserve
+9,NYG,Roy Robertson-Harris,DL,Out,Injured reserve
+9,SFO,Demarcus Robinson,WR,Out,Injured reserve
+9,JAX,Eric Murray,DB,Out,Injured reserve
+9,NYJ,David Onyemata,DL,Out,Injured reserve
+9,DAL,Jonathan Bullard,DL,Out,Injured reserve
+9,GNB,Javon Hargrave,DL,Out,Injured reserve
+9,CAR,Taylor Moton,OL,Out,Injured reserve
+9,ARI,Kendrick Bourne,WR,Out,Injured reserve
+9,ARI,James Conner,RB,Out,Injured reserve
+9,NWE,Mack Hollins,WR,Out,Injured reserve
+9,ATL,Storm Norton,OL,Out,Injured reserve
+9,LAR,Myles Garrett,LB,Out,Injured reserve
+9,MIN,Jamal Adams,LB,Out,Injured reserve
+9,LAC,David Njoku,TE,Out,Injured reserve
+9,BAL,Ethan Pocic,OL,Out,Injured reserve
+9,ATL,Samson Ebukam,DL,Out,Injured reserve
+9,WAS,Jeremy McNichols,RB,Out,Injured reserve
+9,LAR,Poona Ford,DL,Out,Injured reserve
+9,WAS,Daron Payne,DL,Out,Injured reserve
+9,ATL,Da'Shawn Hand,DL,Out,Injured reserve
+9,DET,Avonte Maddox,DB,Out,Injured reserve
+9,NYG,Braxton Berrios,WR,Out,Injured reserve
+9,CIN,Jalen Davis,DB,Out,Injured reserve
+9,CIN,Tanner Hudson,TE,Out,Injured reserve
+9,NYG,Tremaine Edmunds,LB,Out,Injured reserve
+9,MIA,Ronnie Harrison,LB,Out,Injured reserve
+9,LAC,Derwin James,DB,Out,Injured reserve
+9,BAL,Durham Smythe,TE,Out,Injured reserve
+9,IND,Arden Key,DL,Out,Injured reserve
+9,NWE,Harold Landry III,LB,Out,Injured reserve
+9,HOU,E.J. Speed,LB,Out,Injured reserve
+9,IND,D.J. Montgomery,WR,Out,Injured reserve
+9,JAX,Sam Mustipher,OL,Out,Injured reserve
+9,JAX,Patrick Mekari,OL,Out,Injured reserve
+9,LAC,Alec Ingold,RB,Out,Injured reserve
+9,MIN,Josh Oliver,TE,Out,Injured reserve
+9,CAR,Mike Jackson,DB,Out,Injured reserve
+9,DET,Tom Kennedy,WR,Out,Injured reserve
+9,NYG,Gunner Olszewski,WR,Out,Injured reserve
+9,WAS,Terry McLaurin,WR,Out,Injured reserve
+9,DEN,Michael Deiter,OL,Out,Injured reserve
+9,LAC,Trey Pipkins,OL,Out,Injured reserve
+9,DAL,Jalen Thompson,DB,Out,Injured reserve
+9,DET,Devin White,LB,Out,Injured reserve
+9,NYG,Brian Burns,LB,Out,Injured reserve
+9,SFO,Austen Pleasants,OL,Out,Injured reserve
+9,TAM,Christian Rozeboom,LB,Out,Injured reserve
+9,NWE,Reggie Gilliam,RB,Out,Injured reserve
+9,NWE,Mike Onwenu,OL,Out,Injured reserve
+9,BAL,Danny Pinter,OL,Out,Injured reserve
+9,WAS,Javon Kinlaw,DL,Out,Injured reserve
+9,JAX,DaVon Hamilton,DL,Out,Injured reserve
+9,DET,Ben Bartch,OL,Out,Injured reserve
+9,CHI,Cole Kmet,TE,Out,Injured reserve
+9,DAL,Matt Hennessy,OL,Out,Injured reserve
+9,KAN,L'Jarius Sneed,DB,Out,Injured reserve
+9,LAC,Tyler Biadasz,OL,Out,Injured reserve
+9,PHI,Jalen Hurts,QB,Out,Injured reserve
+9,CHI,Dayo Odeyingbo,DL,Out,Injured reserve
+9,NOR,Dillon Radunz,OL,Out,Injured reserve
+9,CHI,Tony Fields II,LB,Out,Injured reserve
+9,SFO,Darrick Forrest,DB,Out,Injured reserve
+9,SFO,Nate Hobbs,DB,Out,Injured reserve
+9,CLE,Jeremiah Owusu-Koramoah,LB,Out,Injured reserve
+9,LVR,Patrick Johnson,LB,Out,Injured reserve
+9,DET,Payton Turner,DL,Out,Injured reserve
+9,GNB,Micah Parsons,LB,Out,Injured reserve
+9,CAR,Jaycee Horn,DB,Out,Injured reserve
+9,CLE,Teven Jenkins,OL,Out,Injured reserve
+9,CAR,Brady Christensen,OL,Out,Injured reserve
+9,NOR,Travis Etienne,RB,Out,Injured reserve
+9,NWE,Alijah Vera-Tucker,OL,Out,Injured reserve
+9,NYG,Chauncey Golston,DL,Out,Injured reserve
+9,ATL,Trey Sermon,RB,Out,Injured reserve
+9,ARI,Hunter Long,TE,Out,Injured reserve
+9,LAC,Rashawn Slater,OL,Out,Injured reserve
+9,LAC,Trey Lance,QB,Out,Injured reserve
+9,CHI,Nikola Kalinic,TE,Out,Injured reserve
+9,MIA,Cole Turner,TE,Out,Injured reserve
+9,CHI,Braxton Jones,OL,Out,Injured reserve
+9,DEN,Tyler Badie,RB,Out,Injured reserve
+9,GNB,Jonathan Ford,DL,Out,Injured reserve
+9,SFO,Jake Tonges,TE,Out,Injured reserve
+9,ARI,Joey Blount,DB,Out,Injured reserve
+9,DET,Isiah Pacheco,RB,Out,Injured reserve
+9,CAR,Ikem Ekwonu,OL,Out,Injured reserve
+9,LAC,Trevor Penning,OL,Out,Injured reserve
+9,CLE,Alex Wright,DL,Out,Injured reserve
+9,PHI,Dameon Pierce,RB,Out,Injured reserve
+9,KAN,Matt Waletzko,OL,Out,Injured reserve
+9,NOR,Ty Chandler,RB,Out,Injured reserve
+9,DET,Damone Clark,LB,Out,Injured reserve
+9,DEN,Matt Henningsen,DL,Out,Injured reserve
+9,CIN,Ja'Sir Taylor,DB,Out,Injured reserve
+9,BAL,Skylar Thompson,QB,Out,Injured reserve
+9,CHI,Brittain Brown,RB,Out,Injured reserve
+9,CHI,Dallis Flowers,DB,Out,Injured reserve
+9,NYJ,Kingsley Jonathan,DL,Out,Injured reserve
+9,NYJ,Marcelino McCrary-Ball,LB,Out,Injured reserve
+9,CHI,Nephi Sewell,LB,Out,Injured reserve
+9,MIA,Darrell Baker Jr.,DB,Out,Injured reserve
+9,LAR,Ronnie Rivers,RB,Out,Injured reserve
+9,DAL,Malik Davis,RB,Out,Injured reserve
+9,SFO,Sam Okuayinonu,DL,Out,Injured reserve
+9,HOU,Jacob Hummel,LB,Out,Injured reserve
+9,IND,Alec Pierce,WR,Out,Injured reserve
+9,DET,Kerby Joseph,DB,Out,Injured reserve
+9,IND,Cam Taylor-Britt,DB,Out,Injured reserve
+9,ARI,Zachary Carter,DL,Out,Injured reserve
+9,ATL,DeAngelo Malone,LB,Out,Injured reserve
+9,NWE,Romeo Doubs,WR,Out,Injured reserve
+9,GNB,Zach Bako-Bewele,OL,Out,Injured reserve
+9,WAS,Leo Chenal,LB,Out,Injured reserve
+9,SFO,Nick Zakelj,OL,Out,Injured reserve
+9,CLE,Kalia Davis,DL,Out,Injured reserve
+9,NYG,Calvin Austin III,WR,Out,Injured reserve
+9,GNB,Skyy Moore,WR,Out,Injured reserve
+9,CAR,Akayleb Evans,DB,Out,Injured reserve
+9,KAN,Tyquan Thornton,WR,Out,Injured reserve
+9,CLE,Damarri Mathis,DB,Out,Injured reserve
+9,IND,Micheal Clemons,DL,Out,Injured reserve
+9,NYJ,Max Mitchell,OL,Out,Injured reserve
+9,CHI,Coby Bryant,DB,Out,Injured reserve
+9,NYG,Jarrick Bernard-Converse,DB,Out,Injured reserve
+9,BAL,Tavius Robinson,LB,Out,Injured reserve
+9,ARI,Paris Johnson Jr.,OL,Out,Injured reserve
+9,PHI,Tank Bigsby,RB,Out,Injured reserve
+9,NOR,Nick Saldiveri,OL,Out,Injured reserve
+9,ATL,Yasir Abdullah,LB,Out,Injured reserve
+9,IND,Cameron Mitchell,DB,Out,Injured reserve
+9,CIN,Andrei Iosivas,WR,Out,Injured reserve
+9,BAL,Jovaughn Gwyn,OL,Out,Injured reserve
+9,ARI,Jalen Brooks,WR,Out,Injured reserve
+9,BUF,Tyrell Shavers,WR,Out,Injured reserve
+9,GNB,Chris Brooks,RB,Out,Injured reserve
+9,NWE,Julian Hill,TE,Out,Injured reserve
+9,HOU,Ali Gaye,DL,Out,Injured reserve
+9,DAL,Princeton Fant,TE,Out,Injured reserve
+9,SEA,Jake Bobo,WR,Out,Injured reserve
+9,NOR,Rejzohn Wright,DB,Out,Injured reserve
+9,CAR,Thomas Incoom,LB,Out,Injured reserve
+9,SFO,Andrew Farmer II,LB,Out,Injured reserve
+9,LAR,Blake Grupe,K,Out,Injured reserve
+9,JAX,Anton Harrison,OL,Out,Injured reserve
+9,NOR,Bryan Bresee,DL,Out,Injured reserve
+9,HOU,Dylan Horton,DL,Out,Injured reserve
+9,MIA,De'Von Achane,RB,Out,Injured reserve
+9,TAM,Josh Hayes,DB,Out,Injured reserve
+9,LAR,Kobie Turner,DL,Out,Injured reserve
+9,GNB,Luke Musgrave,TE,Out,Injured reserve
+9,GNB,Jayden Reed,WR,Out,Injured reserve
+9,PHI,Johnny Wilson,WR,Out,Injured reserve
+9,MIN,Nick Samac,OL,Out,Injured reserve
+9,LVR,Chris Collier,RB,Out,Injured reserve
+9,PHI,Andre' Sam,DB,Out,Injured reserve
+9,NYJ,Braiden McGregor,LB,Out,Injured reserve
+9,CIN,Swayze Bozeman,LB,Out,Injured reserve
+9,CAR,Xavier Legette,WR,Out,Injured reserve
+9,CAR,Jonathon Brooks,RB,Out,Injured reserve
+9,DAL,Marist Liufau,LB,Out,Injured reserve
+9,DET,Giovanni Manu,OL,Out,Injured reserve
+9,SFO,Isaac Guerendo,RB,Out,Injured reserve
+9,ATL,JD Bertrand,LB,Out,Injured reserve
+9,NYG,Tyrone Tracy Jr.,RB,Out,Injured reserve
+9,WAS,Javontae Jean-Baptiste,LB,Out,Injured reserve
+9,HOU,Solomon Byrd,DL,Out,Injured reserve
+9,DEN,Nick Gargiulo,OL,Out,Injured reserve
+9,DEN,Levelle Bailey,LB,Out,Injured reserve
+9,DEN,Frank Crum,OL,Out,Injured reserve
+9,HOU,British Brooks,RB,Out,Injured reserve
+9,NYG,Rico Payton,DB,Out,Injured reserve
+9,NOR,Mason Tipton,WR,Out,Injured reserve
+9,DET,Thomas Harper,DB,Out,Injured reserve
+9,LVR,Chigozie Anusiem,DB,Out,Injured reserve
+9,NWE,Dell Pettus,DB,Out,Injured reserve
+9,ARI,Tip Reiman,TE,Out,Injured reserve
+9,PHI,Will Shipley,RB,Out,Injured reserve
+9,CLE,Elijah Chatman,DL,Out,Injured reserve
+9,LAR,Justin Dedich,OL,Out,Injured reserve
+9,ARI,Isaiah Adams,OL,Out,Injured reserve
+9,DEN,Jonah Elliss,LB,Out,Injured reserve
+9,CIN,Erick All,TE,Out,Injured reserve
+9,GNB,Jacob Monk,OL,Out,Injured reserve
+9,LVR,Brennan Jackson,LB,Out,Injured reserve
+9,ATL,Michael Jerrell,OL,Out,Injured reserve
+9,GNB,Edgerrin Cooper,LB,Out,Injured reserve
+9,TAM,Jalen McMillan,WR,Out,Injured reserve
+9,TAM,Mohamed Kamara,LB,Out,Injured reserve
+9,CLE,Edefuan Ulofoshio,LB,Out,Injured reserve
+9,NYJ,T'Vondre Sweat,DL,Out,Injured reserve
+9,SEA,Terrion Arnold,DB,Out,Exempt list
+9,WAS,Jer'Zhan Newton,DL,Out,Injured reserve
+9,SFO,Ricky Pearsall,WR,Out,Injured reserve
+9,ARI,Trey Benson,RB,Out,Injured reserve
+9,GNB,Thomas Yassmin,TE,Out,Injured reserve
+9,GNB,Collin Oliver,LB,Out,Injured reserve
+9,GNB,Warren Brinson,DL,Out,Injured reserve
+9,GNB,Johnathan Baldwin,DB,Out,Injured reserve
+9,BAL,Bilhal Kone,DB,Out,Injured reserve
+9,BAL,Tyler Loop,K,Out,Injured reserve
+9,KAN,Brashard Smith,RB,Out,Injured reserve
+9,KAN,Josh Simmons,OL,Out,Injured reserve
+9,KAN,Jimmy Holiday,WR,Out,Injured reserve
+9,NOR,Kelvin Banks Jr.,OL,Out,Injured reserve
+9,HOU,Jayden Higgins,WR,Out,Injured reserve
+9,DEN,Pat Bryant,WR,Out,Injured reserve
+9,SFO,Nick Martin,LB,Out,Injured reserve
+9,HOU,Jaylin Noel,WR,Out,Injured reserve
+9,JAX,Caleb Ransaw,DB,Out,Injured reserve
+9,HOU,Jaylin Smith,DB,Out,Injured reserve
+9,WAS,Jaylin Lane,WR,Out,Injured reserve
+9,CHI,Ruben Hyppolite II,LB,Out,Injured reserve
+9,CAR,Cam Jackson,DL,Out,Injured reserve
+9,NYJ,Francisco Mauigoa,LB,Out,Injured reserve
+9,BUF,Jordan Hancock,DB,Out,Injured reserve
+9,NYJ,Tyler Baron,LB,Out,Injured reserve
+9,BUF,Dorian Strong,DB,Out,Injured reserve
+9,HOU,Graham Mertz,QB,Out,Injured reserve
+9,DEN,Caleb Lohner,TE,Out,Injured reserve
+9,WAS,Jacory Croskey-Merritt,RB,Out,Injured reserve
+9,NYG,Korie Black,DB,Out,Injured reserve
+9,NOR,Moliki Matavao,TE,Out,Injured reserve
+9,KAN,Ethan Downs,LB,Out,Injured reserve
+9,JAX,BJ Green II,DL,Out,Injured reserve
+9,JAX,Jared Bartlett,LB,Out,Injured reserve
+9,HOU,K.C. Ossai,LB,Out,Injured reserve
+9,ATL,Beaux Collins,WR,Out,Injured reserve
+9,CLE,Raheim Sanders,RB,Out,Injured reserve
+9,LVR,Carter Runyon,TE,Out,Injured reserve
+9,MIN,Tyler Batty,LB,Out,Injured reserve
+9,ATL,Jalon Walker,LB,Out,Injured reserve
+9,ATL,James Pearce Jr.,LB,Out,Exempt list
+9,NYJ,Arian Smith,WR,Out,Injured reserve
+9,SEA,Robbie Ouzts,RB,Out,Injured reserve
+9,SEA,Mason Richman,OL,Out,Injured reserve
+9,MIN,Donovan Jackson,OL,Out,Injured reserve
+9,ATL,Cameron Williams,OL,Out,Injured reserve
+9,NYG,Jaxson Dart,QB,Out,Injured reserve
+9,SFO,C.J. West,DL,Out,Injured reserve
+9,SFO,Alfred Collins,DL,Out,Injured reserve
+9,DEN,RJ Harvey,RB,Out,Injured reserve
+9,LAR,Terrance Ferguson,TE,Out,Injured reserve
+9,SEA,Elijah Arroyo,TE,Out,Injured reserve
+9,CAR,Nic Scourton,LB,Out,Injured reserve
+9,KAN,Omarr Norman-Lott,DL,Out,Injured reserve
+9,ARI,Will Johnson,DB,Out,Injured reserve
+9,IND,Carson Towt,TE,Out,Injured reserve
+9,SEA,Julian Neal,DB,Out,Injured reserve
+9,DAL,Devin Moore,DB,Out,Injured reserve
+9,PHI,Tucker Large,DB,Out,Injured reserve
+9,DAL,Kelvin Gilliam,DL,Out,Injured reserve
+9,KAN,Jeff Caldwell,WR,Out,Injured reserve
+9,KAN,John Michael Gyllenborg,TE,Out,Injured reserve
+9,BAL,Jahquez Robinson,DB,Out,Injured reserve
+9,LVR,Justin Pickett,OL,Out,Injured reserve
+9,ARI,Jeremiyah Love,RB,Out,Injured reserve
+9,NOR,Jordyn Tyson,WR,Out,Injured reserve
+9,SFO,De'Zhaun Stribling,WR,Out,Injured reserve
+9,CAR,Chris Brazzell II,WR,Out,Injured reserve
+9,CLE,Joe Royer,TE,Out,Injured reserve
+9,BUF,Zane Durant,DL,Out,Injured reserve
+9,NYJ,Anez Cooper,OL,Out,Injured reserve
+9,CIN,Brian Parker II,OL,Out,Injured reserve
+9,NYJ,VJ Payne,DB,Out,Injured reserve
+9,JAX,Zach Durfee,DL,Out,Injured reserve
+9,JAX,Parker Hughes,LB,Out,Injured reserve
+9,MIA,Rene Konga,DL,Out,Injured reserve
+9,NYG,Thaddeus Dixon,DB,Out,Injured reserve
+9,CHI,Hayden Large,TE,Out,Injured reserve
+9,JAX,Garrett DiGiorgio,OL,Out,Injured reserve
+9,NYJ,Chip Trayanum,RB,Out,Injured reserve
+9,HOU,Sam Hagen,OL,Out,Injured reserve
+9,NWE,Khalil Jacobs,LB,Out,Injured reserve
+9,NWE,Myles Montgomery,RB,Out,Injured reserve
+9,SFO,Mikail Kamara,DL,Out,Injured reserve
+9,LAC,Isaiah World,OL,Out,Injured reserve
+9,NWE,Quintayvious Hutchins,LB,Out,Injured reserve
+9,LAR,Matthew Caldwell,QB,Out,Injured reserve
+9,LAR,Dean Connors,RB,Out,Injured reserve
+9,LAR,Eddie Walls III,LB,Out,Injured reserve
+9,DET,Jimmy Rolder,LB,Out,Injured reserve
+9,DET,Kendrick Law,WR,Out,Injured reserve
+9,SEA,Bud Clark,DB,Out,Injured reserve
+9,ARI,Chase Bisontis,OL,Out,Injured reserve
+9,ATL,Anterio Thompson,DL,Out,Injured reserve
+9,MIA,Trey Moore,LB,Out,Injured reserve
+9,CIN,Cashius Howell,DL,Out,Injured reserve
+9,LVR,Keyron Crawford,LB,Out,Injured reserve
+9,ARI,Kaleb Proctor,DL,Out,Injured reserve
+9,LAR,Daniel Rickert,LB,Out,Injured reserve

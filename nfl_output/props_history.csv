@@ -1923,6 +1923,77 @@ season,week,event,home_code,away_code,player,stat,line,over_odds,under_odds,book
 2026,8.0,c93c421e5fa46031a43162d111d981d0,BUF,BAL,Zay Flowers,any_td,0.5,143,,BetRivers,
 2026,8.0,c93c421e5fa46031a43162d111d981d0,BUF,BAL,Zay Flowers,rec,6.5,120,-143.0,FanDuel,BetOnline.ag
 2026,8.0,c93c421e5fa46031a43162d111d981d0,BUF,BAL,Zay Flowers,rec_yds,86.5,-111,-113.0,DraftKings,DraftKings
+2026,9.0,c75744790b7acf6260c78ba5e739c0e5,BAL,JAX,Ameer Abdullah,any_td,0.5,650,,BetRivers,
+2026,9.0,c75744790b7acf6260c78ba5e739c0e5,BAL,JAX,Baltimore Ravens D/ST,any_td,0.5,600,,BetMGM,
+2026,9.0,c75744790b7acf6260c78ba5e739c0e5,BAL,JAX,Baltimore Ravens Defense,any_td,0.5,1200,,FanDuel,
+2026,9.0,c75744790b7acf6260c78ba5e739c0e5,BAL,JAX,Bhayshul Tuten,any_td,0.5,114,,BetRivers,
+2026,9.0,c75744790b7acf6260c78ba5e739c0e5,BAL,JAX,Brenton Strange,any_td,0.5,275,,BetRivers,
+2026,9.0,c75744790b7acf6260c78ba5e739c0e5,BAL,JAX,Brenton Strange,rec,3.5,-112,-108,DraftKings,FanDuel
+2026,9.0,c75744790b7acf6260c78ba5e739c0e5,BAL,JAX,Brenton Strange,rec_yds,34.5,-114,-110,DraftKings,DraftKings
+2026,9.0,c75744790b7acf6260c78ba5e739c0e5,BAL,JAX,Brian Thomas Jr,any_td,0.5,650,,BetRivers,
+2026,9.0,c75744790b7acf6260c78ba5e739c0e5,BAL,JAX,Brian Thomas Jr,rec,1.5,133,-141,BetRivers,DraftKings
+2026,9.0,c75744790b7acf6260c78ba5e739c0e5,BAL,JAX,Brian Thomas Jr,rec_yds,16.5,-112,-110,DraftKings,BetOnline.ag
+2026,9.0,c75744790b7acf6260c78ba5e739c0e5,BAL,JAX,CJ Williams,any_td,0.5,2200,,DraftKings,
+2026,9.0,c75744790b7acf6260c78ba5e739c0e5,BAL,JAX,Chris Rodriguez Jr.,any_td,0.5,108,,BetRivers,
+2026,9.0,c75744790b7acf6260c78ba5e739c0e5,BAL,JAX,Derrick Henry,any_td,0.5,135,,FanDuel,
+2026,9.0,c75744790b7acf6260c78ba5e739c0e5,BAL,JAX,Derrick Henry,rec,1.5,130,-140,DraftKings,BetMGM
+2026,9.0,c75744790b7acf6260c78ba5e739c0e5,BAL,JAX,Derrick Henry,rec_yds,7.5,-102,-117,FanDuel,DraftKings
+2026,9.0,c75744790b7acf6260c78ba5e739c0e5,BAL,JAX,Derrick Henry,rush_yds,68.5,-109,-113,DraftKings,FanDuel
+2026,9.0,c75744790b7acf6260c78ba5e739c0e5,BAL,JAX,Devontez Walker,any_td,0.5,2800,,BetRivers,
+2026,9.0,c75744790b7acf6260c78ba5e739c0e5,BAL,JAX,Elijah Sarratt,any_td,0.5,3000,,DraftKings,
+2026,9.0,c75744790b7acf6260c78ba5e739c0e5,BAL,JAX,Ja'Kobi Lane,any_td,0.5,825,,BetMGM,
+2026,9.0,c75744790b7acf6260c78ba5e739c0e5,BAL,JAX,Ja'Kobi Lane,rec,1.5,-108,100,FanDuel,BetMGM
+2026,9.0,c75744790b7acf6260c78ba5e739c0e5,BAL,JAX,Ja'Kobi Lane,rec_yds,15.5,-113,-108,FanDuel,BetOnline.ag
+2026,9.0,c75744790b7acf6260c78ba5e739c0e5,BAL,JAX,Jacksonville Jaguars D/ST,any_td,0.5,450,,BetMGM,
+2026,9.0,c75744790b7acf6260c78ba5e739c0e5,BAL,JAX,Jacksonville Jaguars Defense,any_td,0.5,500,,FanDuel,
+2026,9.0,c75744790b7acf6260c78ba5e739c0e5,BAL,JAX,Jakobi Meyers,any_td,0.5,360,,BetRivers,
+2026,9.0,c75744790b7acf6260c78ba5e739c0e5,BAL,JAX,Jakobi Meyers,rec,3.5,135,-155,BetRivers,BetMGM
+2026,9.0,c75744790b7acf6260c78ba5e739c0e5,BAL,JAX,Jakobi Meyers,rec_yds,39.5,-109,-111,DraftKings,BetOnline.ag
+2026,9.0,c75744790b7acf6260c78ba5e739c0e5,BAL,JAX,Joe Fagnano,any_td,0.5,1350,,BetMGM,
+2026,9.0,c75744790b7acf6260c78ba5e739c0e5,BAL,JAX,Joe Fagnano,pass_td,0.5,-122,106,FanDuel,BetRivers
+2026,9.0,c75744790b7acf6260c78ba5e739c0e5,BAL,JAX,Joe Fagnano,pass_yds,160.5,-111,-113,DraftKings,DraftKings
+2026,9.0,c75744790b7acf6260c78ba5e739c0e5,BAL,JAX,Joe Fagnano,rush_yds,8.5,-113,-113,FanDuel,FanDuel
+2026,9.0,c75744790b7acf6260c78ba5e739c0e5,BAL,JAX,Josh Cameron,any_td,0.5,850,,BetRivers,
+2026,9.0,c75744790b7acf6260c78ba5e739c0e5,BAL,JAX,Josh Cameron,rec,1.5,146,-160,DraftKings,FanDuel
+2026,9.0,c75744790b7acf6260c78ba5e739c0e5,BAL,JAX,Josh Cameron,rec_yds,10.5,-109,-112,DraftKings,BetOnline.ag
+2026,9.0,c75744790b7acf6260c78ba5e739c0e5,BAL,JAX,Josh Cuevas,any_td,0.5,2000,,DraftKings,
+2026,9.0,c75744790b7acf6260c78ba5e739c0e5,BAL,JAX,Josh Cuevas,rec,1.5,150,-192,DraftKings,BetOnline.ag
+2026,9.0,c75744790b7acf6260c78ba5e739c0e5,BAL,JAX,Josh Cuevas,rec_yds,7.5,-113,-110,FanDuel,BetOnline.ag
+2026,9.0,c75744790b7acf6260c78ba5e739c0e5,BAL,JAX,Justice Hill,any_td,0.5,550,,DraftKings,
+2026,9.0,c75744790b7acf6260c78ba5e739c0e5,BAL,JAX,Justice Hill,rec,2.5,-118,106,FanDuel,DraftKings
+2026,9.0,c75744790b7acf6260c78ba5e739c0e5,BAL,JAX,Justice Hill,rec_yds,14.5,-111,-113,BetMGM,FanDuel
+2026,9.0,c75744790b7acf6260c78ba5e739c0e5,BAL,JAX,Justice Hill,rush_yds,13.5,-113,-110,FanDuel,BetMGM
+2026,9.0,c75744790b7acf6260c78ba5e739c0e5,BAL,JAX,LaJohntay Wester,any_td,0.5,3000,,FanDuel,
+2026,9.0,c75744790b7acf6260c78ba5e739c0e5,BAL,JAX,LeQuint Allen Jr.,any_td,0.5,1200,,DraftKings,
+2026,9.0,c75744790b7acf6260c78ba5e739c0e5,BAL,JAX,Mark Andrews,any_td,0.5,550,,DraftKings,
+2026,9.0,c75744790b7acf6260c78ba5e739c0e5,BAL,JAX,Mark Andrews,rec,2.5,-134,110,DraftKings,BetOnline.ag
+2026,9.0,c75744790b7acf6260c78ba5e739c0e5,BAL,JAX,Mark Andrews,rec_yds,18.5,-113,-109,FanDuel,DraftKings
+2026,9.0,c75744790b7acf6260c78ba5e739c0e5,BAL,JAX,Matthew Hibner,any_td,0.5,3000,,BetRivers,
+2026,9.0,c75744790b7acf6260c78ba5e739c0e5,BAL,JAX,Matthew Hibner,rec,0.5,-112,-110,FanDuel,Bovada
+2026,9.0,c75744790b7acf6260c78ba5e739c0e5,BAL,JAX,Matthew Hibner,rec_yds,3.5,126,-162,FanDuel,FanDuel
+2026,9.0,c75744790b7acf6260c78ba5e739c0e5,BAL,JAX,Nate Boerkircher,any_td,0.5,575,,BetRivers,
+2026,9.0,c75744790b7acf6260c78ba5e739c0e5,BAL,JAX,Nate Boerkircher,rec,0.5,-222,180,DraftKings,BetMGM
+2026,9.0,c75744790b7acf6260c78ba5e739c0e5,BAL,JAX,Nate Boerkircher,rec_yds,8.5,-111,-113,DraftKings,DraftKings
+2026,9.0,c75744790b7acf6260c78ba5e739c0e5,BAL,JAX,Nick Vannett,any_td,0.5,4000,,FanDuel,
+2026,9.0,c75744790b7acf6260c78ba5e739c0e5,BAL,JAX,Parker Washington,any_td,0.5,170,,BetRivers,
+2026,9.0,c75744790b7acf6260c78ba5e739c0e5,BAL,JAX,Parker Washington,rec,4.5,134,-148,FanDuel,DraftKings
+2026,9.0,c75744790b7acf6260c78ba5e739c0e5,BAL,JAX,Parker Washington,rec_yds,63.5,-110,-111,DraftKings,BetOnline.ag
+2026,9.0,c75744790b7acf6260c78ba5e739c0e5,BAL,JAX,Quintin Morris,any_td,0.5,2200,,DraftKings,
+2026,9.0,c75744790b7acf6260c78ba5e739c0e5,BAL,JAX,Rasheen Ali,any_td,0.5,4000,,DraftKings,
+2026,9.0,c75744790b7acf6260c78ba5e739c0e5,BAL,JAX,Rashod Bateman,any_td,0.5,950,,DraftKings,
+2026,9.0,c75744790b7acf6260c78ba5e739c0e5,BAL,JAX,Rashod Bateman,rec,1.5,116,-140,FanDuel,BetMGM
+2026,9.0,c75744790b7acf6260c78ba5e739c0e5,BAL,JAX,Rashod Bateman,rec_yds,13.5,-116,-108,DraftKings,DraftKings
+2026,9.0,c75744790b7acf6260c78ba5e739c0e5,BAL,JAX,Tanner Koziol,any_td,0.5,2200,,BetMGM,
+2026,9.0,c75744790b7acf6260c78ba5e739c0e5,BAL,JAX,Travis Hunter,any_td,0.5,1000,,BetRivers,
+2026,9.0,c75744790b7acf6260c78ba5e739c0e5,BAL,JAX,Travis Hunter,rec,1.5,182,-222,FanDuel,BetOnline.ag
+2026,9.0,c75744790b7acf6260c78ba5e739c0e5,BAL,JAX,Travis Hunter,rec_yds,10.5,-107,-112,DraftKings,BetRivers
+2026,9.0,c75744790b7acf6260c78ba5e739c0e5,BAL,JAX,Trevor Lawrence,any_td,0.5,475,,BetRivers,
+2026,9.0,c75744790b7acf6260c78ba5e739c0e5,BAL,JAX,Trevor Lawrence,pass_td,1.5,-128,112,FanDuel,BetRivers
+2026,9.0,c75744790b7acf6260c78ba5e739c0e5,BAL,JAX,Trevor Lawrence,pass_yds,233.5,-112,-111,DraftKings,BetOnline.ag
+2026,9.0,c75744790b7acf6260c78ba5e739c0e5,BAL,JAX,Trevor Lawrence,rush_yds,12.5,-113,-110,FanDuel,BetMGM
+2026,9.0,c75744790b7acf6260c78ba5e739c0e5,BAL,JAX,Zay Flowers,any_td,0.5,370,,DraftKings,
+2026,9.0,c75744790b7acf6260c78ba5e739c0e5,BAL,JAX,Zay Flowers,rec,4.5,100,-114,BetRivers,DraftKings
+2026,9.0,c75744790b7acf6260c78ba5e739c0e5,BAL,JAX,Zay Flowers,rec_yds,48.5,-113,-112,FanDuel,BetOnline.ag
 2026,,05405af79752f5e742cdf50b61f6745e,MIA,NWE,A.J. Brown,any_td,0.5,210,,BetRivers,
 2026,,05405af79752f5e742cdf50b61f6745e,MIA,NWE,Caleb Douglas,any_td,0.5,410,,FanDuel,
 2026,,05405af79752f5e742cdf50b61f6745e,MIA,NWE,Caleb Douglas,rec,3.5,144,-175.0,FanDuel,BetMGM
