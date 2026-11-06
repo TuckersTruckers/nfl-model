@@ -29,6 +29,7 @@ week,team,player,pos,status,injury
 9,ATL,Samson Ebukam,DL,Out,Injured reserve
 9,WAS,Jeremy McNichols,RB,Out,Injured reserve
 9,LAR,Poona Ford,DL,Out,Injured reserve
+9,CHI,Kentavius Street,DL,Out,Injured reserve
 9,WAS,Daron Payne,DL,Out,Injured reserve
 9,ATL,Da'Shawn Hand,DL,Out,Injured reserve
 9,DET,Avonte Maddox,DB,Out,Injured reserve
@@ -135,6 +136,7 @@ week,team,player,pos,status,injury
 9,NYJ,Max Mitchell,OL,Out,Injured reserve
 9,CHI,Coby Bryant,DB,Out,Injured reserve
 9,NYG,Jarrick Bernard-Converse,DB,Out,Injured reserve
+9,CHI,Zavier Scott,RB,Out,Injured reserve
 9,BAL,Tavius Robinson,LB,Out,Injured reserve
 9,ARI,Paris Johnson Jr.,OL,Out,Injured reserve
 9,PHI,Tank Bigsby,RB,Out,Injured reserve
@@ -239,7 +241,6 @@ week,team,player,pos,status,injury
 9,HOU,K.C. Ossai,LB,Out,Injured reserve
 9,ATL,Beaux Collins,WR,Out,Injured reserve
 9,CLE,Raheim Sanders,RB,Out,Injured reserve
-9,LVR,Carter Runyon,TE,Out,Injured reserve
 9,MIN,Tyler Batty,LB,Out,Injured reserve
 9,ATL,Jalon Walker,LB,Out,Injured reserve
 9,ATL,James Pearce Jr.,LB,Out,Exempt list
