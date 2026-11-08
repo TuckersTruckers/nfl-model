@@ -10,13 +10,19 @@ week,team,player,pos,status,injury
 9,ATL,Yasir Abdullah,DE,Questionable,Hamstring
 9,ATL,Beaux Collins,WR,Questionable,Hip
 9,ATL,James Pearce Jr.,DE,Questionable,Back
-9,ATL,Cameron Williams,T,Questionable,Ankle
+9,ATL,Cameron Williams,T,Out,Ankle
 9,ATL,Zachariah Branch,WR,Out,Hamstring
 9,BAL,Lamar Jackson,QB,Out,Thumb
 9,BAL,Tyler Huntley,QB,Out,Toe
 9,BAL,Jaylinn Hawkins,S,Out,Knee
 9,BAL,Nate Wiggins,CB,Questionable,Stinger
 9,BAL,Adam Randall,RB,Questionable,Neck
+9,BUF,Dion Dawkins,T,Questionable,Rib
+9,BUF,Greg Gaines,DT,Questionable,Calf
+9,BUF,Josh Palmer,WR,Out,Hamstring
+9,BUF,Alec Anderson,G,Questionable,Ankle
+9,BUF,Tyrell Shavers,WR,Questionable,Knee
+9,BUF,Jordan Hancock,CB,Questionable,Hamstring
 9,CAR,Bobby Okereke,LB,Out,Foot
 9,CAR,Damien Lewis,G,Out,Knee
 9,CAR,Jaelan Phillips,LB,Out,Hamstring
@@ -62,10 +68,12 @@ week,team,player,pos,status,injury
 9,GNB,Chris Brooks,RB,Questionable,Ankle
 9,GNB,MarShawn Lloyd,RB,Questionable,Knee
 9,GNB,Travis Glover,G,Out,Knee
+9,HOU,David Montgomery,RB,Out,Groin
+9,HOU,Reed Blankenship,S,Out,Concussion
 9,IND,Akeem Davis-Gaither,LB,Out,Knee
 9,IND,Justin Walley,CB,Out,Knee
 9,IND,Jalen Travis,T,Questionable,Thumb
-9,IND,A.J. Haulcy,S,Questionable,Ankle
+9,IND,A.J. Haulcy,S,Out,Ankle
 9,JAX,Travon Walker,DE,Questionable,Rib
 9,JAX,Bhayshul Tuten,RB,Questionable,Ankle
 9,KAN,Nikko Remigio,WR,Questionable,Hip
@@ -91,7 +99,12 @@ week,team,player,pos,status,injury
 9,MIA,Malik Herring,DE,Questionable,Neck
 9,MIA,Jaylen Wright,RB,Questionable,Quadricep
 9,MIA,Kaytron Allen,RB,Questionable,Quadricep
-9,NWE,Greg Van Roten,G,Questionable,Hamstring
+9,MIN,Kyler Murray,QB,Out,Hamstring
+9,MIN,Jauan Jennings,WR,Out,Calf
+9,MIN,Theo Jackson,S,Questionable,Quadricep
+9,MIN,Jay Ward,S,Questionable,Knee
+9,MIN,Demond Claiborne,RB,Out,Knee
+9,NWE,Greg Van Roten,G,Out,Hamstring
 9,NWE,Morgan Moses,T,Questionable,Foot
 9,NWE,Hunter Henry,TE,Questionable,Foot
 9,NWE,Kevin Byard,S,Questionable,Chest
@@ -108,11 +121,11 @@ week,team,player,pos,status,injury
 9,NYG,Charlie Jones,WR,Questionable,Hand
 9,NYG,Cam Skattebo,RB,Doubtful,Hamstring
 9,NYJ,Harrison Phillips,DT,Questionable,Ankle
-9,NYJ,Joseph Ossai,DE,Questionable,Ankle
-9,NYJ,Nahshon Wright,CB,Questionable,Back
+9,NYJ,Joseph Ossai,DE,Out,Ankle
+9,NYJ,Nahshon Wright,CB,Out,Back
 9,NYJ,Garrett Wilson,WR,Out,Concussion
 9,NYJ,Trevin Wallace,LB,Out,Groin
-9,NYJ,VJ Payne,S,Questionable,Knee
+9,NYJ,VJ Payne,S,Out,Knee
 9,PHI,Jonathan Jones,CB,Out,Hamstring
 9,PHI,Michael Carter II,CB,Out,Abdomen
 9,PHI,DeVonta Smith,WR,Out,Hamstring
@@ -268,7 +281,6 @@ week,team,player,pos,status,injury
 9,CIN,Andrei Iosivas,WR,Out,Injured reserve
 9,BAL,Jovaughn Gwyn,OL,Out,Injured reserve
 9,ARI,Jalen Brooks,WR,Out,Injured reserve
-9,BUF,Tyrell Shavers,WR,Out,Injured reserve
 9,NWE,Julian Hill,TE,Out,Injured reserve
 9,HOU,Ali Gaye,DL,Out,Injured reserve
 9,DAL,Princeton Fant,TE,Out,Injured reserve
@@ -343,7 +355,6 @@ week,team,player,pos,status,injury
 9,CHI,Ruben Hyppolite II,LB,Out,Injured reserve
 9,CAR,Cam Jackson,DL,Out,Injured reserve
 9,NYJ,Francisco Mauigoa,LB,Out,Injured reserve
-9,BUF,Jordan Hancock,DB,Out,Injured reserve
 9,NYJ,Tyler Baron,LB,Out,Injured reserve
 9,BUF,Dorian Strong,DB,Out,Injured reserve
 9,HOU,Graham Mertz,QB,Out,Injured reserve
