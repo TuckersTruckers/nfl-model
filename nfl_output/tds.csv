@@ -618,7 +618,69 @@ Mike Gesicki,TE,Passing,25.0,J.Burrow,CIN,TEN,8,TEN @ CIN,4,07:18,0
 Wan'Dale Robinson,WR,Passing,15.0,C.Ward,TEN,CIN,8,TEN @ CIN,4,03:50,0
 Tee Higgins,WR,Passing,18.0,J.Burrow,CIN,TEN,8,TEN @ CIN,4,01:20,0
 Joe Burrow,QB,Rushing,9.0,,CIN,TEN,8,TEN @ CIN,5,07:07,0
+AJ Barner,TE,Rushing,1.0,,SEA,ARI,9,ARI @ SEA,2,14:26,1
+AJ Barner,TE,Passing,7.0,D.Lock,SEA,ARI,9,ARI @ SEA,2,00:18,0
+Charlie Woerner,TE,Passing,1.0,M.Penix,ATL,CIN,9,CIN @ ATL,1,11:17,1
+Ja'Marr Chase,WR,Passing,47.0,J.Burrow,CIN,ATL,9,CIN @ ATL,1,08:55,0
+Joe Burrow,QB,Rushing,1.0,,CIN,ATL,9,CIN @ ATL,2,12:57,0
+Tee Higgins,WR,Passing,4.0,J.Burrow,CIN,ATL,9,CIN @ ATL,2,04:07,0
+Bijan Robinson,RB,Rushing,1.0,,ATL,CIN,9,CIN @ ATL,3,06:21,0
+Tee Higgins,WR,Passing,8.0,J.Burrow,CIN,ATL,9,CIN @ ATL,3,02:09,0
+KC Concepcion,WR,Passing,64.0,S.Sanders,CLE,NOR,9,CLE @ NO,4,05:33,1
+Audric Estimé,RB,Rushing,2.0,,NOR,CLE,9,CLE @ NO,4,01:00,0
+Juwan Johnson,TE,Passing,15.0,T.Shough,NOR,CLE,9,CLE @ NO,5,04:23,0
+Harold Fannin Jr.,TE,Passing,39.0,S.Sanders,CLE,NOR,9,CLE @ NO,5,01:11,0
+Seth McGowan,RB,Rushing,2.0,,IND,DAL,9,DAL @ IND,1,06:18,1
+Jake Ferguson,TE,Passing,10.0,D.Prescott,DAL,IND,9,DAL @ IND,2,14:13,0
+CeeDee Lamb,WR,Passing,44.0,D.Prescott,DAL,IND,9,DAL @ IND,2,00:28,0
+Ashton Dulin,WR,Passing,55.0,D.Jones,IND,DAL,9,DAL @ IND,3,01:27,0
+Javonte Williams,RB,Rushing,1.0,,DAL,IND,9,DAL @ IND,4,01:10,0
+Courtland Sutton,WR,Passing,3.0,B.Nix,DEN,CAR,9,DEN @ CAR,1,01:27,1
+Tommy Tremble,TE,Passing,10.0,B.Young,CAR,DEN,9,DEN @ CAR,2,01:31,0
+Darren Waller,TE,Passing,15.0,B.Young,CAR,DEN,9,DEN @ CAR,3,11:36,0
+Jonah Coleman,RB,Rushing,9.0,,DEN,CAR,9,DEN @ CAR,4,10:22,0
+Pat Bryant,WR,Passing,26.0,B.Nix,DEN,CAR,9,DEN @ CAR,4,05:46,0
+Tetairoa McMillan,WR,Passing,4.0,B.Young,CAR,DEN,9,DEN @ CAR,4,03:08,0
+Jahmyr Gibbs,RB,Rushing,8.0,,DET,MIA,9,DET @ MIA,3,01:25,1
+Jordan Love,QB,Rushing,13.0,,GNB,NWE,9,GB @ NE,1,13:29,1
+Matthew Golden,WR,Passing,5.0,J.Love,GNB,NWE,9,GB @ NE,1,08:03,0
+Rhamondre Stevenson,RB,Passing,30.0,D.Maye,NWE,GNB,9,GB @ NE,2,09:30,0
+Kaleb Johnson,RB,Rushing,2.0,,GNB,NWE,9,GB @ NE,2,04:49,0
+Efton Chism III,WR,Passing,8.0,D.Maye,NWE,GNB,9,GB @ NE,2,02:43,0
+Savion Williams,WR,Passing,10.0,J.Love,GNB,NWE,9,GB @ NE,3,10:57,0
+Christian Watson,WR,Passing,39.0,J.Love,GNB,NWE,9,GB @ NE,3,04:16,0
+Mack Hollins,WR,Passing,22.0,D.Maye,NWE,GNB,9,GB @ NE,3,01:18,0
+Corey Kiner,RB,Rushing,4.0,,NWE,GNB,9,GB @ NE,4,04:00,0
+Xavier Hutchinson,WR,Passing,17.0,C.Stroud,HOU,LAC,9,HOU @ LAC,1,10:21,1
+Tank Dell,WR,Passing,63.0,C.Stroud,HOU,LAC,9,HOU @ LAC,2,04:37,0
+Kayshon Boutte,WR,Passing,12.0,C.Stroud,HOU,LAC,9,HOU @ LAC,2,00:36,0
+Nico Collins,WR,Passing,13.0,C.Stroud,HOU,LAC,9,HOU @ LAC,3,08:21,0
+Kayshon Boutte,WR,Passing,63.0,C.Stroud,HOU,LAC,9,HOU @ LAC,4,14:23,0
+Quentin Johnston,WR,Passing,58.0,J.Herbert,LAC,HOU,9,HOU @ LAC,4,12:57,0
+Derius Davis,WR,Passing,15.0,D.Uiagalelei,LAC,HOU,9,HOU @ LAC,4,04:24,0
 Bhayshul Tuten,RB,Rushing,1.0,,JAX,BAL,9,JAX @ BAL,1,11:24,1
 Parker Washington,WR,Passing,50.0,T.Lawrence,JAX,BAL,9,JAX @ BAL,2,01:06,0
 Chris Rodriguez Jr.,RB,Rushing,2.0,,JAX,BAL,9,JAX @ BAL,4,07:31,0
 Justice Hill,RB,Rushing,65.0,,BAL,JAX,9,JAX @ BAL,4,07:26,0
+Van Jefferson,WR,Passing,7.0,J.Daniels,WAS,LAR,9,LA @ WAS,2,14:04,1
+Blake Corum,RB,Rushing,1.0,,LAR,WAS,9,LA @ WAS,3,11:34,0
+Puka Nacua,WR,Passing,7.0,M.Stafford,LAR,WAS,9,LA @ WAS,4,12:57,0
+Christian McCaffrey,RB,Rushing,1.0,,SFO,LVR,9,LV @ SF,1,09:34,1
+Brock Purdy,QB,Rushing,1.0,,SFO,LVR,9,LV @ SF,1,01:58,0
+Kirk Cousins,QB,Rushing,2.0,,LVR,SFO,9,LV @ SF,2,12:43,0
+Christian McCaffrey,RB,Passing,12.0,B.Purdy,SFO,LVR,9,LV @ SF,2,05:20,0
+Jaden Dugger,DEF,Return/Defensive,0.0,,SFO,LVR,9,LV @ SF,3,14:54,0
+Brock Bowers,TE,Passing,21.0,K.Cousins,LVR,SFO,9,LV @ SF,3,09:34,0
+Jordan Watkins,WR,Passing,37.0,B.Purdy,SFO,LVR,9,LV @ SF,3,00:44,0
+Saquon Barkley,RB,Rushing,3.0,,PHI,NYG,9,NYG @ PHI,1,02:12,1
+Isaiah Likely,TE,Passing,5.0,J.Winston,NYG,PHI,9,NYG @ PHI,3,02:30,0
+Kenneth Walker III,RB,Passing,7.0,P.Mahomes,KAN,NYJ,9,NYJ @ KC,2,15:00,1
+Kenneth Walker III,RB,Passing,25.0,P.Mahomes,KAN,NYJ,9,NYJ @ KC,2,05:45,0
+Travis Kelce,TE,Rushing,1.0,,KAN,NYJ,9,NYJ @ KC,3,10:27,0
+Kenneth Walker III,RB,Rushing,2.0,,KAN,NYJ,9,NYJ @ KC,3,00:15,0
+Emmett Johnson,RB,Rushing,6.0,,KAN,NYJ,9,NYJ @ KC,4,03:39,0
+Rome Odunze,WR,Passing,9.0,C.Williams,CHI,TAM,9,TB @ CHI,1,09:44,1
+Luther Burden III,WR,Passing,56.0,C.Williams,CHI,TAM,9,TB @ CHI,1,06:11,0
+Bucky Irving,RB,Rushing,2.0,,TAM,CHI,9,TB @ CHI,3,11:40,0
+Jaylon Johnson,DEF,Return/Defensive,0.0,,CHI,TAM,9,TB @ CHI,3,03:50,0
+Bucky Irving,RB,Rushing,6.0,,TAM,CHI,9,TB @ CHI,4,02:56,0
