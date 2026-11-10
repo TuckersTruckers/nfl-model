@@ -2364,6 +2364,18 @@ season,week,player,team,opp,pos,att,cmp,pyds,ptd,int,car,ryds,rtd,tgt,rec,recyds
 2026,9,Matthew Hibner,BAL,JAX,TE,0,0,0,0,0,0,0,0,2,1,5,0,1.5
 2026,9,Rashod Bateman,BAL,JAX,WR,0,0,0,0,0,0,0,0,2,1,6,0,1.6
 2026,9,Zay Flowers,BAL,JAX,WR,0,0,0,0,0,3,17,0,6,3,6,0,5.3
+2026,9,DJ Moore,BUF,MIN,WR,0,0,0,0,0,1,11,0,5,3,25,0,6.6
+2026,9,Dalton Kincaid,BUF,MIN,TE,0,0,0,0,0,0,0,0,3,3,28,0,5.8
+2026,9,Dawson Knox,BUF,MIN,TE,0,0,0,0,0,0,0,0,5,4,37,0,7.7
+2026,9,Jackson Hawes,BUF,MIN,TE,0,0,0,0,0,0,0,0,1,1,8,0,1.8
+2026,9,James Cook,BUF,MIN,RB,0,0,0,0,0,31,107,1,1,0,0,0,16.7
+2026,9,Josh Allen,BUF,MIN,QB,31,21,234,1,1,6,15,0,0,0,0,0,12.86
+2026,9,Keleki Latu,BUF,MIN,TE,0,0,0,0,0,0,0,0,1,1,25,1,9.5
+2026,9,Keon Coleman,BUF,MIN,WR,0,0,0,0,0,0,0,0,6,3,17,0,4.7
+2026,9,Khalil Shakir,BUF,MIN,WR,0,0,0,0,0,0,0,0,4,4,58,0,9.8
+2026,9,Kyle Allen,BUF,MIN,QB,0,0,0,0,0,3,-2,0,0,0,0,0,-0.2
+2026,9,Ray Davis,BUF,MIN,RB,0,0,0,0,0,2,2,0,1,0,0,0,0.2
+2026,9,Ty Johnson,BUF,MIN,RB,0,0,0,0,0,1,1,0,2,2,36,0,5.7
 2026,9,Bryce Young,CAR,DEN,QB,39,28,276,3,1,1,13,0,0,0,0,0,20.34
 2026,9,Brycen Tremayne,CAR,DEN,WR,0,0,0,0,0,0,0,0,1,0,0,0,0.0
 2026,9,Chuba Hubbard,CAR,DEN,RB,0,0,0,0,0,16,79,0,5,4,17,0,13.6
@@ -2520,6 +2532,15 @@ season,week,player,team,opp,pos,att,cmp,pyds,ptd,int,car,ryds,rtd,tgt,rec,recyds
 2026,9,Malik Willis,MIA,DET,QB,25,13,128,0,1,2,7,0,0,0,0,0,3.82
 2026,9,Ollie Gordon II,MIA,DET,RB,0,0,0,0,0,16,55,0,1,1,9,0,7.4
 2026,9,Will Kacmarek,MIA,DET,TE,0,0,0,0,0,0,0,0,2,1,6,0,1.6
+2026,9,Aaron Jones,MIN,BUF,RB,0,0,0,0,0,5,16,0,1,1,5,0,3.1
+2026,9,Carson Wentz,MIN,BUF,QB,25,8,81,0,2,1,0,0,0,0,0,0,-2.76
+2026,9,DeeJay Dallas,MIN,BUF,RB,0,0,0,0,0,0,0,0,1,1,2,0,1.2
+2026,9,Jordan Addison,MIN,BUF,WR,0,0,0,0,0,0,0,0,3,2,28,0,4.8
+2026,9,Jordan Mason,MIN,BUF,RB,0,0,0,0,0,6,35,0,3,2,7,0,6.2
+2026,9,Justin Jefferson,MIN,BUF,WR,0,0,0,0,0,0,0,0,11,3,58,0,8.8
+2026,9,Max Brosmer,MIN,BUF,QB,7,6,58,0,0,0,0,0,0,0,0,0,2.32
+2026,9,Myles Price,MIN,BUF,WR,0,0,0,0,0,0,0,0,4,1,6,0,1.6
+2026,9,T.J. Hockenson,MIN,BUF,TE,0,0,0,0,0,0,0,0,7,4,33,0,7.3
 2026,9,Alvin Kamara,NOR,CLE,RB,0,0,0,0,0,6,32,0,4,3,17,0,7.9
 2026,9,Audric Estimé,NOR,CLE,RB,0,0,0,0,0,15,72,1,1,1,5,0,14.7
 2026,9,Barion Brown,NOR,CLE,WR,0,0,0,0,0,0,0,0,1,1,52,0,6.2
