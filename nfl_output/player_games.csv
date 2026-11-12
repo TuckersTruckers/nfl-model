@@ -1598,7 +1598,7 @@ season,week,player,team,opp,pos,att,cmp,pyds,ptd,int,car,ryds,rtd,tgt,rec,recyds
 2026,6,Rome Odunze,CHI,ATL,WR,0,0,0,0,0,0,0,0,4,3,39,0,6.9
 2026,6,Roschon Johnson,CHI,ATL,RB,0,0,0,0,0,13,51,1,2,2,34,0,14.5
 2026,6,Zavion Thomas,CHI,ATL,WR,0,0,0,0,0,0,0,0,3,3,25,0,5.5
-2026,6,Audric Estimé,CLE,BAL,RB,0,0,0,0,0,9,19,1,0,0,0,0,7.9
+2026,6,Audric Estime,CLE,BAL,RB,0,0,0,0,0,9,19,1,0,0,0,0,7.9
 2026,6,Blake Whiteheart,CLE,BAL,TE,0,0,0,0,0,0,0,0,1,1,8,0,1.8
 2026,6,Denzel Boston,CLE,BAL,WR,0,0,0,0,0,0,0,0,5,1,15,0,2.5
 2026,6,Deshaun Watson,CLE,BAL,QB,26,16,164,0,0,8,29,0,0,0,0,0,9.46
@@ -2542,7 +2542,7 @@ season,week,player,team,opp,pos,att,cmp,pyds,ptd,int,car,ryds,rtd,tgt,rec,recyds
 2026,9,Myles Price,MIN,BUF,WR,0,0,0,0,0,0,0,0,4,1,6,0,1.6
 2026,9,T.J. Hockenson,MIN,BUF,TE,0,0,0,0,0,0,0,0,7,4,33,0,7.3
 2026,9,Alvin Kamara,NOR,CLE,RB,0,0,0,0,0,6,32,0,4,3,17,0,7.9
-2026,9,Audric Estimé,NOR,CLE,RB,0,0,0,0,0,15,72,1,1,1,5,0,14.7
+2026,9,Audric Estime,NOR,CLE,RB,0,0,0,0,0,15,72,1,1,1,5,0,14.7
 2026,9,Barion Brown,NOR,CLE,WR,0,0,0,0,0,0,0,0,1,1,52,0,6.2
 2026,9,Bryce Lance,NOR,CLE,WR,0,0,0,0,0,0,0,0,1,0,0,0,0.0
 2026,9,Chris Olave,NOR,CLE,WR,0,0,0,0,0,0,0,0,12,7,98,0,16.8

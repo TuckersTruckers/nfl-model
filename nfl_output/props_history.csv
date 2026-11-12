@@ -2523,6 +2523,75 @@ season,week,event,home_code,away_code,player,stat,line,over_odds,under_odds,book
 2026,9.0,fe93e6ab1e553c0169936a0a983c324f,PHI,NYG,Theo Johnson,rec,1.5,175,-227.0,DraftKings,DraftKings
 2026,9.0,fe93e6ab1e553c0169936a0a983c324f,PHI,NYG,Theo Johnson,rec_yds,8.5,-110,-107.0,BetRivers,DraftKings
 2026,9.0,fe93e6ab1e553c0169936a0a983c324f,PHI,NYG,Thomas Fidone,any_td,0.5,2200,,BetRivers,
+2026,10.0,74d39e19225caf211ad2c8eb4110179f,NYG,WAS,Antonio Williams,any_td,0.5,420,,FanDuel,
+2026,10.0,74d39e19225caf211ad2c8eb4110179f,NYG,WAS,Antonio Williams,rec,3.5,-112,-102,BetOnline.ag,FanDuel
+2026,10.0,74d39e19225caf211ad2c8eb4110179f,NYG,WAS,Antonio Williams,rec_yds,37.5,-113,-111,DraftKings,DraftKings
+2026,10.0,74d39e19225caf211ad2c8eb4110179f,NYG,WAS,Austin Ekeler,any_td,0.5,340,,FanDuel,
+2026,10.0,74d39e19225caf211ad2c8eb4110179f,NYG,WAS,Austin Ekeler,rec,1.5,-115,-102,BetMGM,FanDuel
+2026,10.0,74d39e19225caf211ad2c8eb4110179f,NYG,WAS,Austin Ekeler,rec_yds,10.5,-113,-110,FanDuel,DraftKings
+2026,10.0,74d39e19225caf211ad2c8eb4110179f,NYG,WAS,Austin Ekeler,rush_yds,29.5,-113,-108,FanDuel,DraftKings
+2026,10.0,74d39e19225caf211ad2c8eb4110179f,NYG,WAS,Ben Sinnott,any_td,0.5,2200,,BetRivers,
+2026,10.0,74d39e19225caf211ad2c8eb4110179f,NYG,WAS,Cam Skattebo,any_td,0.5,130,,FanDuel,
+2026,10.0,74d39e19225caf211ad2c8eb4110179f,NYG,WAS,Cam Skattebo,rec,1.5,135,-140,BetMGM,FanDuel
+2026,10.0,74d39e19225caf211ad2c8eb4110179f,NYG,WAS,Cam Skattebo,rec_yds,7.5,-108,-106,BetRivers,FanDuel
+2026,10.0,74d39e19225caf211ad2c8eb4110179f,NYG,WAS,Cam Skattebo,rush_yds,60.5,-114,-110,DraftKings,DraftKings
+2026,10.0,74d39e19225caf211ad2c8eb4110179f,NYG,WAS,Charlie Jones,any_td,0.5,2000,,DraftKings,
+2026,10.0,74d39e19225caf211ad2c8eb4110179f,NYG,WAS,Chig Okonkwo,any_td,0.5,380,,FanDuel,
+2026,10.0,74d39e19225caf211ad2c8eb4110179f,NYG,WAS,Chig Okonkwo,rec,3.5,-148,121,FanDuel,DraftKings
+2026,10.0,74d39e19225caf211ad2c8eb4110179f,NYG,WAS,Chig Okonkwo,rec_yds,35.5,-112,-113,BetOnline.ag,FanDuel
+2026,10.0,74d39e19225caf211ad2c8eb4110179f,NYG,WAS,Chris Manhertz,any_td,0.5,3300,,FanDuel,
+2026,10.0,74d39e19225caf211ad2c8eb4110179f,NYG,WAS,Colson Yankoff,any_td,0.5,2400,,BetOnline.ag,
+2026,10.0,74d39e19225caf211ad2c8eb4110179f,NYG,WAS,Darnell Mooney,any_td,0.5,850,,FanDuel,
+2026,10.0,74d39e19225caf211ad2c8eb4110179f,NYG,WAS,Darnell Mooney,rec,1.5,110,-128,BetMGM,DraftKings
+2026,10.0,74d39e19225caf211ad2c8eb4110179f,NYG,WAS,Darnell Mooney,rec_yds,14.5,-108,-110,DraftKings,BetMGM
+2026,10.0,74d39e19225caf211ad2c8eb4110179f,NYG,WAS,Devin Singletary,any_td,0.5,300,,Bovada,
+2026,10.0,74d39e19225caf211ad2c8eb4110179f,NYG,WAS,Devin Singletary,rec,1.5,110,-122,BetMGM,FanDuel
+2026,10.0,74d39e19225caf211ad2c8eb4110179f,NYG,WAS,Devin Singletary,rec_yds,8.5,-118,-107,DraftKings,DraftKings
+2026,10.0,74d39e19225caf211ad2c8eb4110179f,NYG,WAS,Devin Singletary,rush_yds,23.5,-113,-109,FanDuel,DraftKings
+2026,10.0,74d39e19225caf211ad2c8eb4110179f,NYG,WAS,Greg Desrosiers Jr.,any_td,0.5,2000,,DraftKings,
+2026,10.0,74d39e19225caf211ad2c8eb4110179f,NYG,WAS,Isaiah Likely,any_td,0.5,210,,BetMGM,
+2026,10.0,74d39e19225caf211ad2c8eb4110179f,NYG,WAS,Isaiah Likely,rec,4.5,102,-110,FanDuel,BetMGM
+2026,10.0,74d39e19225caf211ad2c8eb4110179f,NYG,WAS,Isaiah Likely,rec_yds,47.5,-111,-113,DraftKings,DraftKings
+2026,10.0,74d39e19225caf211ad2c8eb4110179f,NYG,WAS,J.J. McCarthy,any_td,0.5,500,,BetMGM,
+2026,10.0,74d39e19225caf211ad2c8eb4110179f,NYG,WAS,J.J. McCarthy,pass_td,1.5,164,-198,DraftKings,FanDuel
+2026,10.0,74d39e19225caf211ad2c8eb4110179f,NYG,WAS,J.J. McCarthy,pass_yds,208.5,-112,-112,DraftKings,DraftKings
+2026,10.0,74d39e19225caf211ad2c8eb4110179f,NYG,WAS,J.J. McCarthy,rush_yds,15.5,-110,-113,BetMGM,DraftKings
+2026,10.0,74d39e19225caf211ad2c8eb4110179f,NYG,WAS,Jalin Hyatt,any_td,0.5,2000,,DraftKings,
+2026,10.0,74d39e19225caf211ad2c8eb4110179f,NYG,WAS,Jayden Daniels,any_td,0.5,280,,FanDuel,
+2026,10.0,74d39e19225caf211ad2c8eb4110179f,NYG,WAS,Jayden Daniels,pass_td,1.5,165,-190,FanDuel,BetRivers
+2026,10.0,74d39e19225caf211ad2c8eb4110179f,NYG,WAS,Jayden Daniels,pass_yds,200.5,-111,-113,DraftKings,DraftKings
+2026,10.0,74d39e19225caf211ad2c8eb4110179f,NYG,WAS,Jayden Daniels,rush_yds,37.5,-113,-111,FanDuel,BetOnline.ag
+2026,10.0,74d39e19225caf211ad2c8eb4110179f,NYG,WAS,John Bates,any_td,0.5,2000,,BetMGM,
+2026,10.0,74d39e19225caf211ad2c8eb4110179f,NYG,WAS,Luke McCaffrey,any_td,0.5,1500,,DraftKings,
+2026,10.0,74d39e19225caf211ad2c8eb4110179f,NYG,WAS,Malachi Fields,any_td,0.5,475,,BetMGM,
+2026,10.0,74d39e19225caf211ad2c8eb4110179f,NYG,WAS,Malachi Fields,rec,2.5,140,-148,BetRivers,DraftKings
+2026,10.0,74d39e19225caf211ad2c8eb4110179f,NYG,WAS,Malachi Fields,rec_yds,25.5,-113,-112,FanDuel,BetOnline.ag
+2026,10.0,74d39e19225caf211ad2c8eb4110179f,NYG,WAS,Malik Nabers,any_td,0.5,180,,Bovada,
+2026,10.0,74d39e19225caf211ad2c8eb4110179f,NYG,WAS,Malik Nabers,rec,5.5,-120,104,FanDuel,DraftKings
+2026,10.0,74d39e19225caf211ad2c8eb4110179f,NYG,WAS,Malik Nabers,rec_yds,68.5,-115,-114,Bovada,BetRivers
+2026,10.0,74d39e19225caf211ad2c8eb4110179f,NYG,WAS,New York Giants D/ST,any_td,0.5,475,,DraftKings,
+2026,10.0,74d39e19225caf211ad2c8eb4110179f,NYG,WAS,New York Giants Defense,any_td,0.5,800,,FanDuel,
+2026,10.0,74d39e19225caf211ad2c8eb4110179f,NYG,WAS,Patrick Ricard,any_td,0.5,3300,,BetMGM,
+2026,10.0,74d39e19225caf211ad2c8eb4110179f,NYG,WAS,Rachaad White,any_td,0.5,185,,DraftKings,
+2026,10.0,74d39e19225caf211ad2c8eb4110179f,NYG,WAS,Rachaad White,rec,2.5,150,-178,DraftKings,FanDuel
+2026,10.0,74d39e19225caf211ad2c8eb4110179f,NYG,WAS,Rachaad White,rec_yds,11.5,-114,-110,DraftKings,DraftKings
+2026,10.0,74d39e19225caf211ad2c8eb4110179f,NYG,WAS,Rachaad White,rush_yds,38.5,-113,-112,FanDuel,BetOnline.ag
+2026,10.0,74d39e19225caf211ad2c8eb4110179f,NYG,WAS,Robert Henry Jr.,any_td,0.5,3000,,DraftKings,
+2026,10.0,74d39e19225caf211ad2c8eb4110179f,NYG,WAS,Stefon Diggs,any_td,0.5,260,,BetMGM,
+2026,10.0,74d39e19225caf211ad2c8eb4110179f,NYG,WAS,Stefon Diggs,rec,3.5,-160,130,BetMGM,BetOnline.ag
+2026,10.0,74d39e19225caf211ad2c8eb4110179f,NYG,WAS,Stefon Diggs,rec_yds,38.5,-111,-104,DraftKings,BetOnline.ag
+2026,10.0,74d39e19225caf211ad2c8eb4110179f,NYG,WAS,Theo Johnson,any_td,0.5,1000,,BetMGM,
+2026,10.0,74d39e19225caf211ad2c8eb4110179f,NYG,WAS,Theo Johnson,rec,0.5,-159,134,BetOnline.ag,DraftKings
+2026,10.0,74d39e19225caf211ad2c8eb4110179f,NYG,WAS,Theo Johnson,rec_yds,5.5,-108,-111,DraftKings,BetOnline.ag
+2026,10.0,74d39e19225caf211ad2c8eb4110179f,NYG,WAS,Thomas Fidone,any_td,0.5,4000,,DraftKings,
+2026,10.0,74d39e19225caf211ad2c8eb4110179f,NYG,WAS,Treylon Burks,any_td,0.5,390,,BetMGM,
+2026,10.0,74d39e19225caf211ad2c8eb4110179f,NYG,WAS,Treylon Burks,rec,1.5,-188,151,FanDuel,DraftKings
+2026,10.0,74d39e19225caf211ad2c8eb4110179f,NYG,WAS,Treylon Burks,rec_yds,26.5,-113,-112,FanDuel,BetRivers
+2026,10.0,74d39e19225caf211ad2c8eb4110179f,NYG,WAS,Van Jefferson,any_td,0.5,950,,BetMGM,
+2026,10.0,74d39e19225caf211ad2c8eb4110179f,NYG,WAS,Van Jefferson,rec,1.5,180,-211,BetMGM,DraftKings
+2026,10.0,74d39e19225caf211ad2c8eb4110179f,NYG,WAS,Van Jefferson,rec_yds,7.5,-110,-113,BetMGM,FanDuel
+2026,10.0,74d39e19225caf211ad2c8eb4110179f,NYG,WAS,Washington Commanders D/ST,any_td,0.5,525,,BetMGM,
+2026,10.0,74d39e19225caf211ad2c8eb4110179f,NYG,WAS,Washington Commanders Defense,any_td,0.5,800,,FanDuel,
 2026,,05405af79752f5e742cdf50b61f6745e,MIA,NWE,A.J. Brown,any_td,0.5,210,,BetRivers,
 2026,,05405af79752f5e742cdf50b61f6745e,MIA,NWE,Caleb Douglas,any_td,0.5,410,,FanDuel,
 2026,,05405af79752f5e742cdf50b61f6745e,MIA,NWE,Caleb Douglas,rec,3.5,144,-175.0,FanDuel,BetMGM

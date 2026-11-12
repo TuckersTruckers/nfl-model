@@ -1,72 +1,70 @@
 event,commence,home,away,player,stat,line,over_odds,under_odds,book_over,book_under,books,home_code,away_code,week,season
-17ad7eff2f7875e20a8109abe40470e3,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,Josh Allen,any_td,0.5,-125,,DraftKings,,6,MIN,BUF,9,2026
-17ad7eff2f7875e20a8109abe40470e3,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,James Cook,any_td,0.5,100,,BetMGM,,6,MIN,BUF,9,2026
-17ad7eff2f7875e20a8109abe40470e3,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,Justin Jefferson,any_td,0.5,150,,BetRivers,,6,MIN,BUF,9,2026
-17ad7eff2f7875e20a8109abe40470e3,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,Jordan Mason,any_td,0.5,225,,BetMGM,,6,MIN,BUF,9,2026
-17ad7eff2f7875e20a8109abe40470e3,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,T.J. Hockenson,any_td,0.5,230,,BetMGM,,6,MIN,BUF,9,2026
-17ad7eff2f7875e20a8109abe40470e3,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,Dalton Kincaid,any_td,0.5,290,,BetRivers,,6,MIN,BUF,9,2026
-17ad7eff2f7875e20a8109abe40470e3,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,Jordan Addison,any_td,0.5,270,,BetMGM,,6,MIN,BUF,9,2026
-17ad7eff2f7875e20a8109abe40470e3,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,DJ Moore,any_td,0.5,285,,DraftKings,,6,MIN,BUF,9,2026
-17ad7eff2f7875e20a8109abe40470e3,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,Aaron Jones,any_td,0.5,300,,DraftKings,,6,MIN,BUF,9,2026
-17ad7eff2f7875e20a8109abe40470e3,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,Khalil Shakir,any_td,0.5,340,,DraftKings,,6,MIN,BUF,9,2026
-17ad7eff2f7875e20a8109abe40470e3,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,Keon Coleman,any_td,0.5,450,,DraftKings,,6,MIN,BUF,9,2026
-17ad7eff2f7875e20a8109abe40470e3,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,Buffalo Bills D/ST,any_td,0.5,600,,DraftKings,,2,MIN,BUF,9,2026
-17ad7eff2f7875e20a8109abe40470e3,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,Minnesota Vikings D/ST,any_td,0.5,650,,DraftKings,,2,MIN,BUF,9,2026
-17ad7eff2f7875e20a8109abe40470e3,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,Dawson Knox,any_td,0.5,775,,BetMGM,,6,MIN,BUF,9,2026
-17ad7eff2f7875e20a8109abe40470e3,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,Ty Johnson,any_td,0.5,750,,DraftKings,,6,MIN,BUF,9,2026
-17ad7eff2f7875e20a8109abe40470e3,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,Ben Yurosek,any_td,0.5,1050,,BetMGM,,5,MIN,BUF,9,2026
-17ad7eff2f7875e20a8109abe40470e3,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,Myles Price,any_td,0.5,1100,,FanDuel,,6,MIN,BUF,9,2026
-17ad7eff2f7875e20a8109abe40470e3,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,Tai Felton,any_td,0.5,1200,,FanDuel,,5,MIN,BUF,9,2026
-17ad7eff2f7875e20a8109abe40470e3,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,Ray Davis,any_td,0.5,1500,,FanDuel,,6,MIN,BUF,9,2026
-17ad7eff2f7875e20a8109abe40470e3,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,Carson Wentz,any_td,0.5,1300,,FanDuel,,6,MIN,BUF,9,2026
-17ad7eff2f7875e20a8109abe40470e3,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,Jackson Hawes,any_td,0.5,1400,,BetMGM,,6,MIN,BUF,9,2026
-17ad7eff2f7875e20a8109abe40470e3,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,Gavin Bartholomew,any_td,0.5,1700,,BetMGM,,6,MIN,BUF,9,2026
-17ad7eff2f7875e20a8109abe40470e3,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,DeeJay Dallas,any_td,0.5,1700,,BetMGM,,6,MIN,BUF,9,2026
-17ad7eff2f7875e20a8109abe40470e3,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,Skyler Bell,any_td,0.5,1600,,DraftKings,,6,MIN,BUF,9,2026
-17ad7eff2f7875e20a8109abe40470e3,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,Odell Beckham Jr.,any_td,0.5,1900,,DraftKings,,5,MIN,BUF,9,2026
-17ad7eff2f7875e20a8109abe40470e3,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,Max Bredeson,any_td,0.5,2800,,DraftKings,,6,MIN,BUF,9,2026
-17ad7eff2f7875e20a8109abe40470e3,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,Greg Dortch,any_td,0.5,3000,,DraftKings,,5,MIN,BUF,9,2026
-17ad7eff2f7875e20a8109abe40470e3,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,Keleki Latu,any_td,0.5,4000,,DraftKings,,6,MIN,BUF,9,2026
-17ad7eff2f7875e20a8109abe40470e3,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,Carson Wentz,pass_td,1.5,112,-123,BetRivers,BetOnline.ag,6,MIN,BUF,9,2026
-17ad7eff2f7875e20a8109abe40470e3,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,Josh Allen,pass_td,1.5,142,-162,FanDuel,DraftKings,6,MIN,BUF,9,2026
-17ad7eff2f7875e20a8109abe40470e3,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,Josh Allen,pass_yds,228.5,-112,-112,DraftKings,DraftKings,3,MIN,BUF,9,2026
-17ad7eff2f7875e20a8109abe40470e3,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,Carson Wentz,pass_yds,214.5,-111,-113,DraftKings,DraftKings,2,MIN,BUF,9,2026
-17ad7eff2f7875e20a8109abe40470e3,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,Justin Jefferson,rec_yds,78.5,-113,-111,DraftKings,DraftKings,2,MIN,BUF,9,2026
-17ad7eff2f7875e20a8109abe40470e3,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,DJ Moore,rec_yds,47.5,-110,-110,BetOnline.ag,DraftKings,3,MIN,BUF,9,2026
-17ad7eff2f7875e20a8109abe40470e3,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,Jordan Addison,rec_yds,41.5,-115,-112,BetOnline.ag,BetOnline.ag,2,MIN,BUF,9,2026
-17ad7eff2f7875e20a8109abe40470e3,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,Khalil Shakir,rec_yds,40.5,-113,-110,FanDuel,BetOnline.ag,3,MIN,BUF,9,2026
-17ad7eff2f7875e20a8109abe40470e3,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,T.J. Hockenson,rec_yds,40.5,-110,-112,DraftKings,BetOnline.ag,3,MIN,BUF,9,2026
-17ad7eff2f7875e20a8109abe40470e3,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,Dalton Kincaid,rec_yds,39.5,-111,-113,DraftKings,DraftKings,4,MIN,BUF,9,2026
-17ad7eff2f7875e20a8109abe40470e3,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,Keon Coleman,rec_yds,25.5,-109,-115,DraftKings,DraftKings,3,MIN,BUF,9,2026
-17ad7eff2f7875e20a8109abe40470e3,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,Ty Johnson,rec_yds,14.5,-113,-111,DraftKings,DraftKings,4,MIN,BUF,9,2026
-17ad7eff2f7875e20a8109abe40470e3,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,Aaron Jones,rec_yds,10.5,-110,-108,DraftKings,BetOnline.ag,4,MIN,BUF,9,2026
-17ad7eff2f7875e20a8109abe40470e3,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,Dawson Knox,rec_yds,9.5,-106,-115,DraftKings,BetRivers,3,MIN,BUF,9,2026
-17ad7eff2f7875e20a8109abe40470e3,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,James Cook,rec_yds,8.5,-113,-109,FanDuel,BetRivers,6,MIN,BUF,9,2026
-17ad7eff2f7875e20a8109abe40470e3,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,Ben Yurosek,rec_yds,4.5,-113,-111,DraftKings,DraftKings,2,MIN,BUF,9,2026
-17ad7eff2f7875e20a8109abe40470e3,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,Skyler Bell,rec_yds,0.5,-101,-124,DraftKings,DraftKings,2,MIN,BUF,9,2026
-17ad7eff2f7875e20a8109abe40470e3,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,Jordan Mason,rec_yds,0.5,110,-137,Bovada,DraftKings,3,MIN,BUF,9,2026
-17ad7eff2f7875e20a8109abe40470e3,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,Tai Felton,rec_yds,0.5,127,-160,DraftKings,DraftKings,2,MIN,BUF,9,2026
-17ad7eff2f7875e20a8109abe40470e3,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,Justin Jefferson,rec,6.5,106,-118,FanDuel,DraftKings,6,MIN,BUF,9,2026
-17ad7eff2f7875e20a8109abe40470e3,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,T.J. Hockenson,rec,4.5,115,-135,BetOnline.ag,DraftKings,6,MIN,BUF,9,2026
-17ad7eff2f7875e20a8109abe40470e3,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,Khalil Shakir,rec,3.5,-144,116,DraftKings,FanDuel,5,MIN,BUF,9,2026
-17ad7eff2f7875e20a8109abe40470e3,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,DJ Moore,rec,3.5,-108,-104,BetOnline.ag,DraftKings,6,MIN,BUF,9,2026
-17ad7eff2f7875e20a8109abe40470e3,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,Jordan Addison,rec,3.5,-113,-104,BetRivers,DraftKings,6,MIN,BUF,9,2026
-17ad7eff2f7875e20a8109abe40470e3,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,Dalton Kincaid,rec,3.5,115,-121,BetOnline.ag,DraftKings,6,MIN,BUF,9,2026
-17ad7eff2f7875e20a8109abe40470e3,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,Keon Coleman,rec,2.5,150,-170,BetOnline.ag,Bovada,5,MIN,BUF,9,2026
-17ad7eff2f7875e20a8109abe40470e3,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,Aaron Jones,rec,1.5,-152,140,BetRivers,Bovada,4,MIN,BUF,9,2026
-17ad7eff2f7875e20a8109abe40470e3,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,Ty Johnson,rec,1.5,-168,137,FanDuel,DraftKings,5,MIN,BUF,9,2026
-17ad7eff2f7875e20a8109abe40470e3,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,James Cook,rec,1.5,102,-110,FanDuel,Bovada,6,MIN,BUF,9,2026
-17ad7eff2f7875e20a8109abe40470e3,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,Dawson Knox,rec,1.5,160,-180,BetMGM,FanDuel,6,MIN,BUF,9,2026
-17ad7eff2f7875e20a8109abe40470e3,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,Ben Yurosek,rec,0.5,-138,119,FanDuel,DraftKings,3,MIN,BUF,9,2026
-17ad7eff2f7875e20a8109abe40470e3,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,Skyler Bell,rec,0.5,100,-121,BetOnline.ag,DraftKings,4,MIN,BUF,9,2026
-17ad7eff2f7875e20a8109abe40470e3,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,Tai Felton,rec,0.5,124,-150,FanDuel,DraftKings,3,MIN,BUF,9,2026
-17ad7eff2f7875e20a8109abe40470e3,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,James Cook,rush_yds,85.5,-114,-114,BetOnline.ag,BetOnline.ag,3,MIN,BUF,9,2026
-17ad7eff2f7875e20a8109abe40470e3,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,Jordan Mason,rush_yds,47.5,-111,-113,BetOnline.ag,FanDuel,2,MIN,BUF,9,2026
-17ad7eff2f7875e20a8109abe40470e3,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,Josh Allen,rush_yds,31.5,-113,-111,DraftKings,DraftKings,4,MIN,BUF,9,2026
-17ad7eff2f7875e20a8109abe40470e3,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,Aaron Jones,rush_yds,30.5,-113,-109,FanDuel,DraftKings,5,MIN,BUF,9,2026
-17ad7eff2f7875e20a8109abe40470e3,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,Carson Wentz,rush_yds,7.5,-110,-105,BetRivers,BetMGM,6,MIN,BUF,9,2026
-17ad7eff2f7875e20a8109abe40470e3,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,Ray Davis,rush_yds,5.5,-112,-112,DraftKings,DraftKings,4,MIN,BUF,9,2026
-17ad7eff2f7875e20a8109abe40470e3,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,Minnesota Vikings Defense,any_td,0.5,700,,FanDuel,,2,MIN,BUF,9,2026
-17ad7eff2f7875e20a8109abe40470e3,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,Buffalo Bills Defense,any_td,0.5,1000,,FanDuel,,2,MIN,BUF,9,2026
-17ad7eff2f7875e20a8109abe40470e3,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,Odell Beckham Jr.,rec_yds,0.5,180,-235,FanDuel,FanDuel,1,MIN,BUF,9,2026
-17ad7eff2f7875e20a8109abe40470e3,2026-11-10T01:15:00Z,Minnesota Vikings,Buffalo Bills,Demond Claiborne,any_td,0.5,1900,,BetOnline.ag,,2,MIN,BUF,9,2026
+74d39e19225caf211ad2c8eb4110179f,2026-11-13T01:15:00Z,New York Giants,Washington Commanders,Cam Skattebo,any_td,0.5,130,,FanDuel,,6,NYG,WAS,10,2026
+74d39e19225caf211ad2c8eb4110179f,2026-11-13T01:15:00Z,New York Giants,Washington Commanders,Malik Nabers,any_td,0.5,180,,Bovada,,6,NYG,WAS,10,2026
+74d39e19225caf211ad2c8eb4110179f,2026-11-13T01:15:00Z,New York Giants,Washington Commanders,Rachaad White,any_td,0.5,185,,DraftKings,,6,NYG,WAS,10,2026
+74d39e19225caf211ad2c8eb4110179f,2026-11-13T01:15:00Z,New York Giants,Washington Commanders,Isaiah Likely,any_td,0.5,210,,BetMGM,,6,NYG,WAS,10,2026
+74d39e19225caf211ad2c8eb4110179f,2026-11-13T01:15:00Z,New York Giants,Washington Commanders,Stefon Diggs,any_td,0.5,260,,BetMGM,,6,NYG,WAS,10,2026
+74d39e19225caf211ad2c8eb4110179f,2026-11-13T01:15:00Z,New York Giants,Washington Commanders,Jayden Daniels,any_td,0.5,280,,FanDuel,,6,NYG,WAS,10,2026
+74d39e19225caf211ad2c8eb4110179f,2026-11-13T01:15:00Z,New York Giants,Washington Commanders,Devin Singletary,any_td,0.5,300,,Bovada,,6,NYG,WAS,10,2026
+74d39e19225caf211ad2c8eb4110179f,2026-11-13T01:15:00Z,New York Giants,Washington Commanders,Austin Ekeler,any_td,0.5,340,,FanDuel,,6,NYG,WAS,10,2026
+74d39e19225caf211ad2c8eb4110179f,2026-11-13T01:15:00Z,New York Giants,Washington Commanders,Chig Okonkwo,any_td,0.5,380,,FanDuel,,6,NYG,WAS,10,2026
+74d39e19225caf211ad2c8eb4110179f,2026-11-13T01:15:00Z,New York Giants,Washington Commanders,Treylon Burks,any_td,0.5,390,,BetMGM,,6,NYG,WAS,10,2026
+74d39e19225caf211ad2c8eb4110179f,2026-11-13T01:15:00Z,New York Giants,Washington Commanders,Antonio Williams,any_td,0.5,420,,FanDuel,,6,NYG,WAS,10,2026
+74d39e19225caf211ad2c8eb4110179f,2026-11-13T01:15:00Z,New York Giants,Washington Commanders,Malachi Fields,any_td,0.5,475,,BetMGM,,6,NYG,WAS,10,2026
+74d39e19225caf211ad2c8eb4110179f,2026-11-13T01:15:00Z,New York Giants,Washington Commanders,J.J. McCarthy,any_td,0.5,500,,BetMGM,,6,NYG,WAS,10,2026
+74d39e19225caf211ad2c8eb4110179f,2026-11-13T01:15:00Z,New York Giants,Washington Commanders,New York Giants D/ST,any_td,0.5,475,,DraftKings,,2,NYG,WAS,10,2026
+74d39e19225caf211ad2c8eb4110179f,2026-11-13T01:15:00Z,New York Giants,Washington Commanders,Washington Commanders D/ST,any_td,0.5,525,,BetMGM,,2,NYG,WAS,10,2026
+74d39e19225caf211ad2c8eb4110179f,2026-11-13T01:15:00Z,New York Giants,Washington Commanders,Darnell Mooney,any_td,0.5,850,,FanDuel,,6,NYG,WAS,10,2026
+74d39e19225caf211ad2c8eb4110179f,2026-11-13T01:15:00Z,New York Giants,Washington Commanders,Van Jefferson,any_td,0.5,950,,BetMGM,,6,NYG,WAS,10,2026
+74d39e19225caf211ad2c8eb4110179f,2026-11-13T01:15:00Z,New York Giants,Washington Commanders,Theo Johnson,any_td,0.5,1000,,BetMGM,,6,NYG,WAS,10,2026
+74d39e19225caf211ad2c8eb4110179f,2026-11-13T01:15:00Z,New York Giants,Washington Commanders,Luke McCaffrey,any_td,0.5,1500,,DraftKings,,5,NYG,WAS,10,2026
+74d39e19225caf211ad2c8eb4110179f,2026-11-13T01:15:00Z,New York Giants,Washington Commanders,John Bates,any_td,0.5,2000,,BetMGM,,6,NYG,WAS,10,2026
+74d39e19225caf211ad2c8eb4110179f,2026-11-13T01:15:00Z,New York Giants,Washington Commanders,Greg Desrosiers Jr.,any_td,0.5,2000,,DraftKings,,6,NYG,WAS,10,2026
+74d39e19225caf211ad2c8eb4110179f,2026-11-13T01:15:00Z,New York Giants,Washington Commanders,Jalin Hyatt,any_td,0.5,2000,,DraftKings,,6,NYG,WAS,10,2026
+74d39e19225caf211ad2c8eb4110179f,2026-11-13T01:15:00Z,New York Giants,Washington Commanders,Charlie Jones,any_td,0.5,2000,,DraftKings,,6,NYG,WAS,10,2026
+74d39e19225caf211ad2c8eb4110179f,2026-11-13T01:15:00Z,New York Giants,Washington Commanders,Ben Sinnott,any_td,0.5,2200,,BetRivers,,6,NYG,WAS,10,2026
+74d39e19225caf211ad2c8eb4110179f,2026-11-13T01:15:00Z,New York Giants,Washington Commanders,Patrick Ricard,any_td,0.5,3300,,BetMGM,,6,NYG,WAS,10,2026
+74d39e19225caf211ad2c8eb4110179f,2026-11-13T01:15:00Z,New York Giants,Washington Commanders,Chris Manhertz,any_td,0.5,3300,,FanDuel,,6,NYG,WAS,10,2026
+74d39e19225caf211ad2c8eb4110179f,2026-11-13T01:15:00Z,New York Giants,Washington Commanders,Robert Henry Jr.,any_td,0.5,3000,,DraftKings,,6,NYG,WAS,10,2026
+74d39e19225caf211ad2c8eb4110179f,2026-11-13T01:15:00Z,New York Giants,Washington Commanders,Thomas Fidone,any_td,0.5,4000,,DraftKings,,5,NYG,WAS,10,2026
+74d39e19225caf211ad2c8eb4110179f,2026-11-13T01:15:00Z,New York Giants,Washington Commanders,Jayden Daniels,pass_td,1.5,165,-190,FanDuel,BetRivers,6,NYG,WAS,10,2026
+74d39e19225caf211ad2c8eb4110179f,2026-11-13T01:15:00Z,New York Giants,Washington Commanders,J.J. McCarthy,pass_td,1.5,164,-198,DraftKings,FanDuel,6,NYG,WAS,10,2026
+74d39e19225caf211ad2c8eb4110179f,2026-11-13T01:15:00Z,New York Giants,Washington Commanders,J.J. McCarthy,pass_yds,208.5,-112,-112,DraftKings,DraftKings,3,NYG,WAS,10,2026
+74d39e19225caf211ad2c8eb4110179f,2026-11-13T01:15:00Z,New York Giants,Washington Commanders,Jayden Daniels,pass_yds,200.5,-111,-113,DraftKings,DraftKings,2,NYG,WAS,10,2026
+74d39e19225caf211ad2c8eb4110179f,2026-11-13T01:15:00Z,New York Giants,Washington Commanders,Malik Nabers,rec_yds,68.5,-115,-114,Bovada,BetRivers,2,NYG,WAS,10,2026
+74d39e19225caf211ad2c8eb4110179f,2026-11-13T01:15:00Z,New York Giants,Washington Commanders,Isaiah Likely,rec_yds,47.5,-111,-113,DraftKings,DraftKings,3,NYG,WAS,10,2026
+74d39e19225caf211ad2c8eb4110179f,2026-11-13T01:15:00Z,New York Giants,Washington Commanders,Stefon Diggs,rec_yds,38.5,-111,-104,DraftKings,BetOnline.ag,3,NYG,WAS,10,2026
+74d39e19225caf211ad2c8eb4110179f,2026-11-13T01:15:00Z,New York Giants,Washington Commanders,Antonio Williams,rec_yds,37.5,-113,-111,DraftKings,DraftKings,6,NYG,WAS,10,2026
+74d39e19225caf211ad2c8eb4110179f,2026-11-13T01:15:00Z,New York Giants,Washington Commanders,Chig Okonkwo,rec_yds,35.5,-112,-113,BetOnline.ag,FanDuel,2,NYG,WAS,10,2026
+74d39e19225caf211ad2c8eb4110179f,2026-11-13T01:15:00Z,New York Giants,Washington Commanders,Malachi Fields,rec_yds,25.5,-113,-112,FanDuel,BetOnline.ag,2,NYG,WAS,10,2026
+74d39e19225caf211ad2c8eb4110179f,2026-11-13T01:15:00Z,New York Giants,Washington Commanders,Treylon Burks,rec_yds,26.5,-113,-112,FanDuel,BetRivers,4,NYG,WAS,10,2026
+74d39e19225caf211ad2c8eb4110179f,2026-11-13T01:15:00Z,New York Giants,Washington Commanders,Darnell Mooney,rec_yds,14.5,-108,-110,DraftKings,BetMGM,5,NYG,WAS,10,2026
+74d39e19225caf211ad2c8eb4110179f,2026-11-13T01:15:00Z,New York Giants,Washington Commanders,Rachaad White,rec_yds,11.5,-114,-110,DraftKings,DraftKings,4,NYG,WAS,10,2026
+74d39e19225caf211ad2c8eb4110179f,2026-11-13T01:15:00Z,New York Giants,Washington Commanders,Austin Ekeler,rec_yds,10.5,-113,-110,FanDuel,DraftKings,4,NYG,WAS,10,2026
+74d39e19225caf211ad2c8eb4110179f,2026-11-13T01:15:00Z,New York Giants,Washington Commanders,Devin Singletary,rec_yds,8.5,-118,-107,DraftKings,DraftKings,3,NYG,WAS,10,2026
+74d39e19225caf211ad2c8eb4110179f,2026-11-13T01:15:00Z,New York Giants,Washington Commanders,Cam Skattebo,rec_yds,7.5,-108,-106,BetRivers,FanDuel,3,NYG,WAS,10,2026
+74d39e19225caf211ad2c8eb4110179f,2026-11-13T01:15:00Z,New York Giants,Washington Commanders,Van Jefferson,rec_yds,7.5,-110,-113,BetMGM,FanDuel,3,NYG,WAS,10,2026
+74d39e19225caf211ad2c8eb4110179f,2026-11-13T01:15:00Z,New York Giants,Washington Commanders,Theo Johnson,rec_yds,5.5,-108,-111,DraftKings,BetOnline.ag,5,NYG,WAS,10,2026
+74d39e19225caf211ad2c8eb4110179f,2026-11-13T01:15:00Z,New York Giants,Washington Commanders,Malik Nabers,rec,5.5,-120,104,FanDuel,DraftKings,6,NYG,WAS,10,2026
+74d39e19225caf211ad2c8eb4110179f,2026-11-13T01:15:00Z,New York Giants,Washington Commanders,Isaiah Likely,rec,4.5,102,-110,FanDuel,BetMGM,6,NYG,WAS,10,2026
+74d39e19225caf211ad2c8eb4110179f,2026-11-13T01:15:00Z,New York Giants,Washington Commanders,Stefon Diggs,rec,3.5,-160,130,BetMGM,BetOnline.ag,4,NYG,WAS,10,2026
+74d39e19225caf211ad2c8eb4110179f,2026-11-13T01:15:00Z,New York Giants,Washington Commanders,Chig Okonkwo,rec,3.5,-148,121,FanDuel,DraftKings,6,NYG,WAS,10,2026
+74d39e19225caf211ad2c8eb4110179f,2026-11-13T01:15:00Z,New York Giants,Washington Commanders,Antonio Williams,rec,3.5,-112,-102,BetOnline.ag,FanDuel,6,NYG,WAS,10,2026
+74d39e19225caf211ad2c8eb4110179f,2026-11-13T01:15:00Z,New York Giants,Washington Commanders,Malachi Fields,rec,2.5,140,-148,BetRivers,DraftKings,6,NYG,WAS,10,2026
+74d39e19225caf211ad2c8eb4110179f,2026-11-13T01:15:00Z,New York Giants,Washington Commanders,Rachaad White,rec,2.5,150,-178,DraftKings,FanDuel,6,NYG,WAS,10,2026
+74d39e19225caf211ad2c8eb4110179f,2026-11-13T01:15:00Z,New York Giants,Washington Commanders,Treylon Burks,rec,1.5,-188,151,FanDuel,DraftKings,5,NYG,WAS,10,2026
+74d39e19225caf211ad2c8eb4110179f,2026-11-13T01:15:00Z,New York Giants,Washington Commanders,Austin Ekeler,rec,1.5,-115,-102,BetMGM,FanDuel,6,NYG,WAS,10,2026
+74d39e19225caf211ad2c8eb4110179f,2026-11-13T01:15:00Z,New York Giants,Washington Commanders,Devin Singletary,rec,1.5,110,-122,BetMGM,FanDuel,6,NYG,WAS,10,2026
+74d39e19225caf211ad2c8eb4110179f,2026-11-13T01:15:00Z,New York Giants,Washington Commanders,Darnell Mooney,rec,1.5,110,-128,BetMGM,DraftKings,6,NYG,WAS,10,2026
+74d39e19225caf211ad2c8eb4110179f,2026-11-13T01:15:00Z,New York Giants,Washington Commanders,Cam Skattebo,rec,1.5,135,-140,BetMGM,FanDuel,6,NYG,WAS,10,2026
+74d39e19225caf211ad2c8eb4110179f,2026-11-13T01:15:00Z,New York Giants,Washington Commanders,Van Jefferson,rec,1.5,180,-211,BetMGM,DraftKings,5,NYG,WAS,10,2026
+74d39e19225caf211ad2c8eb4110179f,2026-11-13T01:15:00Z,New York Giants,Washington Commanders,Theo Johnson,rec,0.5,-159,134,BetOnline.ag,DraftKings,6,NYG,WAS,10,2026
+74d39e19225caf211ad2c8eb4110179f,2026-11-13T01:15:00Z,New York Giants,Washington Commanders,Cam Skattebo,rush_yds,60.5,-114,-110,DraftKings,DraftKings,3,NYG,WAS,10,2026
+74d39e19225caf211ad2c8eb4110179f,2026-11-13T01:15:00Z,New York Giants,Washington Commanders,Jayden Daniels,rush_yds,37.5,-113,-111,FanDuel,BetOnline.ag,2,NYG,WAS,10,2026
+74d39e19225caf211ad2c8eb4110179f,2026-11-13T01:15:00Z,New York Giants,Washington Commanders,Rachaad White,rush_yds,38.5,-113,-112,FanDuel,BetOnline.ag,3,NYG,WAS,10,2026
+74d39e19225caf211ad2c8eb4110179f,2026-11-13T01:15:00Z,New York Giants,Washington Commanders,Austin Ekeler,rush_yds,29.5,-113,-108,FanDuel,DraftKings,2,NYG,WAS,10,2026
+74d39e19225caf211ad2c8eb4110179f,2026-11-13T01:15:00Z,New York Giants,Washington Commanders,Devin Singletary,rush_yds,23.5,-113,-109,FanDuel,DraftKings,5,NYG,WAS,10,2026
+74d39e19225caf211ad2c8eb4110179f,2026-11-13T01:15:00Z,New York Giants,Washington Commanders,J.J. McCarthy,rush_yds,15.5,-110,-113,BetMGM,DraftKings,6,NYG,WAS,10,2026
+74d39e19225caf211ad2c8eb4110179f,2026-11-13T01:15:00Z,New York Giants,Washington Commanders,New York Giants Defense,any_td,0.5,800,,FanDuel,,2,NYG,WAS,10,2026
+74d39e19225caf211ad2c8eb4110179f,2026-11-13T01:15:00Z,New York Giants,Washington Commanders,Washington Commanders Defense,any_td,0.5,800,,FanDuel,,2,NYG,WAS,10,2026
+74d39e19225caf211ad2c8eb4110179f,2026-11-13T01:15:00Z,New York Giants,Washington Commanders,Colson Yankoff,any_td,0.5,2400,,BetOnline.ag,,1,NYG,WAS,10,2026
