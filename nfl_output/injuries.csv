@@ -1,11 +1,22 @@
 week,team,player,pos,status,injury
+10,DET,D.J. Reed,CB,Out,Hip
+10,DET,Cade Mays,C,Out,Ankle
+10,DET,Kerby Joseph,S,Out,Knee
+10,NWE,Greg Van Roten,G,Questionable,Hamstring
+10,NWE,Kevin Byard,S,Questionable,Chest
 10,NWE,Carlton Davis III,CB,Out,Knee
+10,NWE,A.J. Brown,WR,Questionable,Ankle
+10,NWE,Reggie Gilliam,FB,Questionable,Knee
+10,NWE,Rhamondre Stevenson,RB,Questionable,Knee
+10,NWE,Brenden Schooler,S,Questionable,Hamstring
 10,NWE,Ben Brown,C,Out,Knee
+10,NWE,Cameron Latu,TE,Questionable,Back
+10,NWE,Charles Woods,CB,Questionable,Hamstring
+10,NWE,Walter Rouse,T,Questionable,Concussion
 10,NWE,TreVeyon Henderson,RB,Out,Illness
 10,NYG,Malik Harrison,LB,Questionable,Groin
 10,WAS,Lucas Patrick,C,Out,Concussion
 10,WAS,Colson Yankoff,TE,Out,Knee
-10,NWE,Greg Van Roten,OL,Out,Injured reserve
 10,LAR,Davante Adams,WR,Out,Injured reserve
 10,LAC,Denzel Perryman,LB,Out,Injured reserve
 10,HOU,Mario Edwards,DL,Out,Injured reserve
@@ -59,7 +70,6 @@ week,team,player,pos,status,injury
 10,NYG,Brian Burns,LB,Out,Injured reserve
 10,SFO,Austen Pleasants,OL,Out,Injured reserve
 10,BAL,Tyler Huntley,QB,Out,Injured reserve
-10,NWE,Reggie Gilliam,RB,Out,Injured reserve
 10,NWE,Mike Onwenu,OL,Out,Injured reserve
 10,BAL,Danny Pinter,OL,Out,Injured reserve
 10,PIT,Michael Pittman,WR,Out,Injured reserve
@@ -112,7 +122,6 @@ week,team,player,pos,status,injury
 10,SFO,Sam Okuayinonu,DL,Out,Injured reserve
 10,HOU,Jacob Hummel,LB,Out,Injured reserve
 10,IND,Alec Pierce,WR,Out,Injured reserve
-10,DET,Kerby Joseph,DB,Out,Injured reserve
 10,ATL,Brian Robinson,RB,Out,Injured reserve
 10,IND,Cam Taylor-Britt,DB,Out,Injured reserve
 10,ARI,Zachary Carter,DL,Out,Injured reserve
@@ -155,11 +164,11 @@ week,team,player,pos,status,injury
 10,HOU,Dylan Horton,DL,Out,Injured reserve
 10,DET,Jack Campbell,LB,Out,Injured reserve
 10,MIA,De'Von Achane,RB,Out,Injured reserve
+10,LAR,Puka Nacua,WR,Out,Injured reserve
 10,LAR,Kobie Turner,DL,Out,Injured reserve
 10,GNB,Luke Musgrave,TE,Out,Injured reserve
 10,GNB,Jayden Reed,WR,Out,Injured reserve
 10,MIN,Nick Samac,OL,Out,Injured reserve
-10,LVR,Chris Collier,RB,Out,Injured reserve
 10,NYJ,Braiden McGregor,LB,Out,Injured reserve
 10,CIN,Swayze Bozeman,LB,Out,Injured reserve
 10,CAR,Xavier Legette,WR,Out,Injured reserve
@@ -234,7 +243,6 @@ week,team,player,pos,status,injury
 10,SEA,Mason Richman,OL,Out,Injured reserve
 10,MIN,Donovan Jackson,OL,Out,Injured reserve
 10,PIT,Derrick Harmon,DL,Out,Injured reserve
-10,ATL,Cameron Williams,OL,Out,Injured reserve
 10,NYG,Jaxson Dart,QB,Out,Injured reserve
 10,SFO,C.J. West,DL,Out,Injured reserve
 10,SFO,Alfred Collins,DL,Out,Injured reserve
