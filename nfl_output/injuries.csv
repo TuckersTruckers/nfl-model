@@ -13,6 +13,8 @@ week,team,player,pos,status,injury
 10,ATL,Gervon Dexter Sr.,DT,Questionable,Illness
 10,ATL,James Pearce Jr.,DE,Questionable,Back
 10,ATL,Zachariah Branch,WR,Out,Hamstring
+10,BAL,Jaylinn Hawkins,S,Out,Knee
+10,BAL,Adam Randall,RB,Questionable,Neck
 10,BUF,Sam Franklin Jr.,S,Questionable,Shoulder
 10,BUF,Spencer Brown,T,Doubtful,Ankle
 10,BUF,Christian Benford,CB,Questionable,Wrist
@@ -73,7 +75,6 @@ week,team,player,pos,status,injury
 10,HOU,Keylan Rutledge,G,Out,Neck
 10,IND,Luke Rhodes,LS,Out,Hamstring
 10,IND,Mo Alie-Cox,TE,Out,Groin
-10,IND,Arden Key,DE,Questionable,Hamstring
 10,IND,Jerry Tillery,DT,Out,Calf
 10,IND,Akeem Davis-Gaither,LB,Out,Knee
 10,IND,Will Mallory,TE,Questionable,Hamstring
@@ -96,6 +97,16 @@ week,team,player,pos,status,injury
 10,LAR,Steve Avila,G,Out,Hamstring
 10,LAR,Davis Allen,TE,Questionable,Oblique
 10,LAR,Terrance Ferguson,TE,Out,Ankle
+10,LAC,Denzel Perryman,LB,Questionable,Pectoral
+10,LAC,David Njoku,TE,Questionable,Fibula
+10,LAC,Trey Pipkins,T,Questionable,Not injury related - personal matter
+10,LAC,Kayode Awosika,G,Questionable,Fibula
+10,LAC,Kendall Williamson,S,Out,Calf
+10,LAC,Justin Eboigbe,DE,Questionable,Ankle
+10,LAC,Ladd McConkey,WR,Questionable,Back
+10,LAC,Isas Waxter,CB,Out,Ankle
+10,LAC,Branson Taylor,G,Out,Ankle
+10,LAC,Brenen Thompson,WR,Doubtful,Hamstring
 10,LVR,Thomas Booker,DT,Questionable,Ankle
 10,LVR,Dont'e Thornton Jr.,WR,Questionable,Back
 10,MIA,Aaron Brewer,C,Out,Concussion
@@ -160,7 +171,6 @@ week,team,player,pos,status,injury
 10,WAS,Lucas Patrick,C,Out,Concussion
 10,WAS,Colson Yankoff,TE,Out,Knee
 10,LAR,Davante Adams,WR,Out,Injured reserve
-10,LAC,Denzel Perryman,LB,Out,Injured reserve
 10,HOU,Mario Edwards,DL,Out,Injured reserve
 10,WAS,Laremy Tunsil,OL,Out,Injured reserve
 10,NYG,Roy Robertson-Harris,DL,Out,Injured reserve
@@ -172,7 +182,6 @@ week,team,player,pos,status,injury
 10,ARI,James Conner,RB,Out,Injured reserve
 10,ATL,Storm Norton,OL,Out,Injured reserve
 10,MIN,Jamal Adams,LB,Out,Injured reserve
-10,LAC,David Njoku,TE,Out,Injured reserve
 10,BAL,Ethan Pocic,OL,Out,Injured reserve
 10,TEN,Tanoh Kpassagnon,DL,Out,Injured reserve
 10,ATL,Samson Ebukam,DL,Out,Injured reserve
@@ -202,7 +211,6 @@ week,team,player,pos,status,injury
 10,DET,Tom Kennedy,WR,Out,Injured reserve
 10,NYG,Gunner Olszewski,WR,Out,Injured reserve
 10,WAS,Terry McLaurin,WR,Out,Injured reserve
-10,LAC,Trey Pipkins,OL,Out,Injured reserve
 10,DAL,Jalen Thompson,DB,Out,Injured reserve
 10,DET,Devin White,LB,Out,Injured reserve
 10,NYG,Brian Burns,LB,Out,Injured reserve
@@ -371,7 +379,6 @@ week,team,player,pos,status,injury
 10,IND,Carson Towt,TE,Out,Injured reserve
 10,SEA,Julian Neal,DB,Out,Injured reserve
 10,TEN,Fernando Carmona,OL,Out,Injured reserve
-10,BAL,Adam Randall,RB,Out,Injured reserve
 10,TEN,Jaren Kanak,TE,Out,Injured reserve
 10,DAL,Kelvin Gilliam,DL,Out,Injured reserve
 10,KAN,Jeff Caldwell,WR,Out,Injured reserve
