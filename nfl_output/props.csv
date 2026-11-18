@@ -1,79 +1,70 @@
 event,commence,home,away,player,stat,line,over_odds,under_odds,book_over,book_under,books,home_code,away_code,week,season
-35e3bdff558b5d1506251e814986f164,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,Derrick Henry,any_td,0.5,-145,,FanDuel,,6,BAL,LAC,10,2026
-35e3bdff558b5d1506251e814986f164,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,Zay Flowers,any_td,0.5,170,,FanDuel,,6,BAL,LAC,10,2026
-35e3bdff558b5d1506251e814986f164,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,Omarion Hampton,any_td,0.5,300,,DraftKings,,6,BAL,LAC,10,2026
-35e3bdff558b5d1506251e814986f164,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,Tre Harris,any_td,0.5,330,,DraftKings,,6,BAL,LAC,10,2026
-35e3bdff558b5d1506251e814986f164,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,Mark Andrews,any_td,0.5,360,,DraftKings,,6,BAL,LAC,10,2026
-35e3bdff558b5d1506251e814986f164,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,Ja'Kobi Lane,any_td,0.5,450,,DraftKings,,6,BAL,LAC,10,2026
-35e3bdff558b5d1506251e814986f164,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,Justice Hill,any_td,0.5,475,,DraftKings,,6,BAL,LAC,10,2026
-35e3bdff558b5d1506251e814986f164,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,Quentin Johnston,any_td,0.5,475,,DraftKings,,6,BAL,LAC,10,2026
-35e3bdff558b5d1506251e814986f164,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,Rashod Bateman,any_td,0.5,500,,DraftKings,,6,BAL,LAC,10,2026
-35e3bdff558b5d1506251e814986f164,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,Kimani Vidal,any_td,0.5,500,,DraftKings,,6,BAL,LAC,10,2026
-35e3bdff558b5d1506251e814986f164,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,Baltimore Ravens D/ST,any_td,0.5,500,,DraftKings,,2,BAL,LAC,10,2026
-35e3bdff558b5d1506251e814986f164,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,Keaton Mitchell,any_td,0.5,600,,FanDuel,,6,BAL,LAC,10,2026
-35e3bdff558b5d1506251e814986f164,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,Los Angeles Chargers D/ST,any_td,0.5,650,,BetMGM,,2,BAL,LAC,10,2026
-35e3bdff558b5d1506251e814986f164,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,Jacoby Brissett,any_td,0.5,775,,BetMGM,,5,BAL,LAC,10,2026
-35e3bdff558b5d1506251e814986f164,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,Justin Herbert,any_td,0.5,600,,DraftKings,,6,BAL,LAC,10,2026
-35e3bdff558b5d1506251e814986f164,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,Oronde Gadsden II,any_td,0.5,700,,FanDuel,,6,BAL,LAC,10,2026
-35e3bdff558b5d1506251e814986f164,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,Charlie Kolar,any_td,0.5,700,,DraftKings,,6,BAL,LAC,10,2026
-35e3bdff558b5d1506251e814986f164,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,KeAndre Lambert-Smith,any_td,0.5,750,,DraftKings,,6,BAL,LAC,10,2026
-35e3bdff558b5d1506251e814986f164,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,David Njoku,any_td,0.5,800,,DraftKings,,6,BAL,LAC,10,2026
-35e3bdff558b5d1506251e814986f164,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,Josh Cuevas,any_td,0.5,1050,,BetRivers,,6,BAL,LAC,10,2026
-35e3bdff558b5d1506251e814986f164,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,Derius Davis,any_td,0.5,1600,,BetMGM,,5,BAL,LAC,10,2026
-35e3bdff558b5d1506251e814986f164,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,Matthew Hibner,any_td,0.5,1500,,DraftKings,,6,BAL,LAC,10,2026
-35e3bdff558b5d1506251e814986f164,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,Devontez Walker,any_td,0.5,1800,,FanDuel,,6,BAL,LAC,10,2026
-35e3bdff558b5d1506251e814986f164,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,Elijah Sarratt,any_td,0.5,2000,,DraftKings,,5,BAL,LAC,10,2026
-35e3bdff558b5d1506251e814986f164,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,LaJohntay Wester,any_td,0.5,2500,,BetMGM,,5,BAL,LAC,10,2026
-35e3bdff558b5d1506251e814986f164,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,Rasheen Ali,any_td,0.5,3000,,FanDuel,,6,BAL,LAC,10,2026
-35e3bdff558b5d1506251e814986f164,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,Theo Wease Jr.,any_td,0.5,3000,,DraftKings,,5,BAL,LAC,10,2026
-35e3bdff558b5d1506251e814986f164,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,Scott Matlock,any_td,0.5,4500,,FanDuel,,6,BAL,LAC,10,2026
-35e3bdff558b5d1506251e814986f164,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,Jacoby Brissett,pass_td,1.5,150,-166,BetMGM,DraftKings,5,BAL,LAC,10,2026
-35e3bdff558b5d1506251e814986f164,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,Justin Herbert,pass_td,0.5,-244,189,DraftKings,BetOnline.ag,6,BAL,LAC,10,2026
-35e3bdff558b5d1506251e814986f164,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,Jacoby Brissett,pass_yds,211.5,-117,-114,BetRivers,BetRivers,1,BAL,LAC,10,2026
-35e3bdff558b5d1506251e814986f164,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,Justin Herbert,pass_yds,199.5,-113,-113,FanDuel,FanDuel,3,BAL,LAC,10,2026
-35e3bdff558b5d1506251e814986f164,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,Zay Flowers,rec_yds,71.5,-113,-113,FanDuel,FanDuel,3,BAL,LAC,10,2026
-35e3bdff558b5d1506251e814986f164,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,Tre Harris,rec_yds,42.5,-113,-110,FanDuel,DraftKings,4,BAL,LAC,10,2026
-35e3bdff558b5d1506251e814986f164,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,Quentin Johnston,rec_yds,34.5,-112,-112,DraftKings,DraftKings,3,BAL,LAC,10,2026
-35e3bdff558b5d1506251e814986f164,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,Mark Andrews,rec_yds,23.5,-105,-109,BetMGM,DraftKings,4,BAL,LAC,10,2026
-35e3bdff558b5d1506251e814986f164,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,Rashod Bateman,rec_yds,23.5,-113,-109,FanDuel,DraftKings,5,BAL,LAC,10,2026
-35e3bdff558b5d1506251e814986f164,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,Ja'Kobi Lane,rec_yds,21.5,-108,-116,DraftKings,DraftKings,2,BAL,LAC,10,2026
-35e3bdff558b5d1506251e814986f164,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,KeAndre Lambert-Smith,rec_yds,18.5,-112,-112,DraftKings,DraftKings,3,BAL,LAC,10,2026
-35e3bdff558b5d1506251e814986f164,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,Charlie Kolar,rec_yds,15.5,-109,-113,DraftKings,FanDuel,4,BAL,LAC,10,2026
-35e3bdff558b5d1506251e814986f164,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,David Njoku,rec_yds,11.5,-113,-110,FanDuel,DraftKings,5,BAL,LAC,10,2026
-35e3bdff558b5d1506251e814986f164,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,Keaton Mitchell,rec_yds,11.5,-106,-114,DraftKings,BetOnline.ag,3,BAL,LAC,10,2026
-35e3bdff558b5d1506251e814986f164,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,Oronde Gadsden II,rec_yds,10.5,-113,-107,FanDuel,DraftKings,4,BAL,LAC,10,2026
-35e3bdff558b5d1506251e814986f164,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,Justice Hill,rec_yds,10.5,-112,-112,DraftKings,DraftKings,4,BAL,LAC,10,2026
-35e3bdff558b5d1506251e814986f164,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,Kimani Vidal,rec_yds,8.5,-105,-113,DraftKings,FanDuel,5,BAL,LAC,10,2026
-35e3bdff558b5d1506251e814986f164,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,Josh Cuevas,rec_yds,7.5,-106,-105,FanDuel,DraftKings,6,BAL,LAC,10,2026
-35e3bdff558b5d1506251e814986f164,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,Derrick Henry,rec_yds,5.5,100,-110,BetOnline.ag,BetRivers,4,BAL,LAC,10,2026
-35e3bdff558b5d1506251e814986f164,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,Omarion Hampton,rec_yds,5.5,-105,-113,DraftKings,FanDuel,5,BAL,LAC,10,2026
-35e3bdff558b5d1506251e814986f164,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,Matthew Hibner,rec_yds,3.5,-108,-113,BetOnline.ag,FanDuel,2,BAL,LAC,10,2026
-35e3bdff558b5d1506251e814986f164,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,Zay Flowers,rec,5.5,-125,115,BetRivers,DraftKings,6,BAL,LAC,10,2026
-35e3bdff558b5d1506251e814986f164,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,Tre Harris,rec,3.5,-104,-115,DraftKings,BetMGM,6,BAL,LAC,10,2026
-35e3bdff558b5d1506251e814986f164,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,Mark Andrews,rec,2.5,-143,120,BetRivers,Bovada,6,BAL,LAC,10,2026
-35e3bdff558b5d1506251e814986f164,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,Quentin Johnston,rec,2.5,106,-120,FanDuel,BetMGM,6,BAL,LAC,10,2026
-35e3bdff558b5d1506251e814986f164,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,Justice Hill,rec,2.5,135,-155,BetRivers,DraftKings,6,BAL,LAC,10,2026
-35e3bdff558b5d1506251e814986f164,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,Rashod Bateman,rec,2.5,140,-167,BetMGM,DraftKings,6,BAL,LAC,10,2026
-35e3bdff558b5d1506251e814986f164,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,Ja'Kobi Lane,rec,2.5,154,-186,FanDuel,DraftKings,6,BAL,LAC,10,2026
-35e3bdff558b5d1506251e814986f164,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,Keaton Mitchell,rec,2.5,150,-189,Bovada,DraftKings,5,BAL,LAC,10,2026
-35e3bdff558b5d1506251e814986f164,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,Charlie Kolar,rec,1.5,-141,118,BetRivers,BetOnline.ag,5,BAL,LAC,10,2026
-35e3bdff558b5d1506251e814986f164,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,Kimani Vidal,rec,1.5,-122,-102,DraftKings,FanDuel,5,BAL,LAC,10,2026
-35e3bdff558b5d1506251e814986f164,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,Oronde Gadsden II,rec,1.5,105,-121,BetOnline.ag,DraftKings,5,BAL,LAC,10,2026
-35e3bdff558b5d1506251e814986f164,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,KeAndre Lambert-Smith,rec,1.5,110,-125,BetOnline.ag,DraftKings,5,BAL,LAC,10,2026
-35e3bdff558b5d1506251e814986f164,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,David Njoku,rec,1.5,110,-138,Bovada,DraftKings,5,BAL,LAC,10,2026
-35e3bdff558b5d1506251e814986f164,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,Omarion Hampton,rec,1.5,154,-185,FanDuel,BetOnline.ag,5,BAL,LAC,10,2026
-35e3bdff558b5d1506251e814986f164,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,Josh Cuevas,rec,1.5,164,-211,BetOnline.ag,DraftKings,3,BAL,LAC,10,2026
-35e3bdff558b5d1506251e814986f164,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,Derrick Henry,rec,1.5,175,-220,DraftKings,FanDuel,6,BAL,LAC,10,2026
-35e3bdff558b5d1506251e814986f164,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,Matthew Hibner,rec,0.5,-138,126,FanDuel,BetOnline.ag,4,BAL,LAC,10,2026
-35e3bdff558b5d1506251e814986f164,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,Derrick Henry,rush_yds,80.5,-114,-114,BetOnline.ag,BetOnline.ag,2,BAL,LAC,10,2026
-35e3bdff558b5d1506251e814986f164,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,Omarion Hampton,rush_yds,34.5,-111,-113,DraftKings,DraftKings,4,BAL,LAC,10,2026
-35e3bdff558b5d1506251e814986f164,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,Kimani Vidal,rush_yds,21.5,-111,-113,DraftKings,DraftKings,5,BAL,LAC,10,2026
-35e3bdff558b5d1506251e814986f164,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,Justin Herbert,rush_yds,20.5,-113,-110,FanDuel,DraftKings,5,BAL,LAC,10,2026
-35e3bdff558b5d1506251e814986f164,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,Justice Hill,rush_yds,12.5,-110,-113,DraftKings,FanDuel,3,BAL,LAC,10,2026
-35e3bdff558b5d1506251e814986f164,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,Keaton Mitchell,rush_yds,11.5,-113,-110,DraftKings,BetMGM,5,BAL,LAC,10,2026
-35e3bdff558b5d1506251e814986f164,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,Jacoby Brissett,rush_yds,7.5,-109,-113,DraftKings,FanDuel,3,BAL,LAC,10,2026
-35e3bdff558b5d1506251e814986f164,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,Zay Flowers,rush_yds,2.5,110,-124,BetOnline.ag,DraftKings,4,BAL,LAC,10,2026
-35e3bdff558b5d1506251e814986f164,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,Los Angeles Chargers Defense,any_td,0.5,650,,FanDuel,,2,BAL,LAC,10,2026
-35e3bdff558b5d1506251e814986f164,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,Baltimore Ravens Defense,any_td,0.5,750,,FanDuel,,2,BAL,LAC,10,2026
-35e3bdff558b5d1506251e814986f164,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,Brenen Thompson,any_td,0.5,600,,BetOnline.ag,,1,BAL,LAC,10,2026
-35e3bdff558b5d1506251e814986f164,2026-11-17T01:15:00Z,Baltimore Ravens,Los Angeles Chargers,Nick Vannett,any_td,0.5,2800,,BetMGM,,1,BAL,LAC,10,2026
+66f9e83cf025d58acee12bce18661fb3,2026-11-20T01:15:00Z,Houston Texans,Indianapolis Colts,David Montgomery,any_td,0.5,-111,,BetMGM,,6,HOU,IND,11,2026
+66f9e83cf025d58acee12bce18661fb3,2026-11-20T01:15:00Z,Houston Texans,Indianapolis Colts,Nico Collins,any_td,0.5,100,,DraftKings,,6,HOU,IND,11,2026
+66f9e83cf025d58acee12bce18661fb3,2026-11-20T01:15:00Z,Houston Texans,Indianapolis Colts,Jonathan Taylor,any_td,0.5,125,,FanDuel,,6,HOU,IND,11,2026
+66f9e83cf025d58acee12bce18661fb3,2026-11-20T01:15:00Z,Houston Texans,Indianapolis Colts,Dalton Schultz,any_td,0.5,200,,BetMGM,,6,HOU,IND,11,2026
+66f9e83cf025d58acee12bce18661fb3,2026-11-20T01:15:00Z,Houston Texans,Indianapolis Colts,Xavier Hutchinson,any_td,0.5,250,,DraftKings,,6,HOU,IND,11,2026
+66f9e83cf025d58acee12bce18661fb3,2026-11-20T01:15:00Z,Houston Texans,Indianapolis Colts,Tank Dell,any_td,0.5,300,,DraftKings,,6,HOU,IND,11,2026
+66f9e83cf025d58acee12bce18661fb3,2026-11-20T01:15:00Z,Houston Texans,Indianapolis Colts,Emari Demercado,any_td,0.5,320,,BetMGM,,6,HOU,IND,11,2026
+66f9e83cf025d58acee12bce18661fb3,2026-11-20T01:15:00Z,Houston Texans,Indianapolis Colts,Kayshon Boutte,any_td,0.5,330,,DraftKings,,6,HOU,IND,11,2026
+66f9e83cf025d58acee12bce18661fb3,2026-11-20T01:15:00Z,Houston Texans,Indianapolis Colts,Tyler Warren,any_td,0.5,335,,BetRivers,,6,HOU,IND,11,2026
+66f9e83cf025d58acee12bce18661fb3,2026-11-20T01:15:00Z,Houston Texans,Indianapolis Colts,C.J. Stroud,any_td,0.5,425,,BetMGM,,6,HOU,IND,11,2026
+66f9e83cf025d58acee12bce18661fb3,2026-11-20T01:15:00Z,Houston Texans,Indianapolis Colts,Seth McGowan,any_td,0.5,400,,DraftKings,,6,HOU,IND,11,2026
+66f9e83cf025d58acee12bce18661fb3,2026-11-20T01:15:00Z,Houston Texans,Indianapolis Colts,Houston Texans D/ST,any_td,0.5,425,,DraftKings,,2,HOU,IND,11,2026
+66f9e83cf025d58acee12bce18661fb3,2026-11-20T01:15:00Z,Houston Texans,Indianapolis Colts,Foster Moreau,any_td,0.5,500,,BetMGM,,6,HOU,IND,11,2026
+66f9e83cf025d58acee12bce18661fb3,2026-11-20T01:15:00Z,Houston Texans,Indianapolis Colts,Laquon Treadwell,any_td,0.5,575,,BetMGM,,6,HOU,IND,11,2026
+66f9e83cf025d58acee12bce18661fb3,2026-11-20T01:15:00Z,Houston Texans,Indianapolis Colts,Indianapolis Colts D/ST,any_td,0.5,700,,BetMGM,,2,HOU,IND,11,2026
+66f9e83cf025d58acee12bce18661fb3,2026-11-20T01:15:00Z,Houston Texans,Indianapolis Colts,Deion Burks,any_td,0.5,750,,DraftKings,,6,HOU,IND,11,2026
+66f9e83cf025d58acee12bce18661fb3,2026-11-20T01:15:00Z,Houston Texans,Indianapolis Colts,Daniel Jones,any_td,0.5,800,,DraftKings,,6,HOU,IND,11,2026
+66f9e83cf025d58acee12bce18661fb3,2026-11-20T01:15:00Z,Houston Texans,Indianapolis Colts,Anthony Gould,any_td,0.5,900,,FanDuel,,6,HOU,IND,11,2026
+66f9e83cf025d58acee12bce18661fb3,2026-11-20T01:15:00Z,Houston Texans,Indianapolis Colts,Ashton Dulin,any_td,0.5,1150,,BetRivers,,6,HOU,IND,11,2026
+66f9e83cf025d58acee12bce18661fb3,2026-11-20T01:15:00Z,Houston Texans,Indianapolis Colts,Marlin Klein,any_td,0.5,1400,,DraftKings,,5,HOU,IND,11,2026
+66f9e83cf025d58acee12bce18661fb3,2026-11-20T01:15:00Z,Houston Texans,Indianapolis Colts,Cade Stover,any_td,0.5,1400,,DraftKings,,6,HOU,IND,11,2026
+66f9e83cf025d58acee12bce18661fb3,2026-11-20T01:15:00Z,Houston Texans,Indianapolis Colts,Drew Ogletree,any_td,0.5,1800,,BetRivers,,5,HOU,IND,11,2026
+66f9e83cf025d58acee12bce18661fb3,2026-11-20T01:15:00Z,Houston Texans,Indianapolis Colts,Brevin Jordan,any_td,0.5,2000,,BetMGM,,5,HOU,IND,11,2026
+66f9e83cf025d58acee12bce18661fb3,2026-11-20T01:15:00Z,Houston Texans,Indianapolis Colts,Nick Westbrook-Ikhine,any_td,0.5,3000,,FanDuel,,6,HOU,IND,11,2026
+66f9e83cf025d58acee12bce18661fb3,2026-11-20T01:15:00Z,Houston Texans,Indianapolis Colts,Pharaoh Brown,any_td,0.5,3400,,BetRivers,,5,HOU,IND,11,2026
+66f9e83cf025d58acee12bce18661fb3,2026-11-20T01:15:00Z,Houston Texans,Indianapolis Colts,DJ Giddens,any_td,0.5,3500,,BetMGM,,6,HOU,IND,11,2026
+66f9e83cf025d58acee12bce18661fb3,2026-11-20T01:15:00Z,Houston Texans,Indianapolis Colts,Quez Watkins,any_td,0.5,3000,,DraftKings,,4,HOU,IND,11,2026
+66f9e83cf025d58acee12bce18661fb3,2026-11-20T01:15:00Z,Houston Texans,Indianapolis Colts,Nikko Remigio,any_td,0.5,3500,,DraftKings,,6,HOU,IND,11,2026
+66f9e83cf025d58acee12bce18661fb3,2026-11-20T01:15:00Z,Houston Texans,Indianapolis Colts,C.J. Stroud,pass_td,2.5,170,-217,Bovada,BetOnline.ag,4,HOU,IND,11,2026
+66f9e83cf025d58acee12bce18661fb3,2026-11-20T01:15:00Z,Houston Texans,Indianapolis Colts,Daniel Jones,pass_td,0.5,-144,118,FanDuel,BetRivers,6,HOU,IND,11,2026
+66f9e83cf025d58acee12bce18661fb3,2026-11-20T01:15:00Z,Houston Texans,Indianapolis Colts,C.J. Stroud,pass_yds,262.5,-112,-112,DraftKings,DraftKings,4,HOU,IND,11,2026
+66f9e83cf025d58acee12bce18661fb3,2026-11-20T01:15:00Z,Houston Texans,Indianapolis Colts,Daniel Jones,pass_yds,180.5,-114,-114,FanDuel,FanDuel,3,HOU,IND,11,2026
+66f9e83cf025d58acee12bce18661fb3,2026-11-20T01:15:00Z,Houston Texans,Indianapolis Colts,Nico Collins,rec_yds,70.5,-111,-114,BetOnline.ag,FanDuel,3,HOU,IND,11,2026
+66f9e83cf025d58acee12bce18661fb3,2026-11-20T01:15:00Z,Houston Texans,Indianapolis Colts,Tyler Warren,rec_yds,39.5,-114,-114,BetOnline.ag,BetOnline.ag,2,HOU,IND,11,2026
+66f9e83cf025d58acee12bce18661fb3,2026-11-20T01:15:00Z,Houston Texans,Indianapolis Colts,Tank Dell,rec_yds,37.5,-111,-111,DraftKings,BetOnline.ag,3,HOU,IND,11,2026
+66f9e83cf025d58acee12bce18661fb3,2026-11-20T01:15:00Z,Houston Texans,Indianapolis Colts,Xavier Hutchinson,rec_yds,34.5,-112,-112,DraftKings,DraftKings,4,HOU,IND,11,2026
+66f9e83cf025d58acee12bce18661fb3,2026-11-20T01:15:00Z,Houston Texans,Indianapolis Colts,Dalton Schultz,rec_yds,29.5,-109,-114,DraftKings,FanDuel,4,HOU,IND,11,2026
+66f9e83cf025d58acee12bce18661fb3,2026-11-20T01:15:00Z,Houston Texans,Indianapolis Colts,Laquon Treadwell,rec_yds,27.5,-112,-111,BetOnline.ag,DraftKings,4,HOU,IND,11,2026
+66f9e83cf025d58acee12bce18661fb3,2026-11-20T01:15:00Z,Houston Texans,Indianapolis Colts,Kayshon Boutte,rec_yds,27.5,-111,-114,BetMGM,FanDuel,3,HOU,IND,11,2026
+66f9e83cf025d58acee12bce18661fb3,2026-11-20T01:15:00Z,Houston Texans,Indianapolis Colts,Anthony Gould,rec_yds,23.5,-114,-112,FanDuel,BetOnline.ag,3,HOU,IND,11,2026
+66f9e83cf025d58acee12bce18661fb3,2026-11-20T01:15:00Z,Houston Texans,Indianapolis Colts,Jonathan Taylor,rec_yds,21.5,-109,-116,DraftKings,DraftKings,3,HOU,IND,11,2026
+66f9e83cf025d58acee12bce18661fb3,2026-11-20T01:15:00Z,Houston Texans,Indianapolis Colts,Deion Burks,rec_yds,17.5,-108,-116,DraftKings,DraftKings,3,HOU,IND,11,2026
+66f9e83cf025d58acee12bce18661fb3,2026-11-20T01:15:00Z,Houston Texans,Indianapolis Colts,Ashton Dulin,rec_yds,14.5,-108,-116,DraftKings,DraftKings,2,HOU,IND,11,2026
+66f9e83cf025d58acee12bce18661fb3,2026-11-20T01:15:00Z,Houston Texans,Indianapolis Colts,David Montgomery,rec_yds,8.5,-114,-105,FanDuel,DraftKings,5,HOU,IND,11,2026
+66f9e83cf025d58acee12bce18661fb3,2026-11-20T01:15:00Z,Houston Texans,Indianapolis Colts,Tyler Warren,rec,5.5,120,-154,FanDuel,BetOnline.ag,4,HOU,IND,11,2026
+66f9e83cf025d58acee12bce18661fb3,2026-11-20T01:15:00Z,Houston Texans,Indianapolis Colts,Nico Collins,rec,4.5,-146,115,DraftKings,Bovada,5,HOU,IND,11,2026
+66f9e83cf025d58acee12bce18661fb3,2026-11-20T01:15:00Z,Houston Texans,Indianapolis Colts,Dalton Schultz,rec,3.5,112,-140,FanDuel,DraftKings,6,HOU,IND,11,2026
+66f9e83cf025d58acee12bce18661fb3,2026-11-20T01:15:00Z,Houston Texans,Indianapolis Colts,Jonathan Taylor,rec,3.5,133,-150,BetRivers,BetMGM,6,HOU,IND,11,2026
+66f9e83cf025d58acee12bce18661fb3,2026-11-20T01:15:00Z,Houston Texans,Indianapolis Colts,Xavier Hutchinson,rec,2.5,-170,140,DraftKings,FanDuel,5,HOU,IND,11,2026
+66f9e83cf025d58acee12bce18661fb3,2026-11-20T01:15:00Z,Houston Texans,Indianapolis Colts,Tank Dell,rec,2.5,-122,-102,FanDuel,DraftKings,6,HOU,IND,11,2026
+66f9e83cf025d58acee12bce18661fb3,2026-11-20T01:15:00Z,Houston Texans,Indianapolis Colts,Anthony Gould,rec,2.5,108,-121,BetRivers,DraftKings,6,HOU,IND,11,2026
+66f9e83cf025d58acee12bce18661fb3,2026-11-20T01:15:00Z,Houston Texans,Indianapolis Colts,Laquon Treadwell,rec,2.5,102,-114,FanDuel,BetOnline.ag,6,HOU,IND,11,2026
+66f9e83cf025d58acee12bce18661fb3,2026-11-20T01:15:00Z,Houston Texans,Indianapolis Colts,Kayshon Boutte,rec,2.5,150,-190,Bovada,BetMGM,5,HOU,IND,11,2026
+66f9e83cf025d58acee12bce18661fb3,2026-11-20T01:15:00Z,Houston Texans,Indianapolis Colts,Deion Burks,rec,1.5,-130,118,BetOnline.ag,DraftKings,6,HOU,IND,11,2026
+66f9e83cf025d58acee12bce18661fb3,2026-11-20T01:15:00Z,Houston Texans,Indianapolis Colts,David Montgomery,rec,1.5,112,-129,FanDuel,DraftKings,6,HOU,IND,11,2026
+66f9e83cf025d58acee12bce18661fb3,2026-11-20T01:15:00Z,Houston Texans,Indianapolis Colts,Ashton Dulin,rec,1.5,164,-206,BetOnline.ag,DraftKings,3,HOU,IND,11,2026
+66f9e83cf025d58acee12bce18661fb3,2026-11-20T01:15:00Z,Houston Texans,Indianapolis Colts,Jonathan Taylor,rush_yds,53.5,-111,-113,DraftKings,DraftKings,3,HOU,IND,11,2026
+66f9e83cf025d58acee12bce18661fb3,2026-11-20T01:15:00Z,Houston Texans,Indianapolis Colts,David Montgomery,rush_yds,53.5,-109,-115,DraftKings,DraftKings,3,HOU,IND,11,2026
+66f9e83cf025d58acee12bce18661fb3,2026-11-20T01:15:00Z,Houston Texans,Indianapolis Colts,Seth McGowan,rush_yds,25.5,-112,-103,DraftKings,BetOnline.ag,4,HOU,IND,11,2026
+66f9e83cf025d58acee12bce18661fb3,2026-11-20T01:15:00Z,Houston Texans,Indianapolis Colts,Emari Demercado,rush_yds,20.5,-107,-110,DraftKings,BetRivers,5,HOU,IND,11,2026
+66f9e83cf025d58acee12bce18661fb3,2026-11-20T01:15:00Z,Houston Texans,Indianapolis Colts,C.J. Stroud,rush_yds,10.5,-114,-110,DraftKings,DraftKings,5,HOU,IND,11,2026
+66f9e83cf025d58acee12bce18661fb3,2026-11-20T01:15:00Z,Houston Texans,Indianapolis Colts,Daniel Jones,rush_yds,7.5,-108,-116,DraftKings,DraftKings,4,HOU,IND,11,2026
+66f9e83cf025d58acee12bce18661fb3,2026-11-20T01:15:00Z,Houston Texans,Indianapolis Colts,Houston Texans Defense,any_td,0.5,550,,FanDuel,,2,HOU,IND,11,2026
+66f9e83cf025d58acee12bce18661fb3,2026-11-20T01:15:00Z,Houston Texans,Indianapolis Colts,Indianapolis Colts Defense,any_td,0.5,950,,FanDuel,,2,HOU,IND,11,2026
+66f9e83cf025d58acee12bce18661fb3,2026-11-20T01:15:00Z,Houston Texans,Indianapolis Colts,Will Mallory,any_td,0.5,1700,,BetRivers,,2,HOU,IND,11,2026
+66f9e83cf025d58acee12bce18661fb3,2026-11-20T01:15:00Z,Houston Texans,Indianapolis Colts,Woody Marks,any_td,0.5,-111,,BetOnline.ag,,1,HOU,IND,11,2026
+66f9e83cf025d58acee12bce18661fb3,2026-11-20T01:15:00Z,Houston Texans,Indianapolis Colts,Marvin Harrison Jr.,any_td,0.5,270,,BetOnline.ag,,1,HOU,IND,11,2026
+66f9e83cf025d58acee12bce18661fb3,2026-11-20T01:15:00Z,Houston Texans,Indianapolis Colts,Seth McGowan,rec,0.5,-120,-108,BetOnline.ag,BetOnline.ag,1,HOU,IND,11,2026
+66f9e83cf025d58acee12bce18661fb3,2026-11-20T01:15:00Z,Houston Texans,Indianapolis Colts,Dare Ogunbowale,any_td,0.5,775,,BetMGM,,2,HOU,IND,11,2026

@@ -269,6 +269,7 @@ week,team,player,pos,status,injury
 10,DEN,Eyioma Uwazurike,DL,Out,Injured reserve
 10,IND,Micheal Clemons,DL,Out,Injured reserve
 10,NYJ,Max Mitchell,OL,Out,Injured reserve
+10,TEN,Wan'Dale Robinson,WR,Out,Injured reserve
 10,MIA,Malik Willis,QB,Out,Injured reserve
 10,CHI,Coby Bryant,DB,Out,Injured reserve
 10,NYG,Jarrick Bernard-Converse,DB,Out,Injured reserve
@@ -334,11 +335,13 @@ week,team,player,pos,status,injury
 10,KAN,Jimmy Holiday,WR,Out,Injured reserve
 10,HOU,Jayden Higgins,WR,Out,Injured reserve
 10,SFO,Nick Martin,LB,Out,Injured reserve
+10,ARI,Jordan Burch,LB,Out,Injured reserve
 10,HOU,Jaylin Noel,WR,Out,Injured reserve
 10,JAX,Caleb Ransaw,DB,Out,Injured reserve
 10,WAS,Jaylin Lane,WR,Out,Injured reserve
 10,CHI,Ruben Hyppolite II,LB,Out,Injured reserve
 10,CAR,Cam Jackson,DL,Out,Injured reserve
+10,MIA,Jordan Phillips,DL,Out,Injured reserve
 10,NYJ,Francisco Mauigoa,LB,Out,Injured reserve
 10,TEN,Jackson Slater,OL,Out,Injured reserve
 10,NYJ,Tyler Baron,LB,Out,Injured reserve
@@ -349,6 +352,7 @@ week,team,player,pos,status,injury
 10,WAS,Jacory Croskey-Merritt,RB,Out,Injured reserve
 10,NYG,Korie Black,DB,Out,Injured reserve
 10,NOR,Moliki Matavao,TE,Out,Injured reserve
+10,MIA,Zeek Biggers,DL,Out,Injured reserve
 10,KAN,Ethan Downs,LB,Out,Injured reserve
 10,JAX,Jared Bartlett,LB,Out,Injured reserve
 10,HOU,K.C. Ossai,LB,Out,Injured reserve
@@ -377,6 +381,7 @@ week,team,player,pos,status,injury
 10,MIN,Demond Claiborne,RB,Out,Injured reserve
 10,JAX,Zach Durfee,DL,Out,Injured reserve
 10,JAX,Parker Hughes,LB,Out,Injured reserve
+10,BUF,Ar'maj Reed-Adams,OL,Out,Injured reserve
 10,MIA,Rene Konga,DL,Out,Injured reserve
 10,NYG,Thaddeus Dixon,DB,Out,Injured reserve
 10,CHI,Hayden Large,TE,Out,Injured reserve
