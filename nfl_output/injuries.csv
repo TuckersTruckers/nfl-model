@@ -20,6 +20,15 @@ week,team,player,pos,status,injury
 11,CAR,Jonathon Brooks,RB,Questionable,Groin
 11,CHI,Kyler Gordon,CB,Out,Shoulder
 11,CHI,Zavion Thomas,WR,Questionable,Ankle
+11,CIN,Jalen Davis,CB,Doubtful,Hamstring
+11,CIN,Oren Burks,LB,Out,Groin
+11,CIN,Dalton Risner,G,Out,Knee
+11,CIN,Kyle Dugger,S,Questionable,Quadricep
+11,CIN,Daxton Hill,CB,Questionable,Illness
+11,CIN,Andrei Iosivas,WR,Doubtful,Thumb
+11,CIN,Swayze Bozeman,LB,Questionable,Forearm
+11,CIN,Dylan Fairchild,G,Questionable,Oblique
+11,CIN,Brian Parker II,G,Questionable,Knee
 11,DAL,P.J. Locke,S,Out,Concussion
 11,DAL,Jalen Thompson,S,Questionable,Hamstring
 11,DAL,DaRon Bland,CB,Out,Ankle
@@ -129,6 +138,10 @@ week,team,player,pos,status,injury
 11,TEN,Fernando Carmona,G,Out,Ankle
 11,TEN,Carnell Tate,WR,Questionable,Shoulder
 11,TEN,Anthony Hill Jr.,LB,Questionable,Neck
+11,WAS,Lucas Patrick,C,Questionable,Concussion
+11,WAS,Amik Robertson,CB,Questionable,Ankle
+11,WAS,Rachaad White,RB,Questionable,Heel
+11,WAS,Jacory Croskey-Merritt,RB,Questionable,Groin
 11,HOU,Mario Edwards,DL,Out,Injured reserve
 11,WAS,Laremy Tunsil,OL,Out,Injured reserve
 11,NYG,Roy Robertson-Harris,DL,Out,Injured reserve
@@ -146,7 +159,6 @@ week,team,player,pos,status,injury
 11,WAS,Daron Payne,DL,Out,Injured reserve
 11,DET,Avonte Maddox,DB,Out,Injured reserve
 11,NYG,Braxton Berrios,WR,Out,Injured reserve
-11,CIN,Jalen Davis,DB,Out,Injured reserve
 11,CIN,Tanner Hudson,TE,Out,Injured reserve
 11,NYG,Tremaine Edmunds,LB,Out,Injured reserve
 11,SFO,Christian Kirk,WR,Out,Injured reserve
@@ -244,7 +256,6 @@ week,team,player,pos,status,injury
 11,ARI,Michael Wilson,WR,Out,Injured reserve
 11,NOR,Nick Saldiveri,OL,Out,Injured reserve
 11,IND,Cameron Mitchell,DB,Out,Injured reserve
-11,CIN,Andrei Iosivas,WR,Out,Injured reserve
 11,BAL,Jovaughn Gwyn,OL,Out,Injured reserve
 11,ARI,Jalen Brooks,WR,Out,Injured reserve
 11,TEN,Kendell Brooks,DB,Out,Injured reserve
@@ -263,7 +274,6 @@ week,team,player,pos,status,injury
 11,MIN,Nick Samac,OL,Out,Injured reserve
 11,PHI,Andre' Sam,DB,Out,Injured reserve
 11,NYJ,Braiden McGregor,LB,Out,Injured reserve
-11,CIN,Swayze Bozeman,LB,Out,Injured reserve
 11,PIT,Mason McCormick,OL,Out,Injured reserve
 11,DET,Giovanni Manu,OL,Out,Injured reserve
 11,SFO,Isaac Guerendo,RB,Out,Injured reserve
@@ -316,7 +326,6 @@ week,team,player,pos,status,injury
 11,HOU,Graham Mertz,QB,Out,Injured reserve
 11,LAC,Branson Taylor,OL,Out,Injured reserve
 11,PIT,Donte Kent,DB,Out,Injured reserve
-11,WAS,Jacory Croskey-Merritt,RB,Out,Injured reserve
 11,NYG,Korie Black,DB,Out,Injured reserve
 11,NOR,Moliki Matavao,TE,Out,Injured reserve
 11,MIA,Zeek Biggers,DL,Out,Injured reserve
@@ -344,7 +353,6 @@ week,team,player,pos,status,injury
 11,CAR,Chris Brazzell II,WR,Out,Injured reserve
 11,BUF,Zane Durant,DL,Out,Injured reserve
 11,NYJ,Anez Cooper,OL,Out,Injured reserve
-11,CIN,Brian Parker II,OL,Out,Injured reserve
 11,MIN,Demond Claiborne,RB,Out,Injured reserve
 11,JAX,Zach Durfee,DL,Out,Injured reserve
 11,JAX,Parker Hughes,LB,Out,Injured reserve
