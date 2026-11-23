@@ -142,21 +142,28 @@ week,team,player,pos,status,injury
 11,WAS,Amik Robertson,CB,Questionable,Ankle
 11,WAS,Rachaad White,RB,Questionable,Heel
 11,WAS,Jacory Croskey-Merritt,RB,Questionable,Groin
+11,LAR,Davante Adams,WR,Out,Injured reserve
+11,CLE,Michael Burton,RB,Out,Injured reserve
 11,HOU,Mario Edwards,DL,Out,Injured reserve
 11,WAS,Laremy Tunsil,OL,Out,Injured reserve
 11,NYG,Roy Robertson-Harris,DL,Out,Injured reserve
 11,JAX,Eric Murray,DB,Out,Injured reserve
+11,GNB,Javon Hargrave,DL,Out,Injured reserve
 11,IND,Mo Alie-Cox,TE,Out,Injured reserve
 11,CAR,Taylor Moton,OL,Out,Injured reserve
 11,ARI,Kendrick Bourne,WR,Out,Injured reserve
 11,ARI,James Conner,RB,Out,Injured reserve
+11,ATL,Storm Norton,OL,Out,Injured reserve
 11,MIN,Jamal Adams,LB,Out,Injured reserve
 11,BAL,Ethan Pocic,OL,Out,Injured reserve
 11,TEN,Tanoh Kpassagnon,DL,Out,Injured reserve
+11,ATL,Samson Ebukam,DL,Out,Injured reserve
 11,WAS,Jeremy McNichols,RB,Out,Injured reserve
+11,LAR,Poona Ford,DL,Out,Injured reserve
 11,MIA,Zach Sieler,DL,Out,Injured reserve
 11,CHI,Kentavius Street,DL,Out,Injured reserve
 11,WAS,Daron Payne,DL,Out,Injured reserve
+11,ATL,Da'Shawn Hand,DL,Out,Injured reserve
 11,DET,Avonte Maddox,DB,Out,Injured reserve
 11,NYG,Braxton Berrios,WR,Out,Injured reserve
 11,CIN,Tanner Hudson,TE,Out,Injured reserve
@@ -167,6 +174,7 @@ week,team,player,pos,status,injury
 11,BAL,Lamar Jackson,QB,Out,Injured reserve
 11,BAL,Durham Smythe,TE,Out,Injured reserve
 11,PIT,Sebastian Joseph-Day,DL,Out,Injured reserve
+11,NWE,Harold Landry III,LB,Out,Injured reserve
 11,HOU,E.J. Speed,LB,Out,Injured reserve
 11,IND,D.J. Montgomery,WR,Out,Injured reserve
 11,JAX,Sam Mustipher,OL,Out,Injured reserve
@@ -186,6 +194,7 @@ week,team,player,pos,status,injury
 11,TEN,Tommy Townsend,P,Out,Injured reserve
 11,TAM,Christian Rozeboom,LB,Out,Injured reserve
 11,BAL,Tyler Huntley,QB,Out,Injured reserve
+11,NWE,Mike Onwenu,OL,Out,Injured reserve
 11,BAL,Danny Pinter,OL,Out,Injured reserve
 11,WAS,Javon Kinlaw,DL,Out,Injured reserve
 11,SFO,Brandon Aiyuk,WR,Out,Exempt list
@@ -204,10 +213,15 @@ week,team,player,pos,status,injury
 11,WAS,Dyami Brown,WR,Out,Injured reserve
 11,CHI,Tony Fields II,LB,Out,Injured reserve
 11,SFO,Darrick Forrest,DB,Out,Injured reserve
+11,CLE,Jeremiah Owusu-Koramoah,LB,Out,Injured reserve
 11,LVR,Patrick Johnson,LB,Out,Injured reserve
 11,DET,Payton Turner,DL,Out,Injured reserve
+11,GNB,Micah Parsons,LB,Out,Injured reserve
 11,CAR,Jaycee Horn,DB,Out,Injured reserve
+11,CLE,Teven Jenkins,OL,Out,Injured reserve
+11,NWE,Alijah Vera-Tucker,OL,Out,Injured reserve
 11,NYG,Chauncey Golston,DL,Out,Injured reserve
+11,ATL,Trey Sermon,RB,Out,Injured reserve
 11,BUF,Josh Palmer,WR,Out,Injured reserve
 11,LAC,Rashawn Slater,OL,Out,Injured reserve
 11,LAC,Trey Lance,QB,Out,Injured reserve
@@ -215,13 +229,16 @@ week,team,player,pos,status,injury
 11,MIA,Cole Turner,TE,Out,Injured reserve
 11,CHI,Braxton Jones,OL,Out,Injured reserve
 11,DEN,Tyler Badie,RB,Out,Injured reserve
+11,GNB,Jonathan Ford,DL,Out,Injured reserve
 11,SFO,Jake Tonges,TE,Out,Injured reserve
 11,DAL,Tyler Goodson,RB,Out,Injured reserve
 11,ARI,Joey Blount,DB,Out,Injured reserve
+11,LAR,Jaylen Watson,DB,Out,Injured reserve
 11,DET,Isiah Pacheco,RB,Out,Injured reserve
 11,CAR,Ikem Ekwonu,OL,Out,Injured reserve
 11,DET,Aidan Hutchinson,DL,Out,Injured reserve
 11,LAC,Trevor Penning,OL,Out,Injured reserve
+11,CLE,Alex Wright,DL,Out,Injured reserve
 11,KAN,Matt Waletzko,OL,Out,Injured reserve
 11,NOR,Ty Chandler,RB,Out,Injured reserve
 11,DET,Damone Clark,LB,Out,Injured reserve
@@ -236,12 +253,18 @@ week,team,player,pos,status,injury
 11,DAL,Malik Davis,RB,Out,Injured reserve
 11,SFO,Sam Okuayinonu,DL,Out,Injured reserve
 11,IND,Alec Pierce,WR,Out,Injured reserve
+11,ATL,Brian Robinson,RB,Out,Injured reserve
 11,IND,Cam Taylor-Britt,DB,Out,Injured reserve
+11,ATL,DeAngelo Malone,LB,Out,Injured reserve
+11,NWE,Romeo Doubs,WR,Out,Injured reserve
+11,GNB,Zach Bako-Bewele,OL,Out,Injured reserve
 11,WAS,Leo Chenal,LB,Out,Injured reserve
 11,SFO,Nick Zakelj,OL,Out,Injured reserve
+11,CLE,Kalia Davis,DL,Out,Injured reserve
 11,NYG,Calvin Austin III,WR,Out,Injured reserve
 11,CAR,Akayleb Evans,DB,Out,Injured reserve
 11,KAN,Tyquan Thornton,WR,Out,Injured reserve
+11,CLE,Damarri Mathis,DB,Out,Injured reserve
 11,DEN,Eyioma Uwazurike,DL,Out,Injured reserve
 11,IND,Micheal Clemons,DL,Out,Injured reserve
 11,NYJ,Max Mitchell,OL,Out,Injured reserve
@@ -256,20 +279,28 @@ week,team,player,pos,status,injury
 11,ARI,Michael Wilson,WR,Out,Injured reserve
 11,NOR,Nick Saldiveri,OL,Out,Injured reserve
 11,IND,Cameron Mitchell,DB,Out,Injured reserve
+11,GNB,Josh Whyle,TE,Out,Injured reserve
 11,BAL,Jovaughn Gwyn,OL,Out,Injured reserve
 11,ARI,Jalen Brooks,WR,Out,Injured reserve
 11,TEN,Kendell Brooks,DB,Out,Injured reserve
+11,NWE,Julian Hill,TE,Out,Injured reserve
 11,HOU,Ali Gaye,DL,Out,Injured reserve
 11,DAL,Princeton Fant,TE,Out,Injured reserve
+11,SEA,Jake Bobo,WR,Out,Injured reserve
 11,NOR,Rejzohn Wright,DB,Out,Injured reserve
 11,CAR,Thomas Incoom,LB,Out,Injured reserve
 11,SFO,Andrew Farmer II,LB,Out,Injured reserve
+11,LAR,Blake Grupe,K,Out,Injured reserve
 11,JAX,Anton Harrison,OL,Out,Injured reserve
 11,NOR,Bryan Bresee,DL,Out,Injured reserve
 11,HOU,Dylan Horton,DL,Out,Injured reserve
 11,DET,Jack Campbell,LB,Out,Injured reserve
 11,TEN,Peter Skoronski,OL,Out,Injured reserve
 11,MIA,De'Von Achane,RB,Out,Injured reserve
+11,LAR,Puka Nacua,WR,Out,Injured reserve
+11,LAR,Kobie Turner,DL,Out,Injured reserve
+11,GNB,Luke Musgrave,TE,Out,Injured reserve
+11,GNB,Jayden Reed,WR,Out,Injured reserve
 11,PHI,Johnny Wilson,WR,Out,Injured reserve
 11,MIN,Nick Samac,OL,Out,Injured reserve
 11,PHI,Andre' Sam,DB,Out,Injured reserve
@@ -277,6 +308,7 @@ week,team,player,pos,status,injury
 11,PIT,Mason McCormick,OL,Out,Injured reserve
 11,DET,Giovanni Manu,OL,Out,Injured reserve
 11,SFO,Isaac Guerendo,RB,Out,Injured reserve
+11,ATL,JD Bertrand,LB,Out,Injured reserve
 11,IND,Jaylon Carlies,LB,Out,Injured reserve
 11,NYG,Tyrone Tracy Jr.,RB,Out,Injured reserve
 11,PIT,Logan Lee,DL,Out,Injured reserve
@@ -293,18 +325,31 @@ week,team,player,pos,status,injury
 11,PIT,Cole Burgess,WR,Out,Injured reserve
 11,DET,Thomas Harper,DB,Out,Injured reserve
 11,LVR,Chigozie Anusiem,DB,Out,Injured reserve
+11,NWE,Dell Pettus,DB,Out,Injured reserve
 11,MIN,Bo Richter,LB,Out,Injured reserve
 11,ARI,Tip Reiman,TE,Out,Injured reserve
+11,LAR,Jordan Whittington,WR,Out,Injured reserve
+11,LAR,Justin Dedich,OL,Out,Injured reserve
 11,DEN,Jonah Elliss,LB,Out,Injured reserve
 11,CIN,Erick All,TE,Out,Injured reserve
+11,GNB,Jacob Monk,OL,Out,Injured reserve
 11,KAN,Jared Wiley,TE,Out,Injured reserve
+11,LAR,Dylan McMahon,OL,Out,Injured reserve
 11,LVR,Brennan Jackson,LB,Out,Injured reserve
+11,ATL,Michael Jerrell,OL,Out,Injured reserve
+11,GNB,Edgerrin Cooper,LB,Out,Injured reserve
 11,TAM,Jalen McMillan,WR,Out,Injured reserve
 11,TAM,Mohamed Kamara,LB,Out,Injured reserve
+11,CLE,Edefuan Ulofoshio,LB,Out,Injured reserve
 11,PIT,Daequan Hardy,DB,Out,Injured reserve
 11,NYJ,T'Vondre Sweat,DL,Out,Injured reserve
+11,SEA,Terrion Arnold,DB,Out,Exempt list
 11,SFO,Ricky Pearsall,WR,Out,Injured reserve
 11,ARI,Trey Benson,RB,Out,Injured reserve
+11,GNB,Thomas Yassmin,TE,Out,Injured reserve
+11,GNB,Collin Oliver,LB,Out,Injured reserve
+11,GNB,Warren Brinson,DL,Out,Injured reserve
+11,GNB,Johnathan Baldwin,DB,Out,Injured reserve
 11,BAL,Bilhal Kone,DB,Out,Injured reserve
 11,BAL,Tyler Loop,K,Out,Injured reserve
 11,KAN,Brashard Smith,RB,Out,Injured reserve
@@ -332,15 +377,23 @@ week,team,player,pos,status,injury
 11,KAN,Ethan Downs,LB,Out,Injured reserve
 11,JAX,Jared Bartlett,LB,Out,Injured reserve
 11,HOU,K.C. Ossai,LB,Out,Injured reserve
+11,CLE,Raheim Sanders,RB,Out,Injured reserve
 11,MIN,Tyler Batty,LB,Out,Injured reserve
+11,ATL,Jalon Walker,LB,Out,Injured reserve
 11,NYJ,Arian Smith,WR,Out,Injured reserve
+11,SEA,Robbie Ouzts,RB,Out,Injured reserve
+11,SEA,Mason Richman,OL,Out,Injured reserve
 11,MIN,Donovan Jackson,OL,Out,Injured reserve
 11,NYG,Jaxson Dart,QB,Out,Injured reserve
 11,SFO,Alfred Collins,DL,Out,Injured reserve
 11,DEN,RJ Harvey,RB,Out,Injured reserve
+11,NWE,TreVeyon Henderson,RB,Out,Injured reserve
+11,LAR,Terrance Ferguson,TE,Out,Injured reserve
+11,SEA,Elijah Arroyo,TE,Out,Injured reserve
 11,CAR,Nic Scourton,LB,Out,Injured reserve
 11,ARI,Will Johnson,DB,Out,Injured reserve
 11,IND,Carson Towt,TE,Out,Injured reserve
+11,SEA,Julian Neal,DB,Out,Injured reserve
 11,TEN,Jaren Kanak,TE,Out,Injured reserve
 11,PHI,Tucker Large,DB,Out,Injured reserve
 11,DAL,Kelvin Gilliam,DL,Out,Injured reserve
@@ -351,6 +404,7 @@ week,team,player,pos,status,injury
 11,ARI,Jeremiyah Love,RB,Out,Injured reserve
 11,SFO,De'Zhaun Stribling,WR,Out,Injured reserve
 11,CAR,Chris Brazzell II,WR,Out,Injured reserve
+11,CLE,Joe Royer,TE,Out,Injured reserve
 11,BUF,Zane Durant,DL,Out,Injured reserve
 11,NYJ,Anez Cooper,OL,Out,Injured reserve
 11,MIN,Demond Claiborne,RB,Out,Injured reserve
@@ -363,15 +417,24 @@ week,team,player,pos,status,injury
 11,JAX,Garrett DiGiorgio,OL,Out,Injured reserve
 11,NYJ,Chip Trayanum,RB,Out,Injured reserve
 11,HOU,Sam Hagen,OL,Out,Injured reserve
+11,NWE,Khalil Jacobs,LB,Out,Injured reserve
+11,NWE,Myles Montgomery,RB,Out,Injured reserve
 11,SFO,Mikail Kamara,DL,Out,Injured reserve
 11,LAC,Isaiah World,OL,Out,Injured reserve
 11,NOR,Christen Miller,DL,Out,Injured reserve
+11,NWE,Quintayvious Hutchins,LB,Out,Injured reserve
+11,LAR,Matthew Caldwell,QB,Out,Injured reserve
+11,LAR,Dean Connors,RB,Out,Injured reserve
+11,LAR,Eddie Walls III,LB,Out,Injured reserve
 11,DET,Jimmy Rolder,LB,Out,Injured reserve
 11,DET,Kendrick Law,WR,Out,Injured reserve
+11,SEA,Bud Clark,DB,Out,Injured reserve
 11,ARI,Chase Bisontis,OL,Out,Injured reserve
+11,ATL,Anterio Thompson,DL,Out,Injured reserve
 11,MIA,Trey Moore,LB,Out,Injured reserve
 11,DAL,Malachi Lawrence,LB,Out,Injured reserve
 11,CIN,Cashius Howell,DL,Out,Injured reserve
 11,LVR,Keyron Crawford,LB,Out,Injured reserve
 11,ARI,Kaleb Proctor,DL,Out,Injured reserve
 11,SFO,Gracen Halton,DL,Out,Injured reserve
+11,LAR,Daniel Rickert,LB,Out,Injured reserve
