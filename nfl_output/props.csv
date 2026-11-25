@@ -26,48 +26,254 @@ event,commence,home,away,player,stat,line,over_odds,under_odds,book_over,book_un
 5b612899d6dcdf998107f2c6c6e49a58,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,Max Klare,any_td,0.5,3300,,BetRivers,,5,LAR,GNB,,2026
 5b612899d6dcdf998107f2c6c6e49a58,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,J. Michael Sturdivant,any_td,0.5,2200,,DraftKings,,4,LAR,GNB,,2026
 5b612899d6dcdf998107f2c6c6e49a58,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,Ronnie Rivers,any_td,0.5,2200,,DraftKings,,5,LAR,GNB,,2026
-5b612899d6dcdf998107f2c6c6e49a58,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,Jordan Love,pass_td,1.5,-107,-110,DraftKings,BetMGM,5,LAR,GNB,,2026
-5b612899d6dcdf998107f2c6c6e49a58,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,Matthew Stafford,pass_td,1.5,118,-143,BetOnline.ag,DraftKings,5,LAR,GNB,,2026
-5b612899d6dcdf998107f2c6c6e49a58,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,Jordan Love,pass_yds,272.5,-112,-112,DraftKings,DraftKings,2,LAR,GNB,,2026
-5b612899d6dcdf998107f2c6c6e49a58,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,Matthew Stafford,pass_yds,232.5,-113,-111,DraftKings,DraftKings,3,LAR,GNB,,2026
-5b612899d6dcdf998107f2c6c6e49a58,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,Matthew Golden,rec_yds,75.5,-110,-114,DraftKings,DraftKings,3,LAR,GNB,,2026
-5b612899d6dcdf998107f2c6c6e49a58,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,Christian Watson,rec_yds,73.5,-110,-111,DraftKings,BetOnline.ag,3,LAR,GNB,,2026
-5b612899d6dcdf998107f2c6c6e49a58,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,Tucker Kraft,rec_yds,37.5,-114,-114,FanDuel,FanDuel,4,LAR,GNB,,2026
-5b612899d6dcdf998107f2c6c6e49a58,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,Konata Mumpfield,rec_yds,37.5,-110,-112,DraftKings,BetOnline.ag,3,LAR,GNB,,2026
-5b612899d6dcdf998107f2c6c6e49a58,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,Tyler Higbee,rec_yds,28.5,-106,-114,BetOnline.ag,DraftKings,2,LAR,GNB,,2026
-5b612899d6dcdf998107f2c6c6e49a58,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,Tutu Atwell,rec_yds,23.5,-110,-112,DraftKings,BetOnline.ag,3,LAR,GNB,,2026
-5b612899d6dcdf998107f2c6c6e49a58,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,Kyren Williams,rec_yds,21.5,-110,-114,DraftKings,DraftKings,2,LAR,GNB,,2026
-5b612899d6dcdf998107f2c6c6e49a58,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,CJ Daniels,rec_yds,20.5,-112,-111,BetOnline.ag,DraftKings,5,LAR,GNB,,2026
-5b612899d6dcdf998107f2c6c6e49a58,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,Colby Parkinson,rec_yds,20.5,-112,-112,DraftKings,DraftKings,3,LAR,GNB,,2026
-5b612899d6dcdf998107f2c6c6e49a58,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,Savion Williams,rec_yds,19.5,-112,-112,DraftKings,DraftKings,2,LAR,GNB,,2026
-5b612899d6dcdf998107f2c6c6e49a58,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,Davis Allen,rec_yds,11.5,-109,-114,DraftKings,FanDuel,3,LAR,GNB,,2026
-5b612899d6dcdf998107f2c6c6e49a58,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,Xavier Smith,rec_yds,9.5,-114,-110,DraftKings,DraftKings,3,LAR,GNB,,2026
-5b612899d6dcdf998107f2c6c6e49a58,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,Blake Corum,rec_yds,9.5,-112,-112,DraftKings,DraftKings,2,LAR,GNB,,2026
-5b612899d6dcdf998107f2c6c6e49a58,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,Chris Brooks,rec_yds,8.5,-114,-111,FanDuel,BetOnline.ag,2,LAR,GNB,,2026
-5b612899d6dcdf998107f2c6c6e49a58,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,MarShawn Lloyd,rec_yds,8.5,-103,-116,DraftKings,BetOnline.ag,2,LAR,GNB,,2026
-5b612899d6dcdf998107f2c6c6e49a58,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,Matthew Golden,rec,5.5,-110,106,BetRivers,DraftKings,5,LAR,GNB,,2026
-5b612899d6dcdf998107f2c6c6e49a58,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,Christian Watson,rec,4.5,-125,114,BetRivers,DraftKings,4,LAR,GNB,,2026
-5b612899d6dcdf998107f2c6c6e49a58,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,Tucker Kraft,rec,3.5,-154,124,BetOnline.ag,DraftKings,4,LAR,GNB,,2026
-5b612899d6dcdf998107f2c6c6e49a58,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,Kyren Williams,rec,3.5,125,-140,BetRivers,BetMGM,5,LAR,GNB,,2026
-5b612899d6dcdf998107f2c6c6e49a58,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,Tyler Higbee,rec,3.5,115,-136,BetMGM,FanDuel,5,LAR,GNB,,2026
-5b612899d6dcdf998107f2c6c6e49a58,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,Konata Mumpfield,rec,3.5,126,-160,BetOnline.ag,BetMGM,4,LAR,GNB,,2026
-5b612899d6dcdf998107f2c6c6e49a58,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,Colby Parkinson,rec,2.5,-150,123,BetMGM,DraftKings,5,LAR,GNB,,2026
-5b612899d6dcdf998107f2c6c6e49a58,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,Savion Williams,rec,2.5,118,-145,BetRivers,BetOnline.ag,4,LAR,GNB,,2026
-5b612899d6dcdf998107f2c6c6e49a58,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,CJ Daniels,rec,1.5,-172,140,FanDuel,BetMGM,5,LAR,GNB,,2026
-5b612899d6dcdf998107f2c6c6e49a58,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,Tutu Atwell,rec,1.5,-139,120,BetRivers,DraftKings,5,LAR,GNB,,2026
-5b612899d6dcdf998107f2c6c6e49a58,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,Blake Corum,rec,1.5,-145,120,DraftKings,FanDuel,5,LAR,GNB,,2026
-5b612899d6dcdf998107f2c6c6e49a58,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,Chris Brooks,rec,1.5,-119,-105,BetOnline.ag,DraftKings,3,LAR,GNB,,2026
-5b612899d6dcdf998107f2c6c6e49a58,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,MarShawn Lloyd,rec,1.5,-111,-102,DraftKings,FanDuel,3,LAR,GNB,,2026
-5b612899d6dcdf998107f2c6c6e49a58,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,Davis Allen,rec,1.5,100,-116,BetMGM,DraftKings,5,LAR,GNB,,2026
-5b612899d6dcdf998107f2c6c6e49a58,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,Xavier Smith,rec,0.5,-222,176,DraftKings,BetOnline.ag,3,LAR,GNB,,2026
-5b612899d6dcdf998107f2c6c6e49a58,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,Blake Corum,rush_yds,57.5,-109,-115,DraftKings,DraftKings,2,LAR,GNB,,2026
-5b612899d6dcdf998107f2c6c6e49a58,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,Kyren Williams,rush_yds,54.5,-108,-114,BetOnline.ag,FanDuel,3,LAR,GNB,,2026
-5b612899d6dcdf998107f2c6c6e49a58,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,Kaleb Johnson,rush_yds,32.5,-114,-108,FanDuel,DraftKings,3,LAR,GNB,,2026
-5b612899d6dcdf998107f2c6c6e49a58,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,MarShawn Lloyd,rush_yds,11.5,-106,-114,DraftKings,FanDuel,3,LAR,GNB,,2026
-5b612899d6dcdf998107f2c6c6e49a58,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,Chris Brooks,rush_yds,6.5,-114,-104,FanDuel,DraftKings,3,LAR,GNB,,2026
-5b612899d6dcdf998107f2c6c6e49a58,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,Savion Williams,rush_yds,4.5,-104,-114,DraftKings,FanDuel,2,LAR,GNB,,2026
-5b612899d6dcdf998107f2c6c6e49a58,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,Jordan Love,rush_yds,3.5,-114,-108,FanDuel,DraftKings,3,LAR,GNB,,2026
-5b612899d6dcdf998107f2c6c6e49a58,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,Matthew Stafford,rush_yds,0.5,136,-151,FanDuel,DraftKings,2,LAR,GNB,,2026
+5b612899d6dcdf998107f2c6c6e49a58,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,Jordan Love,pass_td,1.5,-107,-110.0,DraftKings,BetMGM,5,LAR,GNB,,2026
+5b612899d6dcdf998107f2c6c6e49a58,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,Matthew Stafford,pass_td,1.5,118,-143.0,BetOnline.ag,DraftKings,5,LAR,GNB,,2026
+5b612899d6dcdf998107f2c6c6e49a58,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,Jordan Love,pass_yds,272.5,-112,-112.0,DraftKings,DraftKings,2,LAR,GNB,,2026
+5b612899d6dcdf998107f2c6c6e49a58,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,Matthew Stafford,pass_yds,232.5,-113,-111.0,DraftKings,DraftKings,3,LAR,GNB,,2026
+5b612899d6dcdf998107f2c6c6e49a58,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,Matthew Golden,rec_yds,75.5,-110,-114.0,DraftKings,DraftKings,3,LAR,GNB,,2026
+5b612899d6dcdf998107f2c6c6e49a58,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,Christian Watson,rec_yds,73.5,-110,-111.0,DraftKings,BetOnline.ag,3,LAR,GNB,,2026
+5b612899d6dcdf998107f2c6c6e49a58,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,Tucker Kraft,rec_yds,37.5,-114,-114.0,FanDuel,FanDuel,4,LAR,GNB,,2026
+5b612899d6dcdf998107f2c6c6e49a58,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,Konata Mumpfield,rec_yds,37.5,-110,-112.0,DraftKings,BetOnline.ag,3,LAR,GNB,,2026
+5b612899d6dcdf998107f2c6c6e49a58,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,Tyler Higbee,rec_yds,28.5,-106,-114.0,BetOnline.ag,DraftKings,2,LAR,GNB,,2026
+5b612899d6dcdf998107f2c6c6e49a58,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,Tutu Atwell,rec_yds,23.5,-110,-112.0,DraftKings,BetOnline.ag,3,LAR,GNB,,2026
+5b612899d6dcdf998107f2c6c6e49a58,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,Kyren Williams,rec_yds,21.5,-110,-114.0,DraftKings,DraftKings,2,LAR,GNB,,2026
+5b612899d6dcdf998107f2c6c6e49a58,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,CJ Daniels,rec_yds,20.5,-112,-111.0,BetOnline.ag,DraftKings,5,LAR,GNB,,2026
+5b612899d6dcdf998107f2c6c6e49a58,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,Colby Parkinson,rec_yds,20.5,-112,-112.0,DraftKings,DraftKings,3,LAR,GNB,,2026
+5b612899d6dcdf998107f2c6c6e49a58,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,Savion Williams,rec_yds,19.5,-112,-112.0,DraftKings,DraftKings,2,LAR,GNB,,2026
+5b612899d6dcdf998107f2c6c6e49a58,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,Davis Allen,rec_yds,11.5,-109,-114.0,DraftKings,FanDuel,3,LAR,GNB,,2026
+5b612899d6dcdf998107f2c6c6e49a58,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,Xavier Smith,rec_yds,9.5,-114,-110.0,DraftKings,DraftKings,3,LAR,GNB,,2026
+5b612899d6dcdf998107f2c6c6e49a58,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,Blake Corum,rec_yds,9.5,-112,-112.0,DraftKings,DraftKings,2,LAR,GNB,,2026
+5b612899d6dcdf998107f2c6c6e49a58,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,Chris Brooks,rec_yds,8.5,-114,-111.0,FanDuel,BetOnline.ag,2,LAR,GNB,,2026
+5b612899d6dcdf998107f2c6c6e49a58,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,MarShawn Lloyd,rec_yds,8.5,-103,-116.0,DraftKings,BetOnline.ag,2,LAR,GNB,,2026
+5b612899d6dcdf998107f2c6c6e49a58,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,Matthew Golden,rec,5.5,-110,106.0,BetRivers,DraftKings,5,LAR,GNB,,2026
+5b612899d6dcdf998107f2c6c6e49a58,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,Christian Watson,rec,4.5,-125,114.0,BetRivers,DraftKings,4,LAR,GNB,,2026
+5b612899d6dcdf998107f2c6c6e49a58,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,Tucker Kraft,rec,3.5,-154,124.0,BetOnline.ag,DraftKings,4,LAR,GNB,,2026
+5b612899d6dcdf998107f2c6c6e49a58,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,Kyren Williams,rec,3.5,125,-140.0,BetRivers,BetMGM,5,LAR,GNB,,2026
+5b612899d6dcdf998107f2c6c6e49a58,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,Tyler Higbee,rec,3.5,115,-136.0,BetMGM,FanDuel,5,LAR,GNB,,2026
+5b612899d6dcdf998107f2c6c6e49a58,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,Konata Mumpfield,rec,3.5,126,-160.0,BetOnline.ag,BetMGM,4,LAR,GNB,,2026
+5b612899d6dcdf998107f2c6c6e49a58,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,Colby Parkinson,rec,2.5,-150,123.0,BetMGM,DraftKings,5,LAR,GNB,,2026
+5b612899d6dcdf998107f2c6c6e49a58,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,Savion Williams,rec,2.5,118,-145.0,BetRivers,BetOnline.ag,4,LAR,GNB,,2026
+5b612899d6dcdf998107f2c6c6e49a58,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,CJ Daniels,rec,1.5,-172,140.0,FanDuel,BetMGM,5,LAR,GNB,,2026
+5b612899d6dcdf998107f2c6c6e49a58,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,Tutu Atwell,rec,1.5,-139,120.0,BetRivers,DraftKings,5,LAR,GNB,,2026
+5b612899d6dcdf998107f2c6c6e49a58,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,Blake Corum,rec,1.5,-145,120.0,DraftKings,FanDuel,5,LAR,GNB,,2026
+5b612899d6dcdf998107f2c6c6e49a58,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,Chris Brooks,rec,1.5,-119,-105.0,BetOnline.ag,DraftKings,3,LAR,GNB,,2026
+5b612899d6dcdf998107f2c6c6e49a58,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,MarShawn Lloyd,rec,1.5,-111,-102.0,DraftKings,FanDuel,3,LAR,GNB,,2026
+5b612899d6dcdf998107f2c6c6e49a58,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,Davis Allen,rec,1.5,100,-116.0,BetMGM,DraftKings,5,LAR,GNB,,2026
+5b612899d6dcdf998107f2c6c6e49a58,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,Xavier Smith,rec,0.5,-222,176.0,DraftKings,BetOnline.ag,3,LAR,GNB,,2026
+5b612899d6dcdf998107f2c6c6e49a58,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,Blake Corum,rush_yds,57.5,-109,-115.0,DraftKings,DraftKings,2,LAR,GNB,,2026
+5b612899d6dcdf998107f2c6c6e49a58,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,Kyren Williams,rush_yds,54.5,-108,-114.0,BetOnline.ag,FanDuel,3,LAR,GNB,,2026
+5b612899d6dcdf998107f2c6c6e49a58,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,Kaleb Johnson,rush_yds,32.5,-114,-108.0,FanDuel,DraftKings,3,LAR,GNB,,2026
+5b612899d6dcdf998107f2c6c6e49a58,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,MarShawn Lloyd,rush_yds,11.5,-106,-114.0,DraftKings,FanDuel,3,LAR,GNB,,2026
+5b612899d6dcdf998107f2c6c6e49a58,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,Chris Brooks,rush_yds,6.5,-114,-104.0,FanDuel,DraftKings,3,LAR,GNB,,2026
+5b612899d6dcdf998107f2c6c6e49a58,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,Savion Williams,rush_yds,4.5,-104,-114.0,DraftKings,FanDuel,2,LAR,GNB,,2026
+5b612899d6dcdf998107f2c6c6e49a58,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,Jordan Love,rush_yds,3.5,-114,-108.0,FanDuel,DraftKings,3,LAR,GNB,,2026
+5b612899d6dcdf998107f2c6c6e49a58,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,Matthew Stafford,rush_yds,0.5,136,-151.0,FanDuel,DraftKings,2,LAR,GNB,,2026
 5b612899d6dcdf998107f2c6c6e49a58,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,Los Angeles Rams Defense,any_td,0.5,800,,FanDuel,,1,LAR,GNB,,2026
 5b612899d6dcdf998107f2c6c6e49a58,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,Green Bay Packers Defense,any_td,0.5,1000,,FanDuel,,1,LAR,GNB,,2026
 5b612899d6dcdf998107f2c6c6e49a58,2026-11-26T01:00:00Z,Los Angeles Rams,Green Bay Packers,Josh Jacobs,any_td,0.5,-125,,BetOnline.ag,,1,LAR,GNB,,2026
+9b825e6518156008da499be041975fdd,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,Jahmyr Gibbs,any_td,0.5,-235,,BetMGM,,6,DET,CHI,12.0,2026
+9b825e6518156008da499be041975fdd,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,Amon-Ra St. Brown,any_td,0.5,-139,,BetRivers,,6,DET,CHI,12.0,2026
+9b825e6518156008da499be041975fdd,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,D'Andre Swift,any_td,0.5,-108,,BetRivers,,6,DET,CHI,12.0,2026
+9b825e6518156008da499be041975fdd,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,Colston Loveland,any_td,0.5,140,,BetMGM,,6,DET,CHI,12.0,2026
+9b825e6518156008da499be041975fdd,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,Luther Burden III,any_td,0.5,140,,DraftKings,,6,DET,CHI,12.0,2026
+9b825e6518156008da499be041975fdd,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,Rome Odunze,any_td,0.5,180,,BetMGM,,6,DET,CHI,12.0,2026
+9b825e6518156008da499be041975fdd,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,Kyle Monangai,any_td,0.5,165,,DraftKings,,6,DET,CHI,12.0,2026
+9b825e6518156008da499be041975fdd,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,Sam LaPorta,any_td,0.5,200,,BetMGM,,6,DET,CHI,12.0,2026
+9b825e6518156008da499be041975fdd,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,Jameson Williams,any_td,0.5,200,,DraftKings,,6,DET,CHI,12.0,2026
+9b825e6518156008da499be041975fdd,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,Kalif Raymond,any_td,0.5,360,,BetMGM,,6,DET,CHI,12.0,2026
+9b825e6518156008da499be041975fdd,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,Caleb Williams,any_td,0.5,350,,DraftKings,,6,DET,CHI,12.0,2026
+9b825e6518156008da499be041975fdd,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,Isaac TeSlaa,any_td,0.5,450,,DraftKings,,6,DET,CHI,12.0,2026
+9b825e6518156008da499be041975fdd,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,Sione Vaki,any_td,0.5,575,,BetMGM,,6,DET,CHI,12.0,2026
+9b825e6518156008da499be041975fdd,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,Detroit Lions D/ST,any_td,0.5,600,,DraftKings,,2,DET,CHI,12.0,2026
+9b825e6518156008da499be041975fdd,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,Chicago Bears D/ST,any_td,0.5,600,,DraftKings,,2,DET,CHI,12.0,2026
+9b825e6518156008da499be041975fdd,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,Sam Roush,any_td,0.5,775,,BetMGM,,6,DET,CHI,12.0,2026
+9b825e6518156008da499be041975fdd,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,Zavion Thomas,any_td,0.5,800,,FanDuel,,6,DET,CHI,12.0,2026
+9b825e6518156008da499be041975fdd,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,Salvon Ahmed,any_td,0.5,1050,,BetRivers,,5,DET,CHI,12.0,2026
+9b825e6518156008da499be041975fdd,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,Brock Wright,any_td,0.5,1100,,DraftKings,,6,DET,CHI,12.0,2026
+9b825e6518156008da499be041975fdd,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,Jared Goff,any_td,0.5,1200,,DraftKings,,6,DET,CHI,12.0,2026
+9b825e6518156008da499be041975fdd,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,Tyler Conklin,any_td,0.5,1800,,BetRivers,,6,DET,CHI,12.0,2026
+9b825e6518156008da499be041975fdd,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,Jahdae Walker,any_td,0.5,1500,,FanDuel,,5,DET,CHI,12.0,2026
+9b825e6518156008da499be041975fdd,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,DeAndre Carter,any_td,0.5,1400,,DraftKings,,5,DET,CHI,12.0,2026
+9b825e6518156008da499be041975fdd,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,Jacob Saylors,any_td,0.5,2800,,BetRivers,,6,DET,CHI,12.0,2026
+9b825e6518156008da499be041975fdd,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,Stephen Carlson,any_td,0.5,2500,,BetMGM,,6,DET,CHI,12.0,2026
+9b825e6518156008da499be041975fdd,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,Tay Martin,any_td,0.5,3500,,BetMGM,,6,DET,CHI,12.0,2026
+9b825e6518156008da499be041975fdd,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,Jared Goff,pass_td,1.5,-215,174,BetRivers,BetOnline.ag,6,DET,CHI,12.0,2026
+9b825e6518156008da499be041975fdd,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,Caleb Williams,pass_td,1.5,-200,168,BetMGM,DraftKings,6,DET,CHI,12.0,2026
+9b825e6518156008da499be041975fdd,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,Jared Goff,pass_yds,278.5,-112,-112,DraftKings,DraftKings,2,DET,CHI,12.0,2026
+9b825e6518156008da499be041975fdd,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,Caleb Williams,pass_yds,261.5,-113,-111,FanDuel,BetOnline.ag,2,DET,CHI,12.0,2026
+9b825e6518156008da499be041975fdd,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,Amon-Ra St. Brown,rec_yds,83.5,-113,-111,DraftKings,DraftKings,3,DET,CHI,12.0,2026
+9b825e6518156008da499be041975fdd,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,Luther Burden III,rec_yds,60.5,-113,-110,FanDuel,BetOnline.ag,3,DET,CHI,12.0,2026
+9b825e6518156008da499be041975fdd,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,Jameson Williams,rec_yds,57.5,-110,-112,DraftKings,BetOnline.ag,4,DET,CHI,12.0,2026
+9b825e6518156008da499be041975fdd,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,Colston Loveland,rec_yds,52.5,-113,-113,FanDuel,FanDuel,4,DET,CHI,12.0,2026
+9b825e6518156008da499be041975fdd,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,Rome Odunze,rec_yds,47.5,-113,-110,FanDuel,DraftKings,4,DET,CHI,12.0,2026
+9b825e6518156008da499be041975fdd,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,Sam LaPorta,rec_yds,44.5,-113,-111,DraftKings,DraftKings,5,DET,CHI,12.0,2026
+9b825e6518156008da499be041975fdd,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,Jahmyr Gibbs,rec_yds,35.5,-113,-112,FanDuel,BetOnline.ag,3,DET,CHI,12.0,2026
+9b825e6518156008da499be041975fdd,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,Kalif Raymond,rec_yds,25.5,-113,-110,FanDuel,BetOnline.ag,2,DET,CHI,12.0,2026
+9b825e6518156008da499be041975fdd,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,Isaac TeSlaa,rec_yds,19.5,-111,-111,BetOnline.ag,DraftKings,5,DET,CHI,12.0,2026
+9b825e6518156008da499be041975fdd,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,D'Andre Swift,rec_yds,15.5,-113,-110,FanDuel,DraftKings,4,DET,CHI,12.0,2026
+9b825e6518156008da499be041975fdd,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,Zavion Thomas,rec_yds,9.5,-116,-111,BetOnline.ag,BetMGM,2,DET,CHI,12.0,2026
+9b825e6518156008da499be041975fdd,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,Sam Roush,rec_yds,7.5,-113,-108,FanDuel,DraftKings,4,DET,CHI,12.0,2026
+9b825e6518156008da499be041975fdd,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,Kyle Monangai,rec_yds,4.5,-106,-115,FanDuel,BetMGM,3,DET,CHI,12.0,2026
+9b825e6518156008da499be041975fdd,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,Brock Wright,rec_yds,2.5,-116,-108,DraftKings,DraftKings,2,DET,CHI,12.0,2026
+9b825e6518156008da499be041975fdd,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,Sione Vaki,rec_yds,2.5,-106,-111,FanDuel,DraftKings,4,DET,CHI,12.0,2026
+9b825e6518156008da499be041975fdd,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,Amon-Ra St. Brown,rec,7.5,106,-128,BetRivers,DraftKings,5,DET,CHI,12.0,2026
+9b825e6518156008da499be041975fdd,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,Colston Loveland,rec,5.5,120,-138,BetMGM,DraftKings,6,DET,CHI,12.0,2026
+9b825e6518156008da499be041975fdd,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,Luther Burden III,rec,4.5,-156,125,BetOnline.ag,Bovada,4,DET,CHI,12.0,2026
+9b825e6518156008da499be041975fdd,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,Jahmyr Gibbs,rec,4.5,-102,-120,DraftKings,BetMGM,6,DET,CHI,12.0,2026
+9b825e6518156008da499be041975fdd,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,Sam LaPorta,rec,4.5,117,-142,BetRivers,DraftKings,6,DET,CHI,12.0,2026
+9b825e6518156008da499be041975fdd,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,Jameson Williams,rec,3.5,-130,105,FanDuel,BetMGM,6,DET,CHI,12.0,2026
+9b825e6518156008da499be041975fdd,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,Rome Odunze,rec,3.5,118,-147,BetOnline.ag,DraftKings,6,DET,CHI,12.0,2026
+9b825e6518156008da499be041975fdd,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,Kalif Raymond,rec,2.5,-105,100,BetRivers,FanDuel,6,DET,CHI,12.0,2026
+9b825e6518156008da499be041975fdd,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,D'Andre Swift,rec,2.5,120,-129,BetRivers,DraftKings,6,DET,CHI,12.0,2026
+9b825e6518156008da499be041975fdd,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,Isaac TeSlaa,rec,1.5,110,-134,FanDuel,DraftKings,6,DET,CHI,12.0,2026
+9b825e6518156008da499be041975fdd,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,Zavion Thomas,rec,1.5,145,-175,BetMGM,DraftKings,5,DET,CHI,12.0,2026
+9b825e6518156008da499be041975fdd,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,Sam Roush,rec,0.5,-218,172,DraftKings,FanDuel,4,DET,CHI,12.0,2026
+9b825e6518156008da499be041975fdd,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,Kyle Monangai,rec,0.5,-190,152,BetMGM,DraftKings,5,DET,CHI,12.0,2026
+9b825e6518156008da499be041975fdd,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,Brock Wright,rec,0.5,-139,125,DraftKings,BetMGM,5,DET,CHI,12.0,2026
+9b825e6518156008da499be041975fdd,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,Sione Vaki,rec,0.5,-120,105,BetOnline.ag,BetMGM,5,DET,CHI,12.0,2026
+9b825e6518156008da499be041975fdd,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,Jahmyr Gibbs,rush_yds,92.5,-113,-110,FanDuel,DraftKings,4,DET,CHI,12.0,2026
+9b825e6518156008da499be041975fdd,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,D'Andre Swift,rush_yds,46.5,-113,-110,FanDuel,DraftKings,3,DET,CHI,12.0,2026
+9b825e6518156008da499be041975fdd,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,Kyle Monangai,rush_yds,34.5,-113,-111,FanDuel,BetOnline.ag,2,DET,CHI,12.0,2026
+9b825e6518156008da499be041975fdd,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,Caleb Williams,rush_yds,22.5,-113,-108,FanDuel,DraftKings,4,DET,CHI,12.0,2026
+9b825e6518156008da499be041975fdd,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,Sione Vaki,rush_yds,9.5,-110,-110,DraftKings,BetMGM,6,DET,CHI,12.0,2026
+9b825e6518156008da499be041975fdd,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,Jared Goff,rush_yds,1.5,-112,-112,DraftKings,DraftKings,3,DET,CHI,12.0,2026
+9b825e6518156008da499be041975fdd,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,Chicago Bears Defense,any_td,0.5,800,,FanDuel,,2,DET,CHI,12.0,2026
+9b825e6518156008da499be041975fdd,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,Detroit Lions Defense,any_td,0.5,800,,FanDuel,,2,DET,CHI,12.0,2026
+9b825e6518156008da499be041975fdd,2026-11-26T18:00:00Z,Detroit Lions,Chicago Bears,Luther Burden III,rush_yds,2.5,102,-130,FanDuel,FanDuel,1,DET,CHI,12.0,2026
+ffaa06af56a7137d4b078c5c46c0b730,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,Javonte Williams,any_td,0.5,-175,,DraftKings,,6,DAL,PHI,12.0,2026
+ffaa06af56a7137d4b078c5c46c0b730,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,CeeDee Lamb,any_td,0.5,-143,,BetRivers,,6,DAL,PHI,12.0,2026
+ffaa06af56a7137d4b078c5c46c0b730,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,George Pickens,any_td,0.5,102,,BetRivers,,6,DAL,PHI,12.0,2026
+ffaa06af56a7137d4b078c5c46c0b730,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,Saquon Barkley,any_td,0.5,115,,DraftKings,,6,DAL,PHI,12.0,2026
+ffaa06af56a7137d4b078c5c46c0b730,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,DeVonta Smith,any_td,0.5,200,,FanDuel,,6,DAL,PHI,12.0,2026
+ffaa06af56a7137d4b078c5c46c0b730,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,Joe Milton,any_td,0.5,300,,BetMGM,,6,DAL,PHI,12.0,2026
+ffaa06af56a7137d4b078c5c46c0b730,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,Ryan Flournoy,any_td,0.5,295,,DraftKings,,6,DAL,PHI,12.0,2026
+ffaa06af56a7137d4b078c5c46c0b730,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,Dallas Goedert,any_td,0.5,330,,FanDuel,,6,DAL,PHI,12.0,2026
+ffaa06af56a7137d4b078c5c46c0b730,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,Brevyn Spann-Ford,any_td,0.5,390,,BetMGM,,6,DAL,PHI,12.0,2026
+ffaa06af56a7137d4b078c5c46c0b730,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,Makai Lemon,any_td,0.5,425,,BetMGM,,6,DAL,PHI,12.0,2026
+ffaa06af56a7137d4b078c5c46c0b730,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,Dallas Cowboys D/ST,any_td,0.5,500,,DraftKings,,2,DAL,PHI,12.0,2026
+ffaa06af56a7137d4b078c5c46c0b730,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,Darius Cooper,any_td,0.5,550,,DraftKings,,6,DAL,PHI,12.0,2026
+ffaa06af56a7137d4b078c5c46c0b730,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,Philadelphia Eagles D/ST,any_td,0.5,650,,BetMGM,,2,DAL,PHI,12.0,2026
+ffaa06af56a7137d4b078c5c46c0b730,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,Dak Prescott,any_td,0.5,650,,FanDuel,,6,DAL,PHI,12.0,2026
+ffaa06af56a7137d4b078c5c46c0b730,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,Will Shipley,any_td,0.5,650,,DraftKings,,6,DAL,PHI,12.0,2026
+ffaa06af56a7137d4b078c5c46c0b730,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,KaVontae Turpin,any_td,0.5,700,,DraftKings,,6,DAL,PHI,12.0,2026
+ffaa06af56a7137d4b078c5c46c0b730,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,Luke Schoonmaker,any_td,0.5,750,,DraftKings,,6,DAL,PHI,12.0,2026
+ffaa06af56a7137d4b078c5c46c0b730,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,Hunter Luepke,any_td,0.5,1000,,DraftKings,,6,DAL,PHI,12.0,2026
+ffaa06af56a7137d4b078c5c46c0b730,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,Zach Ertz,any_td,0.5,1550,,BetMGM,,6,DAL,PHI,12.0,2026
+ffaa06af56a7137d4b078c5c46c0b730,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,James Mitchell,any_td,0.5,1750,,BetMGM,,6,DAL,PHI,12.0,2026
+ffaa06af56a7137d4b078c5c46c0b730,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,Camden Brown,any_td,0.5,2000,,DraftKings,,5,DAL,PHI,12.0,2026
+ffaa06af56a7137d4b078c5c46c0b730,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,Eli Stowers,any_td,0.5,3000,,FanDuel,,6,DAL,PHI,12.0,2026
+ffaa06af56a7137d4b078c5c46c0b730,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,Elijah Moore,any_td,0.5,2500,,BetMGM,,6,DAL,PHI,12.0,2026
+ffaa06af56a7137d4b078c5c46c0b730,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,Britain Covey,any_td,0.5,2800,,BetMGM,,6,DAL,PHI,12.0,2026
+ffaa06af56a7137d4b078c5c46c0b730,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,Johnny Mundt,any_td,0.5,3500,,DraftKings,,6,DAL,PHI,12.0,2026
+ffaa06af56a7137d4b078c5c46c0b730,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,Grant Calcaterra,any_td,0.5,3500,,DraftKings,,6,DAL,PHI,12.0,2026
+ffaa06af56a7137d4b078c5c46c0b730,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,Jaydon Blue,any_td,0.5,3500,,DraftKings,,6,DAL,PHI,12.0,2026
+ffaa06af56a7137d4b078c5c46c0b730,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,Dak Prescott,pass_td,2.5,165,-180,BetRivers,FanDuel,6,DAL,PHI,12.0,2026
+ffaa06af56a7137d4b078c5c46c0b730,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,Joe Milton,pass_td,1.5,203,-250,DraftKings,BetRivers,5,DAL,PHI,12.0,2026
+ffaa06af56a7137d4b078c5c46c0b730,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,Dak Prescott,pass_yds,262.5,-111,-113,DraftKings,DraftKings,3,DAL,PHI,12.0,2026
+ffaa06af56a7137d4b078c5c46c0b730,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,Joe Milton,pass_yds,198.5,-114,-111,FanDuel,BetOnline.ag,3,DAL,PHI,12.0,2026
+ffaa06af56a7137d4b078c5c46c0b730,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,CeeDee Lamb,rec_yds,90.5,-111,-113,DraftKings,DraftKings,3,DAL,PHI,12.0,2026
+ffaa06af56a7137d4b078c5c46c0b730,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,George Pickens,rec_yds,69.5,-114,-110,DraftKings,DraftKings,4,DAL,PHI,12.0,2026
+ffaa06af56a7137d4b078c5c46c0b730,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,DeVonta Smith,rec_yds,64.5,-114,-110,DraftKings,DraftKings,3,DAL,PHI,12.0,2026
+ffaa06af56a7137d4b078c5c46c0b730,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,Dallas Goedert,rec_yds,31.5,-112,-112,DraftKings,DraftKings,4,DAL,PHI,12.0,2026
+ffaa06af56a7137d4b078c5c46c0b730,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,Darius Cooper,rec_yds,31.5,-111,-113,DraftKings,DraftKings,2,DAL,PHI,12.0,2026
+ffaa06af56a7137d4b078c5c46c0b730,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,Makai Lemon,rec_yds,29.5,-114,-111,FanDuel,BetOnline.ag,3,DAL,PHI,12.0,2026
+ffaa06af56a7137d4b078c5c46c0b730,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,Ryan Flournoy,rec_yds,30.5,-114,-110,DraftKings,DraftKings,3,DAL,PHI,12.0,2026
+ffaa06af56a7137d4b078c5c46c0b730,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,Brevyn Spann-Ford,rec_yds,14.5,-113,-111,DraftKings,DraftKings,4,DAL,PHI,12.0,2026
+ffaa06af56a7137d4b078c5c46c0b730,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,Javonte Williams,rec_yds,7.5,-111,-111,DraftKings,BetOnline.ag,4,DAL,PHI,12.0,2026
+ffaa06af56a7137d4b078c5c46c0b730,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,Saquon Barkley,rec_yds,7.5,-108,-110,DraftKings,BetMGM,4,DAL,PHI,12.0,2026
+ffaa06af56a7137d4b078c5c46c0b730,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,Will Shipley,rec_yds,5.5,-110,-102,BetMGM,DraftKings,5,DAL,PHI,12.0,2026
+ffaa06af56a7137d4b078c5c46c0b730,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,KaVontae Turpin,rec_yds,4.5,-114,-108,DraftKings,FanDuel,5,DAL,PHI,12.0,2026
+ffaa06af56a7137d4b078c5c46c0b730,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,Luke Schoonmaker,rec_yds,2.5,-114,-109,FanDuel,DraftKings,3,DAL,PHI,12.0,2026
+ffaa06af56a7137d4b078c5c46c0b730,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,CeeDee Lamb,rec,7.5,118,-135,BetOnline.ag,BetMGM,6,DAL,PHI,12.0,2026
+ffaa06af56a7137d4b078c5c46c0b730,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,DeVonta Smith,rec,5.5,100,-115,BetRivers,BetMGM,6,DAL,PHI,12.0,2026
+ffaa06af56a7137d4b078c5c46c0b730,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,George Pickens,rec,5.5,117,-149,DraftKings,DraftKings,6,DAL,PHI,12.0,2026
+ffaa06af56a7137d4b078c5c46c0b730,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,Dallas Goedert,rec,3.5,100,-126,BetMGM,DraftKings,6,DAL,PHI,12.0,2026
+ffaa06af56a7137d4b078c5c46c0b730,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,Makai Lemon,rec,3.5,132,-160,DraftKings,BetMGM,6,DAL,PHI,12.0,2026
+ffaa06af56a7137d4b078c5c46c0b730,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,Ryan Flournoy,rec,2.5,-154,125,DraftKings,BetMGM,4,DAL,PHI,12.0,2026
+ffaa06af56a7137d4b078c5c46c0b730,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,Darius Cooper,rec,2.5,-103,-122,DraftKings,FanDuel,5,DAL,PHI,12.0,2026
+ffaa06af56a7137d4b078c5c46c0b730,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,Brevyn Spann-Ford,rec,1.5,-169,136,BetOnline.ag,DraftKings,5,DAL,PHI,12.0,2026
+ffaa06af56a7137d4b078c5c46c0b730,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,Javonte Williams,rec,1.5,-139,121,BetRivers,DraftKings,6,DAL,PHI,12.0,2026
+ffaa06af56a7137d4b078c5c46c0b730,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,Saquon Barkley,rec,1.5,110,-130,Bovada,FanDuel,6,DAL,PHI,12.0,2026
+ffaa06af56a7137d4b078c5c46c0b730,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,Will Shipley,rec,1.5,170,-174,DraftKings,FanDuel,5,DAL,PHI,12.0,2026
+ffaa06af56a7137d4b078c5c46c0b730,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,Luke Schoonmaker,rec,0.5,-162,130,FanDuel,Bovada,3,DAL,PHI,12.0,2026
+ffaa06af56a7137d4b078c5c46c0b730,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,KaVontae Turpin,rec,0.5,-160,136,DraftKings,BetOnline.ag,5,DAL,PHI,12.0,2026
+ffaa06af56a7137d4b078c5c46c0b730,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,Javonte Williams,rush_yds,75.5,-110,-114,DraftKings,DraftKings,4,DAL,PHI,12.0,2026
+ffaa06af56a7137d4b078c5c46c0b730,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,Saquon Barkley,rush_yds,64.5,-114,-113,FanDuel,BetRivers,4,DAL,PHI,12.0,2026
+ffaa06af56a7137d4b078c5c46c0b730,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,Joe Milton,rush_yds,31.5,-114,-111,FanDuel,BetOnline.ag,3,DAL,PHI,12.0,2026
+ffaa06af56a7137d4b078c5c46c0b730,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,Will Shipley,rush_yds,13.5,-108,-114,DraftKings,FanDuel,4,DAL,PHI,12.0,2026
+ffaa06af56a7137d4b078c5c46c0b730,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,Dak Prescott,rush_yds,8.5,-117,-107,DraftKings,DraftKings,3,DAL,PHI,12.0,2026
+ffaa06af56a7137d4b078c5c46c0b730,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,KaVontae Turpin,rush_yds,3.5,-102,-112,FanDuel,DraftKings,4,DAL,PHI,12.0,2026
+ffaa06af56a7137d4b078c5c46c0b730,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,Dallas Cowboys Defense,any_td,0.5,500,,FanDuel,,2,DAL,PHI,12.0,2026
+ffaa06af56a7137d4b078c5c46c0b730,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,Philadelphia Eagles Defense,any_td,0.5,650,,FanDuel,,2,DAL,PHI,12.0,2026
+ffaa06af56a7137d4b078c5c46c0b730,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,Zach Ertz,rec_yds,3.5,108,-140,FanDuel,FanDuel,1,DAL,PHI,12.0,2026
+ffaa06af56a7137d4b078c5c46c0b730,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,Zach Ertz,rec,0.5,-122,-108,FanDuel,FanDuel,1,DAL,PHI,12.0,2026
+ffaa06af56a7137d4b078c5c46c0b730,2026-11-26T21:30:00Z,Dallas Cowboys,Philadelphia Eagles,Jonathan Mingo,any_td,0.5,1450,,BetMGM,,3,DAL,PHI,12.0,2026
+f36f518585aec40e8cb40e071c0844aa,2026-11-27T01:20:00Z,Buffalo Bills,Kansas City Chiefs,Emmett Johnson,any_td,0.5,-155,,FanDuel,,6,BUF,KAN,,2026
+f36f518585aec40e8cb40e071c0844aa,2026-11-27T01:20:00Z,Buffalo Bills,Kansas City Chiefs,Josh Allen,any_td,0.5,-108,,BetRivers,,6,BUF,KAN,,2026
+f36f518585aec40e8cb40e071c0844aa,2026-11-27T01:20:00Z,Buffalo Bills,Kansas City Chiefs,James Cook,any_td,0.5,100,,BetMGM,,6,BUF,KAN,,2026
+f36f518585aec40e8cb40e071c0844aa,2026-11-27T01:20:00Z,Buffalo Bills,Kansas City Chiefs,Travis Kelce,any_td,0.5,220,,BetMGM,,6,BUF,KAN,,2026
+f36f518585aec40e8cb40e071c0844aa,2026-11-27T01:20:00Z,Buffalo Bills,Kansas City Chiefs,Rashee Rice,any_td,0.5,240,,BetMGM,,6,BUF,KAN,,2026
+f36f518585aec40e8cb40e071c0844aa,2026-11-27T01:20:00Z,Buffalo Bills,Kansas City Chiefs,DJ Moore,any_td,0.5,250,,FanDuel,,6,BUF,KAN,,2026
+f36f518585aec40e8cb40e071c0844aa,2026-11-27T01:20:00Z,Buffalo Bills,Kansas City Chiefs,Dalton Kincaid,any_td,0.5,325,,BetRivers,,6,BUF,KAN,,2026
+f36f518585aec40e8cb40e071c0844aa,2026-11-27T01:20:00Z,Buffalo Bills,Kansas City Chiefs,Khalil Shakir,any_td,0.5,310,,BetMGM,,6,BUF,KAN,,2026
+f36f518585aec40e8cb40e071c0844aa,2026-11-27T01:20:00Z,Buffalo Bills,Kansas City Chiefs,Josh Downs,any_td,0.5,320,,DraftKings,,6,BUF,KAN,,2026
+f36f518585aec40e8cb40e071c0844aa,2026-11-27T01:20:00Z,Buffalo Bills,Kansas City Chiefs,Keon Coleman,any_td,0.5,450,,DraftKings,,6,BUF,KAN,,2026
+f36f518585aec40e8cb40e071c0844aa,2026-11-27T01:20:00Z,Buffalo Bills,Kansas City Chiefs,Xavier Worthy,any_td,0.5,480,,FanDuel,,6,BUF,KAN,,2026
+f36f518585aec40e8cb40e071c0844aa,2026-11-27T01:20:00Z,Buffalo Bills,Kansas City Chiefs,Buffalo Bills D/ST,any_td,0.5,575,,BetMGM,,2,BUF,KAN,,2026
+f36f518585aec40e8cb40e071c0844aa,2026-11-27T01:20:00Z,Buffalo Bills,Kansas City Chiefs,Kansas City Chiefs D/ST,any_td,0.5,575,,BetMGM,,2,BUF,KAN,,2026
+f36f518585aec40e8cb40e071c0844aa,2026-11-27T01:20:00Z,Buffalo Bills,Kansas City Chiefs,Dawson Knox,any_td,0.5,550,,DraftKings,,6,BUF,KAN,,2026
+f36f518585aec40e8cb40e071c0844aa,2026-11-27T01:20:00Z,Buffalo Bills,Kansas City Chiefs,Patrick Mahomes,any_td,0.5,550,,DraftKings,,6,BUF,KAN,,2026
+f36f518585aec40e8cb40e071c0844aa,2026-11-27T01:20:00Z,Buffalo Bills,Kansas City Chiefs,Ty Johnson,any_td,0.5,750,,BetRivers,,6,BUF,KAN,,2026
+f36f518585aec40e8cb40e071c0844aa,2026-11-27T01:20:00Z,Buffalo Bills,Kansas City Chiefs,Noah Gray,any_td,0.5,750,,FanDuel,,6,BUF,KAN,,2026
+f36f518585aec40e8cb40e071c0844aa,2026-11-27T01:20:00Z,Buffalo Bills,Kansas City Chiefs,Cyrus Allen,any_td,0.5,750,,DraftKings,,6,BUF,KAN,,2026
+f36f518585aec40e8cb40e071c0844aa,2026-11-27T01:20:00Z,Buffalo Bills,Kansas City Chiefs,Ray Davis,any_td,0.5,1100,,DraftKings,,6,BUF,KAN,,2026
+f36f518585aec40e8cb40e071c0844aa,2026-11-27T01:20:00Z,Buffalo Bills,Kansas City Chiefs,Jaydn Ott,any_td,0.5,1100,,DraftKings,,6,BUF,KAN,,2026
+f36f518585aec40e8cb40e071c0844aa,2026-11-27T01:20:00Z,Buffalo Bills,Kansas City Chiefs,Tyrell Shavers,any_td,0.5,1400,,BetRivers,,6,BUF,KAN,,2026
+f36f518585aec40e8cb40e071c0844aa,2026-11-27T01:20:00Z,Buffalo Bills,Kansas City Chiefs,Skyler Bell,any_td,0.5,1500,,BetRivers,,5,BUF,KAN,,2026
+f36f518585aec40e8cb40e071c0844aa,2026-11-27T01:20:00Z,Buffalo Bills,Kansas City Chiefs,Jackson Hawes,any_td,0.5,1600,,DraftKings,,6,BUF,KAN,,2026
+f36f518585aec40e8cb40e071c0844aa,2026-11-27T01:20:00Z,Buffalo Bills,Kansas City Chiefs,Keleki Latu,any_td,0.5,1600,,DraftKings,,5,BUF,KAN,,2026
+f36f518585aec40e8cb40e071c0844aa,2026-11-27T01:20:00Z,Buffalo Bills,Kansas City Chiefs,Jake Briningstool,any_td,0.5,1700,,DraftKings,,6,BUF,KAN,,2026
+f36f518585aec40e8cb40e071c0844aa,2026-11-27T01:20:00Z,Buffalo Bills,Kansas City Chiefs,Jalen Royals,any_td,0.5,2500,,BetRivers,,6,BUF,KAN,,2026
+f36f518585aec40e8cb40e071c0844aa,2026-11-27T01:20:00Z,Buffalo Bills,Kansas City Chiefs,Andrew Armstrong,any_td,0.5,2800,,BetMGM,,6,BUF,KAN,,2026
+f36f518585aec40e8cb40e071c0844aa,2026-11-27T01:20:00Z,Buffalo Bills,Kansas City Chiefs,Greg Dortch,any_td,0.5,2800,,BetRivers,,6,BUF,KAN,,2026
+f36f518585aec40e8cb40e071c0844aa,2026-11-27T01:20:00Z,Buffalo Bills,Kansas City Chiefs,Patrick Mahomes,pass_td,1.5,105,-115,BetMGM,BetRivers,6,BUF,KAN,,2026
+f36f518585aec40e8cb40e071c0844aa,2026-11-27T01:20:00Z,Buffalo Bills,Kansas City Chiefs,Josh Allen,pass_td,1.5,125,-143,BetMGM,BetOnline.ag,6,BUF,KAN,,2026
+f36f518585aec40e8cb40e071c0844aa,2026-11-27T01:20:00Z,Buffalo Bills,Kansas City Chiefs,Patrick Mahomes,pass_yds,237.5,-111,-113,DraftKings,DraftKings,3,BUF,KAN,,2026
+f36f518585aec40e8cb40e071c0844aa,2026-11-27T01:20:00Z,Buffalo Bills,Kansas City Chiefs,Josh Allen,pass_yds,219.5,-113,-111,DraftKings,DraftKings,4,BUF,KAN,,2026
+f36f518585aec40e8cb40e071c0844aa,2026-11-27T01:20:00Z,Buffalo Bills,Kansas City Chiefs,DJ Moore,rec_yds,48.5,-113,-111,DraftKings,DraftKings,4,BUF,KAN,,2026
+f36f518585aec40e8cb40e071c0844aa,2026-11-27T01:20:00Z,Buffalo Bills,Kansas City Chiefs,Rashee Rice,rec_yds,46.5,-113,-111,DraftKings,DraftKings,2,BUF,KAN,,2026
+f36f518585aec40e8cb40e071c0844aa,2026-11-27T01:20:00Z,Buffalo Bills,Kansas City Chiefs,Travis Kelce,rec_yds,44.5,-109,-115,DraftKings,DraftKings,3,BUF,KAN,,2026
+f36f518585aec40e8cb40e071c0844aa,2026-11-27T01:20:00Z,Buffalo Bills,Kansas City Chiefs,Dalton Kincaid,rec_yds,39.5,-114,-114,BetOnline.ag,BetRivers,2,BUF,KAN,,2026
+f36f518585aec40e8cb40e071c0844aa,2026-11-27T01:20:00Z,Buffalo Bills,Kansas City Chiefs,Khalil Shakir,rec_yds,39.5,-114,-109,FanDuel,DraftKings,4,BUF,KAN,,2026
+f36f518585aec40e8cb40e071c0844aa,2026-11-27T01:20:00Z,Buffalo Bills,Kansas City Chiefs,Josh Downs,rec_yds,36.5,-114,-114,FanDuel,FanDuel,2,BUF,KAN,,2026
+f36f518585aec40e8cb40e071c0844aa,2026-11-27T01:20:00Z,Buffalo Bills,Kansas City Chiefs,Emmett Johnson,rec_yds,30.5,-114,-111,FanDuel,BetOnline.ag,2,BUF,KAN,,2026
+f36f518585aec40e8cb40e071c0844aa,2026-11-27T01:20:00Z,Buffalo Bills,Kansas City Chiefs,Keon Coleman,rec_yds,23.5,-115,-109,BetMGM,DraftKings,4,BUF,KAN,,2026
+f36f518585aec40e8cb40e071c0844aa,2026-11-27T01:20:00Z,Buffalo Bills,Kansas City Chiefs,Xavier Worthy,rec_yds,20.5,-114,-114,FanDuel,FanDuel,3,BUF,KAN,,2026
+f36f518585aec40e8cb40e071c0844aa,2026-11-27T01:20:00Z,Buffalo Bills,Kansas City Chiefs,Ty Johnson,rec_yds,15.5,-114,-108,FanDuel,BetOnline.ag,3,BUF,KAN,,2026
+f36f518585aec40e8cb40e071c0844aa,2026-11-27T01:20:00Z,Buffalo Bills,Kansas City Chiefs,Noah Gray,rec_yds,12.5,-112,-110,DraftKings,BetRivers,5,BUF,KAN,,2026
+f36f518585aec40e8cb40e071c0844aa,2026-11-27T01:20:00Z,Buffalo Bills,Kansas City Chiefs,Cyrus Allen,rec_yds,11.5,-114,-108,FanDuel,DraftKings,5,BUF,KAN,,2026
+f36f518585aec40e8cb40e071c0844aa,2026-11-27T01:20:00Z,Buffalo Bills,Kansas City Chiefs,Dawson Knox,rec_yds,9.5,-114,-107,FanDuel,DraftKings,4,BUF,KAN,,2026
+f36f518585aec40e8cb40e071c0844aa,2026-11-27T01:20:00Z,Buffalo Bills,Kansas City Chiefs,James Cook,rec_yds,8.5,-103,-120,BetOnline.ag,DraftKings,3,BUF,KAN,,2026
+f36f518585aec40e8cb40e071c0844aa,2026-11-27T01:20:00Z,Buffalo Bills,Kansas City Chiefs,Rashee Rice,rec,4.5,-108,-111,BetRivers,DraftKings,6,BUF,KAN,,2026
+f36f518585aec40e8cb40e071c0844aa,2026-11-27T01:20:00Z,Buffalo Bills,Kansas City Chiefs,Travis Kelce,rec,4.5,124,-148,FanDuel,DraftKings,4,BUF,KAN,,2026
+f36f518585aec40e8cb40e071c0844aa,2026-11-27T01:20:00Z,Buffalo Bills,Kansas City Chiefs,DJ Moore,rec,3.5,-146,119,DraftKings,BetOnline.ag,5,BUF,KAN,,2026
+f36f518585aec40e8cb40e071c0844aa,2026-11-27T01:20:00Z,Buffalo Bills,Kansas City Chiefs,Emmett Johnson,rec,3.5,-115,105,BetMGM,Bovada,6,BUF,KAN,,2026
+f36f518585aec40e8cb40e071c0844aa,2026-11-27T01:20:00Z,Buffalo Bills,Kansas City Chiefs,Khalil Shakir,rec,3.5,-108,-105,FanDuel,BetMGM,6,BUF,KAN,,2026
+f36f518585aec40e8cb40e071c0844aa,2026-11-27T01:20:00Z,Buffalo Bills,Kansas City Chiefs,Dalton Kincaid,rec,3.5,116,-135,FanDuel,BetMGM,6,BUF,KAN,,2026
+f36f518585aec40e8cb40e071c0844aa,2026-11-27T01:20:00Z,Buffalo Bills,Kansas City Chiefs,Josh Downs,rec,3.5,128,-133,DraftKings,BetOnline.ag,6,BUF,KAN,,2026
+f36f518585aec40e8cb40e071c0844aa,2026-11-27T01:20:00Z,Buffalo Bills,Kansas City Chiefs,Xavier Worthy,rec,2.5,149,-153,BetOnline.ag,DraftKings,6,BUF,KAN,,2026
+f36f518585aec40e8cb40e071c0844aa,2026-11-27T01:20:00Z,Buffalo Bills,Kansas City Chiefs,Keon Coleman,rec,2.5,147,-188,DraftKings,DraftKings,3,BUF,KAN,,2026
+f36f518585aec40e8cb40e071c0844aa,2026-11-27T01:20:00Z,Buffalo Bills,Kansas City Chiefs,Ty Johnson,rec,2.5,130,-160,BetMGM,FanDuel,4,BUF,KAN,,2026
+f36f518585aec40e8cb40e071c0844aa,2026-11-27T01:20:00Z,Buffalo Bills,Kansas City Chiefs,Noah Gray,rec,1.5,107,-111,BetRivers,DraftKings,6,BUF,KAN,,2026
+f36f518585aec40e8cb40e071c0844aa,2026-11-27T01:20:00Z,Buffalo Bills,Kansas City Chiefs,Dawson Knox,rec,1.5,116,-140,DraftKings,FanDuel,5,BUF,KAN,,2026
+f36f518585aec40e8cb40e071c0844aa,2026-11-27T01:20:00Z,Buffalo Bills,Kansas City Chiefs,James Cook,rec,1.5,130,-155,FanDuel,DraftKings,6,BUF,KAN,,2026
+f36f518585aec40e8cb40e071c0844aa,2026-11-27T01:20:00Z,Buffalo Bills,Kansas City Chiefs,Cyrus Allen,rec,1.5,175,-202,BetRivers,DraftKings,6,BUF,KAN,,2026
+f36f518585aec40e8cb40e071c0844aa,2026-11-27T01:20:00Z,Buffalo Bills,Kansas City Chiefs,James Cook,rush_yds,82.5,-112,-112,DraftKings,DraftKings,4,BUF,KAN,,2026
+f36f518585aec40e8cb40e071c0844aa,2026-11-27T01:20:00Z,Buffalo Bills,Kansas City Chiefs,Emmett Johnson,rush_yds,81.5,-114,-110,DraftKings,DraftKings,5,BUF,KAN,,2026
+f36f518585aec40e8cb40e071c0844aa,2026-11-27T01:20:00Z,Buffalo Bills,Kansas City Chiefs,Josh Allen,rush_yds,36.5,-111,-113,DraftKings,DraftKings,3,BUF,KAN,,2026
+f36f518585aec40e8cb40e071c0844aa,2026-11-27T01:20:00Z,Buffalo Bills,Kansas City Chiefs,Patrick Mahomes,rush_yds,13.5,-115,-105,DraftKings,BetOnline.ag,3,BUF,KAN,,2026
+f36f518585aec40e8cb40e071c0844aa,2026-11-27T01:20:00Z,Buffalo Bills,Kansas City Chiefs,Jaydn Ott,rush_yds,5.5,-107,-111,DraftKings,BetMGM,5,BUF,KAN,,2026
+f36f518585aec40e8cb40e071c0844aa,2026-11-27T01:20:00Z,Buffalo Bills,Kansas City Chiefs,Ray Davis,rush_yds,4.5,-114,-108,FanDuel,DraftKings,4,BUF,KAN,,2026
+f36f518585aec40e8cb40e071c0844aa,2026-11-27T01:20:00Z,Buffalo Bills,Kansas City Chiefs,Ty Johnson,rush_yds,1.5,102,-111,FanDuel,BetMGM,5,BUF,KAN,,2026
+f36f518585aec40e8cb40e071c0844aa,2026-11-27T01:20:00Z,Buffalo Bills,Kansas City Chiefs,Kansas City Chiefs Defense,any_td,0.5,950,,FanDuel,,2,BUF,KAN,,2026
+f36f518585aec40e8cb40e071c0844aa,2026-11-27T01:20:00Z,Buffalo Bills,Kansas City Chiefs,Buffalo Bills Defense,any_td,0.5,1000,,FanDuel,,1,BUF,KAN,,2026
