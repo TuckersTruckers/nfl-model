@@ -1,4 +1,26 @@
 week,team,player,pos,status,injury
+12,BUF,Christian Benford,CB,Questionable,Groin
+12,BUF,O'Cyrus Torrence,G,Questionable,Ankle
+12,BUF,Dorian Williams,LB,Questionable,Calf
+12,BUF,Dalton Kincaid,TE,Questionable,Thumb
+12,BUF,T.J. Sanders,DE,Questionable,Shoulder
+12,CHI,Elijah Hicks,S,Out,Concussion
+12,CHI,D'Marco Jackson,LB,Questionable,Elbow
+12,CHI,Kyler Gordon,CB,Out,Shoulder
+12,CHI,Roschon Johnson,RB,Out,Ankle
+12,CHI,Tyrique Stevenson,CB,Questionable,Groin
+12,DAL,P.J. Locke,S,Out,Concussion
+12,DAL,Jalen Thompson,S,Questionable,Hamstring
+12,DAL,Jake Ferguson,TE,Out,Knee
+12,DAL,Jonathan Mingo,WR,Out,Ankle
+12,DAL,Tyler Booker,G,Out,Ankle
+12,DAL,Devin Moore,CB,Questionable,Hip
+12,DEN,Taylor Rapp,S,Out,Quadricep
+12,DEN,Sai'vion Jones,DE,Out,Hamstring
+12,DET,Chuck Clark,S,Questionable,Hamstring
+12,DET,DJ Wonnum,DE,Questionable,Back
+12,DET,Ennis Rakestraw Jr.,CB,Out,Shoulder
+12,DET,Skyler Gill-Howard,DT,Out,Knee
 12,GNB,Kevin Zeitler,G,Questionable,Triceps
 12,GNB,Zaire Franklin,LB,Questionable,Shin
 12,GNB,Josh Jacobs,RB,Questionable,Finger
@@ -7,9 +29,16 @@ week,team,player,pos,status,injury
 12,GNB,Bo Melton,WR,Questionable,Thigh
 12,GNB,Skyy Moore,WR,Questionable,Ankle
 12,GNB,Travis Glover,G,Questionable,Shoulder
+12,KAN,Jaylon Moore,T,Out,Ankle
+12,KAN,Noah Gray,TE,Questionable,Rib
+12,KAN,Kenneth Walker III,RB,Out,Groin
+12,KAN,Omarr Norman-Lott,DT,Out,Knee
+12,KAN,Peter Woods,DT,Questionable,Neck
 12,LAR,Coleman Shelton,C,Out,Hamstring
 12,LAR,Steve Avila,G,Out,Hamstring
 12,LAR,Terrance Ferguson,TE,Out,Ankle
+12,PHI,Jonathan Jones,CB,Out,Ankle
+12,PHI,Arnold Ebiketie,LB,Out,Oblique
 12,LAR,Davante Adams,WR,Out,Injured reserve
 12,CLE,Michael Burton,RB,Out,Injured reserve
 12,HOU,Mario Edwards,DL,Out,Injured reserve
@@ -25,7 +54,6 @@ week,team,player,pos,status,injury
 12,ATL,Storm Norton,OL,Out,Injured reserve
 12,MIN,Jamal Adams,LB,Out,Injured reserve
 12,BAL,Ethan Pocic,OL,Out,Injured reserve
-12,TEN,Tanoh Kpassagnon,DL,Out,Injured reserve
 12,ATL,Samson Ebukam,DL,Out,Injured reserve
 12,WAS,Jeremy McNichols,RB,Out,Injured reserve
 12,LAR,Poona Ford,DL,Out,Injured reserve
@@ -59,16 +87,17 @@ week,team,player,pos,status,injury
 12,NYG,Gunner Olszewski,WR,Out,Injured reserve
 12,WAS,Terry McLaurin,WR,Out,Injured reserve
 12,DEN,Michael Deiter,OL,Out,Injured reserve
-12,DAL,Jalen Thompson,DB,Out,Injured reserve
 12,DET,Devin White,LB,Out,Injured reserve
 12,NYG,Brian Burns,LB,Out,Injured reserve
 12,SFO,Austen Pleasants,OL,Out,Injured reserve
 12,TEN,Tommy Townsend,P,Out,Injured reserve
 12,TAM,Christian Rozeboom,LB,Out,Injured reserve
 12,BAL,Tyler Huntley,QB,Out,Injured reserve
+12,DEN,J.K. Dobbins,RB,Out,Injured reserve
 12,NWE,Mike Onwenu,OL,Out,Injured reserve
 12,BAL,Danny Pinter,OL,Out,Injured reserve
 12,PIT,Michael Pittman,WR,Out,Injured reserve
+12,SFO,Colton McKivitz,OL,Out,Injured reserve
 12,WAS,Javon Kinlaw,DL,Out,Injured reserve
 12,JAX,DaVon Hamilton,DL,Out,Injured reserve
 12,DET,Ben Bartch,OL,Out,Injured reserve
@@ -86,7 +115,6 @@ week,team,player,pos,status,injury
 12,WAS,Dyami Brown,WR,Out,Injured reserve
 12,CHI,Tony Fields II,LB,Out,Injured reserve
 12,SFO,Darrick Forrest,DB,Out,Injured reserve
-12,SFO,Nate Hobbs,DB,Out,Injured reserve
 12,CLE,Jeremiah Owusu-Koramoah,LB,Out,Injured reserve
 12,LVR,Patrick Johnson,LB,Out,Injured reserve
 12,DET,Payton Turner,DL,Out,Injured reserve
@@ -181,7 +209,6 @@ week,team,player,pos,status,injury
 12,MIA,De'Von Achane,RB,Out,Injured reserve
 12,TAM,Josh Hayes,DB,Out,Injured reserve
 12,LAR,Puka Nacua,WR,Out,Injured reserve
-12,LAR,Kobie Turner,DL,Out,Injured reserve
 12,GNB,Luke Musgrave,TE,Out,Injured reserve
 12,GNB,Jayden Reed,WR,Out,Injured reserve
 12,PHI,Johnny Wilson,WR,Out,Injured reserve
@@ -214,7 +241,6 @@ week,team,player,pos,status,injury
 12,MIN,Bo Richter,LB,Out,Injured reserve
 12,ARI,Tip Reiman,TE,Out,Injured reserve
 12,LAR,Jordan Whittington,WR,Out,Injured reserve
-12,LAR,Justin Dedich,OL,Out,Injured reserve
 12,DEN,Jonah Elliss,LB,Out,Injured reserve
 12,CIN,Erick All,TE,Out,Injured reserve
 12,GNB,Jacob Monk,OL,Out,Injured reserve
@@ -280,7 +306,6 @@ week,team,player,pos,status,injury
 12,ARI,Will Johnson,DB,Out,Injured reserve
 12,IND,Carson Towt,TE,Out,Injured reserve
 12,SEA,Julian Neal,DB,Out,Injured reserve
-12,DAL,Devin Moore,DB,Out,Injured reserve
 12,TEN,Fernando Carmona,OL,Out,Injured reserve
 12,TEN,Jaren Kanak,TE,Out,Injured reserve
 12,PHI,Tucker Large,DB,Out,Injured reserve
