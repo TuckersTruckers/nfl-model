@@ -16,7 +16,9 @@ week,team,player,pos,status,injury
 12,DAL,Tyler Booker,G,Out,Ankle
 12,DAL,Devin Moore,CB,Questionable,Hip
 12,DEN,Taylor Rapp,S,Out,Quadricep
+12,DEN,Tyler Badie,RB,Questionable,Thumb
 12,DEN,Sai'vion Jones,DE,Out,Hamstring
+12,DEN,Caleb Lohner,TE,Out,Foot
 12,DET,Chuck Clark,S,Questionable,Hamstring
 12,DET,DJ Wonnum,DE,Questionable,Back
 12,DET,Ennis Rakestraw Jr.,CB,Out,Shoulder
@@ -39,6 +41,10 @@ week,team,player,pos,status,injury
 12,LAR,Terrance Ferguson,TE,Out,Ankle
 12,PHI,Jonathan Jones,CB,Out,Ankle
 12,PHI,Arnold Ebiketie,LB,Out,Oblique
+12,PIT,Cole Holcomb,LB,Questionable,Heel
+12,PIT,Alex Highsmith,LB,Out,Ankle
+12,PIT,Ben Skowronek,WR,Out,Calf
+12,PIT,Gennings Dunker,G,Out,Knee
 12,LAR,Davante Adams,WR,Out,Injured reserve
 12,CLE,Michael Burton,RB,Out,Injured reserve
 12,HOU,Mario Edwards,DL,Out,Injured reserve
@@ -96,7 +102,6 @@ week,team,player,pos,status,injury
 12,DEN,J.K. Dobbins,RB,Out,Injured reserve
 12,NWE,Mike Onwenu,OL,Out,Injured reserve
 12,BAL,Danny Pinter,OL,Out,Injured reserve
-12,PIT,Michael Pittman,WR,Out,Injured reserve
 12,SFO,Colton McKivitz,OL,Out,Injured reserve
 12,WAS,Javon Kinlaw,DL,Out,Injured reserve
 12,JAX,DaVon Hamilton,DL,Out,Injured reserve
@@ -131,7 +136,6 @@ week,team,player,pos,status,injury
 12,CHI,Nikola Kalinic,TE,Out,Injured reserve
 12,MIA,Cole Turner,TE,Out,Injured reserve
 12,CHI,Braxton Jones,OL,Out,Injured reserve
-12,DEN,Tyler Badie,RB,Out,Injured reserve
 12,GNB,Jonathan Ford,DL,Out,Injured reserve
 12,SFO,Jake Tonges,TE,Out,Injured reserve
 12,DAL,Tyler Goodson,RB,Out,Injured reserve
@@ -149,6 +153,7 @@ week,team,player,pos,status,injury
 12,DET,Cade Mays,OL,Out,Injured reserve
 12,DEN,Matt Henningsen,DL,Out,Injured reserve
 12,CIN,Ja'Sir Taylor,DB,Out,Injured reserve
+12,LAC,Deane Leonard,DB,Out,Injured reserve
 12,BAL,Skylar Thompson,QB,Out,Injured reserve
 12,CHI,Brittain Brown,RB,Out,Injured reserve
 12,CHI,Dallis Flowers,DB,Out,Injured reserve
@@ -282,7 +287,6 @@ week,team,player,pos,status,injury
 12,HOU,Graham Mertz,QB,Out,Injured reserve
 12,LAC,Branson Taylor,OL,Out,Injured reserve
 12,PIT,Donte Kent,DB,Out,Injured reserve
-12,DEN,Caleb Lohner,TE,Out,Injured reserve
 12,NYG,Korie Black,DB,Out,Injured reserve
 12,NOR,Moliki Matavao,TE,Out,Injured reserve
 12,MIA,Zeek Biggers,DL,Out,Injured reserve
@@ -337,7 +341,6 @@ week,team,player,pos,status,injury
 12,LAC,Rodney Shelley,DB,Out,Injured reserve
 12,LAC,Isaiah World,OL,Out,Injured reserve
 12,NOR,Christen Miller,DL,Out,Injured reserve
-12,PIT,Gennings Dunker,OL,Out,Injured reserve
 12,NWE,Quintayvious Hutchins,LB,Out,Injured reserve
 12,LAR,Matthew Caldwell,QB,Out,Injured reserve
 12,LAR,Dean Connors,RB,Out,Injured reserve
