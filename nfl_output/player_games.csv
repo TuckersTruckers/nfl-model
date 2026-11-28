@@ -3196,6 +3196,19 @@ season,week,player,team,opp,pos,att,cmp,pyds,ptd,int,car,ryds,rtd,tgt,rec,recyds
 2026,12,Jashaun Corbin,DAL,PHI,RB,0,0,0,0,0,5,21,0,0,0,0,0,2.1
 2026,12,Javonte Williams,DAL,PHI,RB,0,0,0,0,0,29,101,2,3,3,22,1,33.3
 2026,12,KaVontae Turpin,DAL,PHI,WR,0,0,0,0,0,1,10,0,3,1,31,1,11.1
+2026,12,Adam Prentice,DEN,PIT,RB,0,0,0,0,0,1,4,0,0,0,0,0,0.4
+2026,12,Adam Trautman,DEN,PIT,TE,0,0,0,0,0,0,0,0,2,2,17,0,3.7
+2026,12,Bo Nix,DEN,PIT,QB,40,22,169,0,2,1,7,0,0,0,0,0,1.46
+2026,12,Cody Schrader,DEN,PIT,RB,0,0,0,0,0,7,27,0,0,0,0,0,2.7
+2026,12,Courtland Sutton,DEN,PIT,WR,0,0,0,0,0,0,0,0,8,1,4,0,1.4
+2026,12,Evan Engram,DEN,PIT,TE,0,0,0,0,0,0,0,0,2,0,0,0,0.0
+2026,12,Jaylen Waddle,DEN,PIT,WR,0,0,0,0,0,0,0,0,8,5,53,0,10.3
+2026,12,Jonah Coleman,DEN,PIT,RB,0,0,0,0,0,15,26,0,10,8,46,0,15.2
+2026,12,Marvin Mims Jr.,DEN,PIT,WR,0,0,0,0,0,1,-2,0,0,0,0,0,-0.2
+2026,12,Nate Adkins,DEN,PIT,TE,0,0,0,0,0,0,0,0,2,1,6,0,1.6
+2026,12,Pat Bryant,DEN,PIT,WR,0,0,0,0,0,0,0,0,7,4,42,0,8.2
+2026,12,Troy Franklin,DEN,PIT,WR,0,0,0,0,0,0,0,0,1,1,1,0,1.1
+2026,12,Tyler Badie,DEN,PIT,RB,0,0,0,0,0,1,11,0,0,0,0,0,1.1
 2026,12,Amon-Ra St. Brown,DET,CHI,WR,0,0,0,0,0,0,0,0,10,7,146,0,21.6
 2026,12,Brock Wright,DET,CHI,TE,0,0,0,0,0,0,0,0,1,0,0,0,0.0
 2026,12,Isaac TeSlaa,DET,CHI,WR,0,0,0,0,0,0,0,0,1,0,0,0,0.0
@@ -3240,3 +3253,11 @@ season,week,player,team,opp,pos,att,cmp,pyds,ptd,int,car,ryds,rtd,tgt,rec,recyds
 2026,12,Makai Lemon,PHI,DAL,WR,0,0,0,0,0,0,0,0,6,5,51,1,16.1
 2026,12,Saquon Barkley,PHI,DAL,RB,0,0,0,0,0,5,7,0,0,0,0,0,0.7
 2026,12,Will Shipley,PHI,DAL,RB,0,0,0,0,0,10,46,0,1,0,0,0,4.6
+2026,12,DK Metcalf,PIT,DEN,WR,0,0,0,0,0,0,0,0,4,3,36,1,12.6
+2026,12,Germie Bernard,PIT,DEN,WR,0,0,0,0,0,0,0,0,2,1,58,0,6.8
+2026,12,Jaylen Warren,PIT,DEN,RB,0,0,0,0,0,20,46,0,2,1,0,0,5.6
+2026,12,Mason Rudolph,PIT,DEN,QB,15,9,142,1,0,0,0,0,0,0,0,0,9.68
+2026,12,Michael Pittman,PIT,DEN,WR,0,0,0,0,0,0,0,0,2,1,7,0,1.7
+2026,12,Pat Freiermuth,PIT,DEN,TE,0,0,0,0,0,0,0,0,1,1,1,0,1.1
+2026,12,Rico Dowdle,PIT,DEN,RB,0,0,0,0,0,11,71,0,1,1,3,0,6.4
+2026,12,Roman Wilson,PIT,DEN,WR,0,0,0,0,0,0,0,0,1,1,37,0,4.7
